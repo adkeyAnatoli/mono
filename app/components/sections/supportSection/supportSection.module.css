@@ -1,0 +1,44 @@
+.section {
+  margin: 140px 0;
+}
+.section li {
+  list-style: disc outside;
+}
+.section ul {
+  margin-left: 16px;
+}
+@media (max-width: 1180px) {
+  .section {
+    margin: 64px auto;
+  }
+}
+
+.wrapper,
+.leftBlock {
+  display: flex;
+  gap: 48px;
+}
+
+.text {
+  color: var(--color-white);
+}
+
+.leftBlock {
+  flex-direction: column;
+}
+
+.wrapper  {
+  justify-content: space-between;
+}
+
+@media (max-width: 1380px) {
+  .wrapper img {
+    margin-right: 0px;
+  }
+}
+
+@media (max-width: 1210px) {
+  .wrapper img {
+    display: none;
+  }
+}

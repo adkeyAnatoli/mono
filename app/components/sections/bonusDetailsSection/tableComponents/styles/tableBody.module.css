@@ -1,0 +1,85 @@
+.accordion {
+  display: flex;
+  flex-direction: column;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 40px;
+  color: var(--color-white);
+  margin-top: -24px;
+}
+
+.accordion_block {
+  display: grid;
+  grid-template-columns: 18% 82%;
+}
+.accordion_block p {
+  display: flex;
+  align-items: center;
+  text-align: left;
+  padding: 8px 10px 8px 16px;
+  position: relative;
+  border-bottom: 1px solid #ffffff33;
+}
+
+.accordion_block p::after {
+  content: '';
+  position: absolute;
+  right: 0;
+  top: 15%;
+  height: 70%;
+  width: 1px;
+  background-color: #ffffff33;
+}
+
+.accordion_block p.last::after {
+  display: none;
+}
+
+.img {
+  filter: var(--shadow);
+}
+
+@media (max-width: 1000px) {
+  .accordion_block {
+    grid-template-columns: 25% 75%;
+  }
+}
+
+@media (max-width: 850px) {
+  .accordion {
+    font-size: 18px;
+    line-height: normal;
+    margin-top: -8px;
+  }
+
+  .accordion .lastButton {
+    margin-top: 16px;
+    display: flex;
+    justify-content: end;
+    padding: 0px;
+    height: auto;
+  }
+
+  .accordion .lastButton a button {
+    border-radius: var(--border-radius-button);
+  }
+  .accordion_block {
+    grid-template-columns: 36% 64%;
+  }
+  .accordion_block p {
+    padding: 12px 0 13px 8px;
+  }
+}
+
+
+@media (max-width: 480px) {
+  .accordion {
+    font-size: 16px;
+    line-height: normal;
+  }
+  .accordion_block p {
+    padding: 4px 8px;
+  }
+}

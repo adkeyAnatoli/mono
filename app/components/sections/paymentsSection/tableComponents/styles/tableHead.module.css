@@ -1,0 +1,21 @@
+.head {
+  display: flex;
+  height: 60px;
+  padding: 8px 16px;
+  align-items: center;
+  gap: 10px;
+  align-self: stretch;
+  background-color: var(--table-head);
+  color: var(--color-white);
+  border: 2px solid var(--border-yellow);
+  border-radius: var(--border-radius-button);
+  font-family: var(--font-family-second);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21.09px;
+}
+
+
+.last {
+  min-width: 168px;
+}

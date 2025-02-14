@@ -1,0 +1,118 @@
+.mobile {
+  display: none;
+}
+
+.title {
+  color: var(--color-white);
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-family: Montserrat;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 78px;
+  letter-spacing: 0%;
+  text-transform: uppercase;
+}
+
+.bonusSection_wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bonusSection_left {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  width: 500px;
+  align-items: start;
+}
+
+.bonusSection_left p {
+  color: var(--color-white);
+  font-family: Roboto;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.bonusSection_right {
+  width: 740px;
+  height: 540px;
+  background: url('../../../../public/sectionImg/slot1.webp') no-repeat center
+    center / auto 100%;
+}
+
+@media (max-width: 1100px) {
+  .bonusSection_right {
+    background: url('../../../../public/sectionImg/slot1.webp') no-repeat center
+      center / auto 90%;
+  }
+}
+
+@media (max-width: 1000px) {
+  .bonusSection_right {
+    background: url('../../../../public/sectionImg/slot1.webp') no-repeat center
+      center / auto 70%;
+  }
+}
+
+@media (max-width: 850px) {
+  .bonusSection_wrapper {
+    flex-direction: column-reverse;
+    gap: 24px;
+  }
+  .bonusSection_right {
+    width: 576px;
+    height: 315px;
+    background: url('../../../../public/sectionImg/slot1-mobile.webp') no-repeat
+      center center / auto 100%;
+  }
+  .title {
+    display: none;
+  }
+  .bonusSection_left {
+    align-items: center;
+    text-align: center;
+    width: auto;
+    gap: 24px;
+  }
+  .mobile {
+    display: block;
+  }
+  .bonusSection_left p {
+    font-size: 24px;
+    font-family: var(--font-family-main);
+    font-weight: 900;
+    text-transform: uppercase;
+  }
+  .desktop {
+    display: none;
+  }
+}
+
+@media (max-width: 594px) {
+  .bonusSection_right {
+    width: 400px;
+    height: 220px;
+   
+  }
+}
+
+@media (max-width: 420px) {
+  .bonusSection_right {
+    width: 330px;
+    height: 180px;
+  }
+  .bonusSection_left p {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 350px) {
+  .bonusSection_right {
+    width: 300px;
+    height: 150px;
+  }
+}

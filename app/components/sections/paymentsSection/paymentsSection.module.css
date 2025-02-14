@@ -1,0 +1,40 @@
+.section {
+  margin: 140px 0;
+}
+
+@media (max-width: 1180px) {
+  .section {
+    margin: 64px 0;
+  }
+}
+
+.secondTable {
+  display: none;
+}
+
+.table {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  align-self: stretch;
+}
+
+@media (max-width: 850px) {
+  .table {
+    display: none;
+  }
+  .secondTable {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 16px;
+  }
+}
+
+@media (max-width: 768px) {
+  .section > div {
+    gap: 40px;
+  }
+}

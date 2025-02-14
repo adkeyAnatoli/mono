@@ -1,0 +1,11 @@
+@media (max-width: 768px) {
+  .section {
+    padding: 40px 0;
+  }
+  .section > div {
+    gap: 40px;
+  }
+  .lastBlock {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

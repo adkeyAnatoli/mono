@@ -1,0 +1,31 @@
+.block {
+  display: flex;
+  height: 88px;
+  padding: 0px 16px;
+  align-items: center;
+  gap: 10px;
+  align-self: stretch;
+  background-color: var(--table-body);
+  border-radius: var(--border-radius-button);
+}
+
+.block a {
+  text-decoration: none;
+}
+
+.block > p {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 40px;
+  color: var(--color-white);
+}
+
+.img {
+  filter: var(--shadow);
+}
+
+.button {
+  width: 168px;
+  box-shadow: 0 4px 8px 0 rgba(0, 4, 13, 0.2);
+}

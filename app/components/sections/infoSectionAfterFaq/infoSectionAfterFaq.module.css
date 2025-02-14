@@ -1,0 +1,22 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
+
+.section h2 {
+  font-weight: 900;
+}
+
+@media (max-width: 768px) {
+  .section {
+    padding: 40px 0;
+  }
+  .wrapper {
+    gap: 40px;
+  }
+
+  .lastBlock {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

@@ -1,0 +1,95 @@
+.cardCasino {
+  display: flex;
+  width: 260px;
+  padding: 30px 24px;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  border: 2px solid var(--border-yellow);
+  background: var(--table-body);
+  border-radius: var(--border-radius);
+}
+
+.cardCasino img {
+  filter: var(--shadow);
+}
+
+.cardCasino a {
+  width: 217px;
+  margin-top: auto;
+}
+
+.cardCasino a button {
+  width: 100%;
+}
+
+.cardCasino h3 {
+  color: var(--color-white);
+  text-align: center;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 23.44px;
+  text-transform: capitalize;
+}
+
+.cardCasino h4 {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  color: #104baf;
+}
+
+.cardCasino p {
+  color: var(--color-white);
+  text-align: center;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 23.44px;
+}
+
+@media (max-width: 768px) {
+  .cardCasino {
+    width: 240px;
+    height: 264px;
+    padding: 16px;
+    border-radius: var(--border-radius-button);
+  }
+
+  .cardCasino a {
+    width: auto;
+  }
+  .cardCasino p {
+    font-size: 16px;
+  }
+  .cardCasino img {
+    width: 160px;
+    height: auto;
+  }
+
+  .cardCasino h3 {
+    display: none;
+  }
+
+  .cardCasino h4 {
+    margin-bottom: -8px;
+  }
+
+  .cardCasino a button {
+    width: 202px;
+    border-radius: var(--border-radius-button);
+  }
+}
+
+@media (max-width: 575px) {
+  .cardCasino {
+    width: 100%;
+  }
+
+  .cardCasino a button {
+    width: auto;
+  }
+}
