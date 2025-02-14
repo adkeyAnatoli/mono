@@ -5,7 +5,7 @@ import Header from './components/layout/Header';
 export default function NotFound() {
   return (
     <>
-      <Header />
+      <Header link={''} id={0} />
       <main className="not-found container">
         <h2 className="not-found-title">404</h2>
         <p className="not-found-content">
