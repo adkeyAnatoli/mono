@@ -18,12 +18,14 @@
   width: 50%;
 }
 
-.firstBlock_text li, .lastBlock li {
+.firstBlock_text li,
+.lastBlock li {
   list-style: disc;
 }
 
 .firstBlock ul,
-.middleBlock ul, .lastBlock {
+.middleBlock ul,
+.lastBlock {
   margin-left: 20px;
 }
 

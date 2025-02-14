@@ -4,15 +4,15 @@ import './globals.css';
 import { Roboto, Montserrat } from 'next/font/google';
 import { RedirectProvider } from './context/RedirectContext';
 
-const url = "cazeus-online.com";
+const url = 'cazeus-online.com';
 const ogTitle =
   'Cazeus Casino UK: A Detailed Review of Gaming and Bonus Features';
-const ogSiteName = "BassBet Casino";
+const ogSiteName = 'BassBet Casino';
 const metaDescription =
-  "Cazeus Casino UK: welcome bonus, promotions, gaming features, sports betting, payment systems. Everything you need to know for beginners and experienced gamblers";
+  'Cazeus Casino UK: welcome bonus, promotions, gaming features, sports betting, payment systems. Everything you need to know for beginners and experienced gamblers';
 
-const locale = "en-UK";
-const language = "English";
+const locale = 'en-UK';
+const language = 'English';
 const ogImage = `https://${url}/og-image.webp`;
 
 const fontOne = Montserrat({
@@ -37,7 +37,7 @@ export const metadata: Metadata = {
   description: metaDescription,
   openGraph: {
     locale: locale,
-    type: "website",
+    type: 'website',
     url: `https://${url}`,
     title: ogTitle,
     description: metaDescription,
@@ -50,9 +50,7 @@ export const metadata: Metadata = {
       },
     ],
   },
-  icons:
-    { icon: '/svg/icon.svg' },
-
+  icons: { icon: '/svg/icon.svg' },
 };
 export default function RootLayout({
   children,
@@ -66,11 +64,7 @@ export default function RootLayout({
         <link rel="icon" href="/icons/icon.png" />
         <link rel="canonical" href={`https://${url}`} />
         <link rel="apple-touch-icon" href="/icons/icon57.png" sizes="57x57" />
-        <link
-          rel="apple-touch-icon"
-          href="/icons/icon60.png"
-          sizes="60x60"
-        />
+        <link rel="apple-touch-icon" href="/icons/icon60.png" sizes="60x60" />
         <link rel="apple-touch-icon" href="/icons/icon72.png" sizes="72x72" />
         <link rel="apple-touch-icon" href="/icons/icon76.png" sizes="76x76" />
         <link

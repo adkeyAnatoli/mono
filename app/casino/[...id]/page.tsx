@@ -14,8 +14,8 @@ type Props = {
 export default function RedirectPage({ params }: Props) {
   const { id } = use(params);
   const { link } = useRedirect();
-  const newID = Number(id)
-  console.log(id)
+  const newID = Number(id);
+  console.log(id);
   useEffect(() => {
     if (link) {
       window.location.href = link;

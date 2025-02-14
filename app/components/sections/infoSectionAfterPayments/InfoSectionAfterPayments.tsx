@@ -6,15 +6,11 @@ const InfoSectionAfterPayments = () => {
   return (
     <section className="redSection">
       <div className={`${style.wrapper} container`}>
-        
-        
         <div className={`listBlock lastBlock gap-64`}>
           {data.map((elem, index) => (
             <div className="lastBlockElement" key={index}>
               <h3 className="title-white title-small">{elem.title}</h3>
-              <p className="text">
-                {elem.content}
-              </p>
+              <p className="text">{elem.content}</p>
             </div>
           ))}
         </div>

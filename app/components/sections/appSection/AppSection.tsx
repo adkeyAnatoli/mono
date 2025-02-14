@@ -19,9 +19,7 @@ const AppSection: React.FC<{ offer: IOffer }> = ({ offer }) => {
               height={310}
               alt="App preview"
             />
-            <p className="text">
-              {data.text}
-            </p>
+            <p className="text">{data.text}</p>
             <div className={style.downloadBlock}>
               <ImageLink
                 id={offer.id}
@@ -54,9 +52,7 @@ const AppSection: React.FC<{ offer: IOffer }> = ({ offer }) => {
           {data.list.map((elem, index) => (
             <div className="lastBlockElement" key={index}>
               <h3 className="title-white title-small">{elem.title}</h3>
-              <p className="text">
-                {elem.content}
-              </p>
+              <p className="text">{elem.content}</p>
             </div>
           ))}
         </div>

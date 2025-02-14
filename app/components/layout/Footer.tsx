@@ -34,7 +34,7 @@ import itl from '@/public/partners/itl.svg';
 import itlC from '@/public/partners/itlC.svg';
 import ec from '@/public/partners/ec.svg';
 import ecC from '@/public/partners/ecC.svg';
-import data from "@/app/data/dataFooter.json"
+import data from '@/app/data/dataFooter.json';
 
 const Footer = () => {
   return (

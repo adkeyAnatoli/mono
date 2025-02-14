@@ -1,4 +1,4 @@
-'use client'
+'use client';
 import React from 'react';
 import Image from 'next/image';
 import style from './styles/header.module.css';
@@ -26,8 +26,18 @@ const Header: React.FC<IHeader> = ({ link, id }) => {
               />
             </LinkToElement>
             <div className={style.headerButtonBlock}>
-              <ButtonLink link={link} id={id} text={'Sign Up'} classes={style.signUp} />
-              <ButtonLink link={link} id={id} text={'Register'} classes={style.register} />
+              <ButtonLink
+                link={link}
+                id={id}
+                text={'Sign Up'}
+                classes={style.signUp}
+              />
+              <ButtonLink
+                link={link}
+                id={id}
+                text={'Register'}
+                classes={style.register}
+              />
             </div>
           </>
         ) : (

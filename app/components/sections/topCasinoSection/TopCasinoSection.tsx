@@ -21,7 +21,10 @@ const TopCasinoSection: React.FC<ITopCasinoSectionProps> = ({ data }) => {
         ))}
       </div>
       {visibleCount < data.offers.length && (
-        <button onClick={handleShowMore} className={`${style.button} button-primary`}>
+        <button
+          onClick={handleShowMore}
+          className={`${style.button} button-primary`}
+        >
           All casino
         </button>
       )}

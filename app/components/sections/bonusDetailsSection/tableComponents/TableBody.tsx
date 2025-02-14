@@ -53,7 +53,13 @@ const TableBody: FC<ITableBonusDetailsProps> = ({ offers }) => {
                 className="button"
                 onClick={() => toggleAccordion(offer.id)}
               >
-                <Image className='info' src="/svg/info.svg" height={24} width={24} alt="Info" />
+                <Image
+                  className="info"
+                  src="/svg/info.svg"
+                  height={24}
+                  width={24}
+                  alt="Info"
+                />
               </button>
             </div>
             <div className="cell last hide-850">

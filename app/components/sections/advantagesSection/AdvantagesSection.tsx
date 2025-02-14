@@ -4,6 +4,8 @@ import style from './advantagesSection.module.css';
 import Button from '../../buttons/ButtonLink';
 import ImageLink from '../../images/ImageLink';
 import { IOffer } from '@/app/interfaces/mainInterfaces';
+import data from '@/app/data/dataLast.json';
+import dataMain from '@/app/data/dataAdvantages.json';
 
 const AdvantagesSection: React.FC<{ offer: IOffer }> = ({ offer }) => {
   return (
@@ -13,26 +15,17 @@ const AdvantagesSection: React.FC<{ offer: IOffer }> = ({ offer }) => {
           <div className={style.leftBlock}>
             <h3 className={style.title}>Advantages</h3>
             <ul>
-              <li>
-                <Image src="/svg/star.svg" height={30} width={30} alt="star" />
-                <p>malerische Lage am See</p>
-              </li>
-              <li>
-                <Image src="/svg/star.svg" height={30} width={30} alt="star" />
-                <p>Vielfältige Spielmöglichkeiten</p>
-              </li>
-              <li>
-                <Image src="/svg/star.svg" height={30} width={30} alt="star" />
-                <p>Hochwertige kulinarische Erlebnisse</p>
-              </li>
-              <li>
-                <Image src="/svg/star.svg" height={30} width={30} alt="star" />
-                <p>Professionelles und freundliches Personal</p>
-              </li>
-              <li>
-                <Image src="/svg/star.svg" height={30} width={30} alt="star" />
-                <p>Regelmäßige Casino Velden Veranstaltungen 2024</p>
-              </li>
+              {data.left.map((text, index) => (
+                <li key={index}>
+                  <Image
+                    src="/svg/star.svg"
+                    height={30}
+                    width={30}
+                    alt="star"
+                  />
+                  <p>{text}</p>
+                </li>
+              ))}
             </ul>
             <Button
               id={offer.id}
@@ -42,13 +35,13 @@ const AdvantagesSection: React.FC<{ offer: IOffer }> = ({ offer }) => {
             />
           </div>
           <div className={style.rightBlock}>
-            <h3 className={style.title}>Casino Velden App</h3>
+            <h3 className={style.title}>{dataMain.title}</h3>
             <Image
               className={style.backImg}
               src="/sectionImg/slot2.webp"
               height={348}
               width={322}
-              alt="Casino Velden"
+              alt={dataMain.title}
             />
             <div className={style.downloadBlock}>
               <ImageLink
