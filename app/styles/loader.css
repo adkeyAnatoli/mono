@@ -36,7 +36,7 @@
 .loader {
   width: 100px;
   height: 100px;
-  border: 12px #bfa86e solid;
+  border: 12px var(--color-purple) solid;
   border-radius: 50%;
   position: absolute;
   border-top-color: #ffffff;
