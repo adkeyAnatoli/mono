@@ -19,8 +19,8 @@ const Header: React.FC<IHeader> = ({ link, id }) => {
             <LinkToElement data={{ href: 'main', title: '', key: 1 }}>
               <Image
                 src="/svg/logo.svg"
-                width={165}
-                height={48}
+                width={180}
+                height={32}
                 alt="Logo"
                 priority
               />
