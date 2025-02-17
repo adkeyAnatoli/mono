@@ -13,7 +13,7 @@ const Header: React.FC<IHeader> = ({ link, id }) => {
   const isHomePage = router === '/';
   return (
     <header className={style.header}>
-      <div className={`${style.header_wrapper} container`}>
+      <div className={`${style.wrapper} container`}>
         {isHomePage ? (
           <>
             <LinkToElement data={{ href: 'main', title: '', key: 1 }}>
