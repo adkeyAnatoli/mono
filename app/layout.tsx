@@ -11,7 +11,7 @@ const ogSiteName = 'BassBet Casino';
 const metaDescription =
   'Cazeus Casino UK: welcome bonus, promotions, gaming features, sports betting, payment systems. Everything you need to know for beginners and experienced gamblers';
 
-const locale = 'en-UK';
+const locale = 'en-GB';
 const language = 'English';
 const ogImage = `https://${url}/og-image.webp`;
 
