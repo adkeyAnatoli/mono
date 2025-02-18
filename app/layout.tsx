@@ -13,7 +13,7 @@ const metaDescription =
 
 const locale = 'en-GB';
 const language = 'English';
-const ogImage = `https://${url}/og-image.webp`;
+const ogImage = `https://${url}/og-img.webp`;
 
 const fontOne = Montserrat({
   weight: ['700', '800', '900'],
