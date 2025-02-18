@@ -1,3 +1,7 @@
+.bonusSection {
+  background: url('../../../../public/sectionImg/slot1.webp') no-repeat center
+    left 88% / auto 100%;
+}
 .mobile {
   display: none;
 }
@@ -40,21 +44,26 @@
 .bonusSection_right {
   width: 740px;
   height: 540px;
-  background: url('../../../../public/sectionImg/slot1.webp') no-repeat center
-    center / auto 100%;
+}
+
+@media (max-width: 1200px) {
+  .bonusSection {
+    background: url('../../../../public/sectionImg/slot1.webp') no-repeat center
+      left 88% / auto 90%;
+  }
 }
 
 @media (max-width: 1100px) {
-  .bonusSection_right {
+  .bonusSection {
     background: url('../../../../public/sectionImg/slot1.webp') no-repeat center
-      center / auto 90%;
+      left 95% / auto 83%;
   }
 }
 
 @media (max-width: 1000px) {
-  .bonusSection_right {
+  .bonusSection {
     background: url('../../../../public/sectionImg/slot1.webp') no-repeat center
-      center / auto 70%;
+      left 95% / auto 60%;
   }
 }
 
@@ -63,11 +72,16 @@
     flex-direction: column-reverse;
     gap: 24px;
   }
+  .bonusSection {
+    background: url('../../../../public/sectionImg/slot1-mobile.webp') no-repeat
+      top 0 center / auto 63%;
+    margin-bottom: 108px;
+  }
   .bonusSection_right {
     width: 576px;
     height: 315px;
-    background: url('../../../../public/sectionImg/slot1-mobile.webp') no-repeat
-      center center / auto 100%;
+    /* background: url('../../../../public/sectionImg/slot1-mobile.webp') no-repeat
+      center center / auto 100%; */
   }
   .title {
     display: none;
@@ -94,15 +108,26 @@
 
 @media (max-width: 594px) {
   .bonusSection_right {
-    width: 400px;
+    width: 450px;
+    height: 280px;
+  }
+}
+
+@media (max-width: 500px) {
+  .bonusSection {
+    background: url('../../../../public/sectionImg/slot1-mobile.webp') no-repeat
+      top 10% center / auto 50%;
+  }
+  .bonusSection_right {
     height: 220px;
+    width: 380px;
   }
 }
 
 @media (max-width: 420px) {
   .bonusSection_right {
     width: 330px;
-    height: 180px;
+    /* height: 180px; */
   }
   .bonusSection_left p {
     font-size: 20px;

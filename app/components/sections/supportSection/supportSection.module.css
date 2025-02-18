@@ -12,7 +12,9 @@
     margin: 64px auto;
   }
 }
-
+.rightBlock img {
+  margin-right: -59px;
+}
 .wrapper,
 .leftBlock {
   display: flex;

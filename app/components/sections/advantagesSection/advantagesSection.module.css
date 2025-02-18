@@ -1,5 +1,4 @@
 .section {
-  display: flex;
   margin-bottom: 140px;
   position: relative;
 }
@@ -103,7 +102,7 @@
   font-family: var(--font-family-main);
   font-size: 40px;
   font-style: normal;
-  font-weight: 900;
+  font-weight: 700;
   line-height: normal;
   text-transform: uppercase;
   word-wrap: break-word;
@@ -133,6 +132,11 @@
     border: none;
     padding-right: 0;
     gap: 24px;
+    margin-left: 26px;
+  }
+
+  .title {
+    font-weight: 900;
   }
 
   .leftBlock ul {
@@ -152,10 +156,13 @@
     font-size: 24px;
   }
 
+  .rightBlock h3 {
+    margin-left: 26px;
+  }
   .rightBlock {
     padding-left: 0px;
     gap: 24px;
-    margin-bottom: 48px;
+    margin-bottom: 44px;
   }
   .backImg {
     width: 322px;

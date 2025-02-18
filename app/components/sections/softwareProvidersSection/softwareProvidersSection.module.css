@@ -21,7 +21,7 @@
   height: auto;
   padding: 16px;
   border-radius: 4px;
-  background-color: #fad2d2;
+  background-color: var(--table-body);
   transition:
     transform 0.3s ease,
     box-shadow 0.3s ease;

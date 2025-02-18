@@ -142,7 +142,7 @@ button:hover {
   font-family: var(--font-family-main);
   font-size: 56px;
   font-style: normal;
-  font-weight: 900;
+  font-weight: 700;
   line-height: normal;
   text-transform: uppercase;
   color: var(--color-white);
@@ -371,6 +371,7 @@ button:hover {
   .title-black,
   .title-white {
     font-size: 32px;
+    font-weight: 900;
   }
 
   .text {

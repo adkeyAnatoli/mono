@@ -48,46 +48,96 @@ const Footer = () => {
         <div className={style.payments}>
           <div className={style.paymentsBlock}>
             <Image className={style.blockGray} src={mas} alt="MasterCard" />
-            
-            <Image className={style.blockColor} src={masC} alt="MasterCard" loading="eager"/>
+
+            <Image
+              className={style.blockColor}
+              src={masC}
+              alt="MasterCard"
+              loading="eager"
+            />
           </div>
           <div className={style.paymentsBlock}>
             <Image className={style.blockGray} src={v} alt="Visa" />
-            <Image className={style.blockColor} src={vC} alt="Visa" loading="eager"/>
+            <Image
+              className={style.blockColor}
+              src={vC}
+              alt="Visa"
+              loading="eager"
+            />
           </div>
           <div className={style.paymentsBlock}>
             <Image className={style.blockGray} src={net} alt="Neteller" />
-            <Image className={style.blockColor} src={netC} alt="Neteller" loading="eager"/>
+            <Image
+              className={style.blockColor}
+              src={netC}
+              alt="Neteller"
+              loading="eager"
+            />
           </div>
           <div className={style.paymentsBlock}>
             <Image className={style.blockGray} src={sk} alt="Skrill" />
-            <Image className={style.blockColor} src={skC} alt="Skrill" loading="eager"/>
+            <Image
+              className={style.blockColor}
+              src={skC}
+              alt="Skrill"
+              loading="eager"
+            />
           </div>
           <div className={style.paymentsBlock}>
             <Image className={style.blockGray} src={bit} alt="Bitcoin" />
-            <Image className={style.blockColor} src={bitC} alt="Bitcoin" loading="eager"/>
+            <Image
+              className={style.blockColor}
+              src={bitC}
+              alt="Bitcoin"
+              loading="eager"
+            />
           </div>
           <div className={style.paymentsBlock}>
             <Image className={style.blockGray} src={lit} alt="Litecoin" />
-            <Image className={style.blockColor} src={litC} alt="Litecoin" loading="eager"/>
+            <Image
+              className={style.blockColor}
+              src={litC}
+              alt="Litecoin"
+              loading="eager"
+            />
           </div>
           <div className={style.paymentsBlock}>
             <Image className={style.blockGray} src={eth} alt="Etherium" />
-            <Image className={style.blockColor} src={ethC} alt="Etherium" loading="eager"/>
+            <Image
+              className={style.blockColor}
+              src={ethC}
+              alt="Etherium"
+              loading="eager"
+            />
           </div>
         </div>
         <div className={style.partners}>
           <div className={style.partnersBlock}>
             <Image className={style.blockGray} src={gp} alt="GPWA" />
-            <Image className={style.blockColor} src={gpC} alt="GPWA" loading="eager"/>
+            <Image
+              className={style.blockColor}
+              src={gpC}
+              alt="GPWA"
+              loading="eager"
+            />
           </div>
           <div className={style.partnersBlock}>
             <Image className={style.blockGray} src={gw} alt="Gamble Aware" />
-            <Image className={style.blockColor} src={gwC} alt="Gamble Aware" loading="eager"/>
+            <Image
+              className={style.blockColor}
+              src={gwC}
+              alt="Gamble Aware"
+              loading="eager"
+            />
           </div>
           <div className={style.partnersBlock}>
             <Image className={style.blockGray} src={gc} alt="Game care" />
-            <Image className={style.blockColor} src={gcC} alt="Game care" loading="eager"/>
+            <Image
+              className={style.blockColor}
+              src={gcC}
+              alt="Game care"
+              loading="eager"
+            />
           </div>
           <div className={style.partnersBlock}>
             <Image
@@ -104,25 +154,47 @@ const Footer = () => {
           </div>
           <div className={style.partnersBlock}>
             <Image className={style.blockGray} src={gb} alt="Gamban" />
-            <Image className={style.blockColor} src={gbC} alt="Gamban" loading="eager"/>
+            <Image
+              className={style.blockColor}
+              src={gbC}
+              alt="Gamban"
+              loading="eager"
+            />
           </div>
           <div className={style.partnersBlock}>
             <Image className={style.blockGray} src={bb} alt="BetBlocker" />
-            <Image className={style.blockColor} src={bbC} alt="BetBlocker" loading="eager"/>
+            <Image
+              className={style.blockColor}
+              src={bbC}
+              alt="BetBlocker"
+              loading="eager"
+            />
           </div>
           <div className={style.partnersBlock}>
             <Image className={style.blockGray} src={itl} alt="ITech Labs" />
-            <Image className={style.blockColor} src={itlC} alt="ITech Labs" loading="eager"/>
+            <Image
+              className={style.blockColor}
+              src={itlC}
+              alt="ITech Labs"
+              loading="eager"
+            />
           </div>
           <div className={style.partnersBlock}>
             <Image className={style.blockGray} src={ec} alt="Ecogra" />
-            <Image className={style.blockColor} src={ecC} alt="Ecogra" loading="eager"/>
+            <Image
+              className={style.blockColor}
+              src={ecC}
+              alt="Ecogra"
+              loading="eager"
+            />
           </div>
         </div>
-        <div className={style.copyright}>
-          <p className={style.copyrightLeft}>18+</p>
-          <p className={style.copyrightRight}>
-            Copyright © {getYear()} {data.title}
+        <div>
+          <p className={style.copyright}>
+            <span className={style.copyrightLeft}>18+</span>
+            <span className={style.copyrightRight}>
+              Copyright © {getYear()} {data.title}
+            </span>
           </p>
         </div>
       </div>

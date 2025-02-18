@@ -23,7 +23,7 @@ const SupportSection = () => {
             </p>
           </div>
         </div>
-        <div>
+        <div className={style.rightBlock}>
           <Image
             src="/sectionImg/slot5.webp"
             width={459}

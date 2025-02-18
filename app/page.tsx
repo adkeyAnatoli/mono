@@ -1,4 +1,4 @@
-'use client'
+'use client';
 import { useEffect, useState } from 'react';
 import Footer from './components/layout/Footer';
 import Header from './components/layout/Header';
@@ -88,7 +88,7 @@ export default function Home() {
   }, []);
 
   if (isLoading) {
-    return <Loading/>;
+    return <Loading />;
   }
 
   return (
