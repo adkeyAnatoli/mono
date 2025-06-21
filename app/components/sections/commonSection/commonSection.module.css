@@ -1,0 +1,78 @@
+.lastBlock {
+  flex-direction: column;
+}
+.section {
+  margin-bottom: 140px;
+  padding-bottom: 110px;
+}
+.block {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.section li,
+.section li {
+  list-style: disc;
+}
+
+.section ol,
+.section ul {
+  margin-left: 20px;
+}
+.section h3 {
+  font-size: 24px;
+}
+
+.section h2 {
+  font-size: 40px;
+}
+.section ul li {
+  list-style-type: disc;
+}
+.section ol li {
+  list-style-type: decimal;
+}
+.strangeBlockWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
+.strangeBlockWrapper h3 {
+  font-size: 24px;
+}
+
+.forTwo {
+  display: flex;
+  gap: 48px;
+}
+
+.forTwo > div {
+  flex: 1;
+}
+
+@media (max-width: 768px) {
+  .section {
+    margin-bottom: 64px;
+    padding: 40px 0 88px;
+  }
+  .wrapper,
+  .lastBlock {
+    gap: 40px;
+  }
+  .forTwo {
+    flex-direction: column;
+  }
+
+  .section h3 {
+    font-size: 18px;
+  }
+
+  .section h2 {
+    font-size: 24px;
+  }
+
+  .strangeBlockWrapper h3 {
+    font-size: 18px;
+  }
+}
