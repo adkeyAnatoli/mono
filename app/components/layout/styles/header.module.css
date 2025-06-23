@@ -138,7 +138,8 @@
   }
 }
 @media (max-width: 475px) {
-  .wrapper p img {
+  .wrapper p img,
+  .wrapper a img {
     scale: 1;
     margin-left: 0px;
     max-width: 140px;
@@ -160,7 +161,8 @@
   .wrapper > p {
     width: 146px;
   }
-  .wrapper p img {
+  .wrapper p img,
+  .wrapper a img {
     max-width: 120px;
   }
   .logoBlock > p,
