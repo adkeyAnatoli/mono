@@ -137,15 +137,19 @@
     max-width: 155px;
   }
 }
+@media (max-width: 475px) {
+  .wrapper p img {
+    scale: 1;
+    margin-left: 0px;
+    max-width: 140px;
+  }
+}
 @media (max-width: 405px) {
   .header::before {
     width: 200px;
   }
   .wrapper > p {
     width: 155px;
-  }
-  .logoBlock {
-    gap: 5px;
   }
 }
 
@@ -156,14 +160,11 @@
   .wrapper > p {
     width: 146px;
   }
-  .wrapper img {
-    margin-left: -40px;
+  .wrapper p img {
+    max-width: 120px;
   }
   .logoBlock > p,
   .logoBlock > a {
     max-width: 146px;
-  }
-  .logoBlock {
-    gap: 1px;
   }
 }
