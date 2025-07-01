@@ -1,0 +1,21 @@
+{
+  "title": "Facilito Bet usuario al cliente",
+  "content": [
+    {
+      "type": "paragraph",
+      "text": "La atención al cliente está disponible a través de múltiples canales:"
+    },
+    {
+      "type": "list-dotted",
+      "items": [
+        "Chat en vivo, accesible directamente en el sitio web (06:00-24:00 CET)",
+        "Asistencia por correo electrónico, con un tiempo de respuesta habitual inferior a 24 horas",
+        "Línea telefónica, disponible de 08:00 a 22:00 CET a través de un número local Venezuela"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Estas opciones de asistencia garantizan que los usuarios puedan recibir ayuda oportuna en español o en inglés."
+    }
+  ]
+}

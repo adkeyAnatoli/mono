@@ -1,0 +1,29 @@
+{
+  "title": "Aplicación de casino",
+  "content": [
+    {
+      "type": "paragraph",
+      "text": "La plataforma no tiene una aplicación de casino que se pueda descargar Facilito Bet para iOS o Android. El sitio web es totalmente responsivo y funciona bien en dispositivos móviles, al igual que la Facilito Bet app. Cuenta con una navegación táctil y diseños que cambian para parecer aplicaciones nativas directamente en los navegadores móviles."
+    }
+  ],
+  "lastSections": [
+    {
+      "heading": "Idiomas",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "La plataforma se puede utilizar tanto en español como en inglés. Los usuarios pueden cambiar de idioma haciendo clic en el selector de menú de la cabecera. Esto garantiza que las normas del juego, las diferentes formas de apostar y los documentos de atención al cliente, como los términos y condiciones y las preguntas frecuentes, sean fáciles de entender."
+        }
+      ]
+    },
+    {
+      "heading": "Monedas",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Facilito Bet solo acepta euros (EUR) para saldos de cuentas, depósitos y apuestas. Todas las transacciones se realizan en euros y los tipos de cambio los establece automáticamente el banco o el servicio de pago seleccionado por el usuario."
+        }
+      ]
+    }
+  ]
+}

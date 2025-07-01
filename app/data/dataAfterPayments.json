@@ -1,0 +1,22 @@
+{
+  "sections": [
+    {
+      "heading": "Tecnologías de software",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Facilito Bet es una nueva plataforma web creada con HTML5 y marcos de JavaScript. Esto garantiza que funcione eficazmente en navegadores tanto para ordenadores de sobremesa como para dispositivos móviles. Los juegos de casino y con crupier en vivo funcionan con tecnología iFrame integrada, mientras que la interfaz de transmisión en directo funciona con WebRTC, que transmite imágenes de vídeo en tiempo real sin necesidad de instalar ningún software adicional."
+        }
+      ]
+    },
+    {
+      "heading": "Seguridad",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "El cifrado HTTPS y SSL de 256 bits, ambos estándares del sector, protegen cualquier información transferida a través de Facilito Bet. Las cuentas de los usuarios están seguras, ya que tienen sus propias contraseñas y autenticación de dos factores (2FA) opcional por SMS o correo electrónico. La plataforma respeta los términos de la licencia de la DGOJ, que establecen que empresas de pruebas independientes deben verificar periódicamente la imparcialidad y el cumplimiento."
+        }
+      ]
+    }
+  ]
+}
