@@ -54,7 +54,7 @@
 @media (max-width: 768px) {
   .cardCasino {
     width: 240px;
-    height: 264px;
+    /* height: 264px; */
     padding: 16px;
     border-radius: var(--border-radius);
   }
