@@ -1,0 +1,515 @@
+{
+  "welcome_section": {
+    "title": "Bono de bienvenida",
+    "welcome_offer": "Oferta de bienvenida exclusiva de",
+    "button": "Reclamar bono"
+  },
+  "header_section": {
+    "login": "Iniciar",
+    "signUp": "Enrolar"
+  },
+  "topCasino_section": {
+    "top_casinos": "Casinos Top",
+    "welcome_bonus": "Bono de bienvenida",
+    "claim_bonus": "Reclamar bono",
+    "all_casinos": "Todos los casinos"
+  },
+  "bonusDetails_section": {
+    "bonus_details": "Detalles del bono",
+    "casino": "Casino",
+    "bonuses": "Bonos",
+    "rate": "Tasa",
+    "free_spins": "Free Spins",
+    "more_info": "Info",
+    "get": "Conseguir",
+    "welcome_bonus": "Bono de bienvenida",
+    "get_bonus": "Obtener el bono",
+    "max_amount": "Cantidad máxima:",
+    "wager": "Apuesta:",
+    "bonus_code": "Código de Bono:",
+    "refresh": "Actualizar"
+  },
+  "advantages_section": {
+    "advantages": "Ventajas",
+    "know_more": "Saber más"
+  },
+  "topGames_section": {
+    "top_games": "Juegos top",
+    "play_now": "Jugar Ahora",
+    "all_games": "Todos los juegos"
+  },
+  "payments_section": {
+    "payments_methods": "Métodos de pago",
+    "method": "Método",
+    "type": "Tipo",
+    "country": "País",
+    "commission": "Comisión",
+    "processing_time": "Tiempo de procesamiento",
+    "minimum_deposit": "Depósito mínimo",
+    "deposit": "Depósito"
+  },
+  "software_section": {
+    "software_providers": "Proveedores de Software"
+  },
+  "metaData": {
+    "title": "Reseña de Party Casino España 2025: bonos, juegos y seguridad",
+    "description": "Descubre todo sobre Party Casino España en nuestra reseña de 2025. Obtén información sobre bonos de bienvenida, los mejores juegos, torneos exclusivos, aplicaciones móviles, pagos rápidos, licencia de la UKGC y mucho más."
+  },
+  "casinoInfo": {
+    "title": "Reseña de Party Casino España",
+    "content": [
+      {
+        "type": "list-dotted",
+        "items": [
+          "50 tiradas gratis para nuevos clientes",
+          "Amplia gama de torneos",
+          "Seguridad de 128 bits"
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "En el mundo actual, la oferta de plataformas de juego es impresionante. Resulta difícil decidirse por una sola. Sin embargo, los jugadores de España pueden estar seguros de la fiabilidad y seguridad de la plataforma Casino Party. Party Casino entró en el mundo del juego online en 1997. Party Casino online cuenta con la licencia número 54743 de la Comisión del Juego del Reino Unido y, dado que es propiedad de Entain plc (GVC Holdings) y cotiza en la Bolsa de Londres, los jugadores de España tienen la certeza de que su experiencia es segura y justa. La plataforma ofrece más de 3800 juegos que incluyen tragamonedas, juegos de mesa y opciones con crupier en vivo, para adaptarse a diferentes tipos de jugadores."
+      }
+    ],
+    "mainSections": [
+      {
+        "heading": "Registro en Party Casino",
+        "content": [
+          {
+            "type": "paragraph",
+            "text": "No hay pasos complicados para crear una cuenta en Party Casino:"
+          },
+          {
+            "type": "list-number",
+            "items": [
+              "Debes visitar el sitio web de Party Casino España y pulsar el botón «Registrarse»",
+              "Introduce tu información personal, como tu nombre, fecha de nacimiento, correo electrónico y dirección",
+              "Elige un nombre de usuario y selecciona una contraseña que sea difícil de adivinar para otras personas",
+              "Elige tu divisa (EUR) e introduce tus límites de depósito, si lo deseas",
+              "Al aceptar y confirmar tu edad, podrás empezar a utilizar el casino online"
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": "Después de enviar tu correo electrónico, recibirás un correo electrónico de confirmación. Asegúrate de confirmar tu cuenta desde este correo electrónico. Después de registrarse, los jugadores pueden encontrar muchos juegos y promociones. Comenzar la verificación «Conoce a tu cliente» (KYC) con antelación te ayudará a evitar problemas durante futuros retiros."
+          }
+        ]
+      },
+      {
+        "heading": "Inicio de sesión en Party Casino",
+        "content": [
+          {
+            "type": "paragraph",
+            "text": "Acceder a tu cuenta de Party Casino es muy sencillo:"
+          },
+          {
+            "type": "list-number",
+            "items": [
+              "Haz clic en el botón «Party Casino login» en la página de inicio",
+              "Introduce tu correo electrónico y contraseña registrados",
+              "Si lo deseas, puedes habilitar la autenticación de dos factores para mayor seguridad",
+              "Una vez que hayas iniciado sesión, podrás gestionar tu cuenta, depositar fondos y empezar a jugar"
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": "Party Casino da prioridad a la seguridad de los usuarios, garantizando que tu información personal y financiera permanezca protegida."
+          }
+        ]
+      }
+    ],
+    "lastSections": [
+      {
+        "heading": "Métodos de depósito",
+        "content": [
+          {
+            "type": "paragraph",
+            "text": "Party Casino admite varios métodos de depósito seguros y cómodos para los jugadores del España:"
+          },
+          {
+            "type": "list-dotted",
+            "items": [
+              "Tarjetas de débito: Visa, Mastercard",
+              "Monederos electrónicos: PayPal, Skrill, Neteller",
+              "Transferencias bancarias",
+              "Apple Pay"
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": "El importe mínimo de depósito es de 10 € y la mayoría de los depósitos se procesan al instante."
+          }
+        ]
+      },
+      {
+        "heading": "Métodos de retirada",
+        "content": [
+          {
+            "type": "paragraph",
+            "text": "Las retiradas en los sitios asociados a Party Casino se procesan con rapidez, especialmente cuando se utilizan monederos electrónicos:"
+          },
+          {
+            "type": "list-dotted",
+            "items": [
+              "PayPal: en un plazo de 24 horas",
+              "Skrill y Neteller: en un plazo de 24 horas",
+              "Tarjetas de débito: 1-3 días laborables",
+              "Transferencias bancarias: 3-5 días laborables"
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": "El importe mínimo de retirada es de 10 €. Ten en cuenta que algunos métodos de retirada pueden no ser válidos para bonificaciones, por lo que es recomendable revisar los términos y condiciones."
+          }
+        ]
+      }
+    ]
+  },
+  "advantagesSection": {
+    "left": [
+      "una gran selección de juegos",
+      "casino en vivo",
+      "apuestas deportivas",
+      "recompensa de bienvenida",
+      "programa de bonos",
+      "registro rápido",
+      "transacciones seguras",
+      "amigable con móvil y crypto",
+      "soporte técnico 24/7",
+      "sitio web cuidadoso y amigable"
+    ]
+  },
+  "appSection": {
+    "title": "Aplicación de Party Casino",
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "Party Casino ofrece aplicaciones móviles específicas para usuarios de iOS y Android, lo que permite disfrutar de una experiencia de juego fluida desde cualquier dispositivo. La Party Casino app incluyen:"
+      },
+      {
+        "type": "list-dotted",
+        "items": [
+          "Interfaz intuitiva: Navegación sencilla y acceso a las categorías de juegos más populares",
+          "Notificaciones push: mantente al día de las promociones y los nuevos lanzamientos de juegos",
+          "Catálogo completo de juegos: la mayoría de los más de 3800 juegos están disponibles en el móvil",
+          "Velocidad de carga rápida: rendimiento optimizado para una experiencia de juego fluida"
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "La aplicación se puede descargar desde la App Store de Apple o Google Play Store. Para aquellos que prefieren jugar desde el navegador, la versión móvil del sitio web es igualmente receptiva y fácil de usar."
+      }
+    ],
+    "lastSections": [
+      {
+        "heading": "Idiomas",
+        "content": [
+          {
+            "type": "paragraph",
+            "text": "Slot Party Casino admite varios idiomas para adaptarse a su base de usuarios global. Sin embargo, para los jugadores españoles, la plataforma está configurada por defecto en español (ESP). Asistencia completa en todo el sitio web, el servicio de atención al cliente, los términos y condiciones y los juegos."
+          }
+        ]
+      },
+      {
+        "heading": "Divisas",
+        "content": [
+          {
+            "type": "paragraph",
+            "text": "Para los residentes en España, Party Casino Online opera en EUR(€). Esto garantiza que todos los depósitos, retiradas y partidas se procesen en la moneda local sin comisiones por cambio de divisa. Es posible que se admitan otras divisas en diferentes regiones, pero no son aplicables a los jugadores de España."
+          }
+        ]
+      }
+    ]
+  },
+  "lastSection": {
+    "title": "Inicio Casino Party Ventajas",
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "Antes de registrarte, lee atentamente todas las ventajas y desventajas de la plataforma. Esto te ayudará a navegar mejor por las ofertas del Party Casino."
+      }
+    ],
+    "leftTitle": "Ventajas",
+    "left": [
+      "Amplia biblioteca de juegos con más de 3800 títulos de los mejores proveedores",
+      "Con licencia y regulado por la Comisión del Juego del Reino Unido",
+      "Interfaz fácil de usar con navegación fluida",
+      "Tiempos de procesamiento de retiros rápidos, especialmente con monederos electrónicos",
+      "Aplicaciones móviles dedicadas para dispositivos iOS y Android",
+      "Atención al cliente 24/7 a través de chat en vivo, correo electrónico y teléfono"
+    ],
+    "rightTitle": "Des",
+    "right": [
+      "Algunas promociones tienen requisitos de apuesta que pueden ser elevados para los jugadores ocasionales",
+      "Ciertos métodos de pago están excluidos de la elegibilidad para bonificaciones",
+      "Pueden aplicarse límites de retirada mensuales para los jugadores que no sean VIP"
+    ]
+  },
+   "supportSection": {
+    "title": "Asistencia",
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "Party Casino ofrece atención al cliente 24/7 a través de múltiples canales:"
+      },
+      {
+        "type": "list-dotted",
+        "items": [
+          "Chat en vivo: respuestas instantáneas, disponible 24/7",
+          "Correo electrónico: respuesta en 24 horas: support@Party Casino.com",
+          "Centro de ayuda: amplia sección de preguntas frecuentes que cubre bonos, banca, problemas técnicos y configuración de la cuenta",
+          "Teléfono: disponible a través de solicitudes de devolución de llamada para cuestiones relacionadas con la cuenta"
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "El equipo de atención al cliente es profesional, servicial y conoce bien los requisitos de la UKGC y las herramientas de juego responsable."
+      }
+    ]
+  },
+   "faqSection": {
+    "title": "Preguntas",
+    "faqList": [
+      {
+        "title": "¿Es Party Casino legal?",
+        "text": "Sí, Party Casino está regulado por la Comisión del Juego del Reino Unido, por lo que los jugadores de España pueden apostar en él con total seguridad."
+      },
+      {
+        "title": "¿Cuánto hay que pagar como depósito en Party Casino España?",
+        "text": "La tarifa de 10€ es estándar para los depósitos con PayPal, tarjetas de débito y monederos electrónicos."
+      },
+      {
+        "title": "¿Cuánto tiempo se tarda normalmente en completar los retiros?",
+        "text": "La transferencia de dinero tarda entre unos segundos y 3 días. La mayoría de las veces, los monederos electrónicos como PayPal y Neteller procesan los fondos en 24 horas, pero las tarjetas de débito pueden tardar entre 1 y 3 días."
+      },
+      {
+        "title": "¿Es posible obtener un bono sin depósito en Party Casino?",
+        "text": "Party Casino España no ofrece bonos sin depósito a partir de 2025. También obtienes 50 tiradas gratis al realizar tu primer depósito de 10 € y utilizar el código de bono."
+      },
+      {
+        "title": "¿Existe una versión móvil del juego?",
+        "text": "Sí, Party Casino ha creado aplicaciones tanto para iOS como para Android. También se puede probar la versión móvil del sitio web."
+      },
+      {
+        "title": "¿Existe un programa VIP?",
+        "text": "Aunque no se publicita mucho, Party Casino ofrece programas de fidelidad y VIP para jugadores de alto valor. Las ventajas son un acceso más rápido a tus ganancias, bonos personalizados y alguien que se encarga de tu cuenta."
+      }
+    ]
+  },
+  "infoSectionAfterSupport": {
+    "title": "Código de bono de Party Casino para clientes existentes",
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "Dado que la plataforma está asociada con los mejores desarrolladores, ofrece a los jugadores muchos juegos diferentes entre los que elegir. Para los nuevos en el mundo del juego, las tragamonedas son una buena opción. Los juegos con bote suelen atraer más a los grandes apostadores. ¿Estás ansioso por sentir emociones reales? Pasemos a la categoría de juegos en vivo."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Tragamonedas de Party Casino",
+        "content": [
+          {
+            "type": "paragraph",
+            "text": "Casino Party ofrece una amplia selección de Party Casino slots, incluyendo tragamonedas clásicas de 3 rodillos, tragamonedas de vídeo y botes progresivos. Entre los títulos más populares se incluyen:"
+          },
+          {
+            "type": "list-dotted",
+            "items": [
+              "Starburst",
+              "Book of Dead",
+              "Gonzo's Quest",
+              "Mega Moolah",
+              "Bonanza"
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": "Estos juegos provienen de proveedores de renombre como NetEnt, Microgaming y Big Time Gaming, lo que garantiza gráficos de alta calidad y una jugabilidad atractiva."
+          }
+        ]
+      },
+      {
+        "heading": "Póquer y juegos de mesa de Party Casino",
+        "content": [
+          {
+            "type": "paragraph",
+            "text": "Para los aficionados a los juegos de casino tradicionales, Party Poker Casino ofrece una gran variedad de juegos de mesa, entre los que se incluyen:"
+          },
+          {
+            "type": "list-dotted",
+            "items": [
+              "Blackjack",
+              "Ruleta",
+              "Baccarat",
+              "Casino Hold'em",
+              "Three Card Poker"
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": "Estos juegos están disponibles en múltiples variantes para adaptarse a las diferentes preferencias de los jugadores."
+          }
+        ]
+      },
+      {
+        "heading": "Casino en vivo",
+        "content": [
+          {
+            "type": "paragraph",
+            "text": "Experimenta la emoción de un casino real desde la comodidad de tu hogar con los juegos con crupier en vivo de Party Casino, impulsados por Evolution Gaming y Playtech. Las opciones incluyen:"
+          },
+          {
+            "type": "list-dotted",
+            "items": [
+              "Blackjack en vivo",
+              "Ruleta en vivo",
+              "Baccarat en vivo",
+              "Dream Catcher",
+              "Monopoly Live"
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": "Estos juegos cuentan con crupieres profesionales y streaming en alta definición para una experiencia inmersiva."
+          }
+        ]
+      }
+    ]
+  },
+  "infoSectionAfterPayments": {
+    "sections": [
+      {
+        "heading": "Tecnologías de software",
+        "content": [
+          {
+            "type": "paragraph",
+            "text": "Party. Casino colabora con los principales proveedores de software para ofrecer una experiencia de juego diversa y de alta calidad. Entre sus socios más destacados se incluyen:"
+          },
+          {
+            "type": "list-dotted",
+            "items": [
+              "NetEnt",
+              "Microgaming",
+              "Play'n GO",
+              "Big Time Gaming",
+              "Evolution Gaming"
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": "La plataforma utiliza tecnología avanzada para garantizar un juego fluido, tiempos de carga rápidos y compatibilidad con diversos dispositivos."
+          }
+        ]
+      },
+      {
+        "heading": "Seguridad",
+        "content": [
+          {
+            "type": "paragraph",
+            "text": "Party Casino da prioridad a la seguridad de los jugadores y opera bajo estrictas normas reglamentarias:"
+          },
+          {
+            "type": "list-dotted",
+            "items": [
+              "Licencia: Regulado por la Comisión del Juego del Reino Unido (Licencia n.º 54743)",
+              "Cifrado: Emplea cifrado SSL para proteger los datos de los usuarios y las transacciones financieras",
+              "Juego responsable: Ofrece herramientas como límites de depósito, autoexclusión y controles de realidad para promover el juego responsable",
+              "Juego limpio: Los juegos se someten a auditorías periódicas para garantizar su imparcialidad y aleatoriedad"
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": "Estas medidas garantizan un entorno seguro y fiable para todos los jugadores."
+          }
+        ]
+      }
+    ]
+  },
+   "infoSectionAfterFaq": {
+    "title": "Ofertas y promociones de Party Casino",
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "Las bonificaciones son probablemente la parte más atractiva de cada plataforma de juego. A continuación encontrarás detalles sobre la oferta de bienvenida, así como diversas promociones por fidelidad. Lee atentamente los requisitos para recibir una bonificación."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Bonificación de bienvenida de Party Casino",
+        "content": [
+          {
+            "type": "paragraph",
+            "text": "Los nuevos jugadores españoles pueden reclamar una oferta de bienvenida de 50 tiradas gratis en Party Casino en tragamonedas seleccionadas, como Starburst, al realizar un depósito mínimo de €10. Las tiradas gratis tienen un requisito de apuesta de 10 veces, que es relativamente bajo en comparación con los estándares de la industria."
+          }
+        ]
+      },
+      {
+        "heading": "Bonos de recarga",
+        "content": [
+          {
+            "type": "paragraph",
+            "text": "Party Casino España ofrece bonos de recarga semanales para los jugadores existentes. Estas promociones varían y pueden incluir bonos por depósito o giros gratis. Los jugadores deben consultar la sección «Promociones» con regularidad para mantenerse al día de las ofertas actuales."
+          }
+        ]
+      },
+      {
+        "heading": "Programa de reembolso",
+        "content": [
+          {
+            "type": "paragraph",
+            "text": "El casino ofrece un programa de reembolso en el que los jugadores pueden recuperar un porcentaje de sus apuestas, independientemente de si ganan o pierden. Las tasas de reembolso varían en función del tipo de juego:"
+          },
+          {
+            "type": "list-dotted",
+            "items": [
+              "Tragamonedas con bote: 0,50 %",
+              "Tragamonedas normales y premios instantáneos: 0,25 %",
+              "Ruleta: 0,10 %",
+              "Blackjack, vídeo póquer y juegos de mesa: 0,05 %"
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": "Los jugadores deben inscribirse para participar en el programa de reembolso."
+          }
+        ]
+      },
+      {
+        "heading": "Torneos y promociones de Party Casino",
+        "content": [
+          {
+            "type": "paragraph",
+            "text": "Promo Party Casino organiza torneos y promociones periódicos, como por ejemplo:"
+          },
+          {
+            "type": "list-dotted",
+            "items": [
+              "Torneos diarios de tragamonedas: compite por una parte de los premios acumulados",
+              "Drops and Wins: participa en sorteos diarios y semanales con un bote mensual de €2 500 000",
+              "Torneos de juegos de casino: participa en programas de juegos de casino en vivo para obtener recompensas adicionales"
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": "Estos eventos ofrecen a los jugadores la oportunidad de ganar premios en efectivo, tiradas gratis y otras bonificaciones."
+          }
+        ]
+      }
+    ]
+  },
+  "footer": {
+    "title": "Party Casino"
+  },
+  "notFoundPage": {
+    "textOne": "La página que estabas buscando no existe.",
+    "textTwo": "Puede que hayas escrito mal la dirección o la página se haya movido.",
+    "back": "Página de Inicio"
+  },
+  "LanguageSelect": {
+    "italian": "IT",
+    "english-uk": "UK",
+    "english-ca": "CA",
+    "german": "AT",
+    "spanish": "ES"
+  }
+}

@@ -1,0 +1,515 @@
+{
+  "welcome_section": {
+    "title": "Welcome bonus",
+    "welcome_offer": "Exclusive welcome offer of",
+    "button": "Claim bonus"
+  },
+  "header_section": {
+    "login":"Log In",
+    "signUp": "Sign Up"
+  },
+  "topCasino_section": {
+    "top_casinos":"Top Casinos",
+    "welcome_bonus":"Welcome bonus",
+    "claim_bonus":"Claim bonus",
+    "all_casinos":"All casinos"
+  },
+  "bonusDetails_section": {
+    "bonus_details":"Bonus details",
+    "casino": "Casino",
+    "bonuses": "Bonuses",
+    "rate":"Rate",
+    "free_spins": "Free spins",
+    "more_info": "More info",
+    "get":"Get",
+    "welcome_bonus":"Welcome bonus",
+    "get_bonus":"Get the bonus",
+    "max_amount": "Maximum amount:",
+    "wager": "Wager:",
+    "bonus_code": "Bonus Code:",
+    "refresh": "Refresh"
+  },
+  "advantages_section": {
+    "advantages":"Advantages",
+    "know_more":"Know more"
+  },
+  "topGames_section": {
+    "top_games":"Top games",
+    "play_now":"Play Now",
+    "all_games": "All games"
+  },
+  "payments_section": {
+    "payments_methods":"Payment methods",
+    "method": "Method",
+    "type": "Type",
+    "country":"Country",
+    "commission": "Commission",
+    "processing_time": "Processing time",
+    "minimum_deposit":"Minimum deposit",
+    "deposit":"Deposit"
+  },
+  "software_section": {
+    "software_providers":"Software Providers"
+  },
+  "metaData": {
+    "title": "Party Casino UK Review 2025: Bonuses, Games & Safety Explained",
+    "description": "Discover everything about Party Casino UK in our 2025 review. Learn about welcome bonuses, top games, exclusive tournaments, mobile apps, fast payouts, UKGC license & more."
+  },
+  "casinoInfo": {
+    "title": "Party Casino Review UK",
+    "content": [
+      {
+        "type": "list-dotted",
+        "items": [
+          "50 Free Spins for New Customer",
+          "Wide Range of Tournaments",
+          "128-Bit Security"
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "In today's world, the choice of gambling platforms is impressive. It becomes difficult to settle on just one. However, players from the UK can rest assured of reliability and security thanks to the proven Party Casino platform. Party Casino became part of the online gambling world in 1997. Party Casino is under license number 54743 from the UK Gambling Commission and since it is owned by Entain plc (GVC Holdings) and listed on the London Stock Exchange, players in the UK are certain their experience is secure and fair. The platform offers more than 3,800 games which cover slots, table games and live dealer options, to suit different types of players."
+      }
+    ],
+    "mainSections": [
+      {
+        "heading": "Casino Party Casino Registration",
+        "content": [
+          {
+            "type": "paragraph",
+            "text": "There are no complex steps when making an account at Party Casino:"
+          },
+          {
+            "type": "list-number",
+            "items": [
+              "You should visit the Party Casino UK site and press the \"Sign Up\" button",
+              "Put in your personal information such as name, date of birth, email and address",
+              "Pick a username and select a password that's hard for anyone else to guess",
+              "Choose your currency (GBP) and put in your deposit limits if you choose",
+              "By agreeing and confirming your age, you can start using the online casino"
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": "After emailing your account, you will receive a confirmation email. Make sure to confirm your account from this email. After registering, players can find many games and promos. Starting the Know Your Customer (KYC) verification early will help avoid issues during future withdrawals."
+          }
+        ]
+      },
+      {
+        "heading": "Party Casino Log In",
+        "content": [
+          {
+            "type": "paragraph",
+            "text": "Accessing your Party Casino account is simple:"
+          },
+          {
+            "type": "list-number",
+            "items": [
+              "Click the Party Casino Login button on the homepage",
+              "Enter your registered email and password",
+              "Optionally, enable two-factor authentication for enhanced security",
+              "Once logged in, you can manage your account, deposit funds, and start playing"
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": "Party Casino prioritizes user security, ensuring that your personal and financial information remains protected."
+          }
+        ]
+      }
+    ],
+    "lastSections": [
+      {
+        "heading": "Deposit Methods",
+        "content": [
+          {
+            "type": "paragraph",
+            "text": "Party Casino supports various secure and convenient deposit methods for UK players:"
+          },
+          {
+            "type": "list-dotted",
+            "items": [
+              "Debit Cards: Visa, Mastercard",
+              "E-Wallets: PayPal, Skrill, Neteller",
+              "Bank Transfers",
+              "Apple Pay"
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": "The minimum deposit amount is £10, and most deposits are processed instantly."
+          }
+        ]
+      },
+      {
+        "heading": "Withdrawal Methods",
+        "content": [
+          {
+            "type": "paragraph",
+            "text": "Withdrawals at Party Casino sister sites are processed promptly, especially when using e-wallets:"
+          },
+          {
+            "type": "list-dotted",
+            "items": [
+              "PayPal: Within 24 hours",
+              "Skrill and Neteller: Within 24 hours",
+              "Debit Cards: 1-3 business days",
+              "Bank Transfers: 3-5 business days"
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": "The minimum withdrawal amount is £10. Note that certain withdrawal methods may not be eligible for bonuses, so it's advisable to review the terms and conditions."
+          }
+        ]
+      }
+    ]
+  },
+  "advantagesSection": {
+    "left": [
+      "a large selection of games",
+      "live casino",
+      "sports betting",
+      "welcome reward",
+      "bonus program",
+      "quick registration",
+      "secure transactions",
+      "mobile and crypto friendly",
+      "24/7 technical support",
+      "thoughtful and user-friendly website"
+    ]
+  },
+  "appSection": {
+    "title": "Party Casino App",
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "Party Casino provides dedicated mobile apps for both iOS and Android users, offering a seamless gaming experience on the go. The apps feature:"
+      },
+      {
+        "type": "list-dotted",
+        "items": [
+          "User-Friendly Interface: Easy navigation and access to popular game categories",
+          "Push Notifications: Stay updated with promotions and new game launches",
+          "Full Game Portfolio: Most of the 3,800+ games are available on mobile",
+          "Fast Loading Speeds: Optimized performance for smooth gameplay"
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "The app can be downloaded from the Apple App Store or Google Play Store. For those who prefer browser-based play, the mobile version of the site is equally responsive and user-friendly."
+      }
+    ],
+    "lastSections": [
+      {
+        "heading": "Languages",
+        "content": [
+          {
+            "type": "paragraph",
+            "text": "Party Casino supports multiple languages to accommodate its global user base. However, for UK players, the platform defaults to English (UK). Full support across the website, customer service, terms, and games."
+          }
+        ]
+      },
+      {
+        "heading": "Currencies",
+        "content": [
+          {
+            "type": "paragraph",
+            "text": "For UK residents, Party Casino Online operates exclusively in GBP (£). This ensures that all deposits, withdrawals, and gameplay are processed in local currency with no foreign exchange fees. Other currencies may be supported in different regions but are not applicable to UK players."
+          }
+        ]
+      }
+    ]
+  },
+  "lastSection": {
+    "title": "Home Casino Party Advantages",
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "Before registering, carefully read all the advantages and disadvantages of the platform. This will help you better navigate the casino's offers."
+      }
+    ],
+    "leftTitle": "Advantages",
+    "left": [
+      "Extensive game library with over 3,800 titles from top providers",
+      "Licensed and regulated by the UK Gambling Commission",
+      "User-friendly interface with seamless navigation",
+      "Fast withdrawal processing times, especially with e-wallets",
+      "Dedicated mobile apps for both iOS and Android devices",
+      "24/7 customer support via live chat, email, and phone"
+    ],
+    "rightTitle": "Disadvantages",
+    "right": [
+      "Some promotions have wagering requirements that may be high for casual players",
+      "Certain payment methods are excluded from bonus eligibility",
+      "Monthly withdrawal limits may apply for non-VIP players"
+    ]
+  },
+  "supportSection": {
+    "title": "Support",
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "Party Casino offers 24/7 customer support via multiple channels:"
+      },
+      {
+        "type": "list-dotted",
+        "items": [
+          "Live Chat: Instant responses, available 24/7",
+          "Email: Response within 24 hours: support@Party Casino.com",
+          "Help Centre: Extensive FAQ section covering bonuses, banking, technical issues, and account settings",
+          "Telephone: Available via call-back requests for account-related concerns"
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "The support team is professional, helpful, and well-versed in UKGC requirements and responsible gambling tools."
+      }
+    ]
+  },
+  "faqSection": {
+    "title": "FAQ",
+    "faqList": [
+      {
+        "title": "Is Party Casino Legit?",
+        "text": "Yes, because Party Casino is regulated by the UK Gambling Commission, UK players can gamble on it safely."
+      },
+      {
+        "title": "How much do you need to pay as a deposit at Party Casino UK?",
+        "text": "The £10 fee is standard for deposits by PayPal, debit cards and e-wallets."
+      },
+      {
+        "title": "How much time does it usually take to finish withdrawals?",
+        "text": "Money transfer takes from Instant to 3 days. Most of the time, e-wallets like PayPal and Neteller process funds within 24 hours, but debit cards might take 1–3 days."
+      },
+      {
+        "title": "Is it possible to get a no deposit bonus at Party Casino?",
+        "text": "Party Casino UK does not provide a no deposit bonus as of 2025. You also get 50 free spins right away when you first deposit £10 and use the bonus code."
+      },
+      {
+        "title": "Is there a mobile version of the game?",
+        "text": "Yes, Party Casino has made apps for both iOS and Android. People can also try the mobile version of the website."
+      },
+      {
+        "title": "Can a VIP program be found?",
+        "text": "Although not very publicized, Party Casino does provide loyalty and VIP programmes for high-value players. The benefits are faster access to your winnings, personalized bonuses and someone to handle your account."
+      }
+    ]
+  },
+   "infoSectionAfterSupport": {
+    "title": "The Party Casino Games Available to Play",
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "Since the platform is in partnership with top developers, it gives players many different games to choose from. For people new to gambling, slots make a good choice. Jackpot games tend to appeal most to high rollers. Are you eager to feel things that really happen? Let's go to the live games category next."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Slots",
+        "content": [
+          {
+            "type": "paragraph",
+            "text": "Casino Party offers a vast selection of slot games, including classic 3-reel slots, video slots, and progressive jackpots. Popular titles include:"
+          },
+          {
+            "type": "list-dotted",
+            "items": [
+              "Starburst",
+              "Book of Dead",
+              "Gonzo's Quest",
+              "Mega Moolah",
+              "Bonanza"
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": "These games come from renowned providers like NetEnt, Microgaming, and Big Time Gaming, ensuring high-quality graphics and engaging gameplay."
+          }
+        ]
+      },
+      {
+        "heading": "Party Casino Poker and Table Games",
+        "content": [
+          {
+            "type": "paragraph",
+            "text": "For fans of traditional casino games, Party Casino offers a variety of table games, including:"
+          },
+          {
+            "type": "list-dotted",
+            "items": [
+              "Blackjack",
+              "Roulette",
+              "Baccarat",
+              "Casino Hold'em",
+              "Three Card Poker"
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": "These games are available in multiple variants to suit different player preferences."
+          }
+        ]
+      },
+      {
+        "heading": "Live Casino",
+        "content": [
+          {
+            "type": "paragraph",
+            "text": "Experience the thrill of a real casino from the comfort of your home with Party Casino's live dealer games, powered by Evolution Gaming and Playtech. Options include:"
+          },
+          {
+            "type": "list-dotted",
+            "items": [
+              "Live Blackjack",
+              "Live Roulette",
+              "Live Baccarat",
+              "Dream Catcher",
+              "Monopoly Live"
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": "These games feature professional dealers and high-definition streaming for an immersive experience."
+          }
+        ]
+      }
+    ]
+  },
+   "infoSectionAfterPayments": {
+    "sections": [
+      {
+        "heading": "Software Technologies",
+        "content": [
+          {
+            "type": "paragraph",
+            "text": "Party. Casino collaborates with leading software providers to offer a diverse and high-quality gaming experience. Notable partners include:"
+          },
+          {
+            "type": "list-dotted",
+            "items": [
+              "NetEnt",
+              "Microgaming",
+              "Play'n GO",
+              "Big Time Gaming",
+              "Evolution Gaming"
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": "The platform utilizes advanced technology to ensure smooth gameplay, quick loading times, and compatibility across various devices."
+          }
+        ]
+      },
+      {
+        "heading": "Security",
+        "content": [
+          {
+            "type": "paragraph",
+            "text": "Party Casino prioritizes player security and operates under strict regulatory standards:"
+          },
+          {
+            "type": "list-dotted",
+            "items": [
+              "Licensing: Regulated by the UK Gambling Commission (License No. 54743)",
+              "Encryption: Employs SSL encryption to protect user data and financial transactions",
+              "Responsible Gambling: Offers tools like deposit limits, self-exclusion, and reality checks to promote responsible gaming",
+              "Fair Play: Games are regularly audited for fairness and randomness"
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": "These measures ensure a safe and trustworthy environment for all players."
+          }
+        ]
+      }
+    ]
+  },
+   "infoSectionAfterFaq": {
+    "title": "Party Casino Welcome Offer and Promotions",
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "Bonuses are probably the most attractive part of each gambling platform. Below you will see details on the welcome offer as well as various loyalty promotions. Carefully study the requirements for receiving a bonus."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Party Casino Welcome Bonus",
+        "content": [
+          {
+            "type": "paragraph",
+            "text": "New UK players can claim a welcome offer of 50 Party Casino free spins on selected slots, such as Starburst, upon making a minimum deposit of £10. The free spins come with a 10x wagering requirement, which is relatively low compared to industry standards."
+          }
+        ]
+      },
+      {
+        "heading": "Reload Bonuses",
+        "content": [
+          {
+            "type": "paragraph",
+            "text": "Party Casino UK offers weekly reload bonuses for existing players. These promotions vary and may include deposit matches or free spins. Players should check the \"Promotions\" section regularly to stay updated on current offers."
+          }
+        ]
+      },
+      {
+        "heading": "Party Casino Bonus Codes Cashback Program",
+        "content": [
+          {
+            "type": "paragraph",
+            "text": "The casino provides a cashback program where players can earn a percentage of their bets back, regardless of win or loss. The cashback rates vary depending on the game type:"
+          },
+          {
+            "type": "list-dotted",
+            "items": [
+              "Jackpot Slots: 0.50%",
+              "Regular Slots and Instant Win: 0.25%",
+              "Roulette: 0.10%",
+              "Blackjack, Video Poker, and Table Games: 0.05%"
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": "Players must opt-in to participate in the cashback program."
+          }
+        ]
+      },
+      {
+        "heading": "Party Casino Tournaments and Promotions",
+        "content": [
+          {
+            "type": "paragraph",
+            "text": "Party Poker Casino hosts regular tournaments and promotions, such as:"
+          },
+          {
+            "type": "list-dotted",
+            "items": [
+              "Daily Slot Tournaments: Compete for a share of prize pools",
+              "Drops and Wins: Participate in daily and weekly prize drops with a monthly pool of £2,500,000",
+              "Game Show Tournaments: Engage in live casino game shows for additional rewards"
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": "These events provide players with opportunities to win cash prizes, free spins, and other bonuses."
+          }
+        ]
+      }
+    ]
+  },
+  "footer": {
+    "title": "Party Casino"
+  },
+  "notFoundPage": {
+    "textOne": "The page you were looking for does not exist.",
+    "textTwo": "You may have mistyped the address or the page may have moved.",
+    "back": "Home Page"
+  },
+  "LanguageSelect": {
+    "italian": "IT",
+    "english-uk": "UK",
+    "english-ca": "CA",
+    "german": "AT",
+    "spanish": "ES"
+  }
+} 

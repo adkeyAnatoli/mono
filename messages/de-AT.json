@@ -1,0 +1,508 @@
+{
+  "welcome_section": {
+    "title": "Willkommens bonus",
+    "welcome_offer": "Exklusives Willkommensangebot von",
+    "button": "Bonus beanspruchen"
+  },
+  "header_section": {
+    "login": "Anmelden",
+    "signUp": "Registrieren"
+  },
+  "topCasino_section": {
+    "top_casinos": "Top-Kasinos",
+    "welcome_bonus": "Willkommens bonus",
+    "claim_bonus": "Bonus beanspruchen",
+    "all_casinos": "Alle Casinos"
+  },
+  "bonusDetails_section": {
+    "bonus_details": "Bonus Details",
+    "casino": "Kasino",
+    "bonuses": "Boni",
+    "rate": "Rate",
+    "free_spins": "Frei Spins",
+    "more_info": "Mehr Info",
+    "get": "Get",
+    "welcome_bonus": "Willkommens bonus",
+    "get_bonus": "Bonus holen",
+    "max_amount": "Maximaler Betrag:",
+    "wager": "Wetteinsatz:",
+    "bonus_code": "Bonus Code:",
+    "refresh": "Aktualisieren"
+  },
+  "advantages_section": {
+    "advantages": "Vorteile",
+    "know_more": "Mehr erfahren"
+  },
+  "topGames_section": {
+    "top_games": "Top Spiele",
+    "play_now": "Jetzt Spielen",
+    "all_games": "Alle Spiele"
+  },
+  "payments_section": {
+    "payments_methods": "Zahlungsmethoden",
+    "method": "Methode",
+    "type": "Typ",
+    "country": "Land",
+    "commission": "Kommission",
+    "processing_time": "Verarbeitungszeit",
+    "minimum_deposit": "Mindesteinzahlung",
+    "deposit": "Einzahlung"
+  },
+  "software_section": {
+    "software_providers": "Software-Anbieter"
+  },
+  "metaData": {
+    "title": "Party Casino Österreich 2025: Bewertung der Spiele und Auszahlungen",
+    "description": "Entdecken Sie das wahre Gesicht von Party Casino in Österreich: exklusive Slots, verifizierte Auszahlungen und mobiles Spielen. Registrieren Sie sich und spielen Sie mit 50 Freispielen."
+  },
+  "casinoInfo": {
+    "title": "Party Casino Bewertung 2025",
+    "content": [
+      {
+        "type": "list-dotted",
+        "items": [
+          "50 Freispiele für Neukunden",
+          "Große Auswahl an Turnieren",
+          "128-Bit-Sicherheit"
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "Viele österreichische Spieler fühlen sich von Glücksspielseiten angezogen, die sicher sind und viel Spaß bieten. Seit seiner Gründung im Jahr 1997 ist die Marke eine erste Wahl für Spieler aus aller Welt. Party Casino, das zu Entain plc (ehemals GVC Holdings) gehört, gewährleistet, dass alle Spiele sicher und fair sind. Auf der Plattform gibt es etwa 3.800 Spiele, darunter Slots, Kartenspiele und Live-Dealer. Wenn Sie in der Bewertung weiter scrollen, erfahren Sie mehr über die Plattform."
+      }
+    ],
+    "mainSections": [
+      {
+        "heading": "Casino Party Casino Registrierung",
+        "content": [
+          {
+            "type": "paragraph",
+            "text": "Zunächst müssen Sie sich bei Casino Party Casino registrieren. Sie können sich direkt auf der offiziellen Website registrieren. Befolgen Sie dazu die Schritt-für-Schritt-Anleitung:"
+          },
+          {
+            "type": "list-number",
+            "items": [
+              "Gehen Sie auf die Website von Party Casino Austria und klicken Sie auf die Schaltfläche „Registrieren“.",
+              "Geben Sie Ihre persönlichen Daten ein, wie Ihren Namen, Ihr Geburtsdatum, Ihre E-Mail-Adresse und Ihre Wohnadresse.",
+              "Wählen Sie die Währung, die Sie verwenden möchten (EUR), und geben Sie an, wie viel Geld Sie jeweils einzahlen möchten, falls Sie dies wünschen.",
+              "Stellen Sie sicher, dass Sie volljährig sind und akzeptieren Sie die Allgemeinen Geschäftsbedingungen für die Aktivierung.",
+              "Bestätigen Sie Ihre Registrierung über die E-Mail, die Sie erhalten haben."
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": "Es wird empfohlen, dass Sie zusammen mit der Registrierung auch das Verifizierungsverfahren durchlaufen. Laden Sie dazu gescannte Kopien Ihrer Dokumente in die entsprechenden Registerkarten Ihres persönlichen Kontos hoch."
+          }
+        ]
+      },
+      {
+        "heading": "Anmeldung bei Casino Party Casino",
+        "content": [
+          {
+            "type": "paragraph",
+            "text": "Die Anmeldung bei Ihrem Konto ist für alle registrierten Spieler rund um die Uhr möglich. Hier finden Sie eine kurze Anleitung:"
+          },
+          {
+            "type": "list-number",
+            "items": [
+              "Auf der Hauptseite finden Sie die Schaltfläche „Anmelden“, auf die Sie klicken können.",
+              "Geben Sie Ihre registrierte E-Mail-Adresse und Ihr Passwort ein.",
+              "Bestätigen Sie Ihre Party Casino login mit der Schaltfläche unten."
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": "Als zusätzliche Option können Sie für mehr Sicherheit eine Zwei-Faktor-Authentifizierung hinzufügen. Sobald Sie angemeldet sind, können Sie Ihr Konto überwachen, Geld einzahlen und mit dem Spielen beginnen. Da Sicherheit so wichtig ist, verpflichtet sich Party Casino, Ihre Daten zu schützen."
+          }
+        ]
+      }
+    ],
+    "lastSections": [
+      {
+        "heading": "Einzahlungsmethoden",
+        "content": [
+          {
+            "type": "paragraph",
+            "text": "Party Casino unterstützt verschiedene sichere und bequeme Einzahlungsmethoden für österreichische Spieler:"
+          },
+          {
+            "type": "list-dotted",
+            "items": [
+              "Debitkarten: Visa, Mastercard",
+              "E-Wallets: PayPal, Skrill, Neteller",
+              "Banküberweisungen",
+              "Apple Pay"
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": "Der Mindesteinzahlungsbetrag beträgt 10 € und die meisten Einzahlungen werden sofort bearbeitet."
+          }
+        ]
+      },
+      {
+        "heading": "Auszahlungsmethoden",
+        "content": [
+          {
+            "type": "paragraph",
+            "text": "Auszahlungen bei den Party Casino sister sites werden umgehend bearbeitet, insbesondere bei Verwendung von E-Wallets:"
+          },
+          {
+            "type": "list-dotted",
+            "items": [
+              "PayPal: innerhalb von 24 Stunden",
+              "Skrill und Neteller: innerhalb von 24 Stunden",
+              "Debitkarten: 1–3 Werktage",
+              "Banküberweisungen: 3–5 Werktage"
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": "Der Mindestauszahlungsbetrag beträgt 10 €. Beachten Sie, dass bestimmte Auszahlungsmethoden möglicherweise nicht für Boni berechtigt sind. Es wird daher empfohlen, die Allgemeinen Geschäftsbedingungen zu lesen."
+          }
+        ]
+      }
+    ]
+  },
+  "advantagesSection": {
+    "left": [
+      "eine große Auswahl an Spielen",
+      "Live-Casino",
+      "Sportwetten",
+      "Willkommensbelohnung",
+      "Bonusprogramm",
+      "schnelle Registrierung",
+      "sichere Transaktionen",
+      "mobil- und kryptofreundlich",
+      "24/7 technischer Support",
+      "durchdachte und benutzerfreundliche Website"
+    ]
+  },
+  "appSection": {
+    "title": "Party Casino App",
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "Für iOS- und Android-Nutzer bietet Party Casino mobile Apps, mit denen Sie von überall aus ganz einfach spielen können. Einige der wichtigsten Apps sind:"
+      },
+      {
+        "type": "list-dotted",
+        "items": [
+          "Dank des benutzerfreundlichen Designs finden Sie schnell die wichtigsten Spielkategorien und können sofort loslegen",
+          "Über Push-Benachrichtigungen werden Sie über Aktionen und neue Spiele informiert",
+          "Das Casino umfasst mehr als 3.800 mobile Spiele",
+          "Schnelles Laden ist der Schlüssel zu einem besseren Spielerlebnis"
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "Sie können die App im Apple App Store oder im Google Play Store herunterladen. Für diejenigen, die lieber über ihren Browser auf ihrem Smartphone spielen, ist die Website ebenso benutzerfreundlich gestaltet."
+      }
+    ],
+    "lastSections": [
+      {
+        "heading": "Sprachen",
+        "content": [
+          {
+            "type": "paragraph",
+            "text": "Party Casino unterstützt mehrere Sprachen, um seiner globalen Nutzerbasis gerecht zu werden. Für österreichische Spieler bietet die Plattform Dienste in deutscher Sprache an, wodurch eine lokalisierte und benutzerfreundliche Erfahrung auf der gesamten Website, im Kundenservice, in den AGB und bei den Spielen gewährleistet ist."
+          }
+        ]
+      },
+      {
+        "heading": "Währungen",
+        "content": [
+          {
+            "type": "paragraph",
+            "text": "Für Einwohner Österreichs wird bei Party Casino Online in EUR (€) gerechnet. Dadurch wird sichergestellt, dass alle Ein- und Auszahlungen sowie das gesamte Spiel in der Landeswährung abgewickelt werden, ohne dass Wechselgebühren anfallen. Andere Währungen werden möglicherweise in anderen Regionen unterstützt, gelten jedoch nicht für österreichische Spieler."
+          }
+        ]
+      }
+    ]
+  },
+  "lastSection": {
+    "title": "Die Vorteile von The Party Casino",
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "Bevor Sie sich registrieren, sollten Sie die Stärken und möglichen Einschränkungen der Plattform berücksichtigen, um eine fundierte Entscheidung zu treffen."
+      }
+    ],
+    "leftTitle": "Vorteile",
+    "left": [
+      "Umfangreiche Spielbibliothek mit über 3.800 Titeln von führenden Anbietern",
+      "Lizenziert und reguliert von renommierten Behörden",
+      "Benutzerfreundliche Oberfläche mit nahtloser Navigation",
+      "Schnelle Auszahlungszeiten, insbesondere mit E-Wallets",
+      "Spezielle mobile Apps für iOS- und Android-Geräte",
+      "Kundensupport rund um die Uhr per Live-Chat, E-Mail und Telefon"
+    ],
+    "rightTitle": "Nachteile",
+    "right": [
+      "Einige Werbeaktionen haben Wettanforderungen, die für Spieler hoch sein können",
+      "Für Nicht-VIP-Spieler können monatliche Auszahlungslimits gelten"
+    ]
+  },
+    "supportSection": {
+    "title": "Kundensupport",
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "Party Casino bietet einen 24/7-Kundensupport über mehrere Kanäle:"
+      },
+      {
+        "type": "list-dotted",
+        "items": [
+          "Live-Chat: Sofortige Antworten, rund um die Uhr verfügbar",
+          "E-Mail: Antwort innerhalb von 24 Stunden",
+          "Hilfe-Center: Umfangreicher FAQ-Bereich zu Boni, Bankgeschäften, technischen Problemen und Kontoeinstellungen",
+          "Telefon: Verfügbar über Rückruf-Anfragen für Fragen zum Konto"
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "Das Support-Team ist professionell, hilfsbereit und mit den gesetzlichen Bestimmungen und Tools für verantwortungsbewusstes Spielen bestens vertraut."
+      }
+    ]
+  },
+  "faqSection": {
+    "title": "FAQ",
+    "faqList": [
+      {
+        "title": "Ist Party Casino für Spieler in Österreich verfügbar?",
+        "text": "Ja, Party Casino ist für Spieler mit Wohnsitz in Österreich zugänglich. Jeder Spieler ist jedoch selbst dafür verantwortlich, dass die Nutzung der Plattform den lokalen Gesetzen zum Online-Glücksspiel entspricht."
+      },
+      {
+        "title": "Kann ich bei Party Casino in EUR spielen?",
+        "text": "Auf jeden Fall. Casino Party Hire unterstützt den Euro (€), der die Hauptwährung für österreichische Nutzer ist. Dies ermöglicht nahtlose Ein- und Auszahlungen sowie ein reibungsloses Spiel ohne Umrechnungsgebühren."
+      },
+      {
+        "title": "Welche Dokumente werden zur Verifizierung meines Kontos benötigt?",
+        "text": "Um Ihr Party Casino-Konto zu verifizieren, müssen Sie einen gültigen amtlichen Ausweis (z. B. Reisepass oder Führerschein) und einen aktuellen Adressnachweis (z. B. eine Stromrechnung oder einen Kontoauszug der letzten 3 Monate) hochladen. In einigen Fällen kann auch ein Nachweis der Zahlungsmethode erforderlich sein."
+      },
+      {
+        "title": "Wie kann ich Limits für meine Glücksspielaktivitäten festlegen?",
+        "text": "Party Casino bietet Tools für verantwortungsbewusstes Spielen. Sie können in den Kontoeinstellungen unter „Sicheres Spielen“ tägliche, wöchentliche oder monatliche Einzahlungslimits, Erinnerungen für die Spielzeit und Verlustlimits festlegen."
+      },
+      {
+        "title": "Gibt es exklusive Spiele, die nur bei Party Casino verfügbar sind?",
+        "text": "Ja, Party Casino bietet eine Reihe exklusiver Slots und Tischspiele, die Sie nirgendwo sonst finden. Dazu gehören selbst entwickelte Titel, die regelmäßig aktualisiert werden, um das Spielvergnügen abwechslungsreich und einzigartig zu halten."
+      },
+      {
+        "title": "Bietet Party Casino Sports Sportwetten an?",
+        "text": "Nein, Party Casino ist ein reines Online-Casino, das sich ausschließlich auf Slots, Tischspiele und Live-Casino-Optionen konzentriert. Für Sportwetten müssen Sie eine andere Plattform nutzen."
+      },
+      {
+        "title": "Wie schnell werden Auszahlungen bearbeitet?",
+        "text": "Auszahlungen bei Party Casino werden in der Regel innerhalb von 24 bis 48 Stunden bearbeitet. Die genaue Dauer hängt jedoch von der von Ihnen gewählten Zahlungsmethode ab. E-Wallets sind in der Regel am schnellsten, während Banküberweisungen und Karten mehrere Werktage dauern können."
+      },
+      {
+        "title": "Gibt es ein Treue- oder VIP-Programm?",
+        "text": "Ja. Party Casino betreibt ein Treueprogramm, bei dem Spieler für Echtgeld-Einsätze Punkte sammeln können. Diese Punkte können gegen Boni und andere Prämien eingelöst werden. Spieler mit hohen Einsätzen können außerdem eine Einladung zum exklusiven VIP-Club erhalten."
+      }
+    ]
+  },
+  "infoSectionAfterSupport": {
+    "title": "Die Party Casino-Spiele",
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "Mit über 1.600 Spielen hat Casino Party AT für jeden etwas zu bieten, der gerne in Österreich spielt. Da die Plattform mit führenden Softwareanbietern zusammenarbeitet, gibt es bei allen Spielarten eine hervorragende Grafik und ein spannendes Gameplay."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Slots",
+        "content": [
+          {
+            "type": "paragraph",
+            "text": "Österreichische Spieler können eine riesige Auswahl an Spielautomaten genießen, darunter klassische 3-Walzen-Slots, Video-Slots und progressive Jackpots. Zu den beliebten Titeln gehören:"
+          },
+          {
+            "type": "list-dotted",
+            "items": [
+              "Book of Ra Deluxe",
+              "Sizzling Hot",
+              "Lucky Lady's Charm",
+              "Mega Joker",
+              "Dolphin's Pearl Deluxe"
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": "Diese Spiele wurden von renommierten Anbietern wie Novomatic, NetEnt und Microgaming entwickelt und garantieren ein erstklassiges Spielerlebnis."
+          }
+        ]
+      },
+      {
+        "heading": "Party Casino Poker und Tischspiele",
+        "content": [
+          {
+            "type": "paragraph",
+            "text": "Für Liebhaber traditioneller Casinospiele bietet Party Casino AT eine Vielzahl von Tischspielen, darunter:"
+          },
+          {
+            "type": "list-dotted",
+            "items": [
+              "Europäisches Roulette",
+              "Französisches Roulette",
+              "Blackjack Classic",
+              "Baccarat Pro",
+              "Casino Hold'em"
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": "Diese Spiele gibt es in mehreren Varianten, um den unterschiedlichen Vorlieben der Spieler gerecht zu werden."
+          }
+        ]
+      },
+      {
+        "heading": "Live",
+        "content": [
+          {
+            "type": "paragraph",
+            "text": "Erleben Sie den Nervenkitzel eines echten Casinos bequem von zu Hause aus mit den Live-Dealer-Spielen von Party Casino, die von Evolution Gaming und Playtech bereitgestellt werden. Zu den Optionen gehören:"
+          },
+          {
+            "type": "list-dotted",
+            "items": [
+              "Live-Blackjack",
+              "Live-Roulette",
+              "Live-Baccarat",
+              "Dream Catcher",
+              "Monopoly Live"
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": "Diese Spiele bieten professionelle Dealer und hochauflösendes Streaming für ein immersives Erlebnis."
+          }
+        ]
+      }
+    ]
+  },
+  "infoSectionAfterPayments": {
+    "sections": [
+      {
+        "heading": "Home Casino Party Software-Technologien",
+        "content": [
+          {
+            "type": "paragraph",
+            "text": "Party Casino arbeitet mit führenden Softwareanbietern zusammen, um ein vielfältiges und hochwertiges Spielerlebnis zu bieten. Zu den namhaften Partnern gehören:"
+          },
+          {
+            "type": "list-dotted",
+            "items": [
+              "NetEnt",
+              "Microgaming",
+              "Play'n GO",
+              "Big Time Gaming",
+              "Evolution Gaming"
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": "Die Plattform nutzt fortschrittliche Technologie, um ein reibungsloses Spiel, schnelle Ladezeiten und Kompatibilität mit verschiedenen Geräten zu gewährleisten."
+          }
+        ]
+      },
+      {
+        "heading": "Sicherheit",
+        "content": [
+          {
+            "type": "paragraph",
+            "text": "Party. Casino sorgt stets für die Sicherheit seiner Spieler und erfüllt alle erforderlichen Auflagen. Watchdogs von angesehenen Institutionen überwachen die Lizenzierung."
+          },
+          {
+            "type": "list-dotted",
+            "items": [
+              "Verschlüsselung: Verwendet Secure Socket Layer (SSL), um Benutzerdaten und Transaktionen zu schützen",
+              "Verantwortungsbewusstes Spielen: Bietet Einzahlungslimits, ermöglicht Ihnen, sich vorübergehend zu sperren, und erinnert Sie daran, aufmerksam zu bleiben",
+              "Fairness und Zufälligkeit werden in allen Spielen regelmäßig durch unabhängige Audits überprüft"
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": "Auf diese Weise können alle Spieler der Umgebung vertrauen und sich geschützt fühlen."
+          }
+        ]
+      }
+    ]
+  },
+  "infoSectionAfterFaq": {
+    "title": "Party Casino Bonus Codes und Aktionen",
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "Viele Spieler finden Boni sehr attraktiv. Hier finden Sie Details zum Willkommensangebot und vielen weiteren Möglichkeiten, die mit der Treue verbunden sind. Stellen Sie sicher, dass Sie die notwendigen Bedingungen erfüllen, um einen Party Casino Bonus Code zu erhalten."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Party Casino Welcome Bonus",
+        "content": [
+          {
+            "type": "paragraph",
+            "text": "Personen, die sich bei einem neuen Online-Casino in Österreich registrieren, erhalten 50 Freispiele für ausgewählte Spielautomaten (Pig Banker Three Little Piggies, Lock O' The Irish, Fireball Frenzy oder Breaking Banks), wenn sie eine Einzahlung von mindestens 10 € tätigen. Sie müssen Ihre Gewinne aus den Freispielen nur 10 Mal umsetzen, bevor Sie sich diese auszahlen lassen können, was weniger ist als bei vielen anderen Casinos."
+          }
+        ]
+      },
+      {
+        "heading": "Reload-Boni",
+        "content": [
+          {
+            "type": "paragraph",
+            "text": "Party Casino Austria bietet regelmäßigen Spielern die Möglichkeit, wöchentliche Reload-Boni zu erhalten. Es gibt verschiedene Arten von Aktionen, wie z. B. Einzahlungsboni oder Freispiele. Schauen Sie regelmäßig in den Bereich „Promotions“, um sich über aktuelle Angebote zu informieren."
+          }
+        ]
+      },
+      {
+        "heading": "Cashback",
+        "content": [
+          {
+            "type": "paragraph",
+            "text": "Jackpot Party Casino bietet seinen Spielern ein Cashback-Programm, das über Bonus-Codes genutzt werden kann. Kunden des Casinos können ein Umsatzbeteiligungsprogramm nutzen, um einen Teil ihrer Einsätze zurückzuerhalten, unabhängig davon, ob sie gewinnen oder verlieren. Der Cashback ist nicht für alle Spielarten gleich."
+          },
+          {
+            "type": "list-dotted",
+            "items": [
+              "Für Jackpot-Slots fällt eine Rückbuchungsgebühr von 0,50 % an",
+              "Die Gewinnchancen für reguläre Slots und Sofortgewinnspiele betragen 0,25 %",
+              "Roulette: 0,10 %",
+              "Blackjack, Video Poker und Tischspiele haben eine Gebühr von 0,05 %"
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": "Um am Cashback-Programm teilnehmen zu können, müssen sich Spieler anmelden."
+          }
+        ]
+      },
+      {
+        "heading": "Jackpot Party Casino Free Coins und Werbeaktionen",
+        "content": [
+          {
+            "type": "paragraph",
+            "text": "Party Poker Casino veranstaltet regelmäßig Turniere und Werbeaktionen für seine Spieler. Jeden Tag finden Slot-Turniere statt, bei denen Sie um einen Teil des Preises spielen können. Nehmen Sie an den täglichen und wöchentlichen Preisverlosungen teil, bei denen es große monatliche Preispools zu gewinnen gibt. Lebhafte Spielshows: Verpassen Sie nicht die spannenden Live-Turniere bei den Casinospielen. Dabei können Spieler Bargeld, Freispiele und verschiedene Bonusartikel sammeln."
+          }
+        ]
+      }
+    ]
+  },
+  "footer": {
+    "title": "Party Casino"
+  },
+  "notFoundPage": {
+    "textOne": "Die gesuchte Seite existiert nicht.",
+    "textTwo": "Sie haben möglicherweise die Adresse falsch eingegeben oder die Seite wurde verschoben.",
+    "back": "Startseite"
+  },
+  "LanguageSelect": {
+    "italian": "IT",
+    "english-uk": "UK",
+    "english-ca": "CA",
+    "german": "AT",
+    "spanish": "ES"
+  }
+}

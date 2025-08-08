@@ -1,0 +1,492 @@
+{
+  "welcome_section": {
+    "title": "Welcome bonus",
+    "welcome_offer": "Exclusive welcome offer of",
+    "button": "Claim bonus"
+  },
+  "header_section": {
+    "login": "Log In",
+    "signUp": "Sign Up"
+  },
+  "topCasino_section": {
+    "top_casinos": "Top Casinos",
+    "welcome_bonus": "Welcome bonus",
+    "claim_bonus": "Claim bonus",
+    "all_casinos": "All casino"
+  },
+  "bonusDetails_section": {
+    "bonus_details": "Bonus details",
+    "casino": "Casino",
+    "bonuses": "Bonuses",
+    "rate": "Rate",
+    "free_spins": "Free spins",
+    "more_info": "More info",
+    "get": "Get",
+    "welcome_bonus": "Welcome bonus",
+    "get_bonus": "Get the bonus",
+    "max_amount": "Maximum amount:",
+    "wager": "Wager:",
+    "bonus_code": "Bonus Code:",
+    "refresh": "Refresh"
+  },
+  "advantages_section": {
+    "advantages": "Advantages",
+    "know_more": "Know more"
+  },
+  "topGames_section": {
+    "top_games": "Top games",
+    "play_now": "Play Now",
+    "all_games": "All games"
+  },
+  "payments_section": {
+    "payments_methods": "Payment methods",
+    "method": "Method",
+    "type": "Type",
+    "country": "Country",
+    "commission": "Commission",
+    "processing_time": "Processing time",
+    "minimum_deposit": "Minimum deposit",
+    "deposit": "Deposit"
+  },
+  "software_section": {
+    "software_providers": "Software Providers"
+  },
+  "metaData": {
+    "title": "Party Casino Canada Review 2025: Bonuses, Games & Safety Explained",
+    "description": "Discover everything about Party Casino in our 2025 review. Learn about welcome bonuses, top games, exclusive tournaments, mobile apps, fast payouts, UKGC license & more."
+  },
+  "casinoInfo": {
+    "title": "PartyCasino Canada Review",
+    "content": [
+      {
+        "type": "list-dotted",
+        "items": [
+          "50 Free Spins for New Customer",
+          "Wide Range of Tournaments",
+          "128-Bit Security"
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "Party Casino is a modern club that provides players with a lot of exciting games of chance and gives its customers the opportunity to win really big cash prizes. Online casino activity started in 2021. The company was created to provide players with quality gambling. The main goal of the casino is to make entertainment safe, fun, fair, and convenient. Each player can get acquainted with the site without downloading. Many games are available in a demo version and do not require a deposit. PartyCasino warns players to play responsibly to avoid gambling addiction."
+      }
+    ],
+    "mainSections": [
+      {
+        "heading": "Party Casino Registration",
+        "content": [
+          {
+            "type": "paragraph",
+            "text": "Party Casino online casino looks quite attractive from the outside, a player who first visited the main official website of this casino can easily find the information he needs, since all elements, links, lists, all this is available on an intuitive level and will not be difficult. The background design has dark tones. Menus and links are also done in dark shades of blue. Before you can access all the benefits of an online casino, you must create an account:"
+          },
+          {
+            "type": "list-dotted",
+            "items": [
+              "Open the official website of the casino.",
+              "Click the \"Register\" button in the upper right corner of the screen.",
+              "Create a username and password. Then click the Next button.",
+              "Enter basic information about yourself, and then click the Continue button.",
+              "Attach proof of identity to verify your account.",
+              "Please note that casino security may conduct random checks to ensure that your documents are valid."
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Party Casino Log In",
+        "content": [
+          {
+            "type": "paragraph",
+            "text": "The process to access your Party Casino account follows these steps:"
+          },
+          {
+            "type": "list-dotted",
+            "items": [
+              "You can find the Party Casino Login button on the homepage.",
+              "Enter your registered email and password.",
+              "Two-factor authentication can be activated for additional security protection.",
+              "After logging in you will be able to handle your account and deposit money before beginning to play."
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": "Party Casino maintains strict security measures to protect all user personal and financial data."
+          }
+        ]
+      }
+    ],
+    "lastSections": [
+      {
+        "heading": "Deposit Methods",
+        "content": [
+          {
+            "type": "paragraph",
+            "text": "Instant deposits and no commission are one of the mottos of the casino. The choice of paid systems is slightly inferior to other Internet resources:"
+          },
+          {
+            "type": "list-dotted",
+            "items": [
+              "Debit Cards: Visa, Mastercard",
+              "E-Wallets: PayPal, Skrill, Neteller",
+              "Bank Transfers",
+              "Apple Pay"
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": "The minimum deposit is 10 euros."
+          }
+        ]
+      },
+      {
+        "heading": "Withdrawal Methods",
+        "content": [
+          {
+            "type": "paragraph",
+            "text": "Most often, the withdrawal of winnings is carried out using the same payment system as the replenishment of the deposit. However, there is an exception. Many countries have strict credit card policies. Most likely, you will not be able to use them to withdraw winnings."
+          },
+          {
+            "type": "list-dotted",
+            "items": [
+              "PayPal: Within 24 hours",
+              "Skrill and Neteller: Within 24 hours",
+              "Debit Cards: 1-3 business days",
+              "Bank Transfers: 3-5 business days"
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": "The minimum withdrawal amount is EUR10."
+          }
+        ]
+      }
+    ]
+  },
+  "appSection": {
+    "title": "Party Casino Mobile Apps",
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "Modern gamblers prefer to gamble on the go. Fortunately, most providers take this into account and offer mobile versions of the casino. However, most of them require downloading. Many users are afraid to download dubious files to their smartphones. Party offers players to play in their usual browser without additional downloads with such perks:"
+      },
+      {
+        "type": "list-dotted",
+        "items": [
+          "User-Friendly Interface: Easy navigation and access to popular game categories",
+          "Push Notifications: Stay updated with promotions and new game launches",
+          "Full Game Portfolio: Most of the 3,800+ games are available on mobile",
+          "Fast Loading Speeds: Optimized performance for smooth gameplay"
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "Register on the casino site and play for real money now."
+      }
+    ],
+    "lastSections": [
+      {
+        "heading": "Languages",
+        "content": [
+          {
+            "type": "paragraph",
+            "text": "Party Casino provides information and games in English. The casino support service also answers in English."
+          }
+        ]
+      },
+      {
+        "heading": "Currencies",
+        "content": [
+          {
+            "type": "paragraph",
+            "text": "The casino offers players the to make transactions exclusively in euros. Please note that the site has an automatic conversion, so when replenishing your account in another currency, your deposit will be converted into euros at a favorable rate. Casino support service also answers in English."
+          }
+        ]
+      }
+    ]
+  },
+  "lastSection": {
+    "title": "Party Casino Advantages",
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "Pati online casino is a modern and very reliable site that provides players with a lot of exciting games of chance and allows its customers to win really big cash prizes. Every adult gamer will be able to spend his leisure time pleasantly and earn an increase in salary. Nowadays, combining business with pleasure has become quite simple. Register at Party Casino and you will be able to see for yourself. Why should a player's choice fall on the Party site? Our team carefully analyzed all the criteria for choosing a casino before reaching this verdict. To make sure of the reliability of the resource, you can read the reviews of the players about Party."
+      }
+    ],
+    "leftTitle": "Advantages",
+    "left": [
+      "Having a license",
+      "Wide range of games",
+      "Sports betting on popular matches",
+      "High return percentage",
+      "Generous bonuses for new and regular players"
+    ],
+    "rightTitle": "Disadvantages",
+    "right": [
+      "The promotions come with wagering requirements that casual players may find difficult to meet",
+      "Some payment methods are not eligible for bonus offers",
+      "Non-VIP players may have monthly withdrawal limits"
+    ]
+  },
+  "supportSection": {
+    "title": "Support",
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "The casino has a knowledgeable and experienced support team available 24/7."
+      },
+      {
+        "type": "list-dotted",
+        "items": [
+          "Live Chat: Instant responses, available 24/7",
+          "Email: Response within 24 hours: support@Party Casino.com",
+          "Help Centre: Extensive FAQ section covering bonuses, banking, technical issues, and account settings"
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "Unfortunately, players do not have the opportunity to call the phone number. Please note that the casino website has a section with answers to the most popular questions."
+      }
+    ]
+  },
+  "faqSection": {
+    "title": "CASINO FAQ",
+    "faqList": [
+      {
+        "title": "How much time does it usually take to finish withdrawals?",
+        "text": "Money transfer takes from Instant to 3 days. Most of the time, e-wallets like PayPal and Neteller process funds within 24 hours, but debit cards might take 1–3 days."
+      },
+      {
+        "title": "What portable devices are suitable for playing slots?",
+        "text": "All casino games work on html5 technology and do not require downloading. You can open your game account in a browser from Android, Apple, and Windows devices."
+      },
+      {
+        "title": "At what age is it allowed to visit the casino?",
+        "text": "The online casino accepts players over the age of 18."
+      },
+      {
+        "title": "Can I play for free?",
+        "text": "Oh sure! Most of the games on the Party website are available in demo mode. You can try your luck without registering at the casino."
+      },
+      {
+        "title": "How much do you need to pay as a deposit at Party Casino Canada?",
+        "text": "The EUR 10 fee is standard for deposits by PayPal, debit cards and e-wallets."
+      },
+      {
+        "title": "Can a VIP program be found?",
+        "text": "Although not very publicized, Party Casino does provide loyalty and VIP programmes for high-value players. The benefits are faster access to your winnings, personalized bonuses and someone to handle your account."
+      }
+    ]
+  },
+  "infoSectionAfterSupport": {
+    "title": "Party Casino Games",
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "The range of games is one of the main criteria for choosing an online casino. Whether you want to play for fun or for real money, Party casino has a wide selection of games for you to choose from. The provider cooperates with well-known software providers in the gambling market."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Slots",
+        "content": [
+          {
+            "type": "paragraph",
+            "text": "The casino has an extensive collection of slot machines. We recommend trying:"
+          },
+          {
+            "type": "list-dotted",
+            "items": ["Book of Dead", "Gonzo's Quest", "Mega Moolah", "Bonanza"]
+          },
+          {
+            "type": "paragraph",
+            "text": "The number of software providers impresses, so test any you like."
+          }
+        ]
+      },
+      {
+        "heading": "Poker and Table Games",
+        "content": [
+          {
+            "type": "paragraph",
+            "text": "In addition to slot machines, the site has sections for table entertainment and video poker and a separate category with games of other genres:"
+          },
+          {
+            "type": "list-dotted",
+            "items": [
+              "Blackjack",
+              "Roulette",
+              "Baccarat",
+              "Casino Hold'em",
+              "Three Card Poker"
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": "A separate pride of the casino is sports betting. The casino features more than 20 types of sports, including eSports. Players can use one account for betting and gambling."
+          }
+        ]
+      },
+      {
+        "heading": "Live Casino",
+        "content": [
+          {
+            "type": "paragraph",
+            "text": "Party Casino allows you to experience real casino excitement through live dealer games which operate from home using Evolution Gaming and Playtech technology. Options include:"
+          },
+          {
+            "type": "list-dotted",
+            "items": [
+              "Live Blackjack",
+              "Live Roulette",
+              "Live Baccarat",
+              "Dream Catcher",
+              "Monopoly Live"
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": "The games provide professional dealers and high-definition streaming to create an immersive experience for players."
+          }
+        ]
+      }
+    ]
+  },
+  "infoSectionAfterPayments": {
+    "sections": [
+      {
+        "heading": "Software Technologies",
+        "content": [
+          {
+            "type": "paragraph",
+            "text": "The site features games from 40 well-known manufacturers. Most of them are the most established in the industry such as:"
+          },
+          {
+            "type": "list-dotted",
+            "items": [
+              "Evolution Gaming",
+              "Play'N Go",
+              "Quickspin",
+              "Scientific Games",
+              "1×2 Gaming",
+              "Thunderkick",
+              "Big Time Gaming"
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": "There are also less popular titles on the list, such as 2by2 Gaming, All 41 Studios, Atomic Spin, Barcrest, Bet Digital, Crazy Tooth Studio, Pulse 8 Studios, Rabcat, Tom Horn, and many more."
+          }
+        ]
+      },
+      {
+        "heading": "Security",
+        "content": [
+          {
+            "type": "paragraph",
+            "text": "Party Casino makes every effort to protect the information of its customers. It has a Privacy Policy, which confirms the complete security and confidentiality of all personal data of the user. Players can be calm about money transfers and other financial transactions related to Party Casino."
+          },
+          {
+            "type": "list-dotted",
+            "items": [
+              "The online casino uses the latest 128-bit encryption",
+              "Party casino uses firewall technology to ensure secure transmission of data over the Internet to secure services",
+              "Several world-famous companies are engaged in the processing of players' credit and debit cards. These organizations specialize in secure transactions and fraud protection",
+              "Party Casino is operated and regulated by ProgressPlay Limited. The company is registered in Malta. ProgressPlay has been operating under a Maltese license since 2013"
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": "This gives the customers of this casino a huge choice in the selection of suitable games for themselves. The company has decades of experience and oversees several authoritative resources at once. Party is not just a casino, it is a multifunctional resource with sports betting, lotteries, and gambling."
+          }
+        ]
+      }
+    ]
+  },
+  "infoSectionAfterFaq": {
+    "title": "Party Casino Welcome Offer and Promotions",
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "Bonuses are probably the most attractive part of each gambling platform. Below you will see details on the welcome offer as well as various loyalty promotions. Carefully study the requirements for receiving a bonus."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Party Casino Welcome Bonus",
+        "content": [
+          {
+            "type": "paragraph",
+            "text": "New Canadian players can claim a welcome offer of 50 Party Casino free spins on selected slots, such as Starburst, upon making a minimum deposit of EUR10. The free spins come with a 10x wagering requirement, which is relatively low compared to industry standards."
+          }
+        ]
+      },
+      {
+        "heading": "Reload Bonuses",
+        "content": [
+          {
+            "type": "paragraph",
+            "text": "Party Casino Canada offers weekly reload bonuses for existing players. These promotions vary and may include deposit matches or free spins. Players should check the \"Promotions\" section regularly to stay updated on current offers."
+          }
+        ]
+      },
+      {
+        "heading": "Party Casino Bonus Codes Cashback Program",
+        "content": [
+          {
+            "type": "paragraph",
+            "text": "The casino provides a cashback program where players can earn a percentage of their bets back, regardless of win or loss.The cashback rates vary depending on the game type:"
+          },
+          {
+            "type": "list-dotted",
+            "items": [
+              "Jackpot Slots: 0.50%",
+              "Regular Slots and Instant Win: 0.25%",
+              "Roulette: 0.10%",
+              "Blackjack, Video Poker, and Table Games: 0.05%"
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": "Players must opt-in to participate in the cashback program."
+          }
+        ]
+      },
+      {
+        "heading": "Party Casino Tournaments and Promotions",
+        "content": [
+          {
+            "type": "paragraph",
+            "text": "Party Poker Casino hosts regular tournaments and promotions, such as:"
+          },
+          {
+            "type": "list-dotted",
+            "items": [
+              "Daily Slot Tournaments: Compete for a share of prize pools",
+              "Drops and Wins: Participate in daily and weekly prize drops with a monthly pool of EUR2,500,000",
+              "Game Show Tournaments: Engage in live casino game shows for additional rewards"
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": "These events provide players with opportunities to win cash prizes, free spins, and other bonuses."
+          }
+        ]
+      }
+    ]
+  },
+  "footer": {
+    "title": "Party Casino"
+  },
+  "notFoundPage": {
+    "textOne": "The page you were looking for does not exist.",
+    "textTwo": "You may have mistyped the address or the page may have moved.",
+    "back": "Home Page"
+  },
+  "LanguageSelect": {
+    "italian": "IT",
+    "english-uk": "UK",
+    "english-ca": "CA",
+    "german": "AT",
+    "spanish": "ES"
+  }
+}
