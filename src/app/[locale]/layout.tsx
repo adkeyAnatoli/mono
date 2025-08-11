@@ -46,6 +46,27 @@ export async function generateMetadata({
 }: Omit<Props, "children">) {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "metaData" });
+
+  let canon;
+  switch (locale) {
+    case "en-CA":
+      canon = `https://${url}`;
+      break;
+    case "en-GB":
+      canon = `https://${url}/uk`;
+      break;
+    case "it-IT":
+      canon = `https://${url}/it`;
+      break;
+    case "de-AT":
+      canon = `https://${url}/at`;
+      break;
+    case "es-ES":
+      canon = `https://${url}/es`;
+      break;
+    default:
+      canon = `https://${url}`;
+  }
   return {
     title: t("title"),
     description: t("description"),
@@ -60,9 +81,34 @@ export async function generateMetadata({
           url: ogImage,
           width: 1200,
           height: 630,
-           alt: ogSiteName,
+          alt: ogSiteName,
         },
       ],
+    },
+    twitter: {
+      title: t("title"),
+      description: t("description"),
+      card: "summary_large_image",
+      site: url,
+      images: [
+        {
+          url: ogImage,
+          width: 1200,
+          height: 630,
+        },
+      ],
+    },
+    metadataBase: new URL(`https://${url}`),
+    alternates: {
+      canonical: canon,
+      languages: {
+        "x-default": "/",
+        "en-CA": "/",
+        "de-AT": "/at",
+        "en-GB": "/uk",
+        "it-IT": "/it",
+        "es-ES": "/es",
+      },
     },
     icons: { icon: '/svg/icon.svg' },
   };
@@ -76,7 +122,7 @@ export default async function RootLayout({
   params: Promise<{ locale: string }>;
 }) {
   const { locale } = await params;
-  
+
   // Ensure that the incoming `locale` is valid
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   if (!routing.locales.includes(locale as any)) {
@@ -90,7 +136,6 @@ export default async function RootLayout({
       <head>
         <meta name="language" content={locale} />
         <link rel="icon" href="/icons/icon.png" />
-        <link rel="canonical" href={`https://${url}`} />
         <link rel="apple-touch-icon" href="/icons/icon57.png" sizes="57x57" />
         <link rel="apple-touch-icon" href="/icons/icon60.png" sizes="60x60" />
         <link rel="apple-touch-icon" href="/icons/icon72.png" sizes="72x72" />
