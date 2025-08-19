@@ -1,0 +1,76 @@
+.section {
+  margin: 140px 0;
+}
+
+.section p,
+.section li {
+  color: var(--last-text-color);
+}
+
+@media (max-width: 1180px) {
+  .section {
+    margin: 64px auto;
+  }
+}
+.section h2 {
+  /* margin-left: 15px; */
+}
+
+.listBlock {
+  display: flex;
+  gap: 50px;
+}
+
+.textBlock {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.listBlock > div {
+  display: flex;
+  width: 48%;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 40px;
+}
+
+.listBlock h4 {
+  font-size: 24px;
+}
+
+.listBlock ul {
+  margin-left: 16px;
+}
+
+.listBlock li {
+  list-style: disc inside;
+}
+
+@media (max-width: 1100px) {
+  .listBlock > div {
+    width: 50%;
+  }
+}
+
+@media (max-width: 768px) {
+  .section > div {
+    gap: 24px;
+  }
+  .listBlock > div {
+    gap: 24px;
+  }
+
+  .listBlock h4 {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 550px) {
+  .listBlock {
+    flex-direction: column;
+  }
+  .listBlock > div {
+    width: auto;
+  }
+}

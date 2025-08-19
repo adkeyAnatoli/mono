@@ -1,0 +1,31 @@
+/* .section {
+  margin: 64px 0;
+} */
+.section {
+  background: var(--main-bg);
+}
+.section h1 {
+  text-align: center;
+  padding: 23px 60px;
+  font-size: 35px;
+  background: var(--bg-red-gradient);
+  border-radius: var(--border-radius);
+}
+
+@media (max-width: 768px) {
+  .section {
+    padding: 40px 0;
+  }
+
+  .section h1 {
+    padding: 16px 13px;
+  font-size: 25px;
+  }
+  .wrapper {
+    gap: 40px;
+  }
+
+  .lastBlock {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
