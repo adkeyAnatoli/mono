@@ -27,8 +27,8 @@
     "get": "Holen",
     "welcome_bonus": "Willkommensbonus",
     "get_bonus": "Bonus erhalten",
-    "max_amount": "Maximalbetrag:",
-    "wager": "Umsatzbedingungen:",
+    "max_amount": "Maximaler Betrag:",
+    "wager": "Wager:",
     "bonus_code": "Bonuscode:",
     "refresh": "Aktualisieren"
   },

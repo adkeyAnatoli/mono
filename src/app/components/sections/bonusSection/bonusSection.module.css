@@ -80,7 +80,7 @@
   }
   .bonusSection {
     background: url('../../../../../public/sectionImg/slot1-mobile.webp') no-repeat
-      top 7% left 4px / auto 56%;
+      top 7% center / auto 56%;
     /* margin-bottom: 110px; */
     margin-bottom: 0px;
   }
