@@ -3,27 +3,37 @@
 		<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 	<loc>https://sweet-bonanza-vip.com/</loc>
-	<lastmod>2025-08-07T17:06:02+01:00</lastmod>
+	<lastmod>2025-08-20T17:06:02+01:00</lastmod>
 	<priority>1.0</priority>
 </url>
 <url>
-	<loc>https://sweet-bonanza-vip.com/uk</loc>
-	<lastmod>2025-08-07T17:06:02+01:00</lastmod>
+	<loc>https://sweet-bonanza-vip.com/br</loc>
+	<lastmod>2025-08-20T17:06:02+01:00</lastmod>
 	<priority>1.0</priority>
 </url>
 <url>
-	<loc>https://sweet-bonanza-vip.com/it</loc>
-	<lastmod>2025-08-07T17:06:02+01:00</lastmod>
+	<loc>https://sweet-bonanza-vip.com/mx</loc>
+	<lastmod>2025-08-20T17:06:02+01:00</lastmod>
 	<priority>1.0</priority>
 </url>
 <url>
-	<loc>https://sweet-bonanza-vip.com/es</loc>
-	<lastmod>2025-08-07T17:06:02+01:00</lastmod>
+	<loc>https://sweet-bonanza-vip.com/de</loc>
+	<lastmod>2025-08-20T17:06:02+01:00</lastmod>
 	<priority>1.0</priority>
 </url>
 <url>
-	<loc>https://sweet-bonanza-vip.com/at</loc>
-	<lastmod>2025-08-07T17:06:02+01:00</lastmod>
+	<loc>https://sweet-bonanza-vip.com/pl</loc>
+	<lastmod>2025-08-20T17:06:02+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://sweet-bonanza-vip.com/fr</loc>
+	<lastmod>2025-08-20T17:06:02+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://sweet-bonanza-vip.com/nl</loc>
+	<lastmod>2025-08-20T17:06:02+01:00</lastmod>
 	<priority>1.0</priority>
 </url>
 </urlset>
