@@ -1,0 +1,31 @@
+@media (max-width: 768px) {
+  .section {
+    padding: 40px 0;
+  }
+  .section > div {
+    gap: 40px;
+  }
+  .lastBlock {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+.section ol,
+.section ul {
+  margin-left: 20px;
+}
+
+.section ul li {
+  list-style-type: disc;
+}
+
+.section ol li {
+  list-style-type: decimal;
+}
+
+.block {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+}

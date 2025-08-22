@@ -1,0 +1,387 @@
+{
+  "welcome_section": {
+    "title": "Bono de bienvenida",
+    "welcome_offer": "Oferta de bienvenida exclusiva",
+    "button": "Obtener bono"
+  },
+  "header_section": {
+    "login": "Registrarse",
+    "signUp": "Jugar ahora"
+  },
+  "h1_section": {
+    "title": "Reseña de WildRobin Casino: 17 000 de los mejores juegos para jugadores españoles"
+  },
+  "topCasino_section": {
+    "top_casinos": "Mejores casinos",
+    "welcome_bonus": "Bono de bienvenida",
+    "claim_bonus": "Obtener bono",
+    "all_casinos": "Todos los casinos"
+  },
+  "bonusDetails_section": {
+    "bonus_details": "Detalles del bono",
+    "casino": "Casino",
+    "bonuses": "Bonos",
+    "rate": "Tasa",
+    "free_spins": "Free Spins",
+    "more_info": "Info",
+    "get": "Obtener",
+    "welcome_bonus": "Bono de bienvenida",
+    "get_bonus": "Obtener el bono",
+    "max_amount": "Monto máximo:",
+    "wager": "Apuesta:",
+    "bonus_code": "Código de bono:",
+    "refresh": "Actualizar"
+  },
+  "advantages_section": {
+    "advantages": "Ventajas",
+    "know_more": "Saber más"
+  },
+  "topGames_section": {
+    "top_games": "Juegos destacados",
+    "play_now": "Jugar ahora",
+    "all_games": "Todos los juegos"
+  },
+  "payments_section": {
+    "payments_methods": "Métodos de pago",
+    "method": "Método",
+    "type": "Tipo",
+    "country": "País",
+    "commission": "Comisión",
+    "processing_time": "Tiempo de procesamiento",
+    "minimum_deposit": "Depósito mínimo",
+    "deposit": "Depósito"
+  },
+  "software_section": {
+    "software_providers": "Proveedores de software"
+  },
+  "metaData": {
+    "title": "WildRobin Casino ES: Juegos, bonos, pagos y opciones móviles",
+    "description": "Descubre WildRobin Casino España con más de 17 000 juegos, generosos bonos de bienvenida, pagos rápidos y asistencia 24/7. Obtén más información sobre las licencias, el juego móvil y la seguridad en nuestra reseña detallada para jugadores alemanes."
+  },
+  "casinoInfo": {
+    "title": "Reseña de WildRobin Casino",
+    "content": [
+      {
+        "type": "list-dotted",
+        "items": [
+          "Bono de bienvenida de 500 €",
+          "Asistencia 24/7",
+          "Acepta criptomonedas"
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "WildRobin Casino se introdujo en el mercado de los juegos en línea en 2024 y ha tenido un rápido éxito entre los jugadores. Su biblioteca de juegos es amplia, sus promociones ofrecen ofertas irresistibles y su interfaz fácil de usar lo hace atractivo tanto para los nuevos entusiastas de los deportes como para los más experimentados. Sin embargo, al igual que cualquier otra plataforma, es importante explorar lo que ofrece para determinar si se ajusta a tus preferencias de juego."
+      },
+      {
+        "type": "paragraph",
+        "text": "WildRobin Casino cuenta con una amplia selección de juegos, por lo que los jugadores siempre tienen numerosas opciones entre las que elegir. El diseño de la plataforma es sencillo y fácil de navegar. La licencia costarricense ofrece cierto grado de legitimidad, pero es importante recordar que puede que no proporcione las mismas garantías normativas que las que permiten y regulan los juegos de azar en línea en el Reino Unido o en las jurisdicciones de Malta."
+      }
+    ],
+    "mainSections": [
+      {
+        "heading": "Registro en WildRobin Casino",
+        "content": [
+          {
+            "type": "paragraph",
+            "text": "Empezar a jugar en WildRobin Casino es muy sencillo:"
+          },
+          {
+            "type": "list-number",
+            "items": [
+              "Visita el sitio web oficial de WildRobin Casino.",
+              "Haz clic en el botón «Registrarse» que aparece en un lugar destacado.",
+              "Rellena los datos necesarios: nombre de usuario, correo electrónico, contraseña y moneda preferida.",
+              "Acepta los términos y condiciones y completa los pasos de verificación necesarios.",
+              "Una vez registrado, inicia sesión en tu cuenta y realiza tu primer depósito para reclamar el bono de bienvenida."
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": "Tras el registro, los jugadores pueden disfrutar de una experiencia de juego fluida con acceso a todas las funciones y promociones disponibles."
+          }
+        ]
+      },
+      {
+        "heading": "Proceso de inicio de sesión",
+        "content": [
+          {
+            "type": "paragraph",
+            "text": "Acceder a tu cuenta de WildRobin es muy sencillo:"
+          },
+          {
+            "type": "list-number",
+            "items": [
+              "Ve a la página de inicio de WildRobin Casino.",
+              "Haz clic en el botón «Iniciar sesión» situado en la esquina superior derecha.",
+              "Introduce tu nombre de usuario y contraseña registrados.",
+              "Haz clic en «Entrar» para acceder a tu cuenta."
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": "Para aquellos que prefieren jugar desde el móvil, WildRobin Casino ofrece una versión móvil basada en web optimizada tanto para dispositivos iOS como Android, lo que garantiza una experiencia de juego fluida sobre la marcha."
+          }
+        ]
+      }
+    ],
+    "lastSections": [
+      {
+        "heading": "Métodos de depósito",
+        "content": [
+          {
+            "type": "paragraph",
+            "text": "WildRobin Casino admite una gran variedad de métodos de depósito: Visa, Mastercard, transferencia bancaria, Revolut mediante transferencia bancaria, banca por Internet, CashtoCode, MiFinity. Bitcoin, Litecoin, Dogecoin. La mayoría de los depósitos se procesan al instante, lo que permite a los jugadores empezar a jugar sin demora."
+          }
+        ]
+      },
+      {
+        "heading": "Métodos de retirada",
+        "content": [
+          {
+            "type": "paragraph",
+            "text": "Los métodos de retirada en WildRobin Casino incluyen: Visa, Mastercard, transferencia bancaria, Revolut a través de transferencia bancaria, banca por Internet, CashtoCode, MiFinity, Bitcoin, Litecoin y Dogecoin. Los plazos de retirada pueden variar en función del método de pago. Por ejemplo, las retiradas en criptomonedas suelen procesarse más rápido que los métodos bancarios tradicionales."
+          }
+        ]
+      }
+    ]
+  },
+  "appSection": {
+    "title": "Aplicaciones de casino",
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "Actualmente, WildRobin Casino no ofrece una aplicación móvil dedicada. Sin embargo, su sitio web está totalmente optimizado para dispositivos móviles, incluidos iOS y Android. Los jugadores pueden disfrutar de todos los juegos, opciones de depósito y retirada, y promociones directamente desde el navegador de su móvil sin comprometer la funcionalidad ni la experiencia del usuario."
+      }
+    ],
+    "lastSections": [
+      {
+        "heading": "Idiomas",
+        "content": [
+          {
+            "type": "paragraph",
+            "text": "La plataforma admite varios idiomas, lo que la hace accesible a un amplio público internacional. Los principales idiomas disponibles son inglés, alemán, francés, español y portugués, lo que garantiza que los jugadores españoles puedan navegar cómodamente y comprender todos los aspectos del casino."
+          }
+        ]
+      },
+      {
+        "heading": "Divisas",
+        "content": [
+          {
+            "type": "paragraph",
+            "text": "WildRobin Casino acepta varias divisas, entre ellas EUR, USD, BTC, LTC y DOGE. Esta variedad permite a los jugadores de diferentes regiones, incluida España, depositar, jugar y retirar fondos en su divisa preferida, incluidas las criptomonedas más populares, para realizar transacciones más rápidas y flexibles."
+          }
+        ]
+      }
+    ]
+  },
+  "lastSection": {
+    "title": "Ventajas del casino",
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "WildRobin Casino ofrece a los jugadores una amplia selección de funciones para mejorar la experiencia general de juego. Su número de juegos, sus atractivos bonos y su atención al cliente de alta calidad tienen como objetivo satisfacer tanto a aquellos que juegan por diversión como a aquellos que se lo toman en serio. Por otra parte, hay varios aspectos que se pueden mejorar, como en cualquier casino online."
+      }
+    ],
+    "leftTitle": "Ventajas",
+    "left": [
+      "Amplia biblioteca de juegos con más de 17 000 títulos",
+      "Generoso bono de bienvenida del 100 % hasta 500 € + 200 tiradas gratis",
+      "Admite múltiples métodos de pago, incluidas las criptomonedas",
+      "Atención al cliente 24/7 en varios idiomas",
+      "Sitio web responsivo optimizado para dispositivos móviles"
+    ],
+    "rightTitle": "Contras",
+    "right": [
+      "No hay aplicación móvil dedicada",
+      "Los tiempos de retirada pueden variar en función del método de pago",
+      "Algunos métodos de pago son solo para depósitos",
+      "Información limitada sobre el programa VIP"
+    ]
+  },
+  "supportSection": {
+    "title": "Asistencia",
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "WildRobin Casino ofrece una asistencia al cliente completa:"
+      },
+      {
+        "type": "list-dotted",
+        "items": [
+          "Chat en vivo: disponible las 24 horas del día, los 7 días de la semana, para asistencia inmediata.",
+          "Asistencia por correo electrónico: ponte en contacto a través del formulario de contacto de la página web."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "Los jugadores pueden esperar respuestas rápidas del equipo de asistencia, lo que garantiza que cualquier problema o pregunta se resuelva de forma rápida y eficaz. El personal de asistencia es multilingüe, lo que permite atender a una amplia base de jugadores internacionales."
+      }
+    ]
+  },
+  "faqSection": {
+    "title": "Preguntas frecuentes sobre el casino",
+    "faqList": [
+      {
+        "title": "¿Cómo puedo depositar fondos?",
+        "text": "Puedes depositar mediante Visa, Mastercard, transferencias bancarias o criptomonedas como BTC, LTC y DOGE."
+      },
+      {
+        "title": "¿Cuál es el bono de bienvenida?",
+        "text": "Los nuevos jugadores pueden reclamar un bono por depósito del 100 % hasta 500 € más 200 tiradas gratis con un requisito de apuesta de 35x."
+      },
+      {
+        "title": "¿WildRobin Casino ofrece tiradas gratis?",
+        "text": "Sí, las tiradas gratis están incluidas en las promociones y en el paquete de bienvenida."
+      },
+      {
+        "title": "¿Son justos los juegos?",
+        "text": "Todos los juegos son proporcionados por proveedores de renombre y se auditan periódicamente para garantizar el juego limpio."
+      },
+      {
+        "title": "¿Cómo puedo ponerme en contacto con el servicio de atención al cliente?",
+        "text": "El servicio de atención al cliente está disponible a través del chat en vivo las 24 horas del día, los 7 días de la semana, o por correo electrónico a través del formulario de contacto."
+      }
+    ]
+  },
+  "infoSectionAfterSupport": {
+    "title": "Juegos disponibles en WildRobin Casino",
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "Con más de 17 000 juegos entre los que elegir, WildRobin Casino es una plataforma multigénero, y eso no es lo único que indica la variedad de servicios que ofrece. Los jugadores pueden elegir entre tragamonedas, juegos de mesa, juegos con crupier en vivo y una casa de apuestas totalmente integrada. Esta diversidad significa que no solo los jugadores ocasionales, sino también los grandes apostadores encontrarán algo que se adapte a sus preferencias."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Tragamonedas",
+        "content": [
+          {
+            "type": "paragraph",
+            "text": "La selección de tragamonedas es enorme, con máquinas tragamonedas clásicas, tragamonedas de vídeo de última generación y tragamonedas con botes progresivos de los principales proveedores, como NetEnt, Pragmatic Play y Yggdrasil. Tragamonedas famosas como Starburst, Gonzo Quest y Mega Moolah siguen ganando popularidad gracias a su intrigante funcionalidad y a las oportunidades de ganar premios. Los jugadores nunca se aburrirán con los juegos, ya que hay miles de títulos entre los que elegir."
+          }
+        ]
+      },
+      {
+        "heading": "Juegos de mesa",
+        "content": [
+          {
+            "type": "paragraph",
+            "text": "WildRobin Casino ofrece una amplia gama de juegos de mesa como blackjack, baccarat, ruleta y póquer. Juegos como la ruleta europea, el blackjack Atlantic City y el Caribbean Stud Poker ofrecen variedad y opciones de apuestas. Estos juegos darán tanto a los principiantes la oportunidad de aprender lo básico como a los jugadores experimentados que quieran jugar con apuestas más altas."
+          }
+        ]
+      },
+      {
+        "heading": "Casino en vivo",
+        "content": [
+          {
+            "type": "paragraph",
+            "text": "El sitio cuenta con una página con crupieres en vivo que te permite experimentar todo el encanto de los juegos de casino, incluyendo la transmisión en directo en alta definición. Los jugadores podrán sentarse junto a crupieres profesionales y disfrutar del blackjack, la ruleta, el baccarat y el póquer proporcionados por Evolution Gaming y Pragmatic Play Live. La configuración interactiva permitirá al jugador aprender fácilmente el juego y proporcionará un nuevo nivel de inmersión."
+          }
+        ]
+      },
+      {
+        "heading": "Apuestas deportivas",
+        "content": [
+          {
+            "type": "paragraph",
+            "text": "Además de los juegos de casino, WildRobin Casino también cuenta con una completa casa de apuestas que cubre diversos eventos deportivos. Se puede apostar en fútbol, baloncesto, tenis e incluso eSports con cuotas competitivas y actualizaciones en tiempo real. La interfaz de la casa de apuestas es fácil de usar e incluye mercados de apuestas en tiempo real y pagos rápidos, lo que garantiza una experiencia de juego activa."
+          }
+        ]
+      }
+    ]
+  },
+  "infoSectionAfterPayments": {
+    "sections": [
+      {
+        "heading": "Tecnologías de software",
+        "content": [
+          {
+            "type": "paragraph",
+            "text": "WildRobin Casino colabora con más de 100 proveedores de software de primera calidad para ofrecer una amplia gama de juegos seguros. Entre los proveedores de contenido más conocidos se encuentran NetEnt, Pragmatic Play, Yggdrasil, Evolution Gaming y Playn GO, todos ellos conocidos por ofrecer tragamonedas innovadoras, juegos con crupier en vivo y funciones avanzadas. Este potente sistema de colaboraciones hace que todo funcione a la perfección, con una carga rápida, imparcialidad certificada por RNG y actualizaciones periódicas de la biblioteca de juegos para que siempre haya algo nuevo con lo que jugar."
+          }
+        ]
+      },
+      {
+        "heading": "Seguridad",
+        "content": [
+          {
+            "type": "paragraph",
+            "text": "WildRobin Casino emplea medidas de seguridad estándar en el sector para proteger los datos personales y financieros de los jugadores. La plataforma utiliza cifrado SSL para proteger todas las transacciones y comunicaciones. Además, el casino garantiza el juego limpio mediante auditorías periódicas de sus juegos a través de agencias de pruebas independientes. Los jugadores también pueden acceder a herramientas de juego responsable para establecer límites de depósito, recordatorios de sesión y autoexclusión si es necesario, lo que promueve un juego seguro y controlado."
+          }
+        ]
+      }
+    ]
+  },
+  "infoSectionAfterFaq": {
+    "title": "Bonos y promociones",
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "La amplia variedad de bonos disponibles en WildRobin Casino está optimizada para garantizar que emocione y atraiga al cliente, al tiempo que le ofrece un valor añadido en sus depósitos y en su juego. El casino ofrece muchas recompensas en forma de generosos paquetes de bienvenida, recargas, giros gratis y ofertas de reembolso que permiten a los jugadores nuevos y fieles seguir divirtiéndose. Estas promociones no solo permiten prolongar el tiempo de juego, sino que también ofrecen a los jugadores mejores oportunidades de utilizar la amplia gama de juegos y aumentar sus posibilidades de ganar."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Bono de bienvenida",
+        "content": [
+          {
+            "type": "paragraph",
+            "text": "Los nuevos jugadores obtienen un bono por depósito del 100 % hasta 500 euros y 200 tiradas gratis en una selección de tragamonedas. El depósito mínimo para obtener el bono completo es de 20 euros. El primero tiene requisitos de apuesta de 35 veces el depósito + el bono y 40 veces los requisitos de apuesta sobre las ganancias de las tiradas gratis."
+          }
+        ]
+      },
+      {
+        "heading": "Tiradas gratis",
+        "content": [
+          {
+            "type": "paragraph",
+            "text": "Juega tiradas gratis en los juegos de tragamonedas más populares como bonificación y promoción. Por ejemplo, los jugadores podrán obtener 50 tiradas gratis entre semana al realizar un depósito de 20 euros o más. Las tiradas son válidas durante 7 días, tienen un límite de apuesta de 5 euros y el límite de ganancias también es ilimitado."
+          }
+        ]
+      },
+      {
+        "heading": "Bono de recarga",
+        "content": [
+          {
+            "type": "paragraph",
+            "text": "Los bonos de recarga son adecuados para jugadores habituales y proporcionan una cantidad de bonificación en los depósitos posteriores al primero. Durante los fines de semana, el casino ofrece un bono de recarga del 50 %, con un máximo de 700 euros y 50 tiradas gratis. Para reclamar el bono por depósito y las tiradas gratis, hay que depositar un mínimo de 20 euros o 50 euros, respectivamente."
+          }
+        ]
+      },
+      {
+        "heading": "Reembolso",
+        "content": [
+          {
+            "type": "paragraph",
+            "text": "WildRobin Casino tiene un programa de reembolso según el cual los apostantes tienen la posibilidad de recuperar una parte de sus pérdidas en un plazo determinado. Los tres niveles VIP con el reembolso más alto son el 5 %, el 10 % y el 15 %, y se calculan semanalmente. El reembolso es la cantidad obtenida como pérdida de la semana anterior en un juego de tragamonedas, y los límites máximos alcanzan los 3000 euros en el nivel más alto, el 5."
+          }
+        ]
+      },
+      {
+        "heading": "Programa VIP",
+        "content": [
+          {
+            "type": "paragraph",
+            "text": "Aunque hay poca información al respecto, WildRobin Casino no excluye el uso de un programa VIP, con ventajas y recompensas especiales para los jugadores fieles. Tendrá 5 niveles y, en cada uno de ellos, habrá beneficios como un aumento del reembolso o un aumento del límite de retirada. Los jugadores VIP tendrán un gestor personal. No obstante, no se revelan los datos sobre cómo avanzar en los niveles y no hay recompensas cuando se alcanza un nivel diferente."
+          }
+        ]
+      }
+    ]
+  },
+  "footer": {
+    "title": "Party Casino"
+  },
+  "notFoundPage": {
+    "textOne": "The page you were looking for does not exist.",
+    "textTwo": "You may have mistyped the address or the page may have moved.",
+    "back": "Home Page"
+  },
+  "LanguageSelect": {
+    "english": "EN",
+    "spanish-es": "ES",
+    "german-de": "DE",
+    "french": "FR",
+    "italian": "IT"
+  }
+}
