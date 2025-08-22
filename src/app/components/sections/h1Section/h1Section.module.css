@@ -13,9 +13,24 @@
   font-weight: var(--font-weight-second);
 }
 
+@media (max-width: 1180px) {
+  .section > div {
+    max-width: 912px;
+  }
+}
+
+@media (max-width: 910px) {
+  .section > div {
+    max-width: 626px;
+  }
+}
+
 @media (max-width: 768px) {
   .section {
     padding: 40px 0;
+  }
+  .section > div {
+    max-width: 576px;
   }
 
   .section h1 {

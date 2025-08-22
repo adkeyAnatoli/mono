@@ -55,21 +55,21 @@
 @media (max-width: 1200px) {
   .bonusSection {
     background: url('../../../../../public/sectionImg/slot1.webp') no-repeat top
-      20% left 90% / auto 90%;
+      50% left 90% / auto 86%;
   }
 }
 
 @media (max-width: 1085px) {
   .bonusSection {
     background: url('../../../../../public/sectionImg/slot1.webp') no-repeat top
-      40% left 95% / auto 80%;
+      40% left 95% / auto 75%;
   }
 }
 
 @media (max-width: 1000px) {
   .bonusSection {
     background: url('../../../../../public/sectionImg/slot1.webp') no-repeat top
-      35% left 90% / auto 60%;
+      35% left 90% / auto 55%;
   }
 }
 

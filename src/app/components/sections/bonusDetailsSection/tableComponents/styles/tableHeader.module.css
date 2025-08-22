@@ -59,6 +59,13 @@
   }
 }
 
+@media (max-width: 475px) {
+  .table_head {
+    font-size: 14px;
+    line-height: 18px;
+  }
+}
+
 @media (max-width: 380px) {
   .headerCell {
     padding: 0;
