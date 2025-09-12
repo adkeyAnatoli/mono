@@ -1,0 +1,21 @@
+{
+  "title": "CASINO FAQ",
+  "faqList": [
+    {
+      "title": "Does Lucky Boys Casino have a loyalty program?",
+      "text": "Yes, Lucky Boys Casino includes a tiered loyalty program where players can earn points and unlock rewards based on their gameplay."
+    },
+    {
+      "title": "What is the minimum deposit amount?",
+      "text": "The minimum deposit accepted at Lucky Boys Casino is £10, making it accessible for casual players who prefer to start with smaller amounts."
+    },
+    {
+      "title": "Are there wagering requirements for bonuses?",
+      "text": "Yes, most deposit bonuses and cashback offers come with wagering requirements, which must be met before any winnings can be withdrawn."
+    },
+    {
+      "title": "Does the casino support responsible gambling tools?",
+      "text": "Players can set deposit limits, loss limits, or request self-exclusion directly from the account settings to promote responsible gambling."
+    }
+  ]
+}
