@@ -1,0 +1,29 @@
+.connectBlock {
+  padding-top: 9.5625rem;
+}
+
+.connectTitle {
+  margin-bottom: 2.5rem;
+}
+
+.connectGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+  font-size: 1.25rem;
+  line-height: 1.875rem;
+}
+
+.connectList {
+  display: flex;
+  flex-direction: column;
+  gap: 0.9375rem;
+}
+
+.connectItem {
+  list-style: decimal inside;
+}
+
+.connectDescription {
+  line-height: 2.5rem;
+}

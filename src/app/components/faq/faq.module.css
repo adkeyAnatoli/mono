@@ -1,0 +1,81 @@
+.faqBlock {
+  padding-top: 5rem;
+  padding-bottom: 2.5rem;
+}
+
+.faqTitle {
+  margin-bottom: 5rem;
+}
+.faqInput {
+  display: none;
+}
+
+.faqLabel {
+  display: block;
+  padding: 0.8125rem 3rem;
+  font-family: Roboto;
+  font-size: 1.875rem;
+  line-height: 1.875rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin: 0 0 0.75rem 0;
+  cursor: pointer;
+  background: var(--faq-label);
+  border-radius: 0.1875rem;
+  transition: ease 0.5s;
+  position: relative;
+  border-radius: 6.25rem;
+}
+
+.faqLabel::before {
+  color: var(--text);
+  content: "+";
+  font-size: 1.875rem;
+  font-weight: bold;
+  position: absolute;
+  width: 1.125rem;
+  height: 1.125rem;
+  left: 0.6875rem;
+  top: 25%;
+}
+
+.faqInput:checked + .faqLabel::before {
+  color: var(--text);
+  content: "—";
+  width: 1.125rem;
+  height: 1.125rem;
+  left: 0.6875rem;
+  top: 25%;
+}
+
+.faqContent {
+  padding: 0.75rem 3rem 1.5rem 3rem;
+  font-size: 1.25rem;
+  line-height: 1.875rem;
+  margin: 0 0 0.75rem 0;
+}
+
+.faqInput + .faqLabel + .faqContent {
+  display: none;
+}
+
+.faqInput:checked + .faqLabel + .faqContent {
+  display: block;
+}
+
+@media (max-width: 580px) {
+  .faqBlock {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  .faqTitle {
+    margin-left: 3.125rem;
+  }
+  .faqLabel {
+    font-size: 1.25rem;
+    line-height: 1.125rem;
+  }
+  .faqContent {
+    padding: 0.75rem;
+  }
+}

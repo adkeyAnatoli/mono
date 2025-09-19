@@ -1,0 +1,29 @@
+.depositBlock {
+  padding-top: 5rem;
+}
+
+.depositTitle {
+  margin-bottom: 2.5rem;
+}
+
+.depositGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+  font-size: 1.25rem;
+  line-height: 1.875rem;
+}
+
+.depositList {
+  display: flex;
+  flex-direction: column;
+  gap: 0.9375rem;
+}
+
+.depositItem {
+  list-style: decimal inside;
+}
+
+.depositDescription {
+  line-height: 2.5rem;
+}

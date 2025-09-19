@@ -1,0 +1,56 @@
+.licenseBlock {
+  padding-top: 5rem;
+}
+
+.licenseTitle {
+  margin-bottom: 2.5rem;
+}
+
+.licenseGroup {
+  display: flex;
+  gap: 5rem;
+  font-size: 1.25rem;
+  line-height: 1.875rem;
+}
+
+.licenseColumn {
+  flex-basis: 50%;
+}
+.licenseColumn:nth-child(2) {
+  flex-basis: 50%;
+}
+
+.licenseColumn:nth-child(2) {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.licenseDescription {
+  line-height: 2.5rem;
+}
+
+.licenseImage {
+  width: 100%;
+  height: auto;
+}
+
+@media (max-width: 1024px) {
+  .licenseGroup {
+    flex-direction: column;
+    gap: 2.5rem;
+  }
+  .licenseColumn {
+    flex-basis: 100%;
+  }
+  .licenseImage {
+    width: 50%;
+    height: auto;
+  }
+}
+@media (max-width: 768px) {
+  .licenseImage {
+    width: 70%;
+    height: auto;
+  }
+}

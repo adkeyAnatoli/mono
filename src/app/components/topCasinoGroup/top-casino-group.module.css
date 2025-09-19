@@ -1,0 +1,18 @@
+.topCasinoCircleContainer {
+  background: url("/images/casino-chips.webp") no-repeat left center / auto 30%;
+  display: flex;
+  flex-direction: column;
+  max-width: 2560px;
+  width: 100%;
+}
+@media (max-width: 1800px) {
+  .topCasinoCircleContainer {
+    background: url("/images/casino-chips.webp") no-repeat left center / auto
+      20%;
+  }
+}
+@media (max-width: 1024px) {
+  .topCasinoCircleContainer {
+    background-image: none;
+  }
+}

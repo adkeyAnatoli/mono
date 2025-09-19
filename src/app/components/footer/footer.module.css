@@ -1,0 +1,218 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--bg-footer);
+}
+
+.footerTop {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  width: 100%;
+  border-bottom: 0.125rem solid var(--footer-border);
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.footerLogoContainer {
+  position: absolute;
+  top: 15%;
+  left: 3.125rem;
+}
+
+.footer__logo {
+  max-height: 3rem;
+  height: auto;
+  width: auto;
+}
+
+.footerPay {
+  padding: 0;
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 100%;
+}
+
+.payElementGrey {
+  max-height: 2.5rem;
+  width: auto;
+}
+
+.payElementColor {
+  display: none;
+  max-height: 2.5rem;
+  width: auto;
+}
+
+.payBlock:hover .payElementGrey {
+  display: none;
+}
+
+.payBlock:hover .payElementColor {
+  display: block;
+}
+
+.footerMiddle {
+  padding-top: 0.625rem;
+  padding-bottom: 0.625rem;
+  width: 100%;
+  border-bottom: 0.125rem solid var(--footer-border);
+  display: flex;
+  justify-content: center;
+}
+
+.footerOperator {
+  max-width: 55.625rem;
+  width: 80%;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.operatorElementGrey {
+  max-height: 3.125rem;
+  width: auto;
+}
+
+.operatorElementColor {
+  display: none;
+  max-height: 3.125rem;
+  width: auto;
+}
+
+.operatorBlock:hover .operatorElementGrey {
+  display: none;
+}
+
+.operatorBlock:hover .operatorElementColor {
+  display: block;
+}
+
+.footerBottom {
+  padding-top: 0.625rem;
+  padding-bottom: 0.625rem;
+}
+
+.footerBottomGroup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.3125rem;
+  font-weight: 500;
+}
+
+.footerBottomAge {
+  font-size: 2.125rem;
+  color: var(--copyright);
+}
+
+.footerBottomCopyright {
+  font-size: 1.125rem;
+  color: var(--copyright);
+}
+
+@media (max-width: 1250px) {
+  .footerLogoContainer {
+    display: none;
+  }
+}
+
+@media (max-width: 1024px) {
+  .footerLogoContainer {
+    display: block;
+    left: 1.25rem;
+  }
+  .footer__logo {
+    width: 9.375rem;
+    height: auto;
+  }
+  .footerOperator {
+    width: 60%;
+  }
+  .payElementGrey {
+    max-height: 1.75rem;
+  }
+  .payElementColor {
+    max-height: 1.75rem;
+  }
+  .operatorElementGrey {
+    max-height: 1.5625rem;
+  }
+  .operatorElementColor {
+    max-height: 1.5625rem;
+  }
+}
+
+@media (max-width: 880px) {
+  .footerLogoContainer {
+    display: none;
+  }
+  .footerOperator {
+    width: 70%;
+  }
+}
+
+@media (max-width: 580px) {
+  .footerBottomGroup {
+    gap: 0.625rem;
+  }
+  .footerPay {
+    gap: 0.4rem;
+  }
+  .footerOperator {
+    gap: 0.4rem;
+    width: 80%;
+  }
+  .payElementGrey {
+    max-height: 1.2rem;
+  }
+  .payElementColor {
+    max-height: 1.2rem;
+  }
+  .operatorElementGrey {
+    max-height: 1.5rem;
+  }
+  .operatorElementColor {
+    max-height: 1.5rem;
+  }
+  .footerBottomAge {
+    font-size: 1.625rem;
+  }
+  .footerBottomCopyright {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .footerBottomGroup {
+    gap: 0.1875rem;
+    font-weight: 400;
+  }
+  .footerOperator {
+    width: 100%;
+  }
+  .payElementGrey {
+    max-height: 1rem;
+  }
+  .payElementColor {
+    max-height: 1rem;
+  }
+  .operatorElementGrey {
+    max-height: 1.3rem;
+  }
+  .operatorElementColor {
+    max-height: 1.3rem;
+  }
+  .footerBottomAge {
+    font-size: 0.625rem;
+  }
+  .footerBottomCopyright {
+    font-size: 0.625rem;
+  }
+}

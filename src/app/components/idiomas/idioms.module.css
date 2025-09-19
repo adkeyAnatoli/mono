@@ -1,0 +1,35 @@
+.idiomasBlock {
+  padding-top: 5rem;
+}
+
+.idiomasTitle {
+  margin-bottom: 2.5rem;
+  line-height: 120%;
+}
+
+.idiomasGroup {
+  display: flex;
+  gap: 2.5rem;
+  font-size: 1.25rem;
+  line-height: 1.875rem;
+}
+
+.idiomasColumn {
+  flex-basis: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.idiomasDescription {
+  line-height: 2.5rem;
+}
+
+@media (max-width: 1024px) {
+  .idiomasGroup {
+    flex-direction: column;
+  }
+  .idiomasColumn {
+    flex-basis: 100%;
+  }
+}

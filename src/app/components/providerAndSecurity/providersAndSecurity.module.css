@@ -1,0 +1,45 @@
+.providersBlock {
+  padding-top: 5rem;
+}
+
+.providersTitle {
+  margin-bottom: 2.5rem;
+  line-height: 120%;
+}
+
+.providersGroup {
+  display: flex;
+  gap: 2.5rem;
+  font-size: 1.25rem;
+  line-height: 1.875rem;
+}
+
+.providersColumn {
+  flex-basis: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.providersList {
+  display: flex;
+  flex-direction: column;
+  gap: 0.9375rem;
+}
+
+.providersItem {
+  list-style: decimal inside;
+}
+
+.providersDescription {
+  line-height: 2.5rem;
+}
+
+@media (max-width: 1024px) {
+  .providersGroup {
+    flex-direction: column;
+  }
+  .providersColumn {
+    flex-basis: 100%;
+  }
+}

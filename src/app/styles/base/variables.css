@@ -1,0 +1,39 @@
+@font-face {
+  font-family: Roboto;
+  src: url("../../../../public/fonts/roboto-regular.woff");
+  font-display: swap;
+}
+@font-face {
+  font-family: Montserrat;
+  src: url("../../../../public/fonts/Montserrat-ExtraBold.woff2");
+  font-display: swap;
+}
+@font-face {
+  font-family: Shrikhand;
+  src: url("../../../../public/fonts/Shrikhand-Regular.woff2");
+  font-display: swap;
+}
+@font-face {
+  font-family: Mariupol;
+  src: url("../../../../public/fonts/Mariupol-Bold.woff");
+  font-display: swap;
+}
+
+:root {
+  --bg: #072a4a;
+  --main-bg: #0f4d7e;
+  --text: #ffffff;
+  --text-black: #000000;
+  --yellow: #103561;
+  --yellow-button: #e2b707;
+  --button-text: #ffffff;
+  --border-color: #03c8f4;
+  --copyright: #5b728b;
+  --casino-cards: #3a6d95;
+  --providers-back: #5782a5;
+  --faq-label: #103561;
+  --bg-footer: #072a4a;
+  --footer-border: #274561;
+  --pay-back: #3a6d95;
+  --link-hover: #03c8f4;
+}

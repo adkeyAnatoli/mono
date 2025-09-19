@@ -1,0 +1,19 @@
+.historyCircleContainer {
+  background: url("/images/history-chips.webp") no-repeat right top 6rem / auto
+    15%;
+  display: flex;
+  flex-direction: column;
+  max-width: 2560px;
+  width: 100%;
+}
+@media (max-width: 1800px) {
+  .historyCircleContainer {
+    background: url("/images/history-chips.webp") no-repeat right top 6rem /
+      auto 7%;
+  }
+}
+@media (max-width: 1024px) {
+  .historyCircleContainer {
+    background-image: none;
+  }
+}
