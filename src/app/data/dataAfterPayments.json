@@ -1,0 +1,22 @@
+{
+  "sections": [
+    {
+      "heading": "Software Technologies",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Cop Slots Casino offers games from over 100 software suppliers, including NetEnt, Microgaming, Pragmatic Play, Yggdrasil Gaming, Evolution Gaming, Red Tiger, Blueprint Gaming, Quickspin, Eyecon, and more. HTML5 games work on desktops, tablets, and smartphones."
+        }
+      ]
+    },
+    {
+      "heading": "Security",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "UK Gambling Commission and Alderney Gambling Control Commission license the site. SSL protects personal and financial data. Independent testers like SQS check game fairness and RTP correctness. The site offers self-exclusion and responsible gaming features for safety."
+        }
+      ]
+    }
+  ]
+}

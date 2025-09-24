@@ -1,0 +1,33 @@
+{
+  "title": "CASINO FAQ",
+  "faqList": [
+    {
+      "title": "Is Cop Slots Casino licensed in the UK?",
+      "text": "Yes, the casino is licensed and regulated by the UK Gambling Commission, ensuring fair play and legal operation for UK players."
+    },
+    {
+      "title": "What is the minimum deposit to play?",
+      "text": "The minimum deposit is £10 for most methods, but Pay by Mobile allows deposits starting from just £5."
+    },
+    {
+      "title": "Are there withdrawal fees?",
+      "text": "Yes, all withdrawals at Cop Slots Casino incur a fixed fee of £2.50 per transaction."
+    },
+    {
+      "title": "How long do withdrawals take to process?",
+      "text": "After 72 hours, withdrawals take 1–4 business days to reach your account."
+    },
+    {
+      "title": "What is the maximum withdrawal limit?",
+      "text": "Players can withdraw a maximum of £1,000 per day, £3,000 per week, and £5,000 per month."
+    },
+    {
+      "title": "Are there wagering restrictions on games?",
+      "text": "Yes, only slots contribute 100% to wagering; table and live dealer games generally contribute 0%."
+    },
+    {
+      "title": "What is the minimum bet on slots?",
+      "text": "Most slot games allow bets starting from just £0.01 per line, making them accessible to low-stakes players."
+    }
+  ]
+}
