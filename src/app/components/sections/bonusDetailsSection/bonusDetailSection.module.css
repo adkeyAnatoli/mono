@@ -1,0 +1,28 @@
+.table {
+  width: 100%;
+  row-gap: 24px;
+  display: grid;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  margin-bottom: 140px;
+}
+
+.button {
+  align-self: center;
+}
+
+@media (max-width: 1180px) {
+  .wrapper {
+    margin-bottom: 64px;
+  }
+}
+
+@media (max-width: 768px) {
+  .wrapper {
+    gap: 40px;
+  }
+}
