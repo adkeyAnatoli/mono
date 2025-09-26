@@ -102,6 +102,7 @@
   }
   .copyrightLeft {
     margin-right: 8px;
+    vertical-align: bottom;
   }
   .copyrightLeft,
   .copyrightRight {
