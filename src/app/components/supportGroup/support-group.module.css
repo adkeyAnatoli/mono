@@ -1,0 +1,19 @@
+.supportCircleContainer {
+  background: url("/images/support-chips.webp") no-repeat left bottom / auto
+    100%;
+  display: flex;
+  flex-direction: column;
+  max-width: 2560px;
+  width: 100%;
+}
+@media (max-width: 1440px) {
+  .supportCircleContainer {
+    background: url("/images/support-chips.webp") no-repeat left bottom / auto
+      70%;
+  }
+}
+@media (max-width: 1024px) {
+  .supportCircleContainer {
+    background-image: none;
+  }
+}

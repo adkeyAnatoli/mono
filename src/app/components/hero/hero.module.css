@@ -1,0 +1,144 @@
+.hero {
+  position: relative;
+  padding: 9.9375rem 0 42rem 0;
+  background:
+    url("/images/hero-group-back.webp") no-repeat right 0rem top 15rem / auto
+      100%,
+    url("/images/hero-group.webp") no-repeat right top 10rem / auto 60%,
+    url("/images/hero-group-chips.webp") no-repeat right top 10rem / auto 60%;
+}
+.heroGroup {
+  margin-bottom: 2.8125rem;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  z-index: 1;
+}
+
+.heroTitle {
+  max-width: 35%;
+  font-size: 5.9375rem;
+  font-weight: 400;
+  line-height: 1;
+  letter-spacing: 0.2775rem;
+  font-family: Abhaya;
+  text-transform: uppercase;
+  margin-bottom: 1.625rem;
+  text-shadow: 0 0.25rem 0.25rem rgba(0, 0, 0, 0.25);
+}
+
+.heroTitle span {
+  color: var(--text);
+}
+
+.heroText {
+  font-weight: 400;
+  font-size: 1.875rem;
+  line-height: 1.2;
+  min-height: 2.25rem;
+}
+
+.heroButton {
+  position: relative;
+  z-index: 1;
+  background-color: var(--yellow-button);
+}
+
+@media (max-width: 1920px) {
+  .hero {
+    padding: 9.9375rem 0 20rem 0;
+    background:
+      url("/images/hero-group-back.webp") no-repeat right 0rem top 15rem / auto
+        100%,
+      url("/images/hero-group.webp") no-repeat right top 10rem / auto 60%,
+      url("/images/hero-group-chips.webp") no-repeat right top 10rem / auto 60%;
+  }
+}
+@media (max-width: 1440px) {
+  .hero {
+    padding: 9.9375rem 0 10rem 0;
+    background:
+      url("/images/hero-group-back.webp") no-repeat right 0rem top 15rem / auto
+        100%,
+      url("/images/hero-group.webp") no-repeat right top 10rem / auto 60%,
+      url("/images/hero-group-chips.webp") no-repeat right top 10rem / auto 60%;
+  }
+}
+@media (max-width: 1024px) {
+  .hero {
+    padding-left: 0;
+  }
+  .heroTitle {
+    font-size: 4.75rem;
+  }
+  .heroText {
+    font-size: 1.25rem;
+    min-height: 1.5rem;
+  }
+}
+
+@media (max-width: 930px) {
+  .hero {
+    padding: 9.9375rem 0 10rem 0;
+    background:
+      url("/images/hero-group-back.webp") no-repeat right 0rem top 15rem / auto
+        100%,
+      url("/images/hero-group.webp") no-repeat right top 10rem / auto 60%,
+      url("/images/hero-group-chips.webp") no-repeat right top 10rem / auto 60%;
+  }
+}
+@media (max-width: 768px) {
+  .hero {
+    padding: 9.9375rem 0 25rem 0;
+    background:
+      url("/images/hero-group-mobile-back.webp") no-repeat right 0rem top 12rem /
+        auto 100%,
+      url("/images/hero-group-mobile.webp") no-repeat right top 10rem / auto 60%,
+      url("/images/hero-group-mobile-chips.webp") no-repeat right top 10rem /
+        auto 60%;
+  }
+  .heroTitle {
+    font-size: 2.875rem;
+  }
+}
+
+@media (max-width: 665px) {
+  .hero {
+    padding: 9.9375rem 0 25rem 0;
+    background:
+      url("/images/hero-group-mobile-back.webp") no-repeat right 0rem top 12rem /
+        auto 100%,
+      url("/images/hero-group-mobile.webp") no-repeat right top 10rem / auto 60%,
+      url("/images/hero-group-mobile-chips.webp") no-repeat right top 10rem /
+        auto 60%;
+  }
+  .heroTitle {
+    font-size: 2.1875rem;
+  }
+  .heroText {
+    font-size: 1rem;
+    min-height: 1.25rem;
+  }
+}
+@media (max-width: 485px) {
+  .hero {
+    padding: 9.9375rem 0 20rem 0;
+    background:
+      url("/images/hero-group-mobile-back.webp") no-repeat right 0rem top 12rem /
+        auto 100%,
+      url("/images/hero-group-mobile.webp") no-repeat right top 10rem / auto 60%,
+      url("/images/hero-group-mobile-chips.webp") no-repeat right top 10rem /
+        auto 60%;
+  }
+}
+@media (max-width: 448px) {
+  .hero {
+    padding: 9.9375rem 0 5rem 0;
+    background:
+      url("/images/hero-group-mobile-back.webp") no-repeat right 0rem top 9rem /
+        auto 80%,
+      url("/images/hero-group-mobile.webp") no-repeat right top 10rem / auto 40%,
+      url("/images/hero-group-mobile-chips.webp") no-repeat right top 10rem /
+        auto 40%;
+  }
+}

@@ -1,0 +1,35 @@
+.bonusesBlock {
+  padding-top: 5rem;
+}
+
+.bonusesTitle {
+  margin-bottom: 2.5rem;
+}
+
+.bonusesGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+  font-size: 1.25rem;
+  line-height: 1.875rem;
+}
+
+.bonusesList {
+  display: flex;
+  flex-direction: column;
+  gap: 0.9375rem;
+}
+
+.bonusesItem {
+  list-style: disc inside;
+}
+.bonusesItemDecimal {
+  list-style: decimal inside;
+}
+.bonusesItemNumber {
+  list-style: decimal inside;
+}
+
+.bonusesDescription {
+  line-height: 2.5rem;
+}

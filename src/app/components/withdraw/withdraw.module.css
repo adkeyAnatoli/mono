@@ -1,0 +1,29 @@
+.withdrawBlock {
+  padding-top: 5rem;
+}
+
+.withdrawTitle {
+  margin-bottom: 2.5rem;
+}
+
+.withdrawGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+  font-size: 1.25rem;
+  line-height: 1.875rem;
+}
+
+.withdrawList {
+  display: flex;
+  flex-direction: column;
+  gap: 0.9375rem;
+}
+
+.withdrawItem {
+  list-style: decimal inside;
+}
+
+.withdrawDescription {
+  line-height: 2.5rem;
+}

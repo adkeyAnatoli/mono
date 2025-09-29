@@ -1,0 +1,45 @@
+.header {
+  min-height: 6.8125rem;
+  max-height: 6.8125rem;
+  background-color: var(--bg);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 2;
+}
+.nav__list {
+  display: flex;
+  gap: 3rem;
+}
+.nav__item {
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+.nav__link {
+  color: var(--text);
+}
+.nav__link:hover,
+.active {
+  cursor: pointer;
+  color: var(--link-hover);
+}
+
+@media (max-width: 1440px) {
+  .nav__list {
+    gap: 2rem;
+  }
+}
+
+@media (max-width: 1024px) {
+  .nav__item {
+    display: block;
+    padding: 0.5rem;
+    font-size: 2rem;
+    text-align: center;
+    text-decoration: none;
+  }
+  .nav__link {
+    height: 2rem;
+  }
+}

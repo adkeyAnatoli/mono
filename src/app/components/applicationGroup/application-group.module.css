@@ -1,0 +1,19 @@
+.applicationCircleContainer {
+  background: url("/images/license-chips.webp") no-repeat right center / auto
+    150%;
+  display: flex;
+  flex-direction: column;
+  max-width: 2560px;
+  width: 100%;
+}
+@media (max-width: 1440px) {
+  .applicationCircleContainer {
+    background: url("/images/license-chips.webp") no-repeat right center / auto
+      100%;
+  }
+}
+@media (max-width: 1024px) {
+  .applicationCircleContainer {
+    background-image: none;
+  }
+}

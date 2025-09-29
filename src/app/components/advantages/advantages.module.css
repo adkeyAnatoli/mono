@@ -1,0 +1,108 @@
+.advantages {
+  position: relative;
+}
+.advantagesBlock {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  width: 100%;
+}
+
+.advantagesDescription {
+  width: 50%;
+  border-right: 0.125rem solid var(--text);
+  padding-right: 3.125rem;
+}
+
+.advantagesTitle {
+  margin-bottom: 4.125rem;
+}
+
+.advantagesList {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-bottom: 6.3125rem;
+}
+
+.advantagesItem {
+  display: flex;
+  gap: 0.9375rem;
+  align-items: center;
+}
+
+.advantagesText {
+  font-size: 1.5625rem;
+  line-height: 1.8125rem;
+}
+
+.advantagesLink {
+  display: block;
+  max-width: 18.75rem;
+}
+
+.advantagesMobile {
+  padding-left: 3.125rem;
+  width: 50%;
+  text-align: center;
+}
+
+.advantagesMobilePhone {
+  max-width: 17.1875rem;
+  height: auto;
+  margin-bottom: 2.5rem;
+}
+
+.advantagesStoreGroup {
+  display: flex;
+  gap: 0.5625rem;
+}
+
+@media (max-width: 1024px) {
+  .advantagesStoreGroup {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 768px) {
+  .advantagesBlock {
+    flex-direction: column;
+    gap: 5rem;
+  }
+  .advantagesDescription {
+    width: 100%;
+    border-right: none;
+    padding-right: 0;
+  }
+  .advantagesMobile {
+    width: 100%;
+    padding-left: 0;
+  }
+  .advantagesMobilePhone {
+    max-width: 12rem;
+    height: auto;
+  }
+  .advantagesTitle {
+    text-align: left;
+  }
+}
+
+@media (max-width: 580px) {
+  .advantagesBlock {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+  .advantagesText {
+    font-size: 1.125rem;
+    line-height: 1.25rem;
+  }
+  .advantagesStoreGroup {
+    flex-direction: column;
+  }
+  .advantagesLink {
+    max-width: 14.375rem;
+    margin: 0 auto;
+  }
+}

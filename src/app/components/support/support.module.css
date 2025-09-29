@@ -1,0 +1,62 @@
+.support {
+  position: relative;
+}
+
+.supportBlock {
+  padding-top: 5rem;
+  position: relative;
+  z-index: 1;
+}
+
+.supportTitle {
+  margin-bottom: 2.5rem;
+}
+
+.supportGroup {
+  display: flex;
+  gap: 5rem;
+  font-size: 1.25rem;
+  line-height: 1.875rem;
+}
+
+.supportColumn {
+  flex-basis: 50%;
+}
+
+.supportColumn:nth-child(2) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.supportList {
+  display: flex;
+  flex-direction: column;
+  gap: 0.9375rem;
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.supportItem {
+  list-style: disc inside;
+}
+
+.supportDescription {
+  line-height: 2.5rem;
+}
+
+.supportImage {
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+}
+
+@media (max-width: 1024px) {
+  .supportGroup {
+    flex-direction: column;
+    gap: 2.5rem;
+  }
+  .supportColumn {
+    flex-basis: 100%;
+  }
+}

@@ -1,0 +1,30 @@
+.prosAndConsBlock {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.prosAndConsTitle {
+  margin-bottom: 2.5rem;
+}
+
+.prosAndConsGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+  font-size: 1.25rem;
+  line-height: 1.875rem;
+}
+
+.prosAndConsList {
+  display: flex;
+  flex-direction: column;
+  gap: 0.9375rem;
+}
+
+.prosAndConsItem {
+  list-style: decimal inside;
+}
+
+.prosAndConsDescription {
+  line-height: 2.5rem;
+}

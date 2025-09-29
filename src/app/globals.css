@@ -1,0 +1,5 @@
+@import "./styles/base/variables";
+@import "./styles/utils/loader.css";
+@import "../../node_modules/normalize.css/normalize.css";
+@import "./styles/base/general.css";
+@import "./styles/utils/burger-menu.css";

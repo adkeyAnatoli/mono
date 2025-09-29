@@ -1,0 +1,97 @@
+.payMethodBlock {
+  padding-top: 5rem;
+}
+
+.payMethodTitle {
+  margin-bottom: 2.5rem;
+}
+
+.payMethodGroup {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  font-size: 1.25rem;
+  line-height: 1.875rem;
+}
+
+.payMethodGroupTwo {
+  display: none;
+  grid-template-columns: repeat(2, 1fr);
+  font-size: 1.25rem;
+  line-height: 1.875rem;
+}
+
+.payMethodRow {
+  display: contents;
+}
+
+.payMethodItem {
+  padding: 1rem 1rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 1.125rem;
+  line-height: 1.125rem;
+}
+
+.payMethodRow:nth-child(2n) > .payMethodItem {
+  background-color: var(--pay-back);
+}
+
+.payMethodRow:nth-child(2) > .payMethodItem:not(:last-child) {
+  border-right: 0.0625rem solid var(--text);
+}
+
+.payMethodRow > .payMethodItem:first-child,
+.payMethodRow > .payMethodItem:last-child {
+  justify-content: center;
+}
+
+.payMethodGroupTwo .payMethodItemImage,
+.payMethodGroupTwo .payMethodItemDeposit {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  justify-content: center;
+}
+
+.payMethodType {
+  width: 8.125rem;
+}
+.payMethodTypeHeader {
+  justify-self: center;
+}
+.bonusButton {
+  background-color: var(--yellow-button);
+}
+@media (max-width: 1080px) {
+  .payMethodGroup {
+    display: none;
+  }
+  .payMethodGroupTwo {
+    display: grid;
+  }
+  .payMethodRow:nth-child(2n) > .payMethodItem {
+    background-color: transparent;
+  }
+  .payMethodGroupTwo .payMethodRow .payMethodItemImage {
+    background-color: var(--pay-back);
+  }
+  .payMethodRow:nth-child(2) > .payMethodItem:not(:last-child) {
+    border-right: none;
+  }
+}
+
+@media (max-width: 1080px) {
+  .payMethodBlock {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .payMethodTitle {
+    padding-left: 3.125rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .payMethodTitle {
+    padding-left: 1.25rem;
+  }
+}

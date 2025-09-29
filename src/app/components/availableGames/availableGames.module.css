@@ -1,0 +1,29 @@
+.availableGamesBlock {
+  padding-top: 5rem;
+}
+
+.availableGamesTitle {
+  margin-bottom: 2.5rem;
+}
+
+.availableGamesGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+  font-size: 1.25rem;
+  line-height: 1.875rem;
+}
+
+.availableGamesList {
+  display: flex;
+  flex-direction: column;
+  gap: 0.9375rem;
+}
+
+.availableGamesItem {
+  list-style: decimal inside;
+}
+
+.availableGamesDescription {
+  line-height: 2.5rem;
+}

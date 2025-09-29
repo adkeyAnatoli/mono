@@ -1,0 +1,85 @@
+.history {
+  position: relative;
+}
+.history ul li {
+  list-style-type: disc;
+}
+.history ol li {
+  list-style-type: decimal;
+}
+
+.history ol,
+.history ul {
+  margin-left: 20px;
+}
+
+.historyBlock {
+  padding-top: 5rem;
+  position: relative;
+  z-index: 1;
+}
+
+.historyTitle {
+  margin-bottom: 2.5rem;
+  margin-top: 2.5rem;
+}
+
+.historyGroup {
+  display: flex;
+  gap: 5rem;
+  font-size: 1.25rem;
+  line-height: 1.875rem;
+}
+
+.historyColumn {
+  flex-basis: 50%;
+}
+
+.historyColumn:nth-child(2) {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.historyList {
+  display: flex;
+  flex-direction: column;
+  gap: 0.9375rem;
+  margin-bottom: 2.5rem;
+}
+
+.historyItem {
+  list-style: disc inside;
+}
+
+.historyDescription {
+  margin-top: 2rem;
+  font-size: 1.25rem;
+  line-height: 2.5rem;
+}
+
+.historyImage {
+  max-width: 36.9375rem;
+  width: 100%;
+  height: auto;
+}
+
+.historySecondTitle {
+  margin-top: 5rem;
+}
+
+@media (max-width: 1024px) {
+  .history {
+    background-image: none;
+  }
+  .historyGroup {
+    flex-direction: column;
+    gap: 2.5rem;
+  }
+  .historyColumn {
+    flex-basis: 100%;
+  }
+  .historyColumn:last-child {
+    display: none;
+  }
+}
