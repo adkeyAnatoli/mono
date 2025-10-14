@@ -1,0 +1,53 @@
+#last .listBlock {
+  display: flex;
+  gap: 50px;
+}
+
+#last .listBlock > div {
+  display: flex;
+  width: 26%;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 40px;
+}
+
+.listBlock h4 {
+  font-size: 24px;
+}
+
+.listBlock ul,
+.lastBlockElement ul {
+  margin-left: 16px;
+}
+
+.listBlock li,
+.lastBlockElement li {
+  list-style: disc inside;
+}
+
+@media (max-width: 1100px) {
+  #last .listBlock > div {
+    width: 50%;
+  }
+}
+
+@media (max-width: 768px) {
+  #last .listBlock > div,
+  #last > div {
+    gap: 24px;
+  }
+
+  #last h4 {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 550px) {
+  #last .listBlock {
+    flex-direction: column;
+  }
+
+  #last .listBlock > div {
+    width: auto;
+  }
+}
