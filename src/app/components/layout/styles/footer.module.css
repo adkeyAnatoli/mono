@@ -107,6 +107,7 @@
   .copyrightRight {
     font-size: 18px;
     line-height: 24px;
+    vertical-align: baseline;
   }
   .partnersBlock,
   .paymentsBlock {
@@ -116,11 +117,11 @@
 
 @media (max-width: 768px) {
   .logo img {
-    height: 20px;
+    height: 39px;
     width: auto;
   }
   .logo p {
-    height: 20px;
+    height: 39px;
   }
   .wrapper {
     gap: 16px;

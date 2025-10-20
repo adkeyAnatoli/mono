@@ -6,7 +6,6 @@ import {
 
 const BASE_URL = 'https://api.adkey-seo.com/api/website';
 
-// Получение игр
 export async function getGames(type: string): Promise<IGame[]> {
   try {
     const res = await fetch(`${BASE_URL}/get-games/${type}`, {
@@ -25,7 +24,6 @@ export async function getGames(type: string): Promise<IGame[]> {
   }
 }
 
-// Получение платежек
 export async function getPayments(idSite: string): Promise<IPayments[]> {
   try {
     const res = await fetch(`${BASE_URL}/get-payments/${idSite}`, {
@@ -44,7 +42,6 @@ export async function getPayments(idSite: string): Promise<IPayments[]> {
   }
 }
 
-// Получение провайдеров
 export async function getProviders(): Promise<IProviders[]> {
   try {
     const res = await fetch(`${BASE_URL}/get-providers/`, {
