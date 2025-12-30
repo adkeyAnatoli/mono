@@ -6,42 +6,42 @@
   "welcome_section": {
     "title": "Bono de bienvenida",
     "welcome_offer": "Oferta exclusiva de bienvenida",
-    "button": "Obtener bono"
+    "button": "Reclamar bono"
   },
   "h1_section": {
     "h1": "Rizzio Casino España: llamativo, sorprendentemente bien organizado"
   },
   "header_section": {
-    "login": "Iniciar sesión",
-    "signUp": "Registrarse"
+    "login": "Iniciar",
+    "signUp": "Alistarse"
   },
   "topCasino_section": {
     "top_casinos": "Mejores casinos",
     "welcome_bonus": "Bono de bienvenida",
-    "claim_bonus": "Obtener bono",
+    "claim_bonus": "Reclamar bono",
     "all_casinos": "Todos los casinos"
   },
   "bonusDetails_section": {
     "bonus_details": "Detalles del bono",
     "casino": "Casino",
-    "bonuses": "Bonos",
-    "rate": "Valoración",
-    "free_spins": "Tiradas gratis",
-    "more_info": "Más información",
-    "get": "Obtener",
+    "bonuses": "Boni",
+    "rate": "Rate",
+    "free_spins": "Free Spins",
+    "more_info": "Más info",
+    "get": "Conseguir",
     "welcome_bonus": "Bono de bienvenida",
-    "get_bonus": "Obtener el bono",
+    "get_bonus": "Obtenga el bono",
     "max_amount": "Cantidad máxima:",
-    "wager": "Requisito de apuesta:",
-    "bonus_code": "Código bono:",
-    "refresh": "Actualizar"
+    "wager": "Wager:",
+    "bonus_code": "Código de bono:",
+    "refresh": "Refrescar"
   },
   "advantages_section": {
     "advantages": "Ventajas",
     "know_more": "Saber más"
   },
   "topGames_section": {
-    "top_games": "Mejores juegos",
+    "top_games": "Los mejores juegos",
     "play_now": "Jugar ahora",
     "all_games": "Todos los juegos"
   },
