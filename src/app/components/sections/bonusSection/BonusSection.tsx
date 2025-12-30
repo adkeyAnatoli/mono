@@ -4,6 +4,7 @@ import style from './bonusSection.module.css';
 import Button from '../../buttons/ButtonLink';
 import { useTranslations } from 'next-intl';
 import { useWebsite } from '@/src/app/context/WebsiteProvider';
+import Image from 'next/image';
 
 const BonusSection: React.FC = () => {
   const t = useTranslations('welcome_section');
@@ -12,6 +13,25 @@ const BonusSection: React.FC = () => {
     return (
       <div className={style.someSection}>
         <div className={style.bonusSection}>
+          <div className={style.imageWrapper}>
+            <Image
+              src="/sectionImg/slot1.webp"
+              alt="Welcome bonus slot"
+              fill
+              priority
+              fetchPriority="high"
+              className={`${style.bgImage} ${style.desktopBg}`}
+            />
+
+            <Image
+              src="/sectionImg/slot1-mobile.webp"
+              alt="Welcome bonus slot mobile"
+              fill
+              priority
+              fetchPriority="high"
+              className={`${style.bgImage} ${style.mobileBg}`}
+            />
+          </div>
           <div className={`container ${style.bonusSection_wrapper}`}>
             <div className={style.bonusSection_left}>
               {/* <h2 className={style.title}>{t('title')}</h2> */}
@@ -40,6 +60,25 @@ const BonusSection: React.FC = () => {
   return (
     <div className={style.someSection}>
       <div className={style.bonusSection}>
+        <div className={style.imageWrapper}>
+          <Image
+            src="/sectionImg/slot1.webp"
+            alt="Welcome bonus slot"
+            fill
+            priority
+            fetchPriority="high"
+            className={`${style.bgImage} ${style.desktopBg}`}
+          />
+
+          <Image
+            src="/sectionImg/slot1-mobile.webp"
+            alt="Welcome bonus slot mobile"
+            fill
+            priority
+            fetchPriority="high"
+            className={`${style.bgImage} ${style.mobileBg}`}
+          />
+        </div>
         <div className={`container ${style.bonusSection_wrapper}`}>
           <div className={style.bonusSection_left}>
             {/* <h2 className={style.title}>{t('title')}</h2> */}

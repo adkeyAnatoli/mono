@@ -1,14 +1,32 @@
 .bonusSection {
-  background: url('../../../../../public/sectionImg/slot1.webp') no-repeat top
-    50% left 81% / auto 100%;
+  /* background: url('../../../../../public/sectionImg/slot1.webp') no-repeat top
+    50% left 81% / auto 100%; */
   max-width: 1440px;
   margin: 0 auto;
+  position: relative;
 }
 .mobile {
   display: none;
 }
 .someSection {
   background: var(--bonus-section-bg);
+}
+.bgImage {
+  object-fit: contain;
+  object-position: 81% 50%;
+  pointer-events: none;
+}
+.imageWrapper {
+  position: absolute;
+  inset: 0;
+  height: 100%;
+  width: 100%;
+}
+.desktopBg {
+  display: block;
+}
+.mobileBg {
+  display: none;
 }
 
 .title {
@@ -39,15 +57,15 @@
 
 .bonusSection_left p {
   color: var(--bonus-section-text);
-  font-family: var(--font-family-second);
+  font-family: var(--font-family-main);
   font-size: 32px;
   font-style: normal;
-  font-weight: var(--font-weight-500);
+  font-weight: var(--font-weight-main);
   line-height: normal;
 }
 
 .desktop {
-  min-height: 76px;
+  min-height: 117px;
 }
 
 .bonusSection_right {
@@ -56,34 +74,61 @@
 }
 
 @media (max-width: 1200px) {
-  .bonusSection {
+  /* .bonusSection {
     background: url('../../../../../public/sectionImg/slot1.webp') no-repeat top
       50% left 85% / auto 85%;
+  } */
+  .imageWrapper {
+    height: 85%;
+    margin-top: 3%;
+  }
+  .bgImage {
+    object-position: 85% 50%;
   }
 }
 
 @media (max-width: 1085px) {
-  .bonusSection {
+  /* .bonusSection {
     background: url('../../../../../public/sectionImg/slot1.webp') no-repeat top
       50% left 85% / auto 80%;
+  } */
+  .imageWrapper {
+    height: 80%;
+    margin-top: 4%;
+  }
+  .bgImage {
+    object-position: 85% 50%;
   }
 }
 
 @media (max-width: 1000px) {
-  .bonusSection {
+  /* .bonusSection {
     background: url('../../../../../public/sectionImg/slot1.webp') no-repeat top
       50% left 88% / auto 70%;
+  } */
+  .imageWrapper {
+    height: 70%;
+    margin-top: 7%;
+  }
+  .bgImage {
+    object-position: 88% 50%;
   }
 }
 
 @media (max-width: 875px) {
+  .desktopBg {
+    display: none;
+  }
+  .mobileBg {
+    display: block;
+  }
   .bonusSection_wrapper {
     flex-direction: column-reverse;
     gap: 40px;
   }
   .bonusSection {
-    background: url('../../../../../public/sectionImg/slot1-mobile.webp')
-      no-repeat top 0% center / auto 61%;
+    /* background: url('../../../../../public/sectionImg/slot1-mobile.webp')
+      no-repeat top 0% center / auto 61%; */
     /* margin-bottom: 15px; */
     /* margin-bottom: 88px; */
     padding-bottom: 20px;
@@ -93,6 +138,13 @@
     height: 318px;
     /* background: url('../../../../public/sectionImg/slot1-mobile.webp') no-repeat
       center center / auto 100%; */
+  }
+  .imageWrapper {
+    height: 61%;
+    margin-top: 0%;
+  }
+  .bgImage {
+    object-position: 50% 50%;
   }
   .title {
     display: none;
@@ -131,8 +183,12 @@
 
 @media (max-width: 550px) {
   .bonusSection {
-    background: url('../../../../../public/sectionImg/slot1-mobile.webp')
-      no-repeat top 10% center / auto 50%;
+    /* background: url('../../../../../public/sectionImg/slot1-mobile.webp')
+      no-repeat top 10% center / auto 50%; */
+  }
+  .imageWrapper {
+    height: 50%;
+    margin-top: 2%;
   }
   .bonusSection_right {
     height: 220px;
