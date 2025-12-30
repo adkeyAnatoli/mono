@@ -10,7 +10,7 @@ const BonusSection: React.FC = () => {
   const { website } = useWebsite();
   if (!website) {
     return (
-      <section className={style.someSection}>
+      <div className={style.someSection}>
         <div className={style.bonusSection}>
           <div className={`container ${style.bonusSection_wrapper}`}>
             <div className={style.bonusSection_left}>
@@ -33,12 +33,12 @@ const BonusSection: React.FC = () => {
             <div className={style.bonusSection_right}></div>
           </div>
         </div>
-      </section>
+      </div>
     );
   }
   const offer = website.offers[0];
   return (
-    <section className={style.someSection}>
+    <div className={style.someSection}>
       <div className={style.bonusSection}>
         <div className={`container ${style.bonusSection_wrapper}`}>
           <div className={style.bonusSection_left}>
@@ -61,7 +61,7 @@ const BonusSection: React.FC = () => {
           <div className={style.bonusSection_right}></div>
         </div>
       </div>
-    </section>
+    </div>
   );
 };
 

@@ -10,12 +10,28 @@ import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { ReactNode } from 'react';
 import { WebsiteProvider } from '../context/WebsiteProvider';
 
-const fontOne = localFont({
-  src: '../fonts/Inter-Bold.woff2',
-});
+// const fontOne = localFont({
+//   src: '../fonts/Inter-Bold.woff2',
+// });
 
-const fontThree = localFont({
-  src: '../fonts/Inter-ExtraBold.woff2',
+// const fontThree = localFont({
+//   src: '../fonts/Inter-ExtraBold.woff2',
+// });
+
+const fontOne = localFont({
+  src: [
+    {
+      path: '../fonts/Inter-Bold.woff2',
+      weight: '700',
+    },
+    {
+      path: '../fonts/Inter-ExtraBold.woff2',
+      weight: '800',
+    },
+  ],
+  display: 'swap',
+  preload: true,
+  fallback: ['system-ui', 'Arial'],
 });
 
 const fontTwo = Roboto({
@@ -137,6 +153,8 @@ export default async function RootLayout({
     <html lang={locale}>
       <head>
         <meta name="language" content={locale} />
+        <link rel="preload" as="image" href="/sectionImg/slot1.webp" fetchPriority="high" />
+        <link rel="preload" as="image" href="/sectionImg/slot1-mobile.webp" fetchPriority="high" />
         <link rel="icon" href="/icons/icon.png" />
         <link rel="apple-touch-icon" href="/icons/icon57.png" sizes="57x57" />
         <link rel="apple-touch-icon" href="/icons/icon60.png" sizes="60x60" />
@@ -175,7 +193,7 @@ export default async function RootLayout({
         />
       </head>
       <body
-        className={`${fontThree.className} ${fontTwo.className} ${fontOne.className}`}
+        className={`${fontTwo.className} ${fontOne.className}`}
       >
         <NextIntlClientProvider>
           <WebsiteProvider>{children}</WebsiteProvider>

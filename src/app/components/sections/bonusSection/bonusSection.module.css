@@ -46,6 +46,10 @@
   line-height: normal;
 }
 
+.desktop {
+  min-height: 76px;
+}
+
 .bonusSection_right {
   /* width: 740px; */
   height: 540px;
