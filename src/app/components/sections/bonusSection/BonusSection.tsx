@@ -30,6 +30,7 @@ const BonusSection: React.FC = () => {
               priority
               fetchPriority="high"
               className={`${style.bgImage} ${style.mobileBg}`}
+              sizes="(max-width: 550px) 100vw, 405px"
             />
           </div>
           <div className={`container ${style.bonusSection_wrapper}`}>
@@ -77,6 +78,7 @@ const BonusSection: React.FC = () => {
             priority
             fetchPriority="high"
             className={`${style.bgImage} ${style.mobileBg}`}
+            sizes="(max-width: 550px) 100vw, 405px"
           />
         </div>
         <div className={`container ${style.bonusSection_wrapper}`}>
