@@ -18,6 +18,9 @@ const CardCasino: React.FC<IBonusSection> = ({ data }) => {
         alt={`${data.name} in ${siteName}`}
         title={`${data.name} in ${siteName}`}
         priority
+        sizes="160px"
+        loading={"eager"}
+        fetchPriority="high"
       />
       <h3>{data.name}</h3>
       <h4>{t('welcome_bonus')}</h4>
