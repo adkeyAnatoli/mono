@@ -1,0 +1,443 @@
+{
+  "metaData": {
+    "title": "Rizzio Casino Review – 13,000+ Games and Up to $1,200 Welcome",
+    "description": "A complete and detailed Rizzio Casino review for players who want a huge game lobby and a sportsbook under one account. Explore sign-up, banking limits, mobile play, support, and the fine print that matters."
+  },
+  "welcome_section": {
+    "title": "Welcome bonus",
+    "welcome_offer": "Exclusive welcome offer of",
+    "button": "Claim Bonus"
+  },
+  "h1_section": {
+    "h1": "Rizzio Casino: Neon-Loud, Surprisingly Put-Together"
+  },
+  "header_section": {
+    "login": "Log In",
+    "signUp": "Sign Up"
+  },
+  "topCasino_section": {
+    "top_casinos": "Top Casinos",
+    "welcome_bonus": "Welcome bonus",
+    "claim_bonus": "Claim Bonus",
+    "all_casinos": "All casino"
+  },
+  "bonusDetails_section": {
+    "bonus_details": "Bonus Details",
+    "casino": "Casino",
+    "bonuses": "Bonuses",
+    "rate": "Rate",
+    "free_spins": "Free spins",
+    "more_info": "More info",
+    "get": "Get",
+    "welcome_bonus": "Welcome bonus",
+    "get_bonus": "Get the bonus",
+    "max_amount": "Maximum amount:",
+    "wager": "Wager:",
+    "bonus_code": "Bonus Code:",
+    "refresh": "Refresh"
+  },
+  "advantages_section": {
+    "advantages": "Advantages",
+    "know_more": "Know more"
+  },
+  "topGames_section": {
+    "top_games": "Top Games",
+    "play_now": "Play Now",
+    "all_games": "All games"
+  },
+  "payments_section": {
+    "payments_methods": "Payment methods",
+    "method": "Method",
+    "type": "Type",
+    "country": "Country",
+    "commission": "Commission",
+    "processing_time": "Processing time",
+    "minimum_deposit": "Minimum deposit",
+    "deposit": "Deposit"
+  },
+  "software_section": {
+    "software_providers": "Software Providers"
+  },
+  "casinoInfo": {
+    "title": "Rizzio Casino",
+    "content": [
+      {
+        "type": "list-dotted",
+        "items": [
+          "Up to $1,200 welcome casino package",
+          "13,000+ games",
+          "A full sportsbook with extra features"
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "Rizzio Casino is one of those platforms that looks like it’s trying to win a design contest and start a party at the same time. Bright visuals, big category buttons, constant motion, and a general “we’re here for a good time” vibe. But once you actually use it, the layout is not chaotic for the sake of it. The lobby is structured, the navigation does what it should, and the important sections are always one click away."
+      },
+      {
+        "type": "paragraph",
+        "text": "What makes Rizzio feel properly “built” is that it doesn’t rely on one flex. It’s not just “we have bonuses,” or “we have sports,” or “we have slots.” It’s trying to be a full ecosystem: a large casino catalogue, a live casino that’s not an afterthought, a sportsbook with extra mechanics, plus a promotions page that stays busy instead of going quiet after the welcome offer."
+      },
+      {
+        "type": "paragraph",
+        "text": "If you’re the type of player who likes having everything under one login and you actually care about variety (not just a wall of identical slots), Rizzio is positioned to keep you entertained without forcing you to hop between platforms."
+      }
+    ],
+    "mainSections": [
+      {
+        "heading": "Rizzio Casino Registration",
+        "content": [
+          {
+            "type": "paragraph",
+            "text": "Rizzio’s onboarding is designed to get you inside quickly, but not in a sketchy way. It’s the normal flow: create an account, confirm your details, and then you’re free to explore the lobby. Where you should slow down is when you’re choosing anything that affects your money later, like your main currency and your preferred payment method."
+          }
+        ]
+      },
+      {
+        "heading": "Rizzio Casino Login",
+        "content": [
+          {
+            "type": "paragraph",
+            "text": "Login is the usual email + password setup. Nothing exotic, nothing annoying, and it behaves the same on desktop and mobile. If you’re someone who tends to forget passwords mid-session (it happens), the recovery flow is also where you’d expect it to be."
+          }
+        ]
+      }
+    ],
+    "lastSections": [
+      {
+        "heading": "Deposits",
+        "content": [
+          {
+            "type": "paragraph",
+            "text": "Rizzio is one of those casinos that clearly expects an international audience, because the cashier doesn’t force you into one narrow payment lane. You get a mix of classic options and modern ones, plus crypto for people who want speed and flexibility."
+          },
+          {
+            "type": "list-dotted",
+            "items": [
+              "Cashlib",
+              "Visa",
+              "Mastercard",
+              "Jeton Wallet / Jeton Cash",
+              "E-wallets",
+              "Crypto (BTC, ETH, LTC, BCH, USDT, USDC)",
+              "LuxonPay"
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": "Deposits are typically instant on the casino side. The real “timing” variable is your payment rail and your bank/provider, not the platform itself."
+          }
+        ]
+      },
+      {
+        "heading": "Withdrawals",
+        "content": [
+          {
+            "type": "paragraph",
+            "text": "Withdrawals in online casinos generally follow two rules:"
+          },
+          {
+            "type": "list-number",
+            "items": [
+              "expect verification if you want to cash out, and",
+              "expect the platform to prefer that you withdraw via the same route you used to deposit."
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": "Rizzio has dedicated KYC/AML policy pages and makes it clear it operates with compliance requirements, so do not wait until the exact moment you want your winnings to hit your account. If you know you’re going to withdraw, handle verification early so you don’t turn a win into a paperwork weekend."
+          }
+        ]
+      }
+    ]
+  },
+  "appSection": {
+    "title": "App, Currencies, and Languages",
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "This is the “daily usability” section. The part that decides whether a casino feels smooth or feels like a chore."
+      }
+    ],
+    "middleSections": [
+      {
+        "heading": "App",
+        "content": [
+          {
+            "type": "paragraph",
+            "text": "Rizzio doesn’t push the classic “download our app from the App Store” route. Instead, it leans into a mobile browser experience that’s built to function like a product, not like a squeezed desktop site."
+          },
+          {
+            "type": "paragraph",
+            "text": "If you want the app-ish feel without downloading anything, use the standard shortcut approach:"
+          },
+          {
+            "type": "list-dotted",
+            "items": [
+              "Android: browser menu → “Add to Home screen”",
+              "iOS: Share icon → “Add to Home Screen”"
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": "That gives you a one-tap icon and a clean full-screen launch, without storage drain or update nags."
+          }
+        ]
+      }
+    ],
+    "lastSections": [
+      {
+        "heading": "Languages",
+        "content": [
+          {
+            "type": "paragraph",
+            "text": "Rizzio is upfront about offering multilingual support coverage. On its Contact page, it lists support for English, German, Spanish, Norwegian, and Finnish."
+          },
+          {
+            "type": "paragraph",
+            "text": "That’s a practical detail, not just a “language toggle for decoration” move, because it’s tied directly to customer support availability."
+          }
+        ]
+      },
+      {
+        "heading": "Currencies",
+        "content": [
+          {
+            "type": "paragraph",
+            "text": "The cashier view shows currency selection – during registration, you can pick EUR, USD, GBP, CAD, and some other fiat currencies, alongside the cryptos – BTC, ETH, and others."
+          },
+          {
+            "type": "paragraph",
+            "text": "Pick your main account currency carefully, because you don’t want to build your bankroll in one currency and then realize your preferred withdrawal lane is smoother in another."
+          }
+        ]
+      }
+    ]
+  },
+  "lastSection": {
+    "title": "Advantages and Disadvantages",
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "Rizzio has a lot going for it, but it’s not a perfect “set it and forget it” casino. Here’s the honest balance."
+      }
+    ],
+    "leftTitle": "Advantages",
+    "left": [
+      "Big welcome offering on the casino side",
+      "Separate sportsbook welcome promos",
+      "Huge catalogue",
+      "Proper banking variety",
+      "Builder, Early Payout, and other extra features"
+    ],
+    "rightTitle": "Disadvantages",
+    "right": [
+      "Relatively high wagering requirements",
+      "Deposit limits depend on method",
+      "No native app"
+    ]
+  },
+  "supportSection": {
+    "title": "Support",
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "Rizzio keeps support access straightforward: live chat for fast issues and email for anything that needs screenshots, documents, or longer explanations."
+      },
+      {
+        "type": "paragraph",
+        "text": "Rizzio also hosts dedicated policy pages (Responsible Gaming, KYC & AML, Underage Gaming Policy, Sports Betting Rules), which is a good sign if you want clarity instead of vague answers."
+      }
+    ]
+  },
+  "faqSection": {
+    "title": "FAQ",
+    "faqList": [
+      {
+        "title": "Is Rizzio Casino more casino-focused or sportsbook-focused?",
+        "text": "It's built as a hybrid. The casino side is huge and heavily promoted, but the sportsbook has its own welcome offers and feature set, so it's not just a lonely tab for betting fans."
+      },
+      {
+        "title": "Does Rizzio offer live casino games?",
+        "text": "Yes. Live casino is big here, not a token add-on. You'll find the classic table categories plus game-show style content depending on provider availability."
+      },
+      {
+        "title": "Can I play on my phone?",
+        "text": "Yes. The site is mobile-optimised and works smoothly in-browser. If you want one-tap access, add it to your home screen like a shortcut app."
+      },
+      {
+        "title": "Do I need verification to withdraw?",
+        "text": "Very likely, yes. Rizzio publishes KYC/AML policies and operates as a regulated platform, so verification is part of the process for withdrawals and account security."
+      }
+    ]
+  },
+  "infoSectionAfterSupport": {
+    "title": "Bonuses and Promotions",
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "Rizzio's promotions tab is not a \"welcome offer and goodbye\" situation. It's a proper promo hub with multiple categories, big provider campaigns, and separate offers for casino and sportsbook players."
+      },
+      {
+        "type": "paragraph",
+        "text": "This is where the platform's personality really shows: it wants you active across the week, not only on day one."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Welcome Bonus",
+        "content": [
+          {
+            "type": "paragraph",
+            "text": "On the casino side, Rizzio offers a generous Welcome Casino Package with up to $1,200 to get started."
+          },
+          {
+            "type": "paragraph",
+            "text": "On the sportsbook side, expect two separate welcome angles:"
+          },
+          {
+            "type": "list-dotted",
+            "items": [
+              "Welcome Sports Bonus: 100% up to $100",
+              "Welcome Sports Freebet: $25 free bet"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Regular casino promotions",
+        "content": [
+          {
+            "type": "paragraph",
+            "text": "Rizzio's promo page is packed with rotating offers. Among the most popular ones:"
+          },
+          {
+            "type": "list-dotted",
+            "items": [
+              "Tuesday merry Free Spins, bringing you up to 1,500 FS with wager as low as x20",
+              "Jingle Wednesday Bonus, where you can get 300 FS and extra $25",
+              "Magical Live Casino Friday – 125% Live reload bonus",
+              "Jingle Saturday Combo – 150% reload + 350 FS",
+              "Monday's Sparkling Free Spins, with an insane amount of 700 free spins with x15 wagering"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "infoSectionAfterPayments": {
+    "sections": [
+      {
+        "heading": "Licence note",
+        "content": [
+          {
+            "type": "paragraph",
+            "text": "Rizzio states it is owned and operated by Green Champions Leader SRL (Costa Rica) and licensed and regulated by the Government of the Autonomous Island of Anjouan, Union of Comoros, operating under License ALSI-202502014-FI1."
+          }
+        ]
+      }
+    ]
+  },
+  "infoSectionAfterFaq": {
+    "title": "Games at Rizzio Casino",
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "Rizzio’s entire personality is \"variety, but make it loud.\" The casino offers 13,000+ games, and the provider roster shown across the site is stacked with recognisable names, which is usually the difference between a genuinely big lobby and a lobby that's just repeating the same content in different clothes."
+      },
+      {
+        "type": "paragraph",
+        "text": "Another good sign is the sheer spread of providers visible on the platform (Evolution, Pragmatic, Hacksaw, NetEnt, BGaming, Yggdrasil, and a long list of additional studios). That tends to translate into better category depth: not only slots, but also live tables, game shows, crash games, and fast-play formats."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Slots",
+        "content": [
+          {
+            "type": "paragraph",
+            "text": "Slots are the main bulk, as expected, and the point isn't just quantity. With this many studios in rotation, you get different design styles and feature mechanics, which matters if you play more than casually."
+          },
+          {
+            "type": "paragraph",
+            "text": "Expect the usual range of slot 'moods':"
+          },
+          {
+            "type": "list-dotted",
+            "items": [
+              "classic/simple spins for low-effort sessions",
+              "modern video slots with feature rounds and bonus buy mechanics (region-dependent)",
+              "high-volatility titles if you like bigger swings",
+              "themed series and branded-studio styles that keep the lobby from feeling repetitive"
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": "Because the catalogue is so broad, the practical benefit is that you can switch your play style without switching platforms. You can go from calm low-stakes spins to higher-volatility hunting in one session and still feel like you're playing in different worlds."
+          }
+        ]
+      },
+      {
+        "heading": "Live casino",
+        "content": [
+          {
+            "type": "paragraph",
+            "text": "Live casino is where a platform either commits or exposes itself. Rizzio commits."
+          },
+          {
+            "type": "paragraph",
+            "text": "The live section is built around the categories players actually use:"
+          },
+          {
+            "type": "list-dotted",
+            "items": [
+              "Roulette",
+              "Blackjack",
+              "Baccarat",
+              "Poker variants",
+              "Game shows"
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": "The real quality marker, though, is table variety and limits. When a live casino includes both low-entry tables and higher-limit options, it usually means the lobby is meant for more than one type of bankroll."
+          }
+        ]
+      },
+      {
+        "heading": "Jackpots",
+        "content": [
+          {
+            "type": "paragraph",
+            "text": "With a catalogue this large, jackpot content is usually baked in as a mix:"
+          },
+          {
+            "type": "list-dotted",
+            "items": [
+              "always-on jackpot slots",
+              "rotating provider jackpot promos",
+              "tournament-linked prize pools that pop up on the promotions page"
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": "The key thing to watch (especially if you're playing with bonus funds) is eligibility. Some games and jackpots have special terms, and Rizzio is clear that bonus usage is tied to \"valid games\" per the promo category."
+          }
+        ]
+      }
+    ]
+  },
+  "footer": {
+    "title": "Rizzio Casino"
+  },
+  "notFoundPage": {
+    "textOne": "The page you were looking for does not exist.",
+    "textTwo": "You may have mistyped the address or the page may have moved.",
+    "back": "Home Page"
+  },
+  "LanguageSelect": {
+    "english": "EN",
+    "french": "FR",
+    "german": "DE",
+    "spanish": "ES"
+  }
+}

@@ -1,0 +1,68 @@
+'use client';
+import React from 'react';
+import style from './bonusSection.module.css';
+import Button from '../../buttons/ButtonLink';
+import { useTranslations } from 'next-intl';
+import { useWebsite } from '@/src/app/context/WebsiteProvider';
+
+const BonusSection: React.FC = () => {
+  const t = useTranslations('welcome_section');
+  const { website } = useWebsite();
+  if (!website) {
+    return (
+      <section className={style.someSection}>
+        <div className={style.bonusSection}>
+          <div className={`container ${style.bonusSection_wrapper}`}>
+            <div className={style.bonusSection_left}>
+              {/* <h2 className={style.title}>{t('title')}</h2> */}
+              <p className={style.desktop}>
+                {t('welcome_offer')}
+                <span></span>
+              </p>
+              <p className={style.mobile}>
+                {t('welcome_offer')}
+                <span></span>
+              </p>
+              <Button
+                id={0}
+                link={''}
+                text={t('button')}
+                classes="button-primary"
+              />
+            </div>
+            <div className={style.bonusSection_right}></div>
+          </div>
+        </div>
+      </section>
+    );
+  }
+  const offer = website.offers[0];
+  return (
+    <section className={style.someSection}>
+      <div className={style.bonusSection}>
+        <div className={`container ${style.bonusSection_wrapper}`}>
+          <div className={style.bonusSection_left}>
+            {/* <h2 className={style.title}>{t('title')}</h2> */}
+            <p className={style.desktop}>
+              {t('welcome_offer')}
+              <span> {offer.bonuses.welcome_bonus}</span>
+            </p>
+            <p className={style.mobile}>
+              {t('welcome_offer')}
+              <span> {offer.bonuses.welcome_bonus}</span>
+            </p>
+            <Button
+              id={offer.id}
+              link={offer.link}
+              text={t('button')}
+              classes="button-primary"
+            />
+          </div>
+          <div className={style.bonusSection_right}></div>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default BonusSection;

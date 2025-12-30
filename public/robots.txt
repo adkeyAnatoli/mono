@@ -1,0 +1,5 @@
+User-agent: * 
+Allow: / 
+Disallow: /casino/
+Host: https://rizzio-casino-online.com/
+Sitemap: https://rizzio-casino-online.com/sitemap.xml

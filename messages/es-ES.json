@@ -1,0 +1,443 @@
+{
+  "metaData": {
+    "title": "Rizzio Casino ES: más de 13 000 juegos y 1200 € de bienvenida",
+    "description": "Una reseña completa y detallada de Rizzio Casino para los jugadores españoles que desean un gran lobby de juegos y una casa de apuestas deportivas en una sola cuenta. Descubre el proceso de registro, los límites bancarios, el juego móvil, la asistencia y la letra pequeña que importa."
+  },
+  "welcome_section": {
+    "title": "Bono de bienvenida",
+    "welcome_offer": "Oferta exclusiva de bienvenida",
+    "button": "Obtener bono"
+  },
+  "h1_section": {
+    "h1": "Rizzio Casino España: llamativo, sorprendentemente bien organizado"
+  },
+  "header_section": {
+    "login": "Iniciar sesión",
+    "signUp": "Registrarse"
+  },
+  "topCasino_section": {
+    "top_casinos": "Mejores casinos",
+    "welcome_bonus": "Bono de bienvenida",
+    "claim_bonus": "Obtener bono",
+    "all_casinos": "Todos los casinos"
+  },
+  "bonusDetails_section": {
+    "bonus_details": "Detalles del bono",
+    "casino": "Casino",
+    "bonuses": "Bonos",
+    "rate": "Valoración",
+    "free_spins": "Tiradas gratis",
+    "more_info": "Más información",
+    "get": "Obtener",
+    "welcome_bonus": "Bono de bienvenida",
+    "get_bonus": "Obtener el bono",
+    "max_amount": "Cantidad máxima:",
+    "wager": "Requisito de apuesta:",
+    "bonus_code": "Código bono:",
+    "refresh": "Actualizar"
+  },
+  "advantages_section": {
+    "advantages": "Ventajas",
+    "know_more": "Saber más"
+  },
+  "topGames_section": {
+    "top_games": "Mejores juegos",
+    "play_now": "Jugar ahora",
+    "all_games": "Todos los juegos"
+  },
+  "payments_section": {
+    "payments_methods": "Métodos de pago",
+    "method": "Método",
+    "type": "Tipo",
+    "country": "País",
+    "commission": "Comisión",
+    "processing_time": "Tiempo de procesamiento",
+    "minimum_deposit": "Depósito mínimo",
+    "deposit": "Depósito"
+  },
+  "software_section": {
+    "software_providers": "Proveedores de software"
+  },
+  "casinoInfo": {
+    "title": "Rizzio Casino",
+    "content": [
+      {
+        "type": "list-dotted",
+        "items": [
+          "Paquete de bienvenida al casino de hasta 1200 €",
+          "Más de 13 000 juegos",
+          "Una casa de apuestas completa con funciones adicionales"
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "Rizzio Casino es una de esas plataformas que parece que intenta ganar un concurso de diseño y organizar una fiesta al mismo tiempo. Imágenes brillantes, botones de categorías grandes, movimiento constante y un ambiente general de «estamos aquí para pasarlo bien». Pero una vez que lo usas, ves que el diseño no es caótico por el simple hecho de serlo. El lobby está estructurado, la navegación funciona como debe y las secciones importantes están siempre a un clic de distancia."
+      },
+      {
+        "type": "paragraph",
+        "text": "Lo que hace que Rizzio se sienta bien «construido» es que no se basa en un solo aspecto. No se trata solo de «tenemos bonificaciones», «tenemos deportes» o «tenemos tragamonedas». Intenta ser un ecosistema completo: un gran catálogo de casino, un casino en vivo que no es una idea de último momento, una casa de apuestas con mecánicas adicionales, además de una página de promociones que se mantiene activa en lugar de quedarse en silencio después de la oferta de bienvenida."
+      },
+      {
+        "type": "paragraph",
+        "text": "Si eres el tipo de jugador al que le gusta tenerlo todo en un solo inicio de sesión y realmente te importa la variedad (no solo una pared de tragamonedas idénticas), Rizzio está posicionado para mantenerte entretenido sin obligarte a saltar de una plataforma a otra."
+      }
+    ],
+    "mainSections": [
+      {
+        "heading": "Registro y banca en Rizzio Casino",
+        "content": [
+          {
+            "type": "paragraph",
+            "text": "El proceso de registro en Rizzio está diseñado para que puedas entrar rápidamente, pero sin descuidar los detalles. Es el proceso habitual: crea una cuenta, confirma tus datos y ya puedes explorar el vestíbulo. Donde debes tomarte tu tiempo es a la hora de elegir cualquier cosa que afecte a tu dinero más adelante, como tu moneda principal y tu método de pago preferido."
+          }
+        ]
+      },
+      {
+        "heading": "Inicio de sesión",
+        "content": [
+          {
+            "type": "paragraph",
+            "text": "El inicio de sesión es el habitual: correo electrónico + contraseña. Nada exótico, nada molesto, y funciona igual en el ordenador y en el móvil. Si eres de los que tienden a olvidar las contraseñas a mitad de sesión (suele pasar), el proceso de recuperación también es el que cabría esperar."
+          }
+        ]
+      }
+    ],
+    "lastSections": [
+      {
+        "heading": "Depósitos",
+        "content": [
+          {
+            "type": "paragraph",
+            "text": "Rizzio es uno de esos casinos que claramente espera una audiencia internacional, porque el cajero no te obliga a utilizar un único método de pago. Tienes una mezcla de opciones clásicas y modernas, además de criptomonedas para quienes buscan rapidez y flexibilidad."
+          },
+          {
+            "type": "list-dotted",
+            "items": [
+              "Cashlib",
+              "Visa",
+              "Mastercard",
+              "Jeton Wallet / Jeton Cash",
+              "Monederos electrónicos",
+              "Criptomonedas (BTC, ETH, LTC, BCH, USDT, USDC)",
+              "LuxonPay"
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": "Los depósitos suelen ser instantáneos por parte del casino. La verdadera variable de «tiempo» es tu método de pago y tu banco/proveedor, no la plataforma en sí."
+          }
+        ]
+      },
+      {
+        "heading": "Retiros",
+        "content": [
+          {
+            "type": "paragraph",
+            "text": "Los retiros en los casinos online suelen seguir dos reglas:"
+          },
+          {
+            "type": "list-number",
+            "items": [
+              "espera una verificación si quieres retirar dinero, y",
+              "espera que la plataforma prefiera que retires el dinero por la misma vía que utilizaste para depositarlo."
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": "Rizzio tiene páginas dedicadas a la política KYC/AML y deja claro que opera con requisitos de cumplimiento, así que no esperes hasta el momento exacto en que quieras que tus ganancias lleguen a tu cuenta. Si sabes que vas a retirar dinero, haz la verificación con antelación para no convertir una ganancia en un fin de semana de papeleo."
+          }
+        ]
+      }
+    ]
+  },
+  "appSection": {
+    "title": "Aplicación, divisas e idiomas",
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "Esta es la sección de «usabilidad diaria». La parte que decide si un casino resulta fluido o parece una tarea tediosa."
+      }
+    ],
+    "middleSections": [
+      {
+        "heading": "Aplicación",
+        "content": [
+          {
+            "type": "paragraph",
+            "text": "Rizzio no sigue la ruta clásica de «descarga nuestra aplicación desde la App Store». En su lugar, se inclina por una experiencia de navegador móvil diseñada para funcionar como un producto, no como un sitio web de escritorio comprimido."
+          },
+          {
+            "type": "paragraph",
+            "text": "Si quieres disfrutar de la experiencia de una aplicación sin descargar nada, utiliza el método estándar de acceso directo:"
+          },
+          {
+            "type": "list-dotted",
+            "items": [
+              "Android: menú del navegador → «Añadir a la pantalla de inicio»",
+              "iOS: icono Compartir → «Añadir a la pantalla de inicio»"
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": "Esto te proporciona un icono de un solo toque y un inicio limpio a pantalla completa, sin agotar el almacenamiento ni molestas actualizaciones."
+          }
+        ]
+      }
+    ],
+    "lastSections": [
+      {
+        "heading": "Idiomas",
+        "content": [
+          {
+            "type": "paragraph",
+            "text": "Rizzio es sincero al ofrecer cobertura de asistencia multilingüe. En su página de contacto, enumera la asistencia en inglés, alemán, español, noruego y finés."
+          },
+          {
+            "type": "paragraph",
+            "text": "Se trata de un detalle práctico, no solo una «opción de idioma decorativa», ya que está directamente relacionado con la disponibilidad de la asistencia al cliente."
+          }
+        ]
+      },
+      {
+        "heading": "Divisas",
+        "content": [
+          {
+            "type": "paragraph",
+            "text": "La vista de caja muestra la selección de divisas: durante el registro, puedes elegir entre EUR, USD, GBP, CAD y algunas otras divisas fiduciarias, además de las criptomonedas BTC, ETH y otras."
+          },
+          {
+            "type": "paragraph",
+            "text": "Elige con cuidado la divisa principal de tu cuenta, porque no querrás acumular fondos en una divisa y luego darte cuenta de que tu vía de retirada preferida es más fluida en otra."
+          }
+        ]
+      }
+    ]
+  },
+  "lastSection": {
+    "title": "Ventajas y desventajas",
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "Rizzio tiene mucho a su favor, pero no es un casino perfecto del tipo «configúralo y olvídalo». Aquí está el balance honesto."
+      }
+    ],
+    "leftTitle": "Ventajas",
+    "left": [
+      "Gran oferta de bienvenida en la parte del casino",
+      "Promociones de bienvenida separadas para las apuestas deportivas",
+      "Enorme catálogo",
+      "Variedad bancaria adecuada",
+      "Constructor, pago anticipado y otras características adicionales"
+    ],
+    "rightTitle": "Desventajas",
+    "right": [
+      "Requisitos de apuesta relativamente altos",
+      "Los límites de depósito dependen del método",
+      "No hay aplicación nativa"
+    ]
+  },
+  "supportSection": {
+    "title": "Asistencia",
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "Rizzio mantiene un acceso sencillo a la asistencia: chat en vivo para cuestiones rápidas y correo electrónico para cualquier cosa que requiera capturas de pantalla, documentos o explicaciones más largas."
+      },
+      {
+        "type": "paragraph",
+        "text": "Rizzio también alberga páginas dedicadas a las políticas (Juego responsable, KYC y AML, Política de juego para menores, Reglas de apuestas deportivas), lo cual es una buena señal si quieres claridad en lugar de respuestas vagas."
+      }
+    ]
+  },
+  "faqSection": {
+    "title": "Preguntas frecuentes",
+    "faqList": [
+      {
+        "title": "¿Rizzio Casino se centra más en el casino o en las apuestas deportivas?",
+        "text": "Está diseñado como un híbrido. La parte del casino es enorme y se promociona mucho, pero las apuestas deportivas tienen sus propias ofertas de bienvenida y características, por lo que no es solo una pestaña solitaria para los aficionados a las apuestas."
+      },
+      {
+        "title": "¿Rizzio ofrece juegos de casino en vivo?",
+        "text": "Sí. El casino en vivo es importante aquí, no es un complemento simbólico. Encontrarás las categorías clásicas de mesas, además de contenido al estilo de los programas de juegos, dependiendo de la disponibilidad del proveedor."
+      },
+      {
+        "title": "¿Puedo jugar en mi teléfono?",
+        "text": "Sí. El sitio está optimizado para móviles y funciona perfectamente en el navegador. Si quieres acceder con un solo toque, añádelo a tu pantalla de inicio como una aplicación de acceso directo."
+      },
+      {
+        "title": "¿Necesito verificación para retirar dinero?",
+        "text": "Es muy probable que sí. Rizzio publica políticas KYC/AML y opera como una plataforma regulada, por lo que la verificación forma parte del proceso de retirada de fondos y seguridad de la cuenta."
+      }
+    ]
+  },
+  "infoSectionAfterSupport": {
+    "title": "Bonos y promociones",
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "La pestaña de promociones de Rizzio no es una situación de \"oferta de bienvenida y adiós\". Es un centro de promociones propiamente dicho, con múltiples categorías, grandes campañas de proveedores y ofertas separadas para los jugadores de casino y de apuestas deportivas."
+      },
+      {
+        "type": "paragraph",
+        "text": "Aquí es donde realmente se muestra la personalidad de la plataforma: quiere que estés activo durante toda la semana, no solo el primer día."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Bono de bienvenida",
+        "content": [
+          {
+            "type": "paragraph",
+            "text": "En cuanto al casino, Rizzio ofrece un generoso paquete de bienvenida con hasta 1200 € para empezar."
+          },
+          {
+            "type": "paragraph",
+            "text": "En cuanto a las apuestas deportivas, hay dos tipos de bienvenida:"
+          },
+          {
+            "type": "list-dotted",
+            "items": [
+              "Bono de bienvenida para apuestas deportivas: 100 % hasta 100 €",
+              "Apuesta gratuita de bienvenida para apuestas deportivas: 25 € de apuesta gratuita"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Promociones habituales del casino",
+        "content": [
+          {
+            "type": "paragraph",
+            "text": "La página de promociones de Rizzio está repleta de ofertas rotativas. Entre las más populares se encuentran:"
+          },
+          {
+            "type": "list-dotted",
+            "items": [
+              "Martes alegre con tiradas gratis, que te ofrece hasta 1500 tiradas gratis con un requisito de apuesta de tan solo x20",
+              "Bono Jingle Wednesday, donde puedes conseguir 300 tiradas gratis y 25 € extra",
+              "Magical Live Casino Friday: bono de recarga en vivo del 125 %",
+              "Jingle Saturday Combo: recarga del 150 % + 350 tiradas gratis",
+              "Monday's Sparkling Free Spins, con la increíble cantidad de 700 tiradas gratis con una apuesta de x15"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "infoSectionAfterPayments": {
+    "sections": [
+      {
+        "heading": "Nota sobre la licencia",
+        "content": [
+          {
+            "type": "paragraph",
+            "text": "Rizzio afirma que es propiedad y está operado por Green Champions Leader SRL (Costa Rica) y que cuenta con la licencia y la regulación del Gobierno de la Isla Autónoma de Anjouan, Unión de las Comoras, que opera bajo la licencia ALSI-202502014-FI1."
+          }
+        ]
+      }
+    ]
+  },
+  "infoSectionAfterFaq": {
+    "title": "Juegos en Rizzio Casino",
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "Toda la personalidad de Rizzio se resume en \"variedad, pero a lo grande\". El casino ofrece más de 13 000 juegos, y la lista de proveedores que aparece en el sitio web está repleta de nombres reconocibles, lo que suele marcar la diferencia entre un lobby realmente grande y un lobby que solo repite el mismo contenido con un aspecto diferente."
+      },
+      {
+        "type": "paragraph",
+        "text": "Otra buena señal es la gran variedad de proveedores visibles en la plataforma (Evolution, Pragmatic, Hacksaw, NetEnt, BGaming, Yggdrasil y una larga lista de estudios adicionales). Esto tiende a traducirse en una mayor profundidad de categorías: no solo tragamonedas, sino también mesas en vivo, programas de juegos, juegos de choque y formatos de juego rápido."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Tragamonedas",
+        "content": [
+          {
+            "type": "paragraph",
+            "text": "Las tragamonedas son la mayor parte, como era de esperar, y lo importante no es solo la cantidad. Con tantos estudios en rotación, se obtienen diferentes estilos de diseño y mecánicas de funciones, lo que es importante si se juega más que de forma ocasional."
+          },
+          {
+            "type": "paragraph",
+            "text": "Se puede esperar la gama habitual de \"estilos\" de tragamonedas:"
+          },
+          {
+            "type": "list-dotted",
+            "items": [
+              "giros clásicos/simples para sesiones sin esfuerzo",
+              "tragamonedas de vídeo modernas con rondas de funciones y mecánicas de compra de bonificaciones (dependiendo de la región)",
+              "títulos de alta volatilidad si te gustan las grandes oscilaciones",
+              "series temáticas y estilos de estudios de marca que evitan que el vestíbulo resulte repetitivo"
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": "Como el catálogo es tan amplio, la ventaja práctica es que puedes cambiar tu estilo de juego sin cambiar de plataforma. Puedes pasar de giros tranquilos con apuestas bajas a la caza de la alta volatilidad en una sola sesión y seguir sintiendo que estás jugando en mundos diferentes."
+          }
+        ]
+      },
+      {
+        "heading": "Casino en vivo",
+        "content": [
+          {
+            "type": "paragraph",
+            "text": "El casino en vivo es donde una plataforma se compromete o se expone. Rizzio se compromete."
+          },
+          {
+            "type": "paragraph",
+            "text": "La sección en vivo se basa en las categorías que los jugadores utilizan realmente:"
+          },
+          {
+            "type": "list-dotted",
+            "items": [
+              "Ruleta",
+              "Blackjack",
+              "Baccarat",
+              "Variantes de póquer",
+              "Programas de juegos"
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": "Sin embargo, el verdadero indicador de calidad es la variedad de mesas y los límites. Cuando el casino en vivo incluye tanto mesas de baja entrada como opciones de límites más altos, suele significar que el lobby está pensado para más de un tipo de presupuesto."
+          }
+        ]
+      },
+      {
+        "heading": "Botes",
+        "content": [
+          {
+            "type": "paragraph",
+            "text": "Con un catálogo tan amplio, el contenido de los botes suele ser una mezcla de:"
+          },
+          {
+            "type": "list-dotted",
+            "items": [
+              "tragamonedas con botes siempre activos",
+              "promociones de botes rotativas de los proveedores",
+              "botes vinculados a torneos que aparecen en la página de promociones"
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": "Lo más importante a tener en cuenta (especialmente si se juega con fondos de bonificación) es la elegibilidad. Algunos juegos y botes tienen condiciones especiales, y Rizzio deja claro que el uso de las bonificaciones está vinculado a los \"juegos válidos\" según la categoría de la promoción."
+          }
+        ]
+      }
+    ]
+  },
+  "footer": {
+    "title": "Rizzio Casino"
+  },
+  "notFoundPage": {
+    "textOne": "La página que buscabas no existe.",
+    "textTwo": "Es posible que hayas escrito mal la dirección o que la página se haya movido.",
+    "back": "Página de inicio"
+  },
+  "LanguageSelect": {
+    "english": "EN",
+    "french": "FR",
+    "german": "DE",
+    "spanish": "ES"
+  }
+}
