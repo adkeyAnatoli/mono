@@ -32,6 +32,7 @@ const fontOne = localFont({
   display: 'swap',
   preload: true,
   fallback: ['system-ui', 'Arial'],
+  adjustFontFallback: false,
 });
 
 const fontTwo = Roboto({

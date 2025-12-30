@@ -5,7 +5,7 @@ import { IBonusSection } from '@/src/app/interfaces/bonusSectionInterface';
 import ButtonLink from '../../buttons/ButtonLink';
 import { useTranslations } from 'next-intl';
 
-const CardCasino: React.FC<IBonusSection> = ({ data }) => {
+const CardCasino: React.FC<IBonusSection> = ({ data, priority = false }) => {
   const siteName = process.env.NEXT_PUBLIC_SITE_NAME;
   const t = useTranslations('topCasino_section');
 
@@ -17,7 +17,10 @@ const CardCasino: React.FC<IBonusSection> = ({ data }) => {
         height={76}
         alt={`${data.name} in ${siteName}`}
         title={`${data.name} in ${siteName}`}
-        priority
+        priority={priority}
+        loading={priority ? "eager" : "lazy"}
+        decoding="async"
+        fetchPriority={priority ? "high" : "auto"}
       />
       <h3>{data.name}</h3>
       <h4>{t('welcome_bonus')}</h4>
