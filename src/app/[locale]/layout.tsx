@@ -21,11 +21,11 @@ import { WebsiteProvider } from '../context/WebsiteProvider';
 const fontOne = localFont({
   src: [
     {
-      path: '../fonts/Inter-Bold.woff2',
+      path: '../../../public/fonts/Inter-Bold.woff2',
       weight: '700',
     },
     {
-      path: '../fonts/Inter-ExtraBold.woff2',
+      path: '../../../public/fonts/Inter-ExtraBold.woff2',
       weight: '800',
     },
   ],
@@ -154,6 +154,12 @@ export default async function RootLayout({
     <html lang={locale}>
       <head>
         <meta name="language" content={locale} />
+        <link
+          rel="preconnect"
+          href="https://api.adkey-seo.com"
+          crossOrigin=""
+        />
+        <link rel="dns-prefetch" href="https://api.adkey-seo.com" />
         <link rel="preload" as="image" href="/sectionImg/slot1.webp" fetchPriority="high" />
         <link rel="preload" as="image" href="/sectionImg/slot1-mobile.webp" fetchPriority="high" />
         <link rel="icon" href="/icons/icon.png" />

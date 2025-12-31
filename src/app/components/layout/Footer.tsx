@@ -46,7 +46,7 @@ const Footer = () => {
               src={masC}
               alt={`MasterCard in ${siteName}`}
               title={`MasterCard in ${siteName}`}
-              loading="eager"
+              loading="lazy"
             />
           </div>
           <div className={style.paymentsBlock}>
@@ -55,7 +55,7 @@ const Footer = () => {
               src={vC}
               alt={`Visa in ${siteName}`}
               title={`Visa in ${siteName}`}
-              loading="eager"
+              loading="lazy"
             />
           </div>
           <div className={style.paymentsBlock}>
@@ -64,7 +64,7 @@ const Footer = () => {
               src={netC}
               alt={`Neteller in ${siteName}`}
               title={`Neteller in ${siteName}`}
-              loading="eager"
+              loading="lazy"
             />
           </div>
           <div className={style.paymentsBlock}>
@@ -73,7 +73,7 @@ const Footer = () => {
               src={skC}
               alt={`Skrill in ${siteName}`}
               title={`Skrill in ${siteName}`}
-              loading="eager"
+              loading="lazy"
             />
           </div>
           <div className={style.paymentsBlock}>
@@ -82,7 +82,7 @@ const Footer = () => {
               src={bitC}
               alt={`Bitcoin in ${siteName}`}
               title={`Bitcoin in ${siteName}`}
-              loading="eager"
+              loading="lazy"
             />
           </div>
           <div className={style.paymentsBlock}>
@@ -91,7 +91,7 @@ const Footer = () => {
               src={litC}
               alt={`Litecoin in ${siteName}`}
               title={`Litecoin in ${siteName}`}
-              loading="eager"
+              loading="lazy"
             />
           </div>
           <div className={style.paymentsBlock}>
@@ -100,7 +100,7 @@ const Footer = () => {
               src={ethC}
               alt={`Etherium in ${siteName}`}
               title={`Etherium in ${siteName}`}
-              loading="eager"
+              loading="lazy"
             />
           </div>
         </div>
@@ -111,7 +111,7 @@ const Footer = () => {
               src={gpC}
               alt={`GPWA in ${siteName}`}
               title={`GPWA in ${siteName}`}
-              loading="eager"
+              loading="lazy"
             />
           </div>
           <div className={style.partnersBlock}>
@@ -120,7 +120,7 @@ const Footer = () => {
               src={gwC}
               alt={`Gamble Aware in ${siteName}`}
               title={`Gamble Aware in ${siteName}`}
-              loading="eager"
+              loading="lazy"
             />
           </div>
           <div className={style.partnersBlock}>
@@ -129,7 +129,7 @@ const Footer = () => {
               src={gcC}
               alt={`Game care in ${siteName}`}
               title={`Game care in ${siteName}`}
-              loading="eager"
+              loading="lazy"
             />
           </div>
           <div className={style.partnersBlock}>
@@ -138,7 +138,7 @@ const Footer = () => {
               src={gtC}
               alt={`gambling Therapy in ${siteName}`}
               title={`gambling Therapy in ${siteName}`}
-              loading="eager"
+              loading="lazy"
             />
           </div>
           <div className={style.partnersBlock}>
@@ -147,7 +147,7 @@ const Footer = () => {
               src={gbC}
               alt={`Gamban in ${siteName}`}
               title={`Gamban in ${siteName}`}
-              loading="eager"
+              loading="lazy"
             />
           </div>
           <div className={style.partnersBlock}>
@@ -156,7 +156,7 @@ const Footer = () => {
               src={bbC}
               alt={`BetBlocker in ${siteName}`}
               title={`BetBlocker in ${siteName}`}
-              loading="eager"
+              loading="lazy"
             />
           </div>
           <div className={style.partnersBlock}>
@@ -165,7 +165,7 @@ const Footer = () => {
               src={itlC}
               alt={`ITech Labs in ${siteName}`}
               title={`ITech Labs in ${siteName}`}
-              loading="eager"
+              loading="lazy"
             />
           </div>
           <div className={style.partnersBlock}>
@@ -174,7 +174,7 @@ const Footer = () => {
               src={ecC}
               alt={`Ecogra in ${siteName}`}
               title={`Ecogra in ${siteName}`}
-              loading="eager"
+              loading="lazy"
             />
           </div>
         </div>
