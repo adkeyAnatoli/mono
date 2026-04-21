@@ -1,0 +1,69 @@
+{
+  "title": "Our Game Library",
+  "content": [
+    {
+      "type": "paragraph",
+      "text": "Odinfortune online casino hosts an expansive and well-organised catalogue covering every major category of casino entertainment. We have structured our library into clearly labelled sections so players can navigate directly to the content they want without unnecessary browsing."
+    }
+  ],
+  "sections": [
+    {
+      "heading": "Casino Games",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "From high-volatility slots to classic table games, our main lobby covers every format a modern player could want."
+        },
+        {
+          "type": "list-dotted",
+          "items": [
+            "**Slots**: A vast range of classic, video, and Megaways titles from leading providers",
+            "**Feature Buy**: Skip the base game and purchase direct access to bonus rounds",
+            "**Jackpots**: Progressive and fixed prize pools with life-changing potential",
+            "**Instant Games**: Crash games, scratch cards, and fast-play titles for quick sessions",
+            "**Table Games**: Blackjack, roulette, and baccarat in multiple variants",
+            "**Hot RTP**: Curated selection of titles with the highest verified return-to-player rates"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Live Casino",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Our Odinfortune live casino streams real-time dealer action around the clock from professional studio environments."
+        },
+        {
+          "type": "list-dotted",
+          "items": [
+            "**Roulette**: European, American, and Speed variants with live hosts",
+            "**Blackjack**: Classic and multi-hand tables for all stake levels",
+            "**Baccarat**: Standard and squeeze variants with dedicated tables",
+            "**Dice**: Fast-paced live dice titles with real-time results",
+            "**Game Shows**: Entertainment-format titles blending gameplay with live presentation"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Instant Games",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Quick-play titles built for players who want immediate results without extended sessions."
+        },
+        {
+          "type": "list-dotted",
+          "items": [
+            "**Crash Games**: Multiplier titles where you cash out before the round ends",
+            "**Scratch Cards**: Instant-reveal games with fixed prize structures",
+            "**Keno**: Number-draw games with flexible stake and pick options",
+            "**Virtual Sports**: Simulated sporting events with rapid-fire betting markets",
+            "**Plinko**: Drop-based chance titles with variable multiplier outcomes"
+          ]
+        }
+      ]
+    }
+  ]
+}

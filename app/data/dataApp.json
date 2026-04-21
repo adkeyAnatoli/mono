@@ -1,0 +1,71 @@
+{
+  "title": "Odinfortune Casino UK App",
+  "sections": [
+    {
+      "heading": "Mobile Gaming at Odinfortune",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "We give our players two distinct ways to enjoy Odinfortune on the go \\- the Odinfortune Casino app for those who prefer a dedicated download, and a fully optimised mobile website for instant browser-based access. Both options deliver the complete platform experience with no compromises on game availability or account functionality."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Native Casino Application"
+        },
+        {
+          "type": "paragraph",
+          "text": "Our dedicated application is available for download on both iOS and Android devices, offering a streamlined interface purpose-built for touchscreen play. The app provides rapid load times, push notifications for new promotions, and one-tap access to your account \\- making it the preferred choice for players who visit us regularly."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Mobile Browser Experience"
+        },
+        {
+          "type": "paragraph",
+          "text": "For players who would rather not download anything, Odinfortune Casino mobile delivers the full platform directly through your smartphone or tablet browser with no installation required. The site scales cleanly across all screen sizes, with the complete game catalogue, live casino, banking tools, and live chat support all accessible in a single tap."
+        }
+      ]
+    },
+    {
+      "heading": "Languages Available",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "We support multiple languages across the platform to serve our international player base comfortably. English is available as the primary language throughout, with the British English version carefully refined to feel native rather than translated. Additional language settings can be accessed via the platform interface to suit players from other regions."
+        }
+      ]
+    },
+    {
+      "heading": "Currencies We Support",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Odinfortune Casino UK players will find GBP set as the default currency from the moment they begin registration, removing any need to convert funds or track exchange rates. We support both fiat currencies and a full suite of digital assets, giving every player the freedom to manage their account as they see fit."
+        },
+        {
+          "type": "paragraph",
+          "text": "Fiat currencies:"
+        },
+        {
+          "type": "list-dotted",
+          "items": ["GBP (default)", "EUR", "USD"]
+        },
+        {
+          "type": "paragraph",
+          "text": "Cryptocurrencies:"
+        },
+        {
+          "type": "list-dotted",
+          "items": [
+            "Bitcoin (BTC)",
+            "Ethereum (ETH)",
+            "USDT (Tether)",
+            "Litecoin (LTC)"
+          ]
+        }
+      ]
+    }
+  ]
+}

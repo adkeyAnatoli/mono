@@ -1,0 +1,15 @@
+---
+description: Reusable pattern — sync content.md to app/data JSON via remark (copy to similar Next.js mono repos)
+globs: content.md
+alwaysApply: false
+---
+
+# Markdown → JSON content pipeline
+
+- **Single source:** `content.md` in the project root (adjust path in `scripts/sync-content-from-md.mjs` if needed).
+- **Generator:** `scripts/sync-content-from-md.mjs` uses `unified` + `remark-parse` + `remark-gfm`, splits on `##` headings, maps sections to JSON files, and writes `app/data/*.json` plus `siteMeta.json`.
+- **Verbatim text:** Paragraphs, list items, and table cells use **source slices** (`node.position` offsets) so Markdown escapes (`\-`, `\+`, etc.) match the file. ATX headings `##`–`####` in section bodies become `ContentItem` `{ type: 'heading', level, text }` with `text` stripped of `#` markers. The app renders headings as real `<h2>`–`<h4>` and body copy via `plainContentText` (no `**`/HTML from content — style in CSS).
+- **Table cells:** Strip leading/trailing `|` from cell raw slices before saving.
+- **Metadata:** `siteMeta.json` holds `title`, `description`, `url`, `ogSiteName`, `ogImagePath`; `app/layout.tsx` imports it for `metadata` / Open Graph.
+- **Run:** `yarn content:sync` after editing `content.md`.
+- **Porting to another project:** Copy the script + `package.json` devDependencies (`unified`, `remark-parse`, `remark-gfm`, `remark-stringify`) + `content:sync` script; rewrite the **section map** (which `##` block maps to which JSON) and component-specific shapes. If `content.md` structure changes, update the map in the script.

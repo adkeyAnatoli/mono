@@ -1,0 +1,130 @@
+{
+  "title": "About Odinfortune Casino UK",
+  "sections": [
+    {
+      "heading": "Getting Started on the Platform",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Joining our platform is a quick and painless process. We have removed unnecessary friction from onboarding so you can move from sign-up to your first game in a matter of minutes."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "How to Create Your Account"
+        },
+        {
+          "type": "paragraph",
+          "text": "Odinfortune Casino registration follows a three-step flow. In the first step, you provide your email address and create a secure password. You then select your preferred currency, and you have the option to enter a promo code at this stage if one applies to you. A checkbox confirms your agreement to our Terms of Use and Privacy Policy, along with a declaration that you are 18 years of age or older."
+        },
+        {
+          "type": "paragraph",
+          "text": "For those who want the fastest possible entry, we offer instant registration via Google or Telegram. A single click through either option creates your account and logs you straight in, with no forms to fill. Once registered, your account is fully active and all promotions are accessible immediately."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Identity Verification"
+        },
+        {
+          "type": "paragraph",
+          "text": "We require KYC verification to safeguard our players and comply with anti-money laundering obligations. We recommend completing this step immediately after your first Odinfortune login rather than waiting until you are ready to withdraw \\- it removes any delays at the point when they matter most."
+        },
+        {
+          "type": "paragraph",
+          "text": "Full withdrawal access is unlocked once the following documents have been reviewed and approved:"
+        },
+        {
+          "type": "list-dotted",
+          "items": [
+            "A valid government-issued photo ID (passport, national identity card, or driving licence)",
+            "Proof of current address (a utility bill or bank statement no older than three months)",
+            "Confirmation of the payment method registered to your account"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Our verification team processes submitted documents within 24 to 72 hours. We advise completing this step as soon as you register rather than waiting until you are ready to withdraw \\- it removes any waiting period at the point when it matters most."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "How to Log Back In"
+        },
+        {
+          "type": "paragraph",
+          "text": "Odinfortune Casino login is accessible from the homepage at any time. Enter your registered email address and password, and you're through in seconds. Players who registered via Google or Telegram can return using the same one-click method they used to sign up. If you lose access to your password, a reset link is sent to your registered email address immediately upon request."
+        }
+      ]
+    },
+    {
+      "heading": "Managing Your Money",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "We have assembled a broad and flexible banking suite to ensure that funding your account and collecting your winnings is never a source of frustration."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Depositing Into Your Account"
+        },
+        {
+          "type": "paragraph",
+          "text": "Odinfortune deposits are processed instantly across all available payment methods, so your balance is ready to play the moment a transaction clears."
+        },
+        {
+          "type": "table",
+          "headers": ["Payment Method", "Minimum Deposit", "Processing Time"],
+          "rows": [
+            ["Visa", "£20", "Instant"],
+            ["Mastercard", "£20", "Instant"],
+            ["Skrill", "£20", "Instant"],
+            ["Neteller", "£20", "Instant"],
+            ["Revolut", "£20", "Instant"],
+            ["Bitcoin", "£20", "Instant"],
+            ["Ethereum", "£20", "Instant"],
+            ["USDT", "£20", "Instant"],
+            ["Litecoin", "£20", "Instant"],
+            ["Apple Pay", "£20", "Instant"]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "The universal minimum of £20 applies across every method, keeping the platform open to players regardless of their preferred stake levels."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Withdrawing Your Winnings"
+        },
+        {
+          "type": "paragraph",
+          "text": "Odinfortune withdrawals are available through seven methods with a minimum of £20, giving players full flexibility over how and when they collect their funds."
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Payment Method",
+            "Minimum Withdrawal",
+            "Processing Time"
+          ],
+          "rows": [
+            ["Skrill", "£20", "24 \\- 48 hours"],
+            ["Neteller", "£20", "24 \\- 48 hours"],
+            ["Revolut", "£20", "24 \\- 48 hours"],
+            ["Bitcoin", "£20", "30 minutes \\- 2 hours"],
+            ["Ethereum", "£20", "30 minutes \\- 2 hours"],
+            ["USDT", "£20", "30 minutes \\- 2 hours"],
+            ["Litecoin", "£20", "30 minutes \\- 2 hours"],
+            ["Bank Transfer", "£20", "1 \\- 5 business days"]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Cryptocurrency is the fastest route to your winnings \\- no other method comes close to the 30-minute to 2-hour processing window offered by our crypto options. Daily withdrawal limits scale with your VIP rank \\- Raider members can withdraw up to £5,000 per day, Warlord members up to £10,000, while High Jarl and Odin's Chosen members enjoy completely unrestricted daily cashouts."
+        }
+      ]
+    }
+  ]
+}

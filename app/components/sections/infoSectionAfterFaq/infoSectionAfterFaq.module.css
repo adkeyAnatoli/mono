@@ -1,0 +1,27 @@
+.section ol,
+.section ul {
+  margin-left: 20px;
+}
+
+.block {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.section ul li {
+  list-style-type: disc;
+}
+
+.section ol li {
+  list-style-type: decimal;
+}
+
+@media (max-width: 768px) {
+  .section {
+    padding: 20px 0;
+  }
+  .section :global(.wrapper) {
+    gap: 24px;
+  }
+}

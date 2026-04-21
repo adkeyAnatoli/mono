@@ -1,0 +1,124 @@
+.section {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 48px;
+  margin: 140px auto;
+}
+
+.carouselHead {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.title {
+  flex: 1;
+  min-width: 0;
+}
+
+.navBtns {
+  display: flex;
+  gap: 18px;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.navBtns :global(.swiper-button-prev),
+.navBtns :global(.swiper-button-next) {
+  position: relative;
+  top: auto;
+  left: auto;
+  right: auto;
+  margin: 0;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background: var(--table-body);
+  color: var(--color-white);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navBtns :global(.swiper-button-prev::after),
+.navBtns :global(.swiper-button-next::after) {
+  content: '';
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 9px;
+  height: 19px;
+  margin: 0;
+  font-size: 0;
+  line-height: 0;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.navBtns :global(.swiper-button-prev::after) {
+  background-image: url('/svg/rightArrow.svg');
+  transform: translate(-50%, -50%) scaleX(-1);
+}
+
+.navBtns :global(.swiper-button-prev.swiper-button-disabled::after) {
+  background-image: url('/svg/leftArrowDisable.svg');
+  transform: translate(-50%, -50%);
+}
+
+.navBtns :global(.swiper-button-next::after) {
+  background-image: url('/svg/rightArrow.svg');
+  transform: translate(-50%, -50%);
+}
+
+.navBtns :global(.swiper-button-next.swiper-button-disabled::after) {
+  background-image: url('/svg/leftArrowDisable.svg');
+  transform: translate(-50%, -50%) scaleX(-1);
+}
+
+.navBtns :global(.swiper-navigation-icon) {
+  display: none;
+}
+
+.navBtns :global(.swiper-button-prev.swiper-button-disabled),
+.navBtns :global(.swiper-button-next.swiper-button-disabled) {
+  pointer-events: none;
+  cursor: default;
+  opacity: 1;
+}
+
+.swiper {
+  width: 100%;
+}
+
+.slide {
+  display: flex;
+  justify-content: center;
+  height: auto;
+  box-sizing: border-box;
+}
+
+@media (max-width: 1180px) {
+  .section {
+    margin: 64px auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .section {
+    gap: 40px;
+  }
+
+  .navBtns {
+    display: none;
+  }
+
+  .slide {
+    width: min(321px, 86%);
+    flex-shrink: 0;
+  }
+}

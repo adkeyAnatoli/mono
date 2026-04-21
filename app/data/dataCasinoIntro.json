@@ -1,0 +1,27 @@
+{
+  "title": "Odinfortune Casino UK",
+  "image": {
+    "src": "/sectionImg/slot3.webp",
+    "alt": "Odinfortune Casino UK illustration"
+  },
+  "highlights": [],
+  "content": [
+    {
+      "type": "paragraph",
+      "text": "Step into a world where Norse mythology meets cutting-edge casino entertainment. Whether you are brand new to online gaming or an experienced player searching for your next home, this Odinfortune Casino review covers everything you need to make a confident, informed decision."
+    }
+  ],
+  "whoWeAre": {
+    "heading": "Who We Are and What Drives Us",
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "Odinfortune is a licensed casino platform that draws its identity from the rich tapestry of Norse legend, delivering a gaming experience shaped around power, fortune, and adventure. We operate under a Curaçao licence, which confirms our commitment to fair play, responsible gambling, and operational transparency across all markets we serve."
+      },
+      {
+        "type": "paragraph",
+        "text": "Every transaction processed on our platform is protected by 256-bit SSL encryption \\- the same standard employed by leading financial institutions worldwide \\- ensuring that your personal data, payment details, and account activity remain entirely secure at every stage. Our payment infrastructure operates across isolated, firewalled environments, and all financial transfers are authenticated through multi-layer verification protocols that prevent unauthorised access before any funds change hands."
+      }
+    ]
+  }
+}
