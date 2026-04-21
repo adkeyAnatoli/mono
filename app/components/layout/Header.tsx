@@ -45,9 +45,10 @@ const Header: React.FC<IHeader> = ({ isHomePage = false }) => {
               />
             </Link>
             <div className={style.headerButtonBlock}>
-              <Link href="/">
-                <button className={style.register}>{secondButton}</button>
-              </Link>
+              <ButtonLinkFirstOffer
+                text={secondButton}
+                classes={style.register}
+              />
             </div>
           </>
         )}
