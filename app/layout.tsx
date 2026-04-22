@@ -74,7 +74,7 @@ export default function RootLayout({
   return (
     <html lang={locale}>
       <head>
-        <meta name="language" content={locale} />
+        <meta name="language" content={'English'} />
         <link rel="icon" href="/icons/icon.png" />
         <link rel="canonical" href={`https://${url}`} />
         <link rel="apple-touch-icon" href="/icons/icon57.png" sizes="57x57" />

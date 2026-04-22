@@ -12,6 +12,11 @@
   flex-direction: column;
   gap: 24px;
 }
+
+.rightBlock {
+  display: flex;
+  align-items: center;
+}
 @media (max-width: 1180px) {
   .section {
     margin: 64px auto;
@@ -47,7 +52,7 @@
 } */
 
 @media (max-width: 1210px) {
-  .wrapper img {
+  .wrapper img, .rightBlock {
     display: none;
   }
 }

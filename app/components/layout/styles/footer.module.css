@@ -130,9 +130,9 @@
   }
 }
 @media (max-width: 525px) {
-  .imageLogo {
+  /* .imageLogo {
     width: 130px;
-  }
+  } */
   .legalRest {
     text-align: right;
   }

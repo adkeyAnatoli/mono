@@ -112,7 +112,7 @@
     /* margin-bottom: 88px; */
   }
   .bonusSection_right {
-    width: 576px;
+    /* width: 576px; */
     height: 400px;
     /* background: url('../../../../public/sectionImg/slot1.webp') no-repeat
       center center / auto 100%; */
@@ -160,7 +160,7 @@
     background-size: auto 61%;
   }
   .bonusSection_right {
-    width: 450px;
+    /* width: 450px; */
     height: 315px;
     /* height: 308px; */
   }
@@ -182,7 +182,7 @@
 
 @media (max-width: 420px) {
   .bonusSection_right {
-    width: 330px;
+    /* width: 330px; */
     height: 220px;
   }
   .someSection {
@@ -199,7 +199,7 @@
 
 @media (max-width: 350px) {
   .bonusSection_right {
-    width: 300px;
+    /* width: 300px; */
     height: 180px;
   }
   .someSection {
