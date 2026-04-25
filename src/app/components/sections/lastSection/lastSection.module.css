@@ -1,0 +1,45 @@
+.section {
+  margin: 140px 0;
+}
+
+.section p,
+.section li {
+  color: var(--last-text-color);
+}
+
+.block {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.section ol,
+.section ul {
+  margin-left: 20px;
+}
+
+.section ul li {
+  list-style-type: disc;
+}
+
+.section ol li {
+  list-style-type: decimal;
+}
+
+@media (max-width: 1180px) {
+  .section {
+    margin: 64px auto;
+  }
+}
+
+@media (max-width: 850px) {
+  .block {
+    gap: 16px;
+  }
+}
+
+@media (max-width: 768px) {
+  .section > div {
+    gap: 24px;
+  }
+}

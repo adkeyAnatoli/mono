@@ -1,0 +1,161 @@
+.footer {
+  padding: 36px 0;
+  background: var(--bg-footer);
+}
+
+.stack {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* gap: 12px; */
+}
+
+.badgeArea {
+  width: 100%;
+}
+
+.badgeWrap {
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  width: 100%;
+  margin-inline: auto;
+}
+
+.badgeCell {
+  display: flex;
+  flex: 0 0 auto;
+  align-items: center;
+  justify-content: center;
+}
+
+.badgeImg {
+  width: 125px;
+  height: 32px;
+  display: block;
+}
+
+.bottomBar {
+  margin-top: 27px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logoLink {
+  display: inline-flex;
+}
+
+.logoWrap {
+  display: inline-flex;
+}
+
+/* .imageLogo {
+  width: auto;
+  height: 28px;
+} */
+
+.legal {
+  font-family: var(--font-family-second);
+  font-weight: var(--font-weight-500);
+  color: var(--copyright);
+  margin: 0;
+  display: inline-flex;
+  align-items: baseline;
+}
+
+.ageMark {
+  font-size: 32px;
+  line-height: 1;
+  margin-right: 10px;
+  vertical-align: bottom;
+}
+
+.legalRest {
+  font-size: 20px;
+  line-height: 40px;
+}
+
+@media (max-width: 1180px) {
+  .badgeImg {
+    width: 112px;
+    height: 29px;
+  }
+
+  .badgeWrap {
+    gap: 10px;
+  }
+}
+
+@media (max-width: 850px) {
+  .footer {
+    padding: 24px 0;
+  }
+
+  .badgeWrap {
+    gap: 6px;
+    row-gap: 13px;
+  }
+  .bottomBar {
+    margin-top: 24px;
+    gap: 10px;
+  }
+
+  .badgeImg {
+    width: 110px;
+    height: auto;
+  }
+
+  .imageLogo {
+    height: 25px;
+    width: 212px;
+  }
+  .logoLink {
+    height: 21px;
+  }
+
+  .legalRest {
+    font-size: 16px;
+    line-height: normal;
+  }
+}
+
+@media (max-width: 768px) {
+  .badgeImg {
+    width: 102px;
+  }
+}
+@media (max-width: 525px) {
+  /* .imageLogo {
+    width: 130px;
+  } */
+  .legalRest {
+    text-align: right;
+  }
+}
+
+@media (max-width: 440px) {
+  .legalRest {
+    font-size: 13px;
+  }
+
+  .ageMark {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 400px) {
+  .legalRest {
+    font-size: 12px;
+  }
+}
+@media (max-width: 375px) {
+  .imageLogo {
+    /* height: 25px; */
+    width: 140px;
+  }
+}

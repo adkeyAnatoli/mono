@@ -1,0 +1,19 @@
+:root {
+  --figma-color-bg: #0b56c3;
+  --figma-color-first: #0c3c81;
+  --figma-color-second: #0c49a1;
+  --figma-color-footer: #0c3c81;
+  --figma-color-text: #ffffff;
+  --figma-color-white: #ffffff;
+  --figma-color-accent: #e35450;
+  --figma-button-shadow: #000000;
+  --figma-font-heading-family: 'fontOne';
+  --figma-font-heading-size-h1: 44;
+  --figma-font-heading-size-h2: 40;
+  --figma-font-heading-size-h3: 32;
+  --figma-font-heading-size-h4: 24;
+  --figma-font-heading-size-h5: 24;
+  --figma-font-body-family: 'Roboto';
+  --figma-font-body-size-20: 20;
+  --figma-font-body-size-24: 24;
+}

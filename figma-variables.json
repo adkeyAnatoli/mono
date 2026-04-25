@@ -1,0 +1,21 @@
+{
+  "Monobrand/main color/BG": "#0B56C3",
+  "Monobrand/main color/first color": "#0C3C81",
+  "Monobrand/main color/footer color": "#C9DFFF",
+  "White/100%": "#FFFFFF",
+  "Monobrand/main color/text": "#FFFFFF",
+  "Desktop/B1-20": "Font(family: \"Roboto\", style: Medium, size: 20)",
+  "Desktop/H1": "Font(family: \"Futura PT\", style: Heavy, size: 44)",
+  "Desktop/H4": "Font(family: \"Futura PT\", style: Heavy, size: 24)",
+  "Monobrand/main color/second color": "#0C49A1",
+  "Desktop/H2": "Font(family: \"Futura PT\", style: Heavy, size: 40)",
+  "Monobrand/White/100%": "#FFFFFF",
+  "Monobrand/accent/100%": "#E35450",
+  "Desktop/H3": "Font(family: \"Futura PT\", style: Heavy, size: 32)",
+  "Desktop/H5": "Font(family: \"Futura PT\", style: Heavy, size: 24)",
+  "Desktop/B2-24": "Font(family: \"Roboto\", style: Medium, size: 24)",
+  "Monobrand/Button/Black 20%": "#000000",
+  "Desktop/Slogan": "Font(family: \"Futura PT\", style: Heavy, size: 16)",
+  "Desktop/Welcome": "Font(family: \"Futura PT\", style: Heavy, size: 30)",
+  "Desktop/Card Block": "Font(family: \"Roboto\", style: Medium, size: 20)"
+}
