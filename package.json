@@ -12,7 +12,7 @@
     "lint": "next lint",
     "format": "prettier . --check",
     "format:fix": "prettier . --write",
-    "git": "git init && git add . && git commit -m  \"init: init project\" && git remote add origin https://github.com/adkeyAnatoli/html-deploy.git"
+    "git": "git init && git add . && git commit -m  \"init: init project\" && git remote add origin git@github.com:adkeyAnatoli/mono.git"
   },
   "dependencies": {
     "@radix-ui/react-tabs": "^1.1.13",
