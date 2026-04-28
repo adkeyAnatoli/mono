@@ -1,0 +1,106 @@
+{
+  "title": "Bonuses and Promotions",
+  "content": [
+    {
+      "type": "paragraph",
+      "text": "We run a promotional program that rewards players from their first spin through every stage of their time with us. Our newsletter and partner channels carry exclusive offers, so keep an eye on your inbox."
+    }
+  ],
+  "sections": [
+    {
+      "heading": "No-Deposit Welcome Offer",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "The MrBeast no deposit bonus activates the moment you create an account \\- no deposit required. You receive 100 free spins simply for registering. Enter the promo code from your registration confirmation to claim them. A x35 wagering requirement applies to any winnings, and the maximum cashout from this offer is CA$50."
+        }
+      ]
+    },
+    {
+      "heading": "Three-Stage Welcome Package",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Our welcome package spans your first three deposits and delivers up to CA$1,500 and 900 free spins. Each deposit stage has a CA$500 bonus cap, and the reward scales with how much you put in."
+        },
+        {
+          "type": "list-dotted",
+          "items": [
+            "First deposit: 100% match bonus, up to CA$500, up to 190 free spins",
+            "Second deposit: 75% match bonus, up to CA$500, up to 100 free spins",
+            "Third deposit: 50% match bonus, up to CA$500, up to 140 free spins"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "The minimum qualifying deposit for this MrBeast bonus is CA$15. Free spin totals scale with your deposit amount. Free spin winnings carry a x40 wagering requirement, and deposit match funds require x50."
+        }
+      ]
+    },
+    {
+      "heading": "Cryptocurrency Deposit Bonus",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Players who fund their account using BTC, ETH, LTC, or USDT receive an extra 15% on top of their standard deposit bonus. This additional percentage stacks directly with the welcome package across all three deposit stages. The minimum qualifying crypto deposit is CA$50. The bonus funds from the crypto top-up carry a x35 wagering requirement and stay active for 30 days from the date of crediting."
+        }
+      ]
+    },
+    {
+      "heading": "Tuesday and Thursday Reload Bonuses",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Every Tuesday and Thursday we add fresh reload offers to the MrBeast bonus program \\- a rotating mix of bonus funds and free spins on eligible games. Check the promotions page at the start of each week for current terms and qualifying titles."
+        }
+      ]
+    },
+    {
+      "heading": "Fortune Wheel",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Once every 24 hours, your account dashboard activates a Fortune Wheel spin. No deposit is needed to trigger it \\- just open your dashboard and take your daily spin. Prizes include bonus funds and free spins, drawn randomly with each turn."
+        }
+      ]
+    },
+    {
+      "heading": "VIP Loyalty Tiers",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "MrBeat VIP program spans ten levels. Every real-money wager you place generates experience points, and each new tier you unlock delivers free spins plus a growing set of privileges."
+        },
+        {
+          "type": "table",
+          "headers": ["Status", "XP Required", "Free Spins", "Cashback"],
+          "rows": [
+            ["Newcomer", "\\-", "20", "\\-"],
+            ["Bronze", "10,000", "25", "3%"],
+            ["Silver", "40,000", "25", "4%"],
+            ["Gold", "100,000", "30", "6%"],
+            ["Platinum", "500,000", "50", "8%"],
+            ["Sapphire", "2,000,000", "75", "10%"],
+            ["Ruby", "8,000,000", "125", "12%"],
+            ["Emerald", "25,000,000", "175", "14%"],
+            ["Diamond", "100,000,000", "250", "16%"],
+            ["Elite", "500,000,000", "300", "20%"]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Beyond cashback, higher tiers also unlock birthday bonuses, wagering-free personal offers, accelerated withdrawal processing, and first access to new promotions."
+        }
+      ]
+    },
+    {
+      "heading": "Promo Codes",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "We distribute exclusive MrBeast promo code offers through our newsletter and partner channels on a regular basis. Enter any active code in the promo field during registration or in the cashier section before confirming a deposit. Codes vary in what they unlock \\- some trigger free spins, others add bonus funds on top of a deposit match. Keep an eye on your inbox and check the promotions page regularly to make sure you never miss a limited-time offer."
+        }
+      ]
+    }
+  ]
+}

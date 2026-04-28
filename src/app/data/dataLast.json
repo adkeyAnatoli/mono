@@ -1,0 +1,83 @@
+{
+  "title": "Strengths and Limitations",
+  "content": [
+    {
+      "type": "paragraph",
+      "text": "Here is an honest breakdown of where MrBeast online casino excels and where we acknowledge room for growth."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "What We Do Well"
+    },
+    {
+      "type": "table",
+      "headers": ["Advantage", "Details"],
+      "rows": [
+        [
+          "No-deposit welcome offer",
+          "New players receive 100 free spins at sign-up with no deposit required"
+        ],
+        [
+          "Crypto-friendly banking",
+          "We accept BTC, ETH, LTC, and USDT \\- plus a 15% bonus on crypto deposits"
+        ],
+        [
+          "Interac support",
+          "Instant deposits and same-day withdrawals up to CA$30,000 via Interac"
+        ],
+        [
+          "Deep welcome package",
+          "Up to CA$1,500 in bonus funds and 900 free spins spread across three deposits"
+        ],
+        [
+          "Zero platform fees",
+          "We apply no fees to any deposit or withdrawal \\- crypto network fees are the only exception"
+        ],
+        [
+          "Daily Fortune Wheel",
+          "Every account gets one free spin per day through the dashboard \\- no deposit needed"
+        ],
+        [
+          "Ten-tier VIP scheme",
+          "Cashback scales from 3% at Bronze all the way to 20% at Elite tier"
+        ],
+        [
+          "Broad game selection",
+          "Slots, live dealer tables, crash games, and RNG table games all under one roof"
+        ],
+        [
+          "Fast crypto cashouts",
+          "ETH withdrawals clear in as little as 30 minutes"
+        ],
+        [
+          "Multiple contact options",
+          "Live chat, a contact form, and a detailed FAQ section all available"
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Where We Can Improve"
+    },
+    {
+      "type": "table",
+      "headers": ["Limitation", "Details"],
+      "rows": [
+        [
+          "High deposit bonus wagering",
+          "The welcome package carries a x50 wagering requirement on deposit match funds"
+        ],
+        [
+          "Low free spin cashout cap",
+          "No-deposit free spin winnings are capped at a CA$50 maximum cashout"
+        ],
+        [
+          "Slow card withdrawals",
+          "Visa and Mastercard cashouts take 3 to 5 working days to reach your account"
+        ]
+      ]
+    }
+  ]
+}

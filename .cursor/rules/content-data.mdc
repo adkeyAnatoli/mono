@@ -1,0 +1,19 @@
+---
+description: Site copy in JSON, ContentItem types, sync from content.md
+globs: app/data/**/*.json
+alwaysApply: false
+---
+
+# Content data conventions
+
+- **Primary source:** Edit `content.md`, then run `yarn content:sync` to regenerate `app/data/*.json` and `siteMeta.json`. Do not hand-edit JSON unless you are fixing a one-off issue or the script is out of date.
+- **Do not rewrite copy:** Sync must not paraphrase, shorten, expand, or "improve" text from `content.md`. Keep raw source content intact in generated JSON (including escaped markdown characters where present).
+- **Domain and locale source:** Read domain + locale from `url.txt` (`line 1 = url`, `line 2 = locale`). Avoid hardcoded locale/domain values in app metadata.
+- **Theme source:** `figma-variables.json` is the source of design tokens. Update global styles through generated token variables, not by mass-replacing hardcoded color values in many CSS files.
+- **SEO:** `app/data/siteMeta.json` is imported by `app/layout.tsx` (`title`, `description`, `url`, `ogSiteName`, `ogImagePath`).
+- **`ContentItem` union** (`app/interfaces/dataInterface.ts`): `paragraph` (`text`), `heading` (`level` 2–4, `text` without `#`), `list-dotted` / `list-number` (`items[]`), `table` (`headers[]`, `rows[][]`).
+- **Display:** `ContentItems` renders `heading` as real `<h2>`–`<h4>` (optional `headingLevelBump`, `inlineHeadingClassName`). All copy is shown as **plain text** via `plainContentText` (applies `normalizeMdText` then strips `**`/`__`, `[text](url)`, `` `code` ``) so emphasis comes from **CSS only**, not markup inside JSON.
+- **Tables:** `ContentTableInteractive` collapses after 3 data rows on desktop/tablet; at `max-width: 768px` tables become a Swiper carousel (one slide per row).
+- **Implementation:** `scripts/sync-content-from-md.mjs` replaces the old single-section generator; there is no separate `gen-casino-info.mjs`.
+
+**File map:** `dataCasinoIntro.json` — intro; `dataCasinoInfo.json` — main tabs; `dataAfterPayments.json` — after payments; `dataApp.json` — mobile/languages/currencies; `dataSupport.json` — support; `dataAfterSupport.json` — game library; `dataAfterFaq.json` — bonuses; `dataFaq.json` — FAQ; `dataLast.json` — strengths/limitations; `dataFooter.json` — footer; `siteMeta.json` — layout metadata.

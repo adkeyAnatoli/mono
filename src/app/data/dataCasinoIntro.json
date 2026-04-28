@@ -1,0 +1,27 @@
+{
+  "title": "MrBeast Casino",
+  "image": {
+    "src": "/sectionImg/slot3.webp",
+    "alt": "MrBeast Casino"
+  },
+  "highlights": [],
+  "content": [
+    {
+      "type": "paragraph",
+      "text": "We are a new online casino that combines a broad game library, a layered bonus program, and a banking setup that covers everything from Interac to cryptocurrency. This MrBeast Casino review covers every aspect of the platform \\- from registration and banking to games, bonuses, and support."
+    }
+  ],
+  "whoWeAre": {
+    "heading": "About Our Platform",
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "We operate under a licence issued by the Autorité Nationale des Jeux (ANJ), the regulatory body that sets and enforces standards for online gambling across our jurisdiction. Our games and systems go through regular independent audits to verify fair play and accurate RTP figures \\- so every spin and hand runs on certified outcomes."
+      },
+      {
+        "type": "paragraph",
+        "text": "Player data and transactions on our platform are protected by 256-bit SSL encryption, the same standard used by major financial institutions. We apply strict data handling protocols in line with GDPR requirements, and all payment processing runs through verified, secure channels. Your personal and financial information stays protected at every step."
+      }
+    ]
+  }
+}

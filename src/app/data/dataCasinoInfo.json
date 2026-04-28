@@ -1,0 +1,137 @@
+{
+  "title": "About MrBeast Casino Canada",
+  "sections": [
+    {
+      "heading": "Getting Started",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Joining the platform takes only a few minutes. We keep the onboarding process lean so you move from sign-up to your first session without unnecessary friction."
+        },
+        {
+          "type": "paragraph",
+          "text": "accounts move through the withdrawal queue faster across all payment methods."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Creating Your Account"
+        },
+        {
+          "type": "paragraph",
+          "text": "To register, follow these steps:"
+        },
+        {
+          "type": "list-dotted",
+          "items": [
+            "Visit the site and click the registration button to open the sign-up form",
+            "Fill in your details: full name, email address, and date of birth",
+            "Select Canadian dollars as your preferred currency to keep your balance in CA$ from the start",
+            "Submit the form and click the confirmation link sent to your inbox",
+            "Enter the MrBeast promo code provided during registration to trigger your no-deposit free spins immediately"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "The entire process takes under five minutes and gives you immediate access to the full platform."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Confirming Your Identity"
+        },
+        {
+          "type": "paragraph",
+          "text": "Prepare and upload the following documents:"
+        },
+        {
+          "type": "list-dotted",
+          "items": [
+            "Government-issued photo ID: a passport or driver's licence both work",
+            "Proof of address: a utility bill or bank statement dated within the last three months",
+            "Proof of payment method: a photo of your card showing the first six and last four digits, or a screenshot of your e-wallet or crypto wallet confirming ownership"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "We recommend completing verification before you request your first cashout. Verified accounts move through the withdrawals faster. Completing verification also unlocks full access to MrBeast promotion offers."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Signing Back In"
+        },
+        {
+          "type": "paragraph",
+          "text": "Returning to your account is simple. Go to the homepage, hit the login button, and enter your registered email and password. If you ever lose access to your password, select the recovery option on the login screen and follow the steps sent to your email address."
+        }
+      ]
+    },
+    {
+      "heading": "Deposit and Withdrawal Breakdown",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "We support a wide range of payment methods. All deposits credit quickly across most options, and we never charge our own processing fees on any transaction."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Deposit Methods"
+        },
+        {
+          "type": "paragraph",
+          "text": "MrBeast Casino Canada keeps deposits accessible with a CA$10 minimum across most methods and instant crediting on all major options."
+        },
+        {
+          "type": "table",
+          "headers": ["Method", "Min Deposit", "Max Deposit"],
+          "rows": [
+            ["Visa / Mastercard (Debit)", "CA$10", "CA$10,000 / day"],
+            ["Interac", "CA$10", "CA$30,000 / day"],
+            ["PayPal", "CA$10", "CA$15,000 / day"],
+            ["Skrill", "CA$10", "CA$15,000 / day"],
+            ["Neteller", "CA$10", "CA$15,000 / day"],
+            ["MuchBetter", "CA$10", "CA$5,000 / day"],
+            ["Bitcoin (BTC)", "CA$20", "CA$50,000 / transaction"],
+            ["Ethereum (ETH)", "CA$20", "CA$50,000 / transaction"],
+            ["Litecoin (LTC)", "CA$20", "CA$30,000 / transaction"],
+            ["Tether (USDT)", "CA$20", "CA$50,000 / transaction"],
+            ["Bank Transfer", "CA$50", "CA$100,000 / transaction"],
+            ["Paysafecard", "CA$10", "CA$500 / transaction"]
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Withdrawal Methods"
+        },
+        {
+          "type": "paragraph",
+          "text": "MrBeast payouts carry no platform fees, with crypto options delivering the fastest turnaround and Interac leading among traditional Canadian banking methods."
+        },
+        {
+          "type": "table",
+          "headers": ["Method", "Min Withdrawal", "Max Withdrawal"],
+          "rows": [
+            ["Visa / Mastercard (Debit)", "CA$20", "CA$5,000 / day"],
+            ["Interac", "CA$20", "CA$30,000 / day"],
+            ["PayPal", "CA$10", "CA$10,000 / day"],
+            ["Skrill", "CA$10", "CA$10,000 / day"],
+            ["Neteller", "CA$10", "CA$10,000 / day"],
+            ["MuchBetter", "CA$10", "CA$5,000 / day"],
+            ["Bitcoin (BTC)", "CA$50", "CA$50,000 / transaction"],
+            ["Ethereum (ETH)", "CA$50", "CA$50,000 / transaction"],
+            ["Litecoin (LTC)", "CA$50", "CA$30,000 / transaction"],
+            ["Tether (USDT)", "CA$50", "CA$50,000 / transaction"],
+            ["Bank Transfer", "CA$50", "CA$100,000 / transaction"]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Crypto cashouts go to the same wallet address used for the original deposit. Paysafecard is available for deposits only and does not support withdrawals."
+        }
+      ]
+    }
+  ]
+}

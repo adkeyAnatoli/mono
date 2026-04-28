@@ -1,0 +1,85 @@
+---
+description: Добавление и удаление шрифтов в mrbeast при смене семейства из Figma (next/font/local + next/font/google)
+globs: src/app/layout.tsx, src/app/fonts/**, figma-variables.json
+alwaysApply: false
+---
+
+# Шрифты в mrbeast: добавление и замена
+
+Стратегия — `keepGoogleFonts`:
+
+- **Heavy / Display / нестандартные** семейства (например `Futura PT Heavy`) — локально через `next/font/local` из папки `src/app/fonts/`.
+- **Стандартные Google-семейства** (например `Roboto`, `Inter`, `Montserrat`) — через `next/font/google` в `src/app/layout.tsx`.
+
+Подключение и применение шрифтов делается **только** в `src/app/layout.tsx`. CSS-токены `--font-family-main` / `--font-family-second` приходят из `src/app/styles/theme-tokens.css` (генерируются `scripts/sync-theme-from-figma.mjs` из `figma-variables.json`); сами `font-family` нигде в компонентах вручную не прописываются.
+
+## Когда срабатывает правило
+
+Триггер — изменение семейства в `figma-variables.json`:
+
+- семейство в любом из `Desktop/H1..H5`, `Desktop/Slogan`, `Desktop/Welcome` отличается от текущего `--font-family-main` в [src/app/styles/theme-tokens.css](src/app/styles/theme-tokens.css);
+- семейство в любом из `Desktop/B1-20`, `Desktop/B2-24`, `Desktop/B3-32`, `Desktop/Card Block` отличается от текущего `--font-family-second`.
+
+После запуска `yarn theme:sync` токены `--font-family-*` уже укажут новое семейство — нужно убедиться, что само семейство загружено в `layout.tsx`.
+
+## Добавление нового шрифта
+
+1. **Если шрифт есть в Google Fonts** и подходит для `next/font/google`:
+   - Добавить импорт в [src/app/layout.tsx](src/app/layout.tsx) по образцу `Roboto`:
+     ```ts
+     import { ИмяШрифта } from 'next/font/google';
+     const fontTwo = ИмяШрифта({ weight: ['400', '500', '700', '800'], subsets: ['latin'] });
+     ```
+     Веса указывать с учётом стилей из Figma: `Medium → 500`, `Bold → 700`, `ExtraBold → 800`, `Heavy → 800`.
+   - Применить класс шрифта в `<body className={`${fontTwo.className} ${fontOne.className}`}>`.
+2. **Если шрифт нестандартный** (Heavy/Display, не в Google Fonts) — локально через `next/font/local`:
+   - Скачать `.woff2` нужных начертаний и положить в `src/app/fonts/` (например `src/app/fonts/Karla-Heavy.woff2`).
+   - Для шрифтов из Google Fonts CSS-API можно получить woff2 запросом `https://fonts.googleapis.com/css2?family=Имя+Шрифта:wght@400;500;700;800&display=swap`, скачать ссылки на `fonts.gstatic.com/.../*.woff2` нужных весов.
+   - Добавить импорт в [src/app/layout.tsx](src/app/layout.tsx) по образцу `fontOne`:
+     ```ts
+     import localFont from 'next/font/local';
+     const fontOne = localFont({ src: './fonts/Karla-Heavy.woff2' });
+     ```
+     Если на семейство несколько начертаний — использовать массив `src`:
+     ```ts
+     const fontOne = localFont({
+       src: [
+         { path: './fonts/Karla-Bold.woff2', weight: '700', style: 'normal' },
+         { path: './fonts/Karla-Heavy.woff2', weight: '800', style: 'normal' },
+       ],
+     });
+     ```
+   - Применить класс шрифта в `<body className=...>`.
+3. **Имена семейств** уже подставляются в [src/app/styles/theme-tokens.css](src/app/styles/theme-tokens.css) скриптом `yarn theme:sync` (`--font-family-main`, `--font-family-second`). Дополнительно прописывать `font-family` в компонентах не нужно.
+
+## Удаление старого шрифта при смене из Figma
+
+Если в `figma-variables.json` приходит **другое** семейство для `--font-family-main` или `--font-family-second` (например было `Futura PT` → стало `Karla`), **удалить старый шрифт** полностью:
+
+1. **Файлы в `src/app/fonts/`** — удалить все `.woff2` старого шрифта (например `FuturaPTHeavy.woff2`).
+2. **`src/app/layout.tsx`** — удалить соответствующие импорты:
+   - для local-шрифта: убрать `localFont({ src: './fonts/...' })` и переменную (`fontOne`/`fontThree`/...);
+   - для Google-шрифта: убрать `import { Имя } from 'next/font/google'` и его инициализацию.
+   - убрать использование удалённой переменной из `<body className={`${...}`}>`.
+3. **По проекту** — поиском проверить отсутствие упоминаний удалённого семейства:
+   - `font-family: "СтароеИмя"` в `src/app/globals.css` и `src/app/components/**/*.module.css`;
+   - inline-стили в `*.tsx`;
+   - комментарии и закомментированный код.
+4. **Папку `.next/` не трогать** — кэш Next.js перегенерируется автоматически при следующей сборке/`yarn dev`.
+
+## Сводная таблица `style → font-weight`
+
+| Стиль из Figma | Вес CSS |
+|----------------|---------|
+| `Medium`       | `500`   |
+| `Bold`         | `700`   |
+| `ExtraBold`    | `800`   |
+| `Heavy`        | `800`   |
+
+При подключении через `next/font/google` указывать те же веса в массиве `weight` импорта; при `next/font/local` — в `weight` соответствующего элемента массива `src` (если используется массив).
+
+## Текущее состояние
+
+- `src/app/fonts/FuturaPTHeavy.woff2` подключён в [src/app/layout.tsx](src/app/layout.tsx) как `fontOne` через `next/font/local`.
+- `Roboto` подключён там же как `fontTwo` через `next/font/google` (`weight: ['400', '500', '700', '900']`).
+- `--font-family-main: "Futura PT"`, `--font-family-second: "Roboto"`, `--font-weight-main: 800` (Heavy) — генерируются скриптом из `figma-variables.json`.

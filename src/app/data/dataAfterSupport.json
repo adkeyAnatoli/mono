@@ -1,0 +1,98 @@
+{
+  "title": "Our Game Library",
+  "content": [
+    {
+      "type": "paragraph",
+      "text": "MrBeast play spans a wide-ranging catalogue built from partnerships with respected studios across the industry. Every category is accessible directly from the main navigation menu, and a provider filter in each section lets you browse by studio."
+    }
+  ],
+  "sections": [
+    {
+      "heading": "Slot Games",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Slots form the backbone of our catalogue."
+        },
+        {
+          "type": "paragraph",
+          "text": "Inside the slots section, three curated sub-tabs help you navigate:"
+        },
+        {
+          "type": "list-dotted",
+          "items": [
+            "**New**: recently launched titles available to try in demo mode using practice chips",
+            "**Top**: the highest-traffic slots on our platform, refreshed regularly based on actual play data",
+            "**Hot**: games currently showing strong payout activity and pulling the most player interest"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Every slot listing includes a Demo button. Winnings earned in demo mode hold no cash value and cannot be withdrawn."
+        }
+      ]
+    },
+    {
+      "heading": "Live Dealer Games",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "MrBeast play live section streams real-time games from professional studios staffed by trained croupiers."
+        },
+        {
+          "type": "paragraph",
+          "text": "The live catalogue includes:"
+        },
+        {
+          "type": "list-dotted",
+          "items": [
+            "**Roulette**: multiple table configurations with live hosts",
+            "**Blackjack**: classic formats and side-bet variants",
+            "**Poker**: casino-style setups with live dealers",
+            "**Baccarat**: standard and speed-format versions",
+            "**Live shows**: hosted formats featuring real presenters and interactive mechanics"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Live games require a funded account. Demo mode does not exist in this section."
+        }
+      ]
+    },
+    {
+      "heading": "Crash Games",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Our Crash section runs on a completely different mechanic compared to traditional slot machines."
+        },
+        {
+          "type": "paragraph",
+          "text": "There are no reels, no paylines, and no symbol combinations; instead:"
+        },
+        {
+          "type": "list-dotted",
+          "items": [
+            "Place your stake before each round starts",
+            "Watch a multiplier climb upward in real time",
+            "Cash out at any point to lock in your current multiplier as a win",
+            "If the crash triggers before you cash out, your stake is lost"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Crash games reward timing and quick decision-making. They attract players who want faster, more interactive gameplay than standard slots provide."
+        }
+      ]
+    },
+    {
+      "heading": "RNG Table Games",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Beyond the live section, MrBeast Canada carries a selection of standard table games powered by a random number generator. These include blackjack, baccarat, roulette variants, and multiple poker formats. Use the search bar at the top of any page to locate a specific title in seconds \\- type a few letters or the full name and results appear instantly."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "title": "Player Support and Responsible Gaming",
+  "content": [
+    {
+      "type": "paragraph",
+      "text": "We make sure players can reach us whenever they need help, and we take our commitment to responsible play seriously. Multiple contact channels keep response times short regardless of the nature of your query."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "How to Contact Our Team"
+    },
+    {
+      "type": "list-dotted",
+      "items": [
+        "**Live chat**: the fastest route \\- connect with a support agent directly from the site",
+        "**Contact form**: suited for non-urgent questions, account issues, or document submissions",
+        "**FAQ section**: covers common topics around accounts, banking, bonuses, and game rules"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Responsible Gaming"
+    },
+    {
+      "type": "paragraph",
+      "text": "MrBeast Casino CA gives every player the tools to manage their activity. Through your account settings, you can set deposit limits, apply session time reminders, or activate a self-exclusion period if needed. If gambling stops being enjoyable or starts feeling out of control, contact our support team or use the self-exclusion tool directly. We process these requests without delay."
+    }
+  ]
+}

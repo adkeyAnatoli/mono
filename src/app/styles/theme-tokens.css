@@ -1,0 +1,38 @@
+:root {
+  --main-bg: #ffffff;
+  --bg-section-second: #003e4b;
+  --bg-red-gradient: #003e4b;
+  --bg-footer: #003e4b;
+  --bg-header: #003e4b;
+  --color-white: #ffffff;
+  --color-black: #121212;
+  --table-head: #003e4b;
+  --table-body: #e8eaee;
+  --payments-table-head: #003e4b;
+  --payments-table-body: #e8eaee;
+  --table-head-color: #121212;
+  --table-body-color: #121212;
+  --button-primary-color: #003e4b;
+  --color-purple: #ffe100;
+  --border-yellow: #ff16b1;
+  --welcome-bonus-color: #ffffff;
+  --bonus-section-text: #ffffff;
+  --top-casino-text-color: #121212;
+  --top-games-text-color: #121212;
+  --faq-question-color: #121212;
+  --faq-text-color: #121212;
+  --support-text-color: #121212;
+  --last-text-color: #121212;
+  --font-family-main: 'League Spartan';
+  --font-family-second: 'Roboto';
+  --font-weight-main: 700;
+  --font-weight-second: 700;
+  --font-weight-500: 500;
+  --font-size-h1: 44px;
+  --font-size-h2: 40px;
+  --font-size-h3: 32px;
+  --font-size-h4: 24px;
+  --font-size-h5: 24px;
+  --font-size-body-20: 20px;
+  --font-size-body-24: 24px;
+}

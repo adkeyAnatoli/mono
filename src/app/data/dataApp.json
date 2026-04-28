@@ -1,0 +1,57 @@
+{
+  "title": "MrBeast Casino App",
+  "sections": [
+    {
+      "heading": "Playing on the Go",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "We give you two routes to mobile play \\- a native application and a browser-based option."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Our Mobile App"
+        },
+        {
+          "type": "paragraph",
+          "text": "The MrBeast app delivers full platform access in a native format built for smartphones and tablets. Download it directly from our website \\- it runs on both iOS and Android. Because it operates natively on your device, load times are faster and the interface feels tighter than a standard browser session. Every feature available on desktop \\- games, banking, account settings, and the daily Fortune Wheel \\- is fully functional inside the app."
+        }
+      ]
+    },
+    {
+      "heading": "Available Languages",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "We serve players in multiple languages to make the experience comfortable regardless of where you are from:"
+        },
+        {
+          "type": "list-dotted",
+          "items": ["English", "French", "Russian", "German", "Portuguese"]
+        }
+      ]
+    },
+    {
+      "heading": "Supported Currencies",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "We accept a range of currencies across our platform:"
+        },
+        {
+          "type": "list-dotted",
+          "items": [
+            "Canadian Dollar (CA$)",
+            "US Dollar (USD)",
+            "Euro (EUR)",
+            "Bitcoin (BTC)",
+            "Ethereum (ETH)",
+            "Litecoin (LTC)",
+            "Tether (USDT)"
+          ]
+        }
+      ]
+    }
+  ]
+}

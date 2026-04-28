@@ -1,0 +1,72 @@
+---
+description: Применение дизайна из Figma только через токены (src/app/styles/theme-tokens.css)
+globs: src/app/styles/theme-tokens.css
+alwaysApply: true
+---
+
+# Дизайн из Figma — только токены
+
+При запросе «применить дизайн из Figma», «обновить по макету», «подставить цвета/шрифты из Figma» и т.п.:
+
+1. **Менять только переменные в `:root`.** Не трогать TSX, остальные CSS-модули секций (`*.module.css`), `globals.css`. Цвета/шрифты приезжают только в `src/app/styles/theme-tokens.css` через скрипт `scripts/sync-theme-from-figma.mjs`.
+2. **Использовать имена переменных из таблицы маппинга.** Цвета/шрифты из Figma маппить на эти имена (`--main-bg`, `--bg-footer`, `--button-primary-color`, `--font-family-main` и т.д.). Новые переменные не вводить.
+3. **Куда писать результат:**
+   - обновить тему → запустить `yarn theme:sync` (равнозначно `node scripts/sync-theme-from-figma.mjs`); скрипт перепишет `src/app/styles/theme-tokens.css`.
+4. **В `src/app/styles/theme-tokens.css` не писать комментарии** — только объявления переменных (файл генерируется).
+5. **Папку `.next/` не менять.** Она перегенерируется автоматически при сборке/dev — никаких ручных правок.
+
+Шаблон уже использует `var(--...)` в `globals.css` и компонентных `*.module.css` везде; смена токенов перекрасит и перестилизует страницу без изменения разметки и логики стилей.
+
+## Источник данных из Figma (без MCP)
+
+**Единственный источник данных из Figma — файл `figma-variables.json` в корне проекта.** MCP для Figma не используется и не должен вызываться.
+
+Как применять:
+
+1. Прочитать `figma-variables.json` (JSON-объект: `"<имя переменной Figma>": "<значение>"`).
+2. Запустить `yarn theme:sync` — скрипт парсит файл строго по ключам из таблицы ниже и пишет значения в `theme-tokens.css`.
+   - **Не подставлять «по смыслу».** Только точное совпадение ключа.
+   - Ключи, которые начинаются с `_`, **игнорировать** (служебные).
+3. Ручные правки в `theme-tokens.css` не делать — он будет перезаписан при следующем `yarn theme:sync`.
+
+### Как получить/обновить `figma-variables.json`
+
+- Экспортировать переменные из Figma (Local variables) в JSON формата `"<имя>": "<значение>"`:
+  - значение цвета: `"#RRGGBB"`
+  - значение шрифта: строка вида `Font(family: "…", style: …, size: …)` (как приходит из Figma)
+
+### Маппинг переменных Figma → токены mrbeast
+
+| Ключ в `figma-variables.json` (Figma) | Наши переменные в `theme-tokens.css` |
+|----------------------------------------|--------------------------------------|
+| `Monobrand/main color/BG` | `--main-bg` |
+| `Monobrand/main color/first color` | `--bg-section-second`, `--bg-red-gradient`, `--table-head`, `--payments-table-head`, `--button-primary-color` |
+| `Monobrand/main color/second color` | `--table-body`, `--payments-table-body` |
+| `Monobrand/main color/footer color` | `--bg-footer` |
+| `Monobrand/main color/text` | `--color-white`, `--color-black`, `--table-head-color`, `--table-body-color`, `--welcome-bonus-color`, `--bonus-section-text`, `--top-casino-text-color`, `--top-games-text-color`, `--faq-question-color`, `--faq-text-color`, `--support-text-color`, `--last-text-color` |
+| `White/100%`, `Monobrand/White/100%` | дублируют `--color-white` (используются как fallback в скрипте) |
+| `Monobrand/accent/100%` | `--color-purple`, `--border-yellow` |
+| `Monobrand/Button/Black 20%` | (не используется в текущей конфигурации токенов) |
+| Шрифты: семейство — из ключей `Desktop/H1`..`Desktop/Welcome`, `Desktop/B1-20`..`Desktop/Card Block` | `--font-family-main` (семейство из `Desktop/H1`), `--font-weight-main` / `--font-weight-second` по `style` (Bold→700, ExtraBold→800, **Heavy→800**); `--font-family-second`, `--font-weight-500` (Medium→500) — из ключей `Desktop/B1-20`..`Desktop/Card Block` |
+| Размеры: `Desktop/H1`..`Desktop/H5`, `Desktop/B1-20`, `Desktop/B2-24` | `--font-size-h1`..`--font-size-h5`, `--font-size-body-20`, `--font-size-body-24` (значения с `px`) |
+
+Шрифты (если в `figma-variables.json` нет `weight`):
+
+- **Определение веса по `style`**:
+  - `Medium` → 500
+  - `Bold` → 700
+  - `ExtraBold` → 800
+  - `Heavy` → 800
+- **Откуда брать семейства** (строго по ключам типографики):
+  - для `--font-family-main`: первый найденный `Desktop/H1` (или `Desktop/H2`, `Desktop/H3`, `Desktop/H4`, `Desktop/H5`, `Desktop/Slogan`, `Desktop/Welcome`)
+  - для `--font-family-second`: первый найденный `Desktop/B1-20` (или `Desktop/B2-24`, `Desktop/B3-32`, `Desktop/Card Block`)
+
+## Шрифты из дизайна
+
+См. отдельное правило [font-replacement.mdc](.cursor/rules/font-replacement.mdc) — оно описывает добавление новых шрифтов и удаление старых при смене семейства из Figma (стратегия `keepGoogleFonts`: Futura PT и подобные heavy-семейства локально через `next/font/local`, Roboto и стандартные семейства Google Fonts через `next/font/google`).
+
+После добавления файлов и импортов в `layout.tsx` страница будет использовать новые семейства из токенов автоматически — `--font-family-main` / `--font-family-second` уже подставляются.
+
+## Параметры из url.txt
+
+При обновлении URL сайта и языка страницы значения берутся из файла `url.txt` в корне проекта. Скрипт `scripts/sync-content-from-md.mjs` читает его и пишет в `src/app/data/siteMeta.json` (`url`, `locale`, `language`), который импортируется в `src/app/layout.tsx` (`html lang`, `meta language`, `og:locale`, `link rel="canonical"`). API-ссылки не менять.
