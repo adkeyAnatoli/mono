@@ -72,6 +72,8 @@
 @media (max-width: 768px) {
   .section {
     padding: 20px 0;
+    --content-table-mobile-color: var(--color-black);
+    --content-table-mobile-bg: var(--main-bg);
   }
   .wrapper {
     gap: 24px;

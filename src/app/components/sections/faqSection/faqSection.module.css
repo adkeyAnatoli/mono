@@ -17,7 +17,7 @@
 .faqBlock {
   display: flex;
   flex-direction: column;
-  border-bottom: 1px solid #0c3c81;
+  border-bottom: 1px solid #00000033;
 }
 
 .faqElement {
