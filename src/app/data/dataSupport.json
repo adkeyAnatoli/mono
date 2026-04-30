@@ -1,0 +1,43 @@
+{
+  "title": "Support and Responsible Gambling",
+  "content": [
+    {
+      "type": "paragraph",
+      "text": "Our support team operates around the clock and covers every question from account setup to withdrawal queries."
+    },
+    {
+      "type": "paragraph",
+      "text": "We offer three ways to get in touch:"
+    },
+    {
+      "type": "list-dotted",
+      "items": [
+        "**Live Chat**: Available from every page on the site, 24/7. Response times average under two minutes during peak hours \\- the fastest route for anything urgent.",
+        "**Contact Form**: Submit a query directly from the Support page for non-urgent matters. Our team responds by email, typically within a few hours.",
+        "**FAQ**: A searchable knowledge base covering the most common questions on accounts, payments, bonuses, and responsible gambling tools. Worth checking first \\- most answers are right there."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Keeping Your Play Safe"
+    },
+    {
+      "type": "paragraph",
+      "text": "Every responsible gambling tool at Royal online casino is free, available 24/7, and accessible directly from your account dashboard."
+    },
+    {
+      "type": "list-dotted",
+      "items": [
+        "**Deposit Limits**: Set a daily, weekly, or monthly cap on account funding. Reductions activate immediately; increases carry a 24-hour cooling-off period.",
+        "**Reality Checks**: Automatic in-session alerts at intervals you select, with a summary of time played and your net position.",
+        "**Cool-Off Period**: Step back for anywhere between 24 hours and six weeks. Access returns automatically when the period expires \\- no contact required.",
+        "**Self-Exclusion**: Exclude for 6 months, 1 year, 5 years, or permanently. Every exclusion registers with GamStop, extending the restriction across all participating UK operators. Permanent exclusions cannot be reversed."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "If you need to speak to someone, the National Gambling Helpline runs free and 24/7 on 0808 8020 133. You can also visit BeGambleAware.org, GamCare.org.uk, or GamStop.co.uk."
+    }
+  ]
+}

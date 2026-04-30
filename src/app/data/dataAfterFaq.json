@@ -1,0 +1,87 @@
+{
+  "title": "Bonuses and Promotions",
+  "content": [
+    {
+      "type": "paragraph",
+      "text": "Richard Branson Casino Royale bonus calendar keeps running year-round. New players enter through the welcome package; registered members access tournaments, streak rewards, daily collectables, and loyalty perks."
+    }
+  ],
+  "sections": [
+    {
+      "heading": "The Mission Briefing (Welcome Package)",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "New players unlock a three-deposit bonus package worth up to £5,000 in bonus funds plus 900 Golden Gun Spins. Activate during registration or claim it from the Promotions page at any point after joining."
+        },
+        {
+          "type": "list-dotted",
+          "items": [
+            "**First Deposit \\- Operation Overture**: 100% match bonus, up to 400 Golden Gun Spins. Minimum deposit: £20.",
+            "**Second Deposit \\- Operation Deep Cover**: 75% match bonus, up to 200 Golden Gun Spins. Minimum deposit: £20.",
+            "**Third Deposit \\- Operation Endgame**: 50% match bonus, up to 300 Golden Gun Spins. Minimum deposit: £20."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Wagering requirements: x50 on bonus funds, x40 on Golden Gun Spin winnings. All wagering must complete within 30 days of activation."
+        }
+      ]
+    },
+    {
+      "heading": "Exclusive Promo Codes",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "We release Casino Royale promo code offers directly to subscribers via email. Codes unlock additional bonus funds, free spins, or tournament entry perks on top of standard promotions. Enter your code at the cashier before making a qualifying deposit; codes applied after a deposit has processed cannot be backdated. To make sure you never miss a code drop, subscribe to our mailing list from your account settings \\- we send new offers straight to your inbox as soon as they go live."
+        }
+      ]
+    },
+    {
+      "heading": "The Double O Programme",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "The Casino Royale Club loyalty programme spans ten ranks, each carrying escalating cashback and privileges. You earn 1 XP per £1 wagered, and every rank promotion awards 30 Golden Gun Spins."
+        },
+        {
+          "type": "list-dotted",
+          "items": [
+            "**Rank I \\- Uninitiated**: Standard account access.",
+            "**Rank II \\- Informant**: 3% weekly cashback.",
+            "**Rank III \\- Operative**: 4% cashback, weekly bonus drops.",
+            "**Rank IV \\- Field Agent**: 6% cashback, birthday rewards package.",
+            "**Rank V \\- Special Agent**: 8% cashback, weekly VIP bonus drops.",
+            "**Rank VI \\- Secret Agent**: 10% cashback, priority withdrawal processing.",
+            "**Rank VII \\- Double O**: 12% cashback, dedicated VIP Manager, The Closed Network, VIP Tournaments.",
+            "**Rank VIII \\- Licence Holder**: 14% cashback, bespoke event invitations.",
+            "**Rank IX \\- Commander**: 16% cashback, personalised reward curation.",
+            "**Rank X \\- Agent 007**: 20% cashback, physical gifts delivered to your home, full concierge service, Commander events."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Cashback calculates on net losses over the qualifying period and credits as bonus funds with a x1 wagering requirement. Richard Branson Casino Royale Club members must maintain minimum activity thresholds for their current tier \\- drop below them and a rank demotion applies automatically."
+        }
+      ]
+    },
+    {
+      "heading": "Further Ongoing Promotions",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Beyond the welcome package and weekly tournament, we run a set of ongoing promotions that reward consistent play across different formats:"
+        },
+        {
+          "type": "list-dotted",
+          "items": [
+            "**The Continuity Protocol**: Consecutive deposits unlock escalating bonus offers. Check your account dashboard for your current streak status and next reward threshold.",
+            "**Q Branch Intel Keys**: Log in daily to collect keys. Redeem them for loot drops or Golden Gun Spins via the Rewards Hub. Missing a day resets your accumulation entirely.",
+            "**The Royale Wheel**: Every third deposit triggers a spin. Prizes span bonus credits, Golden Gun Spins, and VIP perks. Spins cannot be deferred or transferred.",
+            "**The Honeytrap Protocol**: Complete 74 qualifying deposits to unlock a classified reward. The prize remains sealed until you reach the target."
+          ]
+        }
+      ]
+    }
+  ]
+}

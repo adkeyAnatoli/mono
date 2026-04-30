@@ -1,0 +1,73 @@
+{
+  "title": "Richard Branson Casino Royale App",
+  "sections": [
+    {
+      "heading": "Playing on Your Phone or Tablet",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "We designed the platform to run cleanly on every device from day one. Whether you prefer the Casino Royale app or a quick browser session, the full experience is right there."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "The Dedicated Mobile App"
+        },
+        {
+          "type": "paragraph",
+          "text": "Our app is available for both iOS and Android. Download it directly from the App Store or Google Play \\- no third-party links, no workarounds. The app carries the complete game catalogue, every active promotion, and full account management tools. Push notifications flag new bonus drops, tournament updates, and daily key availability without requiring you to log in to check."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Playing Through Your Mobile Browser"
+        },
+        {
+          "type": "paragraph",
+          "text": "No download required if you prefer to go straight to the browser. The Casino Royale mobile experience works on any current smartphone or tablet. Our platform adapts to your screen automatically, keeping navigation clean and game loading fast. Every feature available on desktop \\- including the loyalty dashboard, live dealer lobby, and cashier \\- works identically on mobile."
+        }
+      ]
+    },
+    {
+      "heading": "Languages Available",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "We currently serve players in the following languages:"
+        },
+        {
+          "type": "list-dotted",
+          "items": [
+            "English",
+            "German",
+            "Finnish",
+            "Norwegian",
+            "Swedish",
+            "Portuguese",
+            "Polish"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Accepted Currencies",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Accounts at Casino Royale operate in:"
+        },
+        {
+          "type": "list-dotted",
+          "items": [
+            "British Pounds Sterling (£)",
+            "Euros (€)",
+            "US Dollars ($)",
+            "Canadian Dollars (CAD)",
+            "Norwegian Krone (NOK)",
+            "Swedish Krona (SEK)"
+          ]
+        }
+      ]
+    }
+  ]
+}

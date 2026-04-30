@@ -1,0 +1,131 @@
+.section {
+  margin: 140px auto;
+}
+
+.title {
+  font-family: var(--font-family-main);
+  font-size: 44px;
+  font-style: normal;
+  font-weight: var(--font-weight-second);
+  line-height: normal;
+  /* text-transform: uppercase; */
+  color: var(--color-black);
+  margin-bottom: 48px;
+  text-align: left;
+}
+
+.grid {
+  display: flex;
+  gap: 32px;
+  justify-content: space-between;
+}
+.section :global(.text) {
+  color: var(--color-black);
+}
+.imageWrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  background: var(--table-body);
+  border-radius: var(--border-radius-second);
+  padding: 48px;
+  display: flex;
+  flex-direction: column;
+  max-width: 528px;
+}
+
+.highlights {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-left: 20px;
+}
+
+.highlights li {
+  list-style: disc;
+  line-height: 32px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.fullCard {
+  margin: 48px 0;
+  background: var(--table-body);
+  border-radius: var(--border-radius-second);
+  padding: 28px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.fullCardTitle {
+  font-family: var(--font-family-main);
+  font-size: 32px;
+  font-weight: var(--font-weight-second);
+  line-height: normal;
+  color: var(--color-black);
+}
+
+@media (max-width: 1180px) {
+  .section {
+    margin: 64px auto;
+  }
+}
+
+@media (max-width: 1024px) {
+  .grid {
+    flex-direction: column;
+  }
+
+  .imageWrap {
+    min-height: auto;
+  }
+
+  .card {
+    max-width: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .section {
+    margin: 64px auto;
+  }
+  .grid {
+    gap: 24px;
+  }
+  .title {
+    font-size: 28px;
+    margin-bottom: 24px;
+  }
+  .fullCardTitle {
+    font-size: 28px;
+  }
+  .fullCard {
+    margin-top: 24px;
+  }
+  .imageWrap img {
+    width: 383px;
+    height: 270px;
+  }
+  .card {
+    padding: 20px 16px;
+  }
+
+  .fullCard {
+    padding: 20px 16px;
+  }
+}
+
+@media (max-width: 525px) {
+  .imageWrap img {
+    height: auto;
+    width: 250px;
+  }
+}

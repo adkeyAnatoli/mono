@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Disallow: /casino/
+Sitemap: https://richardbranson-casino.com/sitemap.xml

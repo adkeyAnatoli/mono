@@ -1,0 +1,35 @@
+:root {
+  --main-bg: #fff2f2;
+  --bg-section-second: #ffffff;
+  --bg-red-gradient: #e10a0a;
+  --bg-footer: #e10a0a;
+  --bg-header: #ffffff80;
+  --color-white: #ffffff;
+  --color-black: #000000;
+  --table-body: #ffffff;
+  --table-head-color: #000000;
+  --table-body-color: #000000;
+  --button-primary-color: #ffffff;
+  --color-purple: #e10a0a;
+  --border-yellow: #ffffff;
+  --welcome-bonus-color: #000000;
+  --bonus-section-text: #000000;
+  --top-casino-text-color: #000000;
+  --top-games-text-color: #000000;
+  --faq-question-color: #000000;
+  --faq-text-color: #000000;
+  --support-text-color: #000000;
+  --last-text-color: #000000;
+  --font-family-main: 'Barlow';
+  --font-family-second: 'Roboto';
+  --font-weight-main: 700;
+  --font-weight-second: 700;
+  --font-weight-500: 500;
+  --font-size-h1: 44px;
+  --font-size-h2: 40px;
+  --font-size-h3: 32px;
+  --font-size-h4: 24px;
+  --font-size-h5: 24px;
+  --font-size-body-20: 20px;
+  --font-size-body-24: 24px;
+}
