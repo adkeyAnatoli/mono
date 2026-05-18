@@ -1,0 +1,14 @@
+---
+description: Migrating marketing copy from Markdown (e.g. en-CA.md) into messages/*.json and keeping section components in sync.
+globs: "{messages/**/*.json,src/app/components/sections/**/*.tsx,en-CA.md}"
+alwaysApply: false
+---
+
+# Content migration (MD → JSON)
+
+- **Hero / brand title**: Use `h1_section.h1` as the single source. For the main overview block (`CasinoInfoSection`), the section **h2** is the substring of `h1` **before the first** ` - ` (trimmed). Keep hero and that h2 aligned.
+- **Wording**: Preserve paragraphs from MD **verbatim** unless the task explicitly allows edits. Map MD `##` / `###` to JSON keys such as `subtitle`, `heading`, or to the corresponding heading level in the component (`h2`–`h4`).
+- **Tables**: For comparison-style sections, map pipe tables to structured data: `headers: string[]` and `rows: string[][]` (or an equivalent typed shape). Do **not** collapse into `list-dotted` when the source is a real table. For blocks that use `ContentItem[]` (e.g. `joiningSection` subsections), use `{ "type": "table", "headers": [...], "rows": [...] }` so the MD table survives in JSON and renders as `<table>`.
+- **Secondary / legal pages**: Use a `*Meta` namespace pair plus body keys; register routes in `src/i18n/routing.ts` under `pathnames` when adding pages.
+- **Bonus API prefix**: Keep `welcome_section.welcome_offer` as the prefix string used with API-driven offer text in `BonusSection.tsx`.
+- **Locales**: `fillMissingMessages` in `src/i18n/request.ts` only **adds** missing keys from `en.json`. After changing JSON shape, **remove or replace** obsolete keys in non-`en` locale files so merged messages match the components (do not rely on merge to delete keys).

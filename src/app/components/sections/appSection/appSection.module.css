@@ -1,0 +1,188 @@
+.section {
+  padding: 0;
+  background: var(--main-bg);
+}
+
+.columnWrap {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
+
+.sectionHeading {
+  text-align: center;
+}
+
+.promoRow {
+  display: flex;
+  flex-direction: row;
+  /* align-items: flex-start; */
+  justify-content: space-between;
+  gap: 48px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.promoRow .blueWrap {
+  max-width: 548px;
+}
+
+.imgColumn {
+  flex-shrink: 0;
+  background: transparent;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0;
+}
+
+.blueWrap {
+  background: var(--bg-section-second);
+  border-radius: var(--border-radius-second);
+  padding: 64px;
+  box-sizing: border-box;
+}
+
+.blueWrap :global(.text),
+.blueWrap :global(li) {
+  color: var(--color-black);
+}
+
+.hiddenImg {
+  display: none;
+}
+
+.desktopImg {
+  display: block;
+  margin: 0;
+}
+
+.firstBlock_text {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.section ol,
+.section ul {
+  margin-left: 20px;
+}
+
+.section ul li {
+  list-style-type: disc;
+}
+
+.section ol li {
+  list-style-type: decimal;
+}
+
+.textBlock {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  /* width: 548px; */
+  max-width: 100%;
+}
+
+.mobile {
+  display: none !important;
+}
+@media (max-width: 1130px) {
+  .promoRow {
+    flex-direction: column;
+    align-items: center;
+  }
+  .imgColumn .desktopImg {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .promoRow > .blueWrap {
+    max-width: none;
+  }
+}
+
+@media (max-width: 950px) {
+  .promoRow {
+    flex-direction: column;
+    gap: 48px;
+  }
+
+  .imgColumn .desktopImg {
+    display: none;
+  }
+
+  .desktop {
+    display: none !important;
+  }
+
+  .mobile {
+    display: flex !important;
+  }
+
+  .hiddenImg {
+    display: block;
+    height: auto;
+    align-self: center;
+    margin: 0 auto;
+    width: 100%;
+    /* max-width: 496px; */
+  }
+
+  .textBlock {
+    width: auto;
+    gap: 24px;
+  }
+
+  .downloadBlock {
+    align-self: center;
+  }
+}
+
+.downloadBlock {
+  display: flex;
+  gap: 24px;
+}
+
+.lastBlock {
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .sectionHeading {
+    text-align: left;
+  }
+
+  .columnWrap {
+    gap: 40px;
+  }
+
+  .promoRow {
+    gap: 40px;
+  }
+
+  .blueWrap {
+    padding: 20px;
+  }
+
+  .textBlock h2 {
+    font-size: 32px;
+  }
+
+  .downloadBlock {
+    margin-top: 16px;
+    flex-wrap: wrap;
+  }
+
+  .lastBlock {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media (max-width: 575px) {
+  .hiddenImg {
+    width: 100%;
+  }
+}

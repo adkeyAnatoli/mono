@@ -1,0 +1,123 @@
+.section {
+  padding: 140px 0;
+  background: var(--main-bg);
+}
+
+.sectionHeading {
+  text-align: center;
+  width: 100%;
+}
+
+.surface {
+  background: var(--bg-section-second);
+  border-radius: var(--border-radius-second);
+  padding: 64px;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.surface :global(.text),
+.surface :global(li) {
+  color: var(--color-black);
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
+
+.block {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.contentFlow {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  width: 100%;
+}
+
+.section ol,
+.section ul {
+  margin-left: 20px;
+}
+
+.section ul li {
+  list-style-type: disc;
+}
+
+.section ol li {
+  list-style-type: decimal;
+}
+
+.lastBlock {
+  width: 100%;
+}
+
+.sectionsStack {
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .mobileWideCardTable :global([class*='mobileWideRow']) {
+    margin-bottom: 18px;
+  }
+
+  .mobileWideCardTable :global([class*='mobileWideMethod']) {
+    margin-bottom: 12px;
+    border-radius: var(--border-radius);
+  }
+
+  .mobileWideCardTable :global([class*='mobileWideItem']) {
+    padding: 16px 18px;
+    border-radius: 0;
+  }
+
+  .mobileWideCardTable
+    :global([class*='mobileWideRow'] [class*='mobileWideItem']:nth-child(2)) {
+    border-top-left-radius: var(--border-radius);
+    border-top-right-radius: var(--border-radius);
+  }
+
+  .mobileWideCardTable
+    :global([class*='mobileWideRow'] [class*='mobileWideItem']:last-child) {
+    border-bottom-left-radius: var(--border-radius);
+    border-bottom-right-radius: var(--border-radius);
+  }
+
+  .mobileWideCardTable
+    :global([class*='mobileWideItem'] + [class*='mobileWideItem']::before) {
+    left: 18px;
+    right: 18px;
+  }
+
+  .section {
+    padding: 64px 0;
+  }
+  .sectionHeading {
+    text-align: left;
+  }
+  .surface {
+    padding: 20px;
+  }
+
+  .section > div,
+  .sectionsStack,
+  .contentFlow {
+    gap: 24px;
+  }
+
+  /* .wrapper {
+    gap: 40px;
+  } */
+
+  .lastBlock {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

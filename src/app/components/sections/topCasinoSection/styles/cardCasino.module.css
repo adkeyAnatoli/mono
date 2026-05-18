@@ -1,0 +1,144 @@
+.visuallyHidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.gradientContainer {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: stretch;
+  padding: 0;
+  background: transparent;
+}
+
+.gradientContainer::before {
+  content: '';
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  right: -2px;
+  bottom: -2px;
+  background: transparent;
+  z-index: -1;
+  border-radius: 0;
+}
+
+.casinoCard {
+  position: relative;
+  width: 100%;
+  height: auto;
+  padding: 17.5px 32px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  background: var(--table-body);
+  border-radius: var(--border-radius);
+  text-transform: capitalize;
+  overflow-wrap: break-word;
+  text-align: center;
+  font-family: var(--font-family-second);
+  font-size: 20px;
+  font-weight: var(--font-weight-500);
+  line-height: 1.16;
+  letter-spacing: 0;
+  cursor: pointer;
+}
+
+.cardImage {
+  margin-top: 0;
+  flex-shrink: 0;
+  filter: var(--shadow);
+  object-fit: contain;
+}
+
+.cardBonusText {
+  font-family: var(--font-family-second);
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  min-width: 0;
+}
+
+.cardWelcome {
+  max-width: 100%;
+  display: none;
+}
+
+.cardBonus {
+  margin: auto;
+  font-family: var(--font-family-second);
+  font-weight: var(--font-weight-500);
+  font-size: 20px;
+  line-height: 1.16;
+  max-width: 100%;
+  color: var(--top-casino-text-color);
+}
+
+.cardButton {
+  /* margin-top: 0;
+  margin-bottom: 0;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 224px;
+  height: 64px; */
+  transition: transform 0.2s ease;
+}
+
+.cardButton :global(.button-secondary):hover {
+  transform: scale(1);
+}
+
+.gradientContainer:hover .cardButton {
+  transform: scale(1.1);
+}
+
+@media (max-width: 768px) {
+  .casinoCard {
+    padding: 15px 16px;
+    font-size: 16px;
+  }
+
+  .cardBonus {
+    font-size: 16px;
+  }
+
+  .cardImage {
+    max-width: 84px;
+    width: auto;
+    height: auto;
+  }
+}
+
+@media (max-width: 430px) {
+  .casinoCard {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+  }
+
+  .cardBonusText {
+    gap: 8px;
+  }
+
+  .cardImage {
+    max-width: 173px;
+    width: auto;
+    height: auto;
+  }
+}

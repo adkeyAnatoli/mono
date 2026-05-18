@@ -1,0 +1,71 @@
+---
+description: Применение дизайна из Figma только через токены (Next.js Keno, styles/tokens.css)
+globs: styles/tokens.css
+alwaysApply: true
+---
+
+# Дизайн из Figma — только токены (Next.js)
+
+Проект: **Next.js 15 (App Router)**, локали в [`src/app/[locale]/`](src/app/[locale]/) , глобальные стили — [`src/app/[locale]/globals.css`](src/app/[locale]/globals.css), дизайн-токены — **только** [`styles/tokens.css`](styles/tokens.css) в корне репозитория.
+
+При запросах вроде «применить дизайн из Figma», «обновить по макету», «подставить цвета/шрифты из Figma»:
+
+1. **Менять только** переменные в блоке `:root` в [`styles/tokens.css`](styles/tokens.css). **Не** править CSS-модули секций, `globals.css` (кроме явно описанных случаев ниже — там только `@import`), TSX/разметку ради цветов.
+2. Использовать **только уже объявленные** имена переменных из `tokens.css` (`--main-bg`, `--button-primary-bg`, …). **Не** добавлять новые CSS-переменные.
+3. **Единственный целевой файл для палитры и типографических чисел в токенах** — [`styles/tokens.css`](styles/tokens.css).
+4. В `styles/tokens.css` **без комментариев** — только объявления свойств в `:root`.
+5. **Не трогать артефакты сборки** — каталог **`.next/`**, при наличии **`dist/`** или другой выходной папки экспорта. Смена внешнего вида страницы делается **токенами**, не патчами в билде.
+
+## Как токены попадают в приложение
+
+- В начале [`globals.css`](src/app/[locale]/globals.css) стоит `@import` на [`../../../styles/tokens.css`](styles/tokens.css) — каскад для всего App Router layout с этой локалью.
+- **Шрифты не задаются отдельным `main.css` или index.html** — только через [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) в корневом [`src/app/[locale]/layout.tsx`](src/app/[locale]/layout.tsx): заголовки — **`Baloo`**: файлы **woff2** в [`public/fonts/`](public/fonts/), `next/font/local`, `variable: '--font-baloo'`; второе семейство — **`Roboto`** через `next/font/google`, `variable: '--font-roboto'`; классы с этими переменными на **`<html>`**. Семейства `Baloo` / `Baloo 2` в Figma не взаимозаменяемы: в макете и в [`figma-variables.json`](figma-variables.json) указано **Baloo** — использовать этот шрифт, а не `Baloo_2` из `next/font/google`.
+- В [`styles/tokens.css`](styles/tokens.css) семейства должны ссылаться на эти переменные и fallback, например:  
+  `--font-family-main: var(--font-baloo), 'Baloo', cursive` и  
+  `--font-family-second: var(--font-roboto), 'Roboto', sans-serif`.
+- Если нужного **woff2** ещё нет в [`public/fonts/`](public/fonts/) — получить файл (например, загрузить ветку с **fonts.gstatic.com** по CSS из `fonts.googleapis.com` для нужного семейства и веса) и только затем подключить через `next/font/local`. Лицензию шрифта соблюдать (Google Fonts — по условиям выбранного семейства).
+- Отдельного слоя тем **`themes/*.css`** в этом репозитории **нет**; «тема» = содержимое `styles/tokens.css`.
+- **Canonical, Open Graph, `metadataBase`** и язык страницы живут в **`layout.tsx`** и env (`NEXT_PUBLIC_*`) — это **не** часть задачи «обновить токены из Figma», если в запросе явно не сказано обратное.
+
+## Источник данных из Figma
+
+**Один входной файл — [`figma-variables.json`](figma-variables.json) в корне проекта.** Плагины MCP Figma для этого workflow **не** использовать.
+
+1. Читать пары `"ключ Figma": "значение"`.
+2. Маппить **строго по таблице ниже** (точное имя ключа). Ключи, начинающиеся с **`_`**, пропускать.
+3. Цвета в токенах — в формате `#RRGGBB` как в JSON (регистр можно нормализовать к верхнему).
+
+### Обновление `figma-variables.json`
+
+- Плагин: [`figma-plugin-export-tokens/README.md`](figma-plugin-export-tokens/README.md).
+- Вручную: скопировать из Figma Local variables в тот же формат (цвета HEX, типографика строкой `Font(family: "…", style: …, size: …)` при необходимости).
+
+### Маппинг ключей Figma → переменные `styles/tokens.css`
+
+| Ключ в `figma-variables.json` | Переменные в `styles/tokens.css` |
+|------------------------------|-----------------------------------|
+| `Monobrand/main color/BG` | `--main-bg` |
+| `Monobrand/main color/footer second color` | `--bg-header`, `--bg-footer` |
+| `Monobrand/main color/blocks` | `--bg-section-second`, `--table-head`, `--payments-table-head`, `--software-provider-card-bg` |
+| `Monobrand/main color/text` | `--color-black`, `--bonus-section-bg`, `--h1-section-bg`, `--table-body`, `--table-head-color`, `--header-buttons-color-text`, `--button-secondary-color`, `--payments-table-body` (при сомнениях сверить с макетом светлых блоков) |
+| `Monobrand/accent/accent` | `--bg-red-gradient`, `--color-purple`, `--payments-text-left` |
+| `Monobrand/Button/Large` | `--button-primary-bg`, `--top-games-text-color` |
+| `Monobrand/Button/Small` | `--button-secondary-bg` |
+| `Monobrand/Button/Black 20%` | `--after-element-second` → оверлей `rgba(0, 0, 0, 0.2)` от чёрного макета |
+| `Stroke/White 20%` | `--after-element` → полупрозрачный белый для разделителей; если в JSON пришёл `#FFFFFF`, для разделителей на тёмном фоне использовать `rgba(255,255,255,0.2)` |
+| `Monobrand/White/100%` | `--color-white`, `--table-body-color`, `--bonus-section-text`, `--h1-section-text`, `--welcome-bonus-color`, `--button-primary-color`, `--top-casino-text-color`, `--faq-question-color`, `--faq-text-color`, `--support-text-color`, `--last-text-color` |
+| `Monobrand/accent/gamу color` | Литеральное имя ключа (опечатка «gamу»). Значение HEX — как у белого `#FFFFFF`: те же токены для текста/акцентов на тёмном фоне, что и для `Monobrand/White/100%`, по необходимости `--welcome-bonus-color` |
+
+### Типографика из строк `Font(...)`
+
+- Заголовки: ключи `Desktop/H1` … `Desktop/H4`, `Desktop/Slogan`, `Desktop/Welcome` → семейство **Baloo** в **`layout.tsx`** (`next/font/local` из [`public/fonts/`](public/fonts/)); в токенах — связка `var(--font-baloo)` и fallback `'Baloo'`.
+- Основной текст: `Desktop/B1-20`, `Desktop/B2-24`, `Desktop/Card Block` → **Roboto** в `layout.tsx`, в токенах `--font-family-second`.
+- `style: Regular` → `--font-weight-main: 400`; `Medium` → `--font-weight-500: 500`; `Bold` → 700; `ExtraBold` → 800 (если появятся в экспорте).
+
+Размеры **`size`** из `Font(...)` в **отдельные токены не выносить** — размеры шрифтов остаются в CSS-модулях/глобальных классах, пока в дизайн-системе нет отдельных переменных под них.
+
+## Смена семейства шрифта из Figma
+
+1. Подключить шрифт в [`src/app/[locale]/layout.tsx`](src/app/[locale]/layout.tsx): `next/font/google` или `next/font/local`, выставить **`variable`**, добавить класс на **`<html>`**. Для локального шрифта: при отсутствии файлов в [`public/fonts/`](public/fonts/) — сначала добавить **woff2** (в т.ч. загрузкой с сети), затем `next/font/local`.
+2. Обновить в [`styles/tokens.css`](styles/tokens.css) только `--font-family-main` и/или `--font-family-second` (`var(--…)` + строковый fallback).
+3. Удалить неиспользуемые файлы из `public/fonts/` и импорты из `layout.tsx`. Артефакты **`.next/`** и **`dist/`** не править.

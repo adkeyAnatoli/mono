@@ -1,0 +1,38 @@
+@media (max-width: 768px) {
+  .mobileWideCardTable :global([class*='mobileWideRow']) {
+    margin-bottom: 18px;
+  }
+
+  .mobileWideCardTable :global([class*='mobileWideMethod']) {
+    margin-bottom: 12px;
+    border-radius: var(--border-radius);
+  }
+
+  .mobileWideCardTable :global([class*='mobileWideItem']) {
+    padding: 16px 18px;
+    border-radius: 0;
+  }
+
+  .mobileWideCardTable
+    :global([class*='mobileWideRow'] [class*='mobileWideItem']:nth-child(2)) {
+    border-top-left-radius: var(--border-radius);
+    border-top-right-radius: var(--border-radius);
+  }
+
+  .mobileWideCardTable
+    :global([class*='mobileWideRow'] [class*='mobileWideItem']:last-child) {
+    border-bottom-left-radius: var(--border-radius);
+    border-bottom-right-radius: var(--border-radius);
+  }
+
+  .mobileWideCardTable
+    :global([class*='mobileWideItem'] + [class*='mobileWideItem']::before) {
+    left: 18px;
+    right: 18px;
+  }
+
+  .section div[class*='surface'] {
+    padding: 0;
+    background: none;
+  }
+}

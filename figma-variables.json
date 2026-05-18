@@ -1,0 +1,22 @@
+{
+  "Monobrand/main color/BG": "#FFFFFF",
+  "Monobrand/accent/accent": "#0060AC",
+  "Monobrand/main color/footer second color": "#004E8B",
+  "Stroke/White 20%": "#FFFFFF",
+  "Desktop/B1-20": "Font(family: \"Roboto\", style: Medium, size: 20)",
+  "Monobrand/main color/text": "#083050",
+  "Desktop/H1": "Font(family: \"Baloo\", style: Regular, size: 48)",
+  "Monobrand/main color/blocks": "#E1F4FF",
+  "Desktop/H3": "Font(family: \"Baloo\", style: Regular, size: 24)",
+  "Monobrand/White/100%": "#FFFFFF",
+  "Desktop/H2": "Font(family: \"Baloo\", style: Regular, size: 40)",
+  "Desktop/B2-24": "Font(family: \"Roboto\", style: Medium, size: 24)",
+  "Desktop/H4": "Font(family: \"Baloo\", style: Regular, size: 24)",
+  "Monobrand/Button/Black 20%": "#000000",
+  "Monobrand/accent/gamу color": "#FFFFFF",
+  "Monobrand/Button/Small": "#8DDC00",
+  "Monobrand/Button/Large": "#148BE9",
+  "Desktop/Card Block": "Font(family: \"Roboto\", style: Medium, size: 24)",
+  "Desktop/Slogan": "Font(family: \"Baloo\", style: Regular, size: 28)",
+  "Desktop/Welcome": "Font(family: \"Baloo\", style: Regular, size: 32)"
+}
