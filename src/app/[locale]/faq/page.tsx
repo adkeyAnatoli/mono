@@ -27,5 +27,7 @@ export default async function FaqStandalonePage({
 }) {
   const { locale } = await params;
   setRequestLocale(locale);
-  return <StaticRichPage locale={locale} namespace="faqPage" />;
+  return (
+    <StaticRichPage locale={locale} namespace="faqPage" faqAccordion />
+  );
 }

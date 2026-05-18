@@ -20,6 +20,9 @@
   gap: 24px;
 }
 
+.section div[class*='faqWrapper'] {
+  margin-top: 0;
+}
 .sectionBlocks {
   display: flex;
   flex-direction: column;

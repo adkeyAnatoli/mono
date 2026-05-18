@@ -1,13 +1,13 @@
 import { defineRouting } from 'next-intl/routing';
 
 export const routing = defineRouting({
-  locales: ['en-CA', 'en-UK', 'fr-FR', 'de-DE'],
+  locales: ['en-CA', 'en-GB', 'fr-FR', 'de-DE'],
 
   defaultLocale: 'en-CA',
   localePrefix: {
     mode: 'as-needed',
     prefixes: {
-      'en-UK': '/uk',
+      'en-GB': '/uk',
       'fr-FR': '/fr',
       'de-DE': '/de',
     },

@@ -51,7 +51,7 @@ export default function LocaleSwitcher() {
             {t('englishCanada')}
           </option>
 
-          <option className={styles.option} value="en-UK">
+          <option className={styles.option} value="en-GB">
             {t('englishUK')}
           </option>
 

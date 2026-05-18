@@ -41,7 +41,7 @@ const Header: React.FC<IHeader> = ({ isHomePage }) => {
           </>
         ) : (
           <>
-            <Link href="/" style={{ height: `${HEIGHT_LOGO}` }}>
+            <Link href="/" style={{ height: `${HEIGHT_LOGO}px` }}>
               <Image
                 src="/svg/logo.svg"
                 width={WIDTH_LOGO}
@@ -52,8 +52,8 @@ const Header: React.FC<IHeader> = ({ isHomePage }) => {
             </Link>
             <div className={style.headerButtonBlock}>
               <LocaleSwitcher />
-              <Link href="/">
-                <button className={style.register}>{t('playNow')}</button>
+              <Link href="/" className={style.register}>
+                {t('playNow')}
               </Link>
             </div>
           </>

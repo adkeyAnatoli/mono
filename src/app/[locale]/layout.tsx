@@ -59,7 +59,7 @@ export async function generateMetadata({ params }: Omit<Props, 'children'>) {
       canon = `https://${url}`;
       og_locale = '';
       break;
-    case 'en-UK':
+    case 'en-GB':
       canon = `https://${url}/uk`;
       og_locale = 'en_GB';
       break;
@@ -112,7 +112,7 @@ export async function generateMetadata({ params }: Omit<Props, 'children'>) {
       languages: {
         'x-default': '/',
         'en-CA': '/',
-        'en-UK': '/uk',
+        'en-GB': '/uk',
         'fr-FR': '/fr',
         'de-DE': '/de',
       },

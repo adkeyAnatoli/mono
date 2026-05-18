@@ -8,6 +8,8 @@
   gap: 24px;
   align-items: center;
   color: var(--color-black);
+  font-family: var(--font-family-main);
+  font-weight: var(--font-weight-main);
 }
 
 .not-found a {

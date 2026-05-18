@@ -7,6 +7,7 @@
   line-height: 1.25;
   width: 100%;
   font-family: var(--font-family-second);
+  font-weight: var(--font-weight-500);
 }
 
 .tableWide {
@@ -20,7 +21,7 @@
 }
 
 .tableHeadCell {
-  background-color: var(--button-primary-bg);
+  background-color: var(--bg-footer);
   color: var(--button-primary-color);
   font-weight: var(--font-weight-main);
   padding: 32px 20px;
@@ -30,7 +31,7 @@
 }
 
 .table th.tableHeadCell {
-  background-color: var(--button-primary-bg);
+  background-color: var(--bg-footer);
   color: var(--button-primary-color);
   line-height: 1.375;
   padding: 27px 24px;
@@ -240,8 +241,8 @@
   .mobileWideMethod {
     background-color: var(--bg-footer);
     color: var(--button-primary-color);
-    font-family: var(--font-family-second);
-    font-weight: var(--font-weight-500);
+    font-family: var(--font-family-main);
+    font-weight: var(--font-weight-main);
     font-size: 18px;
     align-items: flex-start;
     justify-content: flex-start;

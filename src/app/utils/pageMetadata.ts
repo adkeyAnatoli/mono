@@ -9,7 +9,7 @@ const ogImage = `https://${siteUrl}/og-img.webp`;
 export type StaticPagePathname = '/about' | '/privacy' | '/terms' | '/faq';
 
 const localePrefixes: Record<string, string> = {
-  'en-UK': '/uk',
+  'en-GB': '/uk',
   'fr-FR': '/fr',
   'de-DE': '/de',
 };
@@ -34,7 +34,7 @@ function getCanonicalUrl(pathname: StaticPagePathname, locale: string): string {
 
 function getOgLocale(locale: string): string {
   switch (locale) {
-    case 'en-UK':
+    case 'en-GB':
       return 'en_GB';
     case 'fr-FR':
       return 'fr_FR';
