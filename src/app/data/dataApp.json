@@ -1,0 +1,63 @@
+{
+  "title": "Languages & Currencies",
+  "sections": [
+    {
+      "heading": "Languages Available on the Platform",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "At online casino Klarma, we serve players in the following languages:"
+        },
+        {
+          "type": "list-dotted",
+          "items": [
+            "English",
+            "German",
+            "Finnish",
+            "Norwegian",
+            "Swedish",
+            "French"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Currencies We Support",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "We accept deposits and withdrawals in the following fiat currencies:"
+        },
+        {
+          "type": "list-dotted",
+          "items": [
+            "Euro",
+            "British Pound",
+            "US Dollar",
+            "Canadian Dollar",
+            "Australian Dollar",
+            "Norwegian Krone",
+            "Swedish Krona",
+            "Danish Krone",
+            "Swiss Franc",
+            "Polish Zloty"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "We also support the following cryptocurrencies:"
+        },
+        {
+          "type": "list-dotted",
+          "items": [
+            "Bitcoin",
+            "Ethereum",
+            "Litecoin",
+            "Tether",
+            "Ripple"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "Monobrand/main color/BG": "#FFFFFF",
+  "Monobrand/accent/accent": "#1D192A",
+  "Monobrand/White/100%": "#FFFFFF",
+  "Monobrand/main color/footer second color": "#1A1725",
+  "Stroke/White 20%": "#FFFFFF",
+  "Desktop/B1-20": "Font(family: \"Roboto\", style: Medium, size: 20)",
+  "Monobrand/main color/text": "#1D192A",
+  "Desktop/H1": "Font(family: \"SF Pro Rounded\", style: Bold, size: 48)",
+  "Monobrand/main color/blocks": "#F9F8F5",
+  "Desktop/H3": "Font(family: \"SF Pro Rounded\", style: Bold, size: 24)",
+  "Desktop/H2": "Font(family: \"SF Pro Rounded\", style: Bold, size: 40)",
+  "Desktop/Welcome": "Font(family: \"SF Pro Rounded\", style: Bold, size: 32)",
+  "Desktop/B2-24": "Font(family: \"Roboto\", style: Medium, size: 24)",
+  "Desktop/H4": "Font(family: \"SF Pro Rounded\", style: Bold, size: 24)",
+  "Monobrand/Button/Black 20%": "#000000",
+  "Monobrand/accent/gamу color": "#FFFFFF",
+  "Monobrand/Button/Small": "#FFA8CD",
+  "Monobrand/Button/Large": "#6743DD",
+  "Desktop/Card Block": "Font(family: \"Roboto\", style: Medium, size: 24)",
+  "Desktop/Slogan": "Font(family: \"SF Pro Rounded\", style: Bold, size: 28)"
+}

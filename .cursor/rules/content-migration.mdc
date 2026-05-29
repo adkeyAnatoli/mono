@@ -1,0 +1,69 @@
+---
+description: Content pipeline — Markdown sources synced to src/app/data/*.json
+globs: "{*.md,scripts/sync-content-from-md.mjs,src/app/data/**/*.json,src/app/components/sections/**/*.tsx}"
+alwaysApply: false
+---
+
+# Content pipeline (MD → JSON)
+
+## Sources (whitelist, project root)
+
+| MD | Route |
+|----|-------|
+| `main.md` | `/` (home sections) |
+| `bonuses.md` | `/bonuses` |
+| `registration.md` | `/registration` |
+| `games.md` | `/games` |
+| `payments.md` | `/payments` |
+| `faq.md` | `/faq` |
+| `terms.md` | `/terms` |
+| `privacy.md` | `/privacy` |
+
+`README.md`, `figma-plugin-export-tokens/README.md`, and `example/` are **not** parsed.
+
+## Workflow
+
+1. Edit the relevant `*.md` in the project root.
+2. Run `npm run sync:content`.
+3. Commit both MD and generated `src/app/data/*.json`.
+
+**Do not** hand-edit `src/app/data/*.json` — they are generated.
+
+## Output layout
+
+```
+src/app/data/siteMeta.json          ← main.md meta + h1
+src/app/data/dataCasinoInfo.json    ← intro + Our Licence
+src/app/data/dataLast.json          ← What Sets Us Apart + audience
+src/app/data/dataApp.json           ← Languages + Currencies
+src/app/data/dataSupport.json
+src/app/data/dataFaq.json
+src/app/data/dataFooter.json
+src/app/data/siteUi.json            ← nav, buttons, labels (static EN)
+src/app/data/pages/{slug}.json      ← subpages
+```
+
+## Meta in MD
+
+- `**Title:**` / `**Description:**` at top → `meta.title` / `meta.description`
+- Home hero h1: `#` heading in `main.md` → `siteMeta.h1`
+- Subpage h1: `#` heading, or first `##` when no `#` (e.g. `bonuses.md`)
+- Subpage h2: part of `h1` before ` - ` (same rule as home `CasinoInfoSection`)
+
+## Language
+
+Site language is fixed `en` (`<html lang="en">`). No locale/geo routing.
+
+## UI strings
+
+Navigation, buttons, and API-section labels live in `siteUi.json` (English, not from MD). Keep `welcome_section.welcome_offer` as prefix before API offer text in `BonusSection`.
+
+## Page layouts (`StaticRichPage`)
+
+| variant | Pages | Blocks |
+|---------|-------|--------|
+| `header` | bonuses, registration, games, payments | BonusSection → H1 → h2 → intro → sections → FAQ accordion |
+| `footer-legal` | terms, privacy | BonusSection → H1 → h2 → intro → sections |
+| `footer-faq` | faq | BonusSection → H1 → h2 → intro → FaqAccordionList |
+
+Nested `###` / `####` inside a `##` section become `{ type: "heading", level: 3|4 }` in `section.content`.

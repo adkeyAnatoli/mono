@@ -1,0 +1,81 @@
+{
+  "title": "What Sets Us Apart",
+  "content": [
+    {
+      "type": "paragraph",
+      "text": "Our primary advantage is the payment layer made around Klarna Pay. Players who use it get priority access to our support team, reduced queue times, and dedicated agents who understand payment processes in detail."
+    }
+  ],
+  "tables": [
+    {
+      "heading": "Reasons Players Stick With Us",
+      "headers": [
+        "Feature",
+        "What It Means"
+      ],
+      "rows": [
+        [
+          "MGA Licence",
+          "Full compliance with Europe's most rigorous gaming regulator"
+        ],
+        [
+          "7,500+ Slot Titles",
+          "Enormous catalogue covering every mechanic - Megaways, cluster pays, jackpots, buy-bonus"
+        ],
+        [
+          "No-Deposit Free Spins",
+          "50 spins on registration, no deposit required - activate via promo code in your account"
+        ],
+        [
+          "Three-Stage Welcome Package",
+          "Up to €1,200 and 750 free spins split across your first three deposits"
+        ],
+        [
+          "Daily Fortune Wheel",
+          "Free daily spin for every registered player - prizes include bonus funds and free spins"
+        ],
+        [
+          "Jackpot Wins to Real Balance",
+          "Every jackpot payout lands in your main account with zero wagering conditions attached"
+        ],
+        [
+          "80+ Certified Providers",
+          "Pragmatic Play, Evolution, Play'n GO, Red Tiger, Betsoft and dozens more in one lobby"
+        ],
+        [
+          "Crypto Payouts Under 60 Minutes",
+          "BTC, ETH, LTC, USDT, and XRP withdrawals processed within one hour"
+        ],
+        [
+          "10-Level VIP Programme",
+          "Cashback from 3% at Silver to 21% at Black Label, plus personal bonuses and priority withdrawals"
+        ],
+        [
+          "Weekly Reload Promotions",
+          "Deposit bonuses and free spins available every Wednesday and Friday - no waiting for a special occasion"
+        ]
+      ]
+    },
+    {
+      "heading": "Things to Factor In Before You Deposit",
+      "headers": [
+        "Limitation",
+        "The Detail"
+      ],
+      "rows": [
+        [
+          "High Wagering on Deposit Bonuses",
+          "Welcome bonus funds carry a x45 wagering requirement - above the European average"
+        ],
+        [
+          "No-Deposit Win Cap",
+          "Maximum cashout from the 50 registration free spins is €30"
+        ],
+        [
+          "Regional Restrictions",
+          "Some payment methods including iDEAL, Sofort, and Paysafecard are region-specific and may not be available depending on your country of residence"
+        ]
+      ]
+    }
+  ]
+}

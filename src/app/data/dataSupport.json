@@ -1,0 +1,42 @@
+{
+  "title": "How to Get Help When You Need It",
+  "content": [
+    {
+      "type": "paragraph",
+      "text": "Our support team is available 24 hours a day, 7 days a week. Players using Klarna pay receive priority queue access."
+    },
+    {
+      "type": "paragraph",
+      "text": "You can reach us through the following channels:"
+    },
+    {
+      "type": "list-dotted",
+      "items": [
+        "Live chat: available directly in the platform interface",
+        "Email: help@klarnacasino.com",
+        "FAQ section: covers the most common questions on bonuses, payments, and account management",
+        "Mobile app: full support access from any device"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "heading": "Responsible Gaming",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "We provide every player with a full set of self-management tools:"
+        },
+        {
+          "type": "list-dotted",
+          "items": [
+            "Deposit limits",
+            "Session time caps",
+            "Cooling-off periods",
+            "Self-exclusion"
+          ]
+        }
+      ]
+    }
+  ]
+}

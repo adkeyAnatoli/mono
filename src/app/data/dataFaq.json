@@ -1,0 +1,17 @@
+{
+  "title": "Answers to the Questions We Hear Most",
+  "faqList": [
+    {
+      "title": "How long does a Klarna withdrawal actually take?",
+      "text": "Processing times vary by method. Crypto withdrawals are complete within 60 minutes. Skrill, Neteller, and Trustly process within 24 hours. Standard card withdrawals take 1 to 3 business days, and SEPA bank transfers require up to 5 business days."
+    },
+    {
+      "title": "Do I need to claim all three welcome bonuses in one session?",
+      "text": "No, the welcome package activates across your first three separate deposits at your own pace. The first deposit unlocks a 100% match bonus and up to 100 free spins, the second offers a 75% match, and the third a 50% match. The combined maximum is €1,200 and 750 free spins."
+    },
+    {
+      "title": "How do I download and use the Klarna app?",
+      "text": "The app is available for both Android and iOS and can be downloaded directly from our website. Once installed, you get full access to the entire game catalogue, account management, deposits, withdrawals, and live support - all from your mobile device. Your play history and favourites list sync automatically between the app and desktop, so you can switch devices without losing your progress."
+    }
+  ]
+}

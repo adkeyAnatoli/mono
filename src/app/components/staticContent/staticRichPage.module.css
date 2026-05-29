@@ -1,0 +1,112 @@
+.section {
+  padding: 140px 0 0;
+}
+
+.textBlock p,
+.textBlock li {
+  color: var(--last-text-color);
+}
+.tableMobFullWidth thead p {
+  color: var(--color-white);
+}
+
+.flow {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  width: 100%;
+}
+
+.pageHeading {
+  margin: 0;
+}
+
+.textBlock {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.section div[class*='faqWrapper'] {
+  margin-top: 0;
+}
+.sectionBlocks {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  margin-top: 0;
+  width: 100%;
+}
+
+.sectionBlock {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  width: 100%;
+}
+
+@media (min-width: 769px) {
+  .tableMobFullWidth table {
+    table-layout: fixed;
+    width: 100%;
+  }
+
+  .tableMobFullWidth thead th:first-child,
+  .tableMobFullWidth tbody td:first-child {
+    width: 276px;
+    box-sizing: border-box;
+  }
+
+  .tableMobFullWidth thead th:nth-child(2),
+  .tableMobFullWidth tbody td:nth-child(2) {
+    width: auto;
+    min-width: 0;
+  }
+}
+
+.section ol,
+.section ul {
+  margin-left: 20px;
+}
+
+.section ul li {
+  list-style-type: disc;
+}
+
+.section ol li {
+  list-style-type: decimal;
+}
+
+@media (max-width: 768px) {
+  .section {
+    padding: 64px 0 0;
+  }
+  .tableMobFullWidth span[class*='mobileWideLabel'] {
+    display: none;
+  }
+
+  .tableMobFullWidth [class*='mobileWideItem'] {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 0;
+    border-radius: var(--border-radius);
+  }
+
+  .tableMobFullWidth [class*='mobileWideValue'] {
+    justify-self: stretch;
+    text-align: left;
+    width: 100%;
+  }
+
+  .section div[class*='mobileWideMethod'] {
+    padding: 18px 18px;
+  }
+
+  .section > div {
+    gap: 24px;
+  }
+
+  .flow,
+  .sectionBlocks {
+    gap: 24px;
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "name": "mono",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "format": "prettier . --check",
+    "format:fix": "prettier . --write",
+    "sync:content": "node scripts/sync-content-from-md.mjs",
+    "git": "git init && git add . && git commit -m  \"init: init project\" && git remote add origin git@github.com:adkeyAnatoli/mono.git"
+  },
+  "dependencies": {
+    "next": "15.2.9",
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3",
+    "sharp": "^0.33.5"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "15.1.1",
+    "eslint-config-prettier": "^9.1.0",
+    "prettier": "3.4.2",
+    "remark-gfm": "^4.0.1",
+    "remark-parse": "^11.0.0",
+    "remark-stringify": "^11.0.0",
+    "typescript": "^5",
+    "unified": "^11.0.5"
+  }
+}
