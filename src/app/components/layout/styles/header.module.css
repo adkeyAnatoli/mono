@@ -68,9 +68,9 @@
   .logoBlock .navBlock {
     display: flex;
   }
-.logoBlock {
-  margin-left: -16px;
-}
+  .logoBlock {
+    margin-left: -16px;
+  }
   .headerButtonBlock {
     gap: 8px;
   }

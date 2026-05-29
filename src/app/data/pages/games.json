@@ -21,15 +21,9 @@
         },
         {
           "type": "table",
-          "headers": [
-            "Category",
-            "Details"
-          ],
+          "headers": ["Category", "Details"],
           "rows": [
-            [
-              "Slots",
-              "Over 7,500 certified titles from 80+ studios"
-            ],
+            ["Slots", "Over 7,500 certified titles from 80+ studios"],
             [
               "Jackpot Games",
               "Progressive and fixed jackpots with a dedicated lobby filter"

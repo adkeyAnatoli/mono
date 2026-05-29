@@ -93,7 +93,8 @@ function h1TitleFromRaw(body, h1) {
 
 function headingBodyFromRaw(body, node) {
   const raw = sliceRaw(body, node);
-  if (raw !== null) return normalizeMdText(raw.replace(/^#{1,6}\s+/, '').trim());
+  if (raw !== null)
+    return normalizeMdText(raw.replace(/^#{1,6}\s+/, '').trim());
   return headingPlainText(node);
 }
 
@@ -176,9 +177,7 @@ function tableToTableItem(table, body) {
       if (raw !== null) return stripTableCell(raw);
       return plainContentText(
         normalizeMdText(
-          stringify
-            .stringify({ type: 'root', children: cell.children })
-            .trim()
+          stringify.stringify({ type: 'root', children: cell.children }).trim()
         )
       );
     })
@@ -297,8 +296,11 @@ function buildFaqFromH3Blocks(nodes, body) {
 
 function buildPageJson(raw, slug) {
   const preprocessed = preprocessMd(raw);
-  const { title: metaTitle, description: metaDescription, body } =
-    extractMeta(preprocessed);
+  const {
+    title: metaTitle,
+    description: metaDescription,
+    body,
+  } = extractMeta(preprocessed);
   const tree = parseMd(body);
   const { preamble, sections } = splitByH2(tree);
 
@@ -307,9 +309,7 @@ function buildPageJson(raw, slug) {
   let pageSections = [];
   let faq = null;
 
-  const hasH1 = preamble.some(
-    (n) => n.type === 'heading' && n.depth === 1
-  );
+  const hasH1 = preamble.some((n) => n.type === 'heading' && n.depth === 1);
 
   if (slug === 'faq') {
     const parsed = parsePreamble(preamble, body);
@@ -520,8 +520,7 @@ function main() {
   const introItems = nodesToContentItems(introNodes, body);
   writeJson('dataCasinoInfo.json', {
     subtitle: 'Our Licence',
-    intro:
-      introItems.find((i) => i.type === 'paragraph') ??
+    intro: introItems.find((i) => i.type === 'paragraph') ??
       introItems[0] ?? { type: 'paragraph', text: '' },
     aboutParagraphs: nodesToContentItems(licenceNodes, body).filter(
       (i) => i.type === 'paragraph'
@@ -532,7 +531,10 @@ function main() {
   const audienceNodes =
     by.get('Who Gets the Most from Klarna Online and Who Might Not') || [];
   writeJson('dataLast.json', buildLastSection(apartNodes, body));
-  writeJson('dataInfoAfterSupport.json', buildInfoAfterSupport(audienceNodes, body));
+  writeJson(
+    'dataInfoAfterSupport.json',
+    buildInfoAfterSupport(audienceNodes, body)
+  );
 
   const langs = by.get('Languages Available on the Platform') || [];
   const curs = by.get('Currencies We Support') || [];

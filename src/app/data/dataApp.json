@@ -49,13 +49,7 @@
         },
         {
           "type": "list-dotted",
-          "items": [
-            "Bitcoin",
-            "Ethereum",
-            "Litecoin",
-            "Tether",
-            "Ripple"
-          ]
+          "items": ["Bitcoin", "Ethereum", "Litecoin", "Tether", "Ripple"]
         }
       ]
     }

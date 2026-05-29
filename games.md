@@ -2,50 +2,50 @@
 
 **Description:** Klarna online casino offers 7,500+ certified slots, live dealer tables, crash games and daily jackpots. All titles audited and available on desktop and mobile app.
 
-# Klarna Online Casino \- 7,500+ Games, Live Tables and Daily Jackpots 
+# Klarna Online Casino \- 7,500+ Games, Live Tables and Daily Jackpots
 
-Klarna online casino run one of the largest game libraries in the European market.  
+Klarna online casino run one of the largest game libraries in the European market.
 
 ## Our Lobby
 
 Here are the numbers that define our collection:
 
-| Category | Details |
-| ----- | ----- |
-| Slots | Over 7,500 certified titles from 80+ studios |
-| Jackpot Games | Progressive and fixed jackpots with a dedicated lobby filter |
-| Live Casino | Real dealer tables across multiple formats and bet ranges |
-| Crash Games | Short-format high-intensity titles in a dedicated section |
-| Table Games | Blackjack, roulette, baccarat and poker variations on certified RNG |
-| New Releases | 5-10 new titles added monthly, flagged in the lobby with a dedicated filter |
+| Category      | Details                                                                     |
+| ------------- | --------------------------------------------------------------------------- |
+| Slots         | Over 7,500 certified titles from 80+ studios                                |
+| Jackpot Games | Progressive and fixed jackpots with a dedicated lobby filter                |
+| Live Casino   | Real dealer tables across multiple formats and bet ranges                   |
+| Crash Games   | Short-format high-intensity titles in a dedicated section                   |
+| Table Games   | Blackjack, roulette, baccarat and poker variations on certified RNG         |
+| New Releases  | 5-10 new titles added monthly, flagged in the lobby with a dedicated filter |
 
 ## Slots
 
-Our slot catalogue is large enough that navigation matters. We built the filtering system specifically to cut search time.  
+Our slot catalogue is large enough that navigation matters. We built the filtering system specifically to cut search time.
 
 Here is a breakdown of Klarna Casino games:
 
-* **Popular slots**: ranked by current player activity across the platform
+- **Popular slots**: ranked by current player activity across the platform
 
-* **New releases**: titles added within the last 30 days
+- **New releases**: titles added within the last 30 days
 
-* **Megaways**: variable reel mechanic with up to 117,649 ways to win
+- **Megaways**: variable reel mechanic with up to 117,649 ways to win
 
-* **Cluster pays**: wins triggered by symbol clusters rather than fixed lines
+- **Cluster pays**: wins triggered by symbol clusters rather than fixed lines
 
-* **Cascade mechanics**: winning symbols drop out and new ones fall in, chaining wins
+- **Cascade mechanics**: winning symbols drop out and new ones fall in, chaining wins
 
-* **Buy bonus**: skip to the bonus round directly by paying a set multiplier of your stake
+- **Buy bonus**: skip to the bonus round directly by paying a set multiplier of your stake
 
-* **Jackpot slots**: both progressive and fixed prize pools in one filtered view
+- **Jackpot slots**: both progressive and fixed prize pools in one filtered view
 
-* **Favourites**: your personal saved list, accessible from any device
+- **Favourites**: your personal saved list, accessible from any device
 
 Authorised players also have access to a play history log.
 
 ## Jackpot Games
 
-We carry a large selection of both progressive and fixed jackpot slots. Progressive jackpots grow with every stake placed across the network. The current prize pool for each game is visible on the slot card before you open it. Every jackpot win credits directly to your main balance with no wagering requirement attached. 
+We carry a large selection of both progressive and fixed jackpot slots. Progressive jackpots grow with every stake placed across the network. The current prize pool for each game is visible on the slot card before you open it. Every jackpot win credits directly to your main balance with no wagering requirement attached.
 
 ## Table Games
 
@@ -61,19 +61,19 @@ Crash games work on a different principle to slots \- a multiplier climbs from 1
 
 ## Getting More from Klarna Online Casino
 
-* **Use the provider filter**: the studio menu on the right side of the screen lets you display only one provider's titles at a time
+- **Use the provider filter**: the studio menu on the right side of the screen lets you display only one provider's titles at a time
 
-* **Check new releases regularly**: the dedicated filter shows titles added in the last 30 days \- new games from top studios often come with launch promotions 
+- **Check new releases regularly**: the dedicated filter shows titles added in the last 30 days \- new games from top studios often come with launch promotions
 
-* **Check the buy bonus filter before a session**: if your budget is limited, buy bonus slots carry higher variance (factor that in before you purchase a bonus round)
+- **Check the buy bonus filter before a session**: if your budget is limited, buy bonus slots carry higher variance (factor that in before you purchase a bonus round)
 
-*All about the bonus offers (на странцу Бонусы)*
+_All about the bonus offers (на странцу Бонусы)_
 
 ## FAQ
 
 ### How many new Klarna Casino games appear on the platform each month?
 
-We add new titles on a rolling basis throughout each month, typically 5 to 10 games as studios release certified content. New games appear under a dedicated filter in the lobby so you can track additions without searching the full catalogue. The volume varies month to month depending on studio release schedules. 
+We add new titles on a rolling basis throughout each month, typically 5 to 10 games as studios release certified content. New games appear under a dedicated filter in the lobby so you can track additions without searching the full catalogue. The volume varies month to month depending on studio release schedules.
 
 ### Do all games count equally toward bonus wagering requirements?
 
@@ -82,4 +82,3 @@ No, game contribution rates toward wagering requirements vary by title and categ
 ### Can I try Klarna for free before depositing?
 
 Most slots in our catalogue support a demo mode accessible without a registered account. Live casino tables and jackpot games do not offer a free play option \- these require a real money stake. Use demo mode to test mechanics and volatility before committing your balance.
-

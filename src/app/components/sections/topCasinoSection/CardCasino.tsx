@@ -37,9 +37,7 @@ const CardCasino: React.FC<IBonusSection> = ({ data, priority = false }) => {
           <span className={style.cardWelcome} aria-hidden="true">
             {ui.topCasino_section.welcome_bonus}
           </span>
-          <span className={style.cardBonus}>
-            {data.bonuses.welcome_bonus}
-          </span>
+          <span className={style.cardBonus}>{data.bonuses.welcome_bonus}</span>
         </span>
         <ButtonLink
           id={data.id}

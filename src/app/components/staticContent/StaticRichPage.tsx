@@ -86,9 +86,7 @@ export default function StaticRichPage({ variant, data }: Props) {
                     ))}
                   </div>
                 ) : null}
-                {variant === 'header' &&
-                data.faq &&
-                data.faq.length > 0 ? (
+                {variant === 'header' && data.faq && data.faq.length > 0 ? (
                   <FaqAccordionList items={data.faq} />
                 ) : null}
               </div>

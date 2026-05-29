@@ -44,10 +44,7 @@ const Header: React.FC<IHeader> = ({ isHomePage }) => {
         <div className={style.headerButtonBlock}>
           <NavBlock open={false} />
           {isHomePage ? (
-            <ButtonLinkFirstOffer
-              text={ui.playNow}
-              classes={style.register}
-            />
+            <ButtonLinkFirstOffer text={ui.playNow} classes={style.register} />
           ) : (
             <Link href="/" className={style.register}>
               {ui.playNow}

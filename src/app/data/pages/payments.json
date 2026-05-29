@@ -88,47 +88,15 @@
       "content": [
         {
           "type": "table",
-          "headers": [
-            "Method",
-            "Min Deposit",
-            "Min Withdrawal"
-          ],
+          "headers": ["Method", "Min Deposit", "Min Withdrawal"],
           "rows": [
-            [
-              "Klarna Payment",
-              "€10",
-              "€20"
-            ],
-            [
-              "Visa / Mastercard",
-              "€10",
-              "€20"
-            ],
-            [
-              "Trustly",
-              "€10",
-              "€20"
-            ],
-            [
-              "SEPA Transfer",
-              "€20",
-              "€20"
-            ],
-            [
-              "Skrill / Neteller",
-              "€10",
-              "€10"
-            ],
-            [
-              "Cryptocurrency",
-              "€15",
-              "€20"
-            ],
-            [
-              "Paysafecard",
-              "€10",
-              "-"
-            ]
+            ["Klarna Payment", "€10", "€20"],
+            ["Visa / Mastercard", "€10", "€20"],
+            ["Trustly", "€10", "€20"],
+            ["SEPA Transfer", "€20", "€20"],
+            ["Skrill / Neteller", "€10", "€10"],
+            ["Cryptocurrency", "€15", "€20"],
+            ["Paysafecard", "€10", "-"]
           ]
         }
       ]

@@ -4,49 +4,49 @@
 
 # Klarna Pay System \- Fast, Secure, Transparent
 
-We support a wide range of payment methods, process crypto payouts in under an hour, and give Klarna Pay users direct access to priority support. 
+We support a wide range of payment methods, process crypto payouts in under an hour, and give Klarna Pay users direct access to priority support.
 
 ## How Payments Work on Our Platform
 
 We do not store your full card details and we do not share financial data with external parties outside of standard payment processing. Before your first withdrawal, we run a one-time KYC verification. Submit your documents early to avoid any delays when you are ready to cash out. Once your deposit is confirmed, you can move straight to real money play. \\
 
-*All about the casino play (На страницу Игры)*
+_All about the casino play (На страницу Игры)_
 
 ## Deposit Methods
 
 We cover every major deposit category:
 
-* **Cards**: Visa, Mastercard, and Klarna Card (minimum €10, funds credited instantly)
+- **Cards**: Visa, Mastercard, and Klarna Card (minimum €10, funds credited instantly)
 
-* **Bank transfers**: Trustly, iDEAL, SEPA Transfer, Sofort (minimum €10 for most, €20 for SEPA)
+- **Bank transfers**: Trustly, iDEAL, SEPA Transfer, Sofort (minimum €10 for most, €20 for SEPA)
 
-* **E-wallets**: Skrill and Neteller (minimum €10, instant processing)
+- **E-wallets**: Skrill and Neteller (minimum €10, instant processing)
 
-* **Cryptocurrency**: BTC, ETH, LTC, USDT, XRP (minimum €15 per transaction)
+- **Cryptocurrency**: BTC, ETH, LTC, USDT, XRP (minimum €15 per transaction)
 
-* **Vouchers**: Paysafecard (minimum €10, deposit only)
+- **Vouchers**: Paysafecard (minimum €10, deposit only)
 
-* **BNPL**: Pay Later (deposit only, minimum €10)
+- **BNPL**: Pay Later (deposit only, minimum €10)
 
 ## Withdrawal Methods
 
-Not all deposit methods support withdrawals. 
+Not all deposit methods support withdrawals.
 
 Here is what is available for cashouts:
 
-* **Klarna Card** (minimum €20, processed within 1-3 business days)
+- **Klarna Card** (minimum €20, processed within 1-3 business days)
 
-* **Visa / Mastercard** (minimum €20, 1-3 business days)
+- **Visa / Mastercard** (minimum €20, 1-3 business days)
 
-* **Trustly** (minimum €20, processed within 24 hours)
+- **Trustly** (minimum €20, processed within 24 hours)
 
-* **SEPA Transfer** (minimum €20, 2-5 business days)
+- **SEPA Transfer** (minimum €20, 2-5 business days)
 
-* **Skrill** (minimum €10, within 24 hours)
+- **Skrill** (minimum €10, within 24 hours)
 
-* **Neteller** (minimum €10, within 24 hours)
+- **Neteller** (minimum €10, within 24 hours)
 
-* **Cryptocurrency** (minimum €20, within 1 hour)
+- **Cryptocurrency** (minimum €20, within 1 hour)
 
 Klarna withdrawal requests go through a standard review before processing. Accounts with completed KYC verification process withdrawals faster \- unverified accounts face mandatory holds until documents are confirmed.
 
@@ -58,25 +58,25 @@ Crypto withdrawals carry a minimum of €20 and bypass the longer processing tim
 
 ## Transaction Limits
 
-| Method | Min Deposit | Min Withdrawal |
-| ----- | ----- | ----- |
-| Klarna Payment | €10 | €20 |
-| Visa / Mastercard | €10 | €20 |
-| Trustly | €10 | €20 |
-| SEPA Transfer | €20 | €20 |
-| Skrill / Neteller | €10 | €10 |
-| Cryptocurrency | €15 | €20 |
-| Paysafecard | €10 | \- |
+| Method            | Min Deposit | Min Withdrawal |
+| ----------------- | ----------- | -------------- |
+| Klarna Payment    | €10         | €20            |
+| Visa / Mastercard | €10         | €20            |
+| Trustly           | €10         | €20            |
+| SEPA Transfer     | €20         | €20            |
+| Skrill / Neteller | €10         | €10            |
+| Cryptocurrency    | €15         | €20            |
+| Paysafecard       | €10         | \-             |
 
 ## Managing Your Payments
 
-* **Complete KYC before your first withdrawal**: removes the waiting period when you actually need to cash out
+- **Complete KYC before your first withdrawal**: removes the waiting period when you actually need to cash out
 
-* **Use Klarna deposit for priority support access**: depositing routes you to a dedicated support tier 
+- **Use Klarna deposit for priority support access**: depositing routes you to a dedicated support tier
 
-* **Match your deposit and withdrawal method**: some methods require you to withdraw back to the same source used for the deposit 
+- **Match your deposit and withdrawal method**: some methods require you to withdraw back to the same source used for the deposit
 
-* **SEPA is slowest**: SEPA transfers can take up to 5 business days, so avoid it if you need funds quickly
+- **SEPA is slowest**: SEPA transfers can take up to 5 business days, so avoid it if you need funds quickly
 
 ## FAQ
 
@@ -91,6 +91,3 @@ In most cases yes, but certain payment processors require the first withdrawal t
 ### How do I request a Klarna withdrawal?
 
 Go to the Cashier section, select Withdrawals, choose your preferred method, and enter the amount. Ensure your KYC documents are approved before submitting \- unverified accounts cannot process withdrawals. Once submitted, withdrawal requests enter a review queue and process within the timeframe listed for your chosen method.
-
- 
-

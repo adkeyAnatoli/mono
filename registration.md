@@ -1,10 +1,10 @@
-**Title:** Klarna Registration \- Start Playing Today 
+**Title:** Klarna Registration \- Start Playing Today
 
-**Description:** Klarna registration takes minutes. Enter your promo code, verify your account, and claim your welcome offer. Check regional availability before you sign up. 
+**Description:** Klarna registration takes minutes. Enter your promo code, verify your account, and claim your welcome offer. Check regional availability before you sign up.
 
 # Klarna Registration \- Create Your Account
 
-Opening a Klarna registration takes under three minutes. 
+Opening a Klarna registration takes under three minutes.
 
 ## Step-by-Step Guide
 
@@ -22,7 +22,7 @@ Opening a Klarna registration takes under three minutes.
 
 ## Klarna Promo Code at Registration
 
-If you have a promo code, enter it during registration. You can also add it later in your personal cabinet. Before you sign up, check our social media pages for active promo codes. We also send bonus codes to subscribers via email newsletter, so sign up for our mailing list to make sure you never miss an offer. 
+If you have a promo code, enter it during registration. You can also add it later in your personal cabinet. Before you sign up, check our social media pages for active promo codes. We also send bonus codes to subscribers via email newsletter, so sign up for our mailing list to make sure you never miss an offer.
 
 All about the bonus offers (На страницу Бонусы)
 
@@ -32,21 +32,21 @@ MGA licence requirements mandate identity verification for all players before pr
 
 #### Documents we accept:
 
-* **Proof of identity**: passport, national ID card, or driving licence
+- **Proof of identity**: passport, national ID card, or driving licence
 
-* **Proof of address**: utility bill or bank statement dated within the last three months
+- **Proof of address**: utility bill or bank statement dated within the last three months
 
-* **Payment method verification**: a photo of your card or e-wallet confirmation may be required
+- **Payment method verification**: a photo of your card or e-wallet confirmation may be required
 
 Upload documents directly through your account cabinet. Verification typically completes within 24 hours.
 
 ## Before You Sign Up
 
-* **Regional restrictions apply**: our platform is not available in all countries. Before Klarna sign up, confirm your country of residence is supported. Check the list of restricted regions in our terms and conditions page
+- **Regional restrictions apply**: our platform is not available in all countries. Before Klarna sign up, confirm your country of residence is supported. Check the list of restricted regions in our terms and conditions page
 
-* **On VPN use**: we strongly advise against using a VPN to bypass regional restrictions. If our system detects a mismatch between your registered location and your actual IP address, we reserve the right to suspend your account and void any pending withdrawals. Play from your actual location only
+- **On VPN use**: we strongly advise against using a VPN to bypass regional restrictions. If our system detects a mismatch between your registered location and your actual IP address, we reserve the right to suspend your account and void any pending withdrawals. Play from your actual location only
 
-* **Use your real details**: any mismatch between your registration data and your KYC documents delays verification and can lock your withdrawal access
+- **Use your real details**: any mismatch between your registration data and your KYC documents delays verification and can lock your withdrawal access
 
 ## FAQ
 
@@ -61,4 +61,3 @@ Yes, but the process requires identity verification to prevent unauthorised chan
 ### How to recover my Klarna login?
 
 Click the "Forgot Password" link on the login page and enter your registered email address. You will receive a password reset link within a few minutes. Check your spam folder if it does not appear in your inbox. Once reset, we recommend enabling two-factor authentication to protect your account going forward.
-

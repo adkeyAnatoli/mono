@@ -9,10 +9,7 @@
   "tables": [
     {
       "heading": "Reasons Players Stick With Us",
-      "headers": [
-        "Feature",
-        "What It Means"
-      ],
+      "headers": ["Feature", "What It Means"],
       "rows": [
         [
           "MGA Licence",
@@ -58,10 +55,7 @@
     },
     {
       "heading": "Things to Factor In Before You Deposit",
-      "headers": [
-        "Limitation",
-        "The Detail"
-      ],
+      "headers": ["Limitation", "The Detail"],
       "rows": [
         [
           "High Wagering on Deposit Bonuses",
