@@ -1,0 +1,61 @@
+**Title:** Casino Bank of Scotland Online \- Platform Rules and Player Rights
+
+**Description:** Casino Bank of Scotland online sets out clear rules on payments, bonuses and eligibility. Know your rights before you create an account.
+
+# Casino Bank of Scotland Online \- What You Agree to When You Play
+
+These terms govern your use of Casino Bank of Scotland online and form a legally binding agreement between you and the platform. By registering an account, you confirm that you have read, understood and accepted these terms in full. We reserve the right to update these terms at any time, and continued use of the platform following any changes constitutes acceptance of the revised terms.
+
+## 1\. General
+
+The platform operates under a licence issued by the UK Gambling Commission. These terms apply to all users of the platform regardless of the device or method of access. Any breach of these terms may result in account suspension or permanent closure without prior notice.
+
+## 2\. Eligibility
+
+To register and use Bank of Scotland online casino, you must be at least 18 years of age and a resident of a territory where online gambling is legally permitted. We do not accept registrations from players in restricted jurisdictions. It is your responsibility to ensure that accessing the platform is legal in your country of residence before registering.
+
+## 3\. Account Registration
+
+Each player may hold only one account. Duplicate accounts will be closed, and any associated balances may be voided. You are responsible for providing accurate personal information at the point of registration and for keeping your login credentials secure at all times.
+
+## 4\. Account Verification (KYC)
+
+Casino Bank of Scotland UK operates a mandatory Know Your Customer process in compliance with UK anti-money laundering regulations. Verification must be completed before any withdrawal is processed. Required documents include proof of identity, proof of address and proof of the payment method used. Failure to provide valid documentation within the requested timeframe may result in account restriction.
+
+## 5\. Deposits and Withdrawals
+
+### 5.1 Deposits
+
+All deposits are processed in accordance with the limits and methods outlined in the Transactions section. The platform does not charge fees on deposits. We reserve the right to request source of funds documentation for deposits that exceed standard thresholds or appear inconsistent with your account history.
+
+### 5.2 Withdrawals
+
+Withdrawal requests are processed within 24 hours following successful verification. Casino Bank of Scotland online reserves the right to carry out additional security checks before releasing funds. Withdrawals must be made to the same method used for the original deposit where technically possible. Players using Bank of Scotland as their preferred payment method benefit from accelerated processing times.
+
+## 6\. Bonuses and Promotions
+
+All bonuses are subject to individual terms including wagering requirements, game restrictions and expiry dates. Bonuses must be used within the specified timeframe or they will be forfeited. The platform reserves the right to withdraw, modify or cancel any promotion at any time. Attempting to abuse the bonus system will result in bonus cancellation and may lead to account closure.
+
+## 7\. Responsible Gambling
+
+Bank of Scotland online casino is committed to promoting responsible gambling. We provide tools including deposit limits, session limits, loss limits and self-exclusion options. Players who feel they may have a gambling problem are encouraged to use these tools or contact support for assistance. We work in partnership with BeGambleAware and GamStop to support players who need help.
+
+## 8\. Game Fairness
+
+All games available use certified Random Number Generator technology. RNG integrity is verified through regular independent audits carried out by accredited testing laboratories. Results of all games are entirely random and cannot be influenced by the platform or any third party.
+
+## 9\. Limitation of Liability
+
+Casino Bank of Scotland UK is not liable for any losses arising from technical failures, network interruptions or circumstances beyond our reasonable control. Our total liability to any player in respect of any claim shall not exceed the net deposits made by that player in the 12 months preceding the claim. Nothing in these terms limits liability for fraud or any other matter that cannot be excluded under applicable law.
+
+## 10\. Privacy
+
+The platform collects and processes personal data in accordance with the UK General Data Protection Regulation. Data is used solely for the purposes of account management, regulatory compliance and improving the player experience. We do not share personal data with third parties except where required by law or as necessary to process payments and verify identity.
+
+## 11\. Governing Law
+
+These terms are governed by and construed in accordance with the laws of England and Wales. Any disputes arising from your use of the platform shall be subject to the exclusive jurisdiction of the courts of England and Wales. Players also have the right to refer unresolved complaints to the relevant Alternative Dispute Resolution service as approved by the UK Gambling Commission.
+
+## 12\. Contact
+
+If you have any questions regarding these terms, you can reach the Casino Bank of Scotland UK support team via live chat or email available on the platform. Bank of Scotland users with Silver tier status and above receive priority support with faster response times. All formal complaints should be submitted in writing through the designated complaints process outlined in the Help section of the platform.

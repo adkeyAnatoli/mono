@@ -1,0 +1,108 @@
+.mediaRow {
+  width: 100%;
+}
+
+.mediaImage {
+  flex-shrink: 0;
+}
+
+.blueWrap {
+  min-width: 0;
+}
+
+.textBlock {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  max-width: 100%;
+}
+
+.downloadBlock {
+  display: flex;
+  gap: 24px;
+}
+/* @media (max-width: 1175px) {
+  .downloadBlock {
+    display: flex;
+    flex-direction: column;
+  }
+} */
+
+.downloadMobile {
+  display: none;
+}
+
+.hiddenImg {
+  display: none;
+}
+
+.desktopImg {
+  display: block;
+  margin: 0;
+}
+
+@media (min-width: 1176px) {
+  .mediaRow {
+    flex-direction: row !important;
+    align-items: center;
+  }
+}
+
+@media (max-width: 1175px) {
+  .mediaRow {
+    flex-direction: column;
+    gap: 48px;
+  }
+
+  .blueWrap {
+    order: 1;
+  }
+
+  .mediaImage {
+    order: 2;
+    align-self: center;
+  }
+
+  .downloadMobile {
+    order: 3;
+    display: flex;
+    align-self: center;
+  }
+
+  .downloadDesktop {
+    display: none !important;
+  }
+
+  .mediaImage .desktopImg {
+    display: none;
+  }
+
+  .hiddenImg {
+    display: block;
+    height: auto;
+    align-self: center;
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  .textBlock {
+    gap: 24px;
+  }
+}
+
+@media (max-width: 768px) {
+  .downloadMobile {
+    /* margin-top: 16px; */
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .mediaRow {
+    gap: 24px;
+  }
+}
+
+@media (max-width: 575px) {
+  .hiddenImg {
+    width: 100%;
+  }
+}

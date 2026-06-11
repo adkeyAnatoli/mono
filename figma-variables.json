@@ -1,0 +1,18 @@
+{
+  "Monobrand/main color/BG": "#FFFFFF",
+  "Monobrand/main color/text": "#000A1C",
+  "Desktop/H1": "Font(family: \"Pathway Extreme\", style: Bold, size: 48)",
+  "Monobrand/main color/blocks": "#F2F6FA",
+  "Desktop/H3": "Font(family: \"Pathway Extreme\", style: Bold, size: 24)",
+  "Monobrand/accent/accent": "#05286A",
+  "Monobrand/White/100%": "#FFFFFF",
+  "Desktop/B1-20": "Font(family: \"Roboto\", style: Medium, size: 20)",
+  "Desktop/H2": "Font(family: \"Pathway Extreme\", style: Bold, size: 40)",
+  "Monobrand/Button/Black 20%": "#000000",
+  "Monobrand/accent/gamу color": "#FFFFFF",
+  "Monobrand/Button/Small": "#0073CD",
+  "Monobrand/Button/Large": "#00C38F",
+  "Desktop/Card Block": "Font(family: \"Roboto\", style: Medium, size: 24)",
+  "Monobrand/main color/footer second color": "#05286A",
+  "Stroke/White 20%": "#FFFFFF"
+}

@@ -1,0 +1,49 @@
+{
+  "title": "Registration & Login",
+  "intro": [
+    {
+      "type": "paragraph",
+      "text": "Creating an account takes a few minutes, and the verification process is straightforward. In this section, we walk through everything from signing up to your first Casino Bank of Scotland login."
+    }
+  ],
+  "cards": [
+    {
+      "heading": "Registration",
+      "content": [
+        {
+          "type": "list-number",
+          "items": [
+            "Click the \"Sign Up\" button on the homepage",
+            "Enter your email address and create a password",
+            "Fill in your personal details - name, date of birth, address",
+            "Select your preferred currency (GBP)",
+            "Agree to the terms and conditions",
+            "Confirm your email via the link sent to your inbox"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Verification",
+      "content": [
+        {
+          "type": "list-dotted",
+          "items": [
+            "Proof of identity - passport, driving licence, or national ID card",
+            "Proof of address - utility bill or bank statement (no older than 3 months)",
+            "Proof of payment method - screenshot or photo of the card/e-wallet used"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Login",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Casino Bank of Scotland login is accessible from the homepage at any time. Click \"Log In\", enter your email and password, and you are in. If you forget your password, use the reset link on the login page."
+        }
+      ]
+    }
+  ]
+}

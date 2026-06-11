@@ -1,0 +1,29 @@
+{
+  "title": "Pros & Cons",
+  "intro": [
+    {
+      "type": "paragraph",
+      "text": "Every platform has its strengths and limitations. Below, we break down the key points to give you a clear picture before you commit."
+    }
+  ],
+  "fit": {
+    "heading": "Pros",
+    "text": "The platform combines a broad game selection with a banking partnership that delivers tangible benefits to eligible players:",
+    "items": [
+      "Bank of Scotland integration: users of the partnered bank get enhanced cashback, accelerated withdrawals and higher transaction limits",
+      "6,000+ games: one of the larger catalogues on the UK market, covering slots, live dealer and instant games",
+      "7-tier VIP programme: structured loyalty system with clear progression and real cashback at every level from Silver upwards",
+      "Mystery chest bonuses: randomised rewards add a layer of engagement to the standard deposit bonus format",
+      "Full mobile access: complete platform functionality available both via app and mobile browser"
+    ]
+  },
+  "notFit": {
+    "heading": "Cons",
+    "text": "Casino Bank of Scotland online has a few points worth considering before you register:",
+    "items": [
+      "High wagering requirements: bonus wagering conditions can make it difficult to convert rewards into withdrawable funds",
+      "Geographic restrictions: the platform is not available in all countries, limiting access for players outside supported regions",
+      "Complex welcome structure: the 8-deposit welcome chain requires significant commitment, with three deposits offering no reward at all"
+    ]
+  }
+}

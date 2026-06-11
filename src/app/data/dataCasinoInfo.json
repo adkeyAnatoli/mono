@@ -1,0 +1,19 @@
+{
+  "title": "Casino Bank of Scotland Review",
+  "subtitle": "About Our Platform",
+  "image": "/sectionImg/slot3.webp",
+  "intro": {
+    "type": "paragraph",
+    "text": "We are a gaming platform that partners directly with one of the UK's leading digital banking services. In this Casino Bank of Scotland review, we cover the game catalogue, bonus system, loyalty programme, and everything else you need."
+  },
+  "aboutParagraphs": [
+    {
+      "type": "paragraph",
+      "text": "We operate under a licence issued by the UK Gambling Commission, the strictest regulatory body in the online gambling industry. The platform undergoes regular independent audits to verify game fairness and RNG integrity, ensuring every player gets a transparent experience."
+    },
+    {
+      "type": "paragraph",
+      "text": "We support self-exclusion systems, giving players full control over their gambling activity. We support only verified payment methods, and every transaction goes through multi-layer fraud detection. Your financial and personal data never passes to third parties."
+    }
+  ]
+}

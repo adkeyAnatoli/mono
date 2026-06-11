@@ -1,0 +1,57 @@
+---
+description: Content pipeline — Markdown sources synced to src/app/data/*.json
+globs: "{*.md,scripts/sync-content-from-md.mjs,src/app/data/**/*.json,src/app/components/sections/**/*.tsx}"
+alwaysApply: false
+---
+
+# Content pipeline (MD → JSON)
+
+## Sources (whitelist, project root)
+
+| MD | Route |
+|----|-------|
+| `main.md` | `/` (home sections) |
+| `faq.md` | `/faq` |
+| `terms.md` | `/terms` |
+| `privacy.md` | `/privacy` |
+
+`README.md`, `figma-plugin-export-tokens/README.md`, and `example/` are **not** parsed.
+
+## Workflow
+
+1. Edit the relevant `*.md` in the project root.
+2. Run `npm run sync:content`.
+3. Commit both MD and generated `src/app/data/*.json`.
+
+**Do not** hand-edit `src/app/data/*.json` — they are generated.
+
+## Output layout
+
+```
+src/app/data/siteMeta.json
+src/app/data/dataCasinoInfo.json       ← intro + About Our Platform
+src/app/data/dataRegistration.json     ← Registration & Login
+src/app/data/dataTransactions.json
+src/app/data/dataMobileGaming.json
+src/app/data/dataGames.json
+src/app/data/dataLanguageCurrency.json
+src/app/data/dataBonuses.json
+src/app/data/dataInfoAfterSupport.json ← Pros & Cons
+src/app/data/dataFaq.json
+src/app/data/dataFooter.json
+src/app/data/siteUi.json
+src/app/data/pages/{slug}.json
+```
+
+## Language
+
+Site language is fixed `en-GB` (`<html lang="en-GB">`, `openGraph.locale: en_GB`). No locale/geo routing.
+
+## Page layouts (`StaticRichPage`)
+
+| variant | Pages | Blocks |
+|---------|-------|--------|
+| `footer-legal` | terms, privacy | BonusSection → H1 → h2 → intro → sections |
+| `footer-faq` | faq | BonusSection → H1 → h2 → intro → FaqAccordionList |
+
+Home page h1 lives in `BonusSection` (from `siteMeta.h1`), not `H1Section`.

@@ -1,0 +1,24 @@
+.section {
+  background: var(--h1-section-bg);
+}
+
+.section h1 {
+  text-align: center;
+  padding: 48px 60px;
+  font-size: 28px;
+  font-weight: var(--font-weight-second);
+  color: var(--h1-section-text);
+}
+
+@media (max-width: 768px) {
+  .section h1 {
+    padding: 28px 20px;
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 420px) {
+  .section h1 {
+    padding: 16px 20px;
+  }
+}

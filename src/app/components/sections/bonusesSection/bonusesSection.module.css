@@ -1,0 +1,46 @@
+.root :global(.tableWide) tbody tr:nth-child(odd) td.tableCell,
+.root
+  :global(.table.tableWide.tableWideZebra)
+  tbody
+  tr:nth-child(odd)
+  td.tableCell {
+  background-color: var(--bg-section-second);
+  color: var(--table-head-color);
+}
+
+.root :global(.tableWide) tbody tr:nth-child(even) td.tableCell,
+.root
+  :global(.table.tableWide.tableWideZebra)
+  tbody
+  tr:nth-child(even)
+  td.tableCell {
+  background-color: var(--main-bg);
+  color: var(--color-black);
+}
+
+.root :global(.mobileWideRow:nth-child(odd)) :global(.mobileWideItem) {
+  background-color: var(--bg-section-second);
+  color: var(--table-head-color);
+}
+
+.root :global(.mobileWideRow:nth-child(even)) :global(.mobileWideItem) {
+  background-color: var(--main-bg);
+  color: var(--color-black);
+}
+
+@media (max-width: 768px) {
+  .welcomeOfferCard :global(span[class*='mobileWideLabel']) {
+    display: none;
+  }
+
+  .welcomeOfferCard :global([class*='mobileWideItem']) {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 0;
+  }
+
+  .welcomeOfferCard :global([class*='mobileWideValue']) {
+    justify-self: stretch;
+    text-align: left;
+    width: 100%;
+  }
+}

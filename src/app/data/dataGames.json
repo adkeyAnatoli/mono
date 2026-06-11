@@ -1,0 +1,105 @@
+{
+  "title": "Games",
+  "intro": [
+    {
+      "type": "paragraph",
+      "text": "The platform hosts 6,000+ titles across three main categories, supplied by 35+ providers including Pragmatic Play, Nolimit City, Push Gaming, Evolution and Red Tiger. All games are organised into separate sections with filters and a built-in search function."
+    }
+  ],
+  "sections": [
+    {
+      "heading": "Slots",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "We offer 5,000+ slot titles sorted by popularity by default."
+        },
+        {
+          "type": "paragraph",
+          "text": "Additional filters let you navigate the catalogue by specific criteria:"
+        },
+        {
+          "type": "list-dotted",
+          "items": [
+            "Top Rated: slots most frequently launched by players",
+            "New Releases: latest additions to the catalogue, marked with a \"New\" badge",
+            "Buy Bonus: slots with built-in bonus features activatable directly for real money",
+            "Hot: slots in an active payout phase, marked with a \"Hot\" badge"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Registered players can save any title to “My Favourites” using the button on the game thumbnail or inside the game interface."
+        }
+      ]
+    },
+    {
+      "heading": "Table Games",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Casino Bank of Scotland UK covers all classic casino formats available in both standard and live variants:"
+        },
+        {
+          "type": "list-dotted",
+          "items": [
+            "Blackjack: multiple table variants with different limits and side bets",
+            "Roulette: European, American and French versions",
+            "Baccarat: standard and speed variants",
+            "Poker: casino poker formats including Three Card and Casino Hold'em",
+            "Craps: standard dice game with full betting options",
+            "Sic Bo: dice-based game with multiple betting combinations"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Live Casino",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "We host around 400 live dealer games powered by Evolution and Pragmatic Play Live studios:"
+        },
+        {
+          "type": "list-dotted",
+          "items": [
+            "Blackjack: multiple tables with varying limits and VIP options",
+            "Baccarat: standard, speed and squeeze variants",
+            "Roulette: Lightning Roulette, Dual Play and classic dealer tables",
+            "Sic Bo: live dice game with real-time dealers",
+            "Bac Bo: hybrid of baccarat and sic bo",
+            "Craps: live table with full betting range",
+            "Game Shows: Crazy Time, Gonzo's Treasure Hunt, Lightning Roulette Dual Play and others"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Games are searchable by name but not separated into subcategories."
+        }
+      ]
+    },
+    {
+      "heading": "Instant Games",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Casino Bank of Scotland online offers titles where payouts are determined by mechanics other than spinning reels:"
+        },
+        {
+          "type": "list-dotted",
+          "items": [
+            "Crash Games: a multiplier climbs until it crashes - cash out before it drops",
+            "Mines: clear a field while avoiding hidden mines to collect a multiplier",
+            "Plinko: a ball drops through a pegged board and lands on a multiplier value",
+            "Dice: predict the outcome of a dice roll within a chosen range",
+            "Keno: pick numbers and match them against a random draw for payouts"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Nearly every instant game has a demo mode available without registration."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,196 @@
+.section {
+  padding: 140px 0 0;
+  background: var(--main-bg);
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
+
+.sectionHeading {
+  text-align: center;
+  width: 100%;
+}
+
+.intro,
+.block {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
+
+.block {
+  gap: 24px;
+}
+
+.block h3 {
+  font-size: 24px;
+}
+
+:global(#transaction) .block h3 {
+  margin-top: 40px;
+}
+
+.blueWrap {
+  background: var(--bg-section-second);
+  border-radius: var(--border-radius-second);
+  padding: 64px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.blueWrap :global(.text),
+.blueWrap :global(li) {
+  color: var(--color-black);
+}
+
+.grid3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 64px;
+  width: 100%;
+}
+
+.blueWrap .grid3,
+.blueWrap .grid2 {
+  margin-top: 0;
+}
+
+.blueWrap .intro + .grid3,
+.blueWrap .intro + .grid2,
+.blueWrap .intro + :global(.lastBlock) {
+  margin-top: 48px;
+}
+
+.grid2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 64px;
+  width: 100%;
+}
+
+.stack {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  width: 100%;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.section ul,
+.section ol {
+  margin-left: 20px;
+}
+
+.section ul li {
+  list-style-type: disc;
+}
+
+.section ol li {
+  list-style-type: decimal;
+}
+
+.imageTop {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.imageTop img {
+  width: auto;
+  height: auto;
+  max-width: 100%;
+}
+
+.mediaRow {
+  display: flex;
+  gap: 48px;
+  align-items: stretch;
+  width: 100%;
+}
+
+.mediaText {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  min-width: 0;
+}
+
+.mediaBlueWrap {
+  flex: 1;
+  min-width: 0;
+}
+
+.mediaImage {
+  flex-shrink: 0;
+}
+
+@media (max-width: 1024px) {
+  .mediaRow {
+    flex-direction: column;
+  }
+
+  .mediaImage {
+    align-self: center;
+  }
+}
+
+@media (max-width: 850px) {
+  .grid3,
+  .grid2 {
+    grid-template-columns: 1fr;
+    gap: 36px;
+  }
+}
+
+@media (max-width: 768px) {
+  .section {
+    padding: 64px 0 0;
+  }
+  .intro {
+    gap: 36px;
+  }
+  .block {
+    gap: 18px;
+  }
+  .wrapper {
+    gap: 36px;
+  }
+  .blueWrap .intro + .grid3,
+  .blueWrap .intro + .grid2,
+  .blueWrap .intro + :global(.lastBlock) {
+    margin-top: 36px;
+  }
+  .card {
+    gap: 18px;
+  }
+  .sectionHeading {
+    text-align: left;
+  }
+
+  .blueWrap {
+    padding: 20px;
+  }
+  :global(#transaction) .block h3 {
+    margin-top: 17px;
+    font-size: 18px;
+  }
+  :global(#mobile) .wrapper,
+  :global(#gamesBlock) .wrapper,
+  :global(#lang) .wrapper,
+  :global(#bonuses) .wrapper,
+  :global(#pros) .wrapper {
+    gap: 24px;
+  }
+  :global(#bonuses) .stack {
+    gap: 36px;
+  }
+}

@@ -1,0 +1,15 @@
+.imageInWrap {
+  margin-bottom: 48px;
+}
+
+@media (max-width: 768px) {
+  .imageInWrap {
+    margin-bottom: 36px;
+  }
+
+  .imageInWrap img {
+    height: 221px;
+    width: auto;
+    object-fit: cover;
+  }
+}

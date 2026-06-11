@@ -1,0 +1,50 @@
+{
+  "title": "Language & Currency",
+  "intro": [
+    {
+      "type": "paragraph",
+      "text": "Casino Bank of Scotland UK supports multiple languages and currencies, including major cryptocurrencies."
+    }
+  ],
+  "sections": [
+    {
+      "heading": "Supported Languages",
+      "content": [
+        {
+          "type": "list-dotted",
+          "items": [
+            "British English",
+            "American English",
+            "Australian English",
+            "German",
+            "French",
+            "Spanish",
+            "Portuguese",
+            "Italian",
+            "Polish"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Supported Currencies",
+      "content": [
+        {
+          "type": "list-dotted",
+          "items": [
+            "British Pound (GBP)",
+            "US Dollar (USD)",
+            "Canadian Dollar (CAD)",
+            "Australian Dollar (AUD)",
+            "Euro (EUR)",
+            "Norwegian Krone (NOK)",
+            "Swedish Krona (SEK)",
+            "Bitcoin (BTC)",
+            "Ethereum (ETH)",
+            "Litecoin (LTC)"
+          ]
+        }
+      ]
+    }
+  ]
+}

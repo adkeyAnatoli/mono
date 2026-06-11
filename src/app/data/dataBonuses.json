@@ -1,0 +1,108 @@
+{
+  "title": "Bonuses",
+  "intro": [
+    {
+      "type": "paragraph",
+      "text": "The platform runs a bonus system built around mystery chests with randomised contents. Players do not know which reward they will receive until after the deposit."
+    }
+  ],
+  "sections": [
+    {
+      "heading": "Welcome Offer",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Welcome Casino Bank of Scotland bonus consists of 5 offers."
+        },
+        {
+          "type": "table",
+          "headers": ["Deposit", "Possible Rewards"],
+          "rows": [
+            [
+              "1st - from £10",
+              "50% up to £200 / 125% up to £500 / 50 FS on Fishin' Frenzy Megaways / 100 FS on Sweet Bonanza / £100 cash"
+            ],
+            [
+              "2nd - from £10",
+              "75% up to £400 / 125% up to £500 / 35 FS on Razor Shark / 200 FS on Bigger Bass Bonanza"
+            ],
+            [
+              "3rd - from £10",
+              "100% up to £200 / 50 FS on Legacy of Dead / 100 FS on Wolf Gold / 150 FS on Big Bass Splash"
+            ],
+            [
+              "4th - from £20",
+              "50 FS on Bonanza Megaways / 100 FS on Dead or Alive 2 / £40 cash / £200 cash / £1,000 cash"
+            ],
+            [
+              "5th - from £20",
+              "200 FS on Bigger Bass Bonanza / £100 cash / £1,000 cash / £2,000 cash"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "First Deposit Insurance",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "New players receive Casino Bank of Scotland cashback up to 50% on their first deposit, credited automatically when the account balance drops to £1. The maximum return is £100 with a x15 wagering requirement. Making a repeat deposit before the cashback is credited cancels the bonus."
+        }
+      ]
+    },
+    {
+      "heading": "Scotia Vault",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Players earn loot boxes by making deposits, placing bets and participating in tournaments. Each box contains deposit bonuses, free spins, enhanced cashback, status upgrades or other rewards. The first loot box is awarded upon registration."
+        }
+      ]
+    },
+    {
+      "heading": "Spin the Vault",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "A prize wheel available to all players. Before each spin, a wager between £20 and £600 must be placed. The wheel offers two reward types:\t bonuses that return a percentage of the wager with wagering requirements, and multipliers that multiply the staked amount by x2, x3, x5, x10 or x15."
+        }
+      ]
+    },
+    {
+      "heading": "Casino Bank of Scotland Cashback",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Players who use the preferred payment method receive an enhanced cashback rate applied across all game categories (slots, live dealer tables and instant games). The rate scales with your loyalty tier and increases further at each level. This applies automatically with no manual activation required."
+        }
+      ]
+    },
+    {
+      "heading": "VIP Programme",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "The platform runs a 7-tier loyalty programme. Players earn Competition Points (CP) by wagering real money (every £20 staked equals 1 CP). Each tier unlocks higher withdrawal limits and increased cashback."
+        },
+        {
+          "type": "table",
+          "headers": ["Tier", "CP Required", "Withdrawal Limit", "Cashback"],
+          "rows": [
+            ["Bronze", "-", "£5,000", "-"],
+            ["Silver", "-", "£15,000", "1% + 2%"],
+            ["Gold", "400", "£25,000", "2% + 5%"],
+            ["Platinum", "4,000", "£50,000", "4% + 11%"],
+            ["Diamond", "16,000", "£75,000", "5% + 15%"],
+            ["Elite", "32,000", "£150,000", "6% + 19%"],
+            ["Prestige", "560,000", "£150,000", "7% + 23%"]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Values after \"+\" apply exclusively to players using Bank of Scotland UK as their preferred payment method."
+        }
+      ]
+    }
+  ]
+}

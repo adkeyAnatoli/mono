@@ -1,0 +1,74 @@
+{
+  "title": "Transactions",
+  "content": [
+    {
+      "type": "paragraph",
+      "text": "All financial operations on the platform are processed without additional fees on our side."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Deposits"
+    },
+    {
+      "type": "paragraph",
+      "text": "Casino Bank of Scotland deposit options cover all major payment methods used in the UK market."
+    },
+    {
+      "type": "table",
+      "headers": ["Method", "Minimum", "Maximum", "Processing Time", "Fee"],
+      "rows": [
+        ["Visa / Mastercard", "£10", "£5,000", "Instant", "None"],
+        ["PayPal", "£10", "£3,000", "Instant", "None"],
+        ["Skrill", "£10", "£4,000", "Instant", "None"],
+        ["Neteller", "£10", "£4,000", "Instant", "None"],
+        ["Bank Transfer", "£20", "£10,000", "1-3 business days", "None"],
+        ["Bitcoin", "£20", "£8,000", "10-30 minutes", "None"],
+        ["Ethereum", "£20", "£8,000", "10-30 minutes", "None"],
+        ["Litecoin", "£15", "£6,000", "10-30 minutes", "None"]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Withdrawals"
+    },
+    {
+      "type": "paragraph",
+      "text": "Casino Bank of Scotland withdrawal requests are processed within 24 hours after verification is complete."
+    },
+    {
+      "type": "table",
+      "headers": ["Method", "Minimum", "Maximum", "Processing Time", "Fee"],
+      "rows": [
+        ["Visa / Mastercard", "£20", "£5,000", "1-3 business days", "None"],
+        ["PayPal", "£20", "£3,000", "Up to 24 hours", "None"],
+        ["Skrill", "£20", "£4,000", "Up to 24 hours", "None"],
+        ["Neteller", "£20", "£4,000", "Up to 24 hours", "None"],
+        ["Bank Transfer", "£50", "£10,000", "3-5 business days", "None"],
+        ["Bitcoin", "£30", "£8,000", "Up to 2 hours", "None"],
+        ["Ethereum", "£30", "£8,000", "Up to 2 hours", "None"],
+        ["Litecoin", "£25", "£6,000", "Up to 2 hours", "None"]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "User Benefits"
+    },
+    {
+      "type": "paragraph",
+      "text": "Players using Bank of Scotland UK as their payment method get a set of platform-level advantages:"
+    },
+    {
+      "type": "list-dotted",
+      "items": [
+        "Accelerated withdrawals - funds arrive faster compared to standard processing times",
+        "Priority customer support - dedicated queue with shorter response times",
+        "Exclusive deposit bonuses not available to users of other payment methods",
+        "Higher transaction limits - deposits up to £15,000 and withdrawals up to £20,000",
+        "Early access to new promotions and seasonal offers"
+      ]
+    }
+  ]
+}
