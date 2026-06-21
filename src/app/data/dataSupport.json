@@ -1,0 +1,50 @@
+{
+  "title": "Casino Santander vs Starling UK",
+  "content": [
+    {
+      "type": "paragraph",
+      "text": "Platforms built around a single banking partner have become a clear trend in the UK market, since tying rewards to one payment route lets an operator pay out faster and lift limits. To show where we stand, we set our service against another bank-linked operator and one of the sector's leaders."
+    },
+    {
+      "type": "table",
+      "headers": ["Parameter", "Casino Santander UK", "Casino Starling UK"],
+      "rows": [
+        [
+          "**Banking partner and priority**",
+          "Withdrawals in 1 hours, up to £30,000 per transaction, separate chat queue",
+          "Withdrawals in roughly 30 minutes, priority handling on every transaction"
+        ],
+        [
+          "**Welcome bonus**",
+          "£10 no-deposit (x50 wagering) plus 5 deposit matches from 50% to 300%",
+          "Three-deposit package: 100% / 50% / 25% up to £200 each, plus 100 free spins each (up to £600 and 300 spins)"
+        ],
+        [
+          "**Bank-partner bonus**",
+          "25% reload up to £200 on every Priority deposit (x35 wagering)",
+          "\\+25% on the first deposit over the standard match (125% total, x35 on the extra part)"
+        ],
+        [
+          "**Wagering requirements**",
+          "x40-x50 on match bonuses, x3 on cashback",
+          "x35 on bonuses (above market average), x30 on free spins"
+        ],
+        [
+          "**Cashback**",
+          "Weekly on Mondays, 5-15% by VIP rank, x3 wagering, £2 minimum",
+          "No wagering, paid to the main balance; 5-12% by tier, frequency from 7 days to daily"
+        ],
+        [
+          "**Game library**",
+          "5,000+ titles: slots, table, live, crash games, virtual sports",
+          "3,000+ titles from 40+ providers (NetEnt, Evolution, Pragmatic Play Live and others)"
+        ],
+        [
+          "**Payment methods**",
+          "Debit cards, e-wallets, open banking, bank transfer; credit cards barred; no crypto",
+          "Same methods plus 5 cryptocurrencies (BTC, ETH, LTC, USDT, BCH); minimum crypto withdrawal £50"
+        ]
+      ]
+    }
+  ]
+}

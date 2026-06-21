@@ -1,0 +1,17 @@
+{
+  "title": "FAQ",
+  "faqList": [
+    {
+      "title": "How do I install the Casino Santander app?",
+      "text": "Download the app from the App Store or Google Play, then sign in with your existing details or register from the opening screen. Installation takes a few taps and carries the full game catalogue, deposit tools and live chat across to your phone. Biometric login lets you back in quickly once you set it up."
+    },
+    {
+      "title": "How long does a withdrawal take once I request it?",
+      "text": "Processing starts only after you complete identity verification, and the timing then depends on your method. E-wallets and open-banking routes settle within 24 hours, debit cards take 1 to 3 working days, and a standard bank transfer runs 2 to 5 working days. Set the bank as your primary route and priority handling cuts the wait to roughly four hours."
+    },
+    {
+      "title": "Where do I find a Casino Santander promo code?",
+      "text": "We send codes by email rather than publish them on the open site, so subscribe to the newsletter when you register or switch it on later from your Account. Each code lands the moment it goes live, and you enter it in the cashier before you deposit. Most run for a set window, so use one promptly before it expires."
+    }
+  ]
+}

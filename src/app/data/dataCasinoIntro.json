@@ -1,0 +1,27 @@
+{
+  "title": "Casino Santander Bank Review",
+  "image": {
+    "src": "/sectionImg/slot3.webp",
+    "alt": "Casino Santander Bank illustration"
+  },
+  "highlights": [],
+  "content": [
+    {
+      "type": "paragraph",
+      "text": "We present a platform that works hand in hand with one of the UK's leading banks, passing the value of that partnership straight back to its members. This Casino Santander Bank review covers the operator's full activity."
+    }
+  ],
+  "whoWeAre": {
+    "heading": "About Our Platform",
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "We hold a Malta Gaming Authority licence and operate under the oversight of the UK regulator. Independent auditors review our games, payout rates and random number generators on a regular schedule, and the findings feed directly into how we run the site. This dual layer of supervision keeps our odds fair, our reporting transparent and our operations accountable at all times."
+      },
+      {
+        "type": "paragraph",
+        "text": "Responsible play sits at the centre of how we work. You set deposit, loss and wager limits straight from your Account, take a break with a cooling-off period, or close access entirely through self-exclusion. Reality checks flag your session length, and our support team points you to professional help whenever you ask."
+      }
+    ]
+  }
+}

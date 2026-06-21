@@ -1,0 +1,32 @@
+{
+  "title": "Casino Santander Bank App",
+  "sections": [
+    {
+      "heading": "Mobile Gaming",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "The platform runs smoothly on phones and tablets, with the full library and every banking feature carried across to smaller screens. You choose between a dedicated app and a browser-based version, both built around the same account."
+        }
+      ]
+    },
+    {
+      "heading": "Application",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Casino Santander app installs on iOS and Android in a few taps, and it keeps the whole game catalogue, deposit tools and live chat one press away. Push alerts flag new promotions, cashback drops and birthday credit the moment they land. Biometric login adds a quick, secure way back into your account."
+        }
+      ]
+    },
+    {
+      "heading": "Mobile Site",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "For players who skip downloads, the browser version loads on any modern device without taking up storage. It mirrors the desktop layout, scales to your screen and supports instant deposits through cards, e-wallets and open banking. Casino Santander mobile runs the same bonuses, withdrawal limits and verification steps as the app, with no separate sign-up."
+        }
+      ]
+    }
+  ]
+}

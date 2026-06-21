@@ -1,0 +1,88 @@
+.wrap {
+  width: 100%;
+  background: var(--table-body);
+  border: none;
+  border-radius: var(--border-radius-second);
+  padding: 24px 24px 48px;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: var(--table-row-gap);
+  color: var(--color-white);
+}
+
+.tableTwoColumn {
+  --table-two-col-left: 270px;
+  --table-two-col-left-tablet: 220px;
+  table-layout: fixed;
+}
+
+.tableTwoColumn th:first-child,
+.tableTwoColumn td:first-child {
+  width: var(--table-two-col-left);
+}
+
+.tableTwoColumn th:last-child,
+.tableTwoColumn td:last-child {
+  width: auto;
+}
+
+.tableMultiColumn {
+  table-layout: auto;
+}
+
+.table th,
+.table td {
+  border: none;
+  text-align: left;
+  vertical-align: middle;
+}
+
+.table th {
+  font-family: var(--table-head-font-family);
+  font-size: var(--table-head-font-size);
+  font-weight: var(--table-head-font-weight);
+  color: var(--table-head-color);
+  background: transparent;
+  padding: var(--table-head-padding-y) var(--table-head-padding-x);
+}
+
+.table td {
+  font-family: var(--table-body-font-family);
+  font-size: var(--table-body-font-size);
+  font-weight: var(--table-body-font-weight);
+  background: var(--main-bg);
+  border-radius: var(--border-radius-second);
+  padding: 18px 24px;
+  color: var(--table-body-color);
+}
+
+@media (max-width: 1100px) {
+  .tableTwoColumn {
+    --table-two-col-left: var(--table-two-col-left-tablet);
+  }
+}
+
+@media (max-width: 768px) {
+  .wrap {
+    padding: 16px;
+  }
+
+  .table {
+    border-spacing: var(--table-row-gap);
+  }
+
+  .table th {
+    font-size: 18px;
+    padding: 18px 16px;
+  }
+
+  .table td {
+    font-size: 16px;
+    padding: 14px 16px;
+  }
+}

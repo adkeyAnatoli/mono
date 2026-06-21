@@ -1,0 +1,20 @@
+{
+  "title": "Games",
+  "content": [
+    {
+      "type": "paragraph",
+      "text": "The platforms offer more than 5,000 games divided into categories:"
+    },
+    {
+      "type": "list-dotted",
+      "items": [
+        "**Slots:** classic three-reel machines, modern video slots and high-volatility jackpot.",
+        "**Table games:** roulette, blackjack, baccarat and poker in multiple rule sets, with stake ranges that suit both cautious players and high rollers.",
+        "**Live casino:** real dealers stream in real time from studio tables, so you play roulette, blackjack and game-show formats with a chat window open throughout.",
+        "**Crash games:** fast rounds where you cash out before the multiplier collapses, built for short sessions and quick decisions.",
+        "**Virtual sports:** computer-generated football, horse racing and greyhounds run on fixed schedules, settling in minutes rather than waiting on live fixtures."
+      ]
+    }
+  ],
+  "sections": []
+}

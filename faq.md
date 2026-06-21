@@ -1,0 +1,47 @@
+**Title:** Casino Santander FAQ \- Answers on Bonuses & Limits
+
+**Description:** Our Casino Santander FAQ answers what players ask most about bonuses, cashback and withdrawals. Get the figure that applies before you sign up.
+
+# Casino Santander FAQ \- Bonuses, Banking & Payouts Explained
+
+Our Casino Santander FAQ gathers the points players raise most before signing up. Each answer draws on the terms set out above, so you get the figure that applies rather than a vague summary.
+
+## How do I claim the no-deposit credit?
+
+Confirm your email address and complete the profile form, and the £10 lands on your balance straight away. Keep each spin at £2 or below and meet the x50 wagering target within seven days. Any win caps at £50, so plan your stakes around that ceiling.
+
+## Does the platform cashback carry a wagering target?
+
+Yes, the Casino Santander cashback runs a light x3 requirement on the returned sum before you withdraw. The amount never drops below £2, and your percentage follows your VIP rank, rising from 5% at Squire to 15% at Sovereign. It lands every Monday, so you see the return at the start of each week.
+
+## What happens if I lower my stake during wagering?
+
+Hold your per-spin stake steady while you clear a bonus, since a sharp cut counts as a breach. If your balance stays healthy and you drop the stake suddenly, the team may treat it as misuse. Sanctions can stretch as far as voiding the bonus outright.
+
+## Which payment methods does Casino Santander UK accept?
+
+You can fund your account with debit cards, e-wallets such as PayPal, Skrill and Neteller, and open-banking routes. Credit cards stay off the list in line with the national ban on card-funded gambling. Deposits clear instantly, while withdrawals leave only after you finish identity checks.
+
+## How many points do I need to climb a tier?
+
+Every £1 you wager on video slots earns one point that pushes you up the ladder. Your Account shows the exact points gap to the next rank, so you always know how far you have to go. Points also convert to cash at the rate listed in your Account.
+
+## Can I play on mobile?
+
+Yes, the Casino Santander app installs on iOS and Android in a few taps and carries the full game catalogue, deposit tools and live chat to your phone. Biometric login gets you back in quickly, and push alerts flag new promotions and cashback drops. If you skip the download, the browser version mirrors the desktop layout and needs no separate sign-up.
+
+## How is my birthday gift calculated?
+
+Request it through live chat on the day, and we top up your balance by as much as £500. The figure tracks your place on the loyalty ladder, so a higher rank returns more. Ranks below Earl receive no birthday credit.
+
+## Is Casino Santander online available without a download?
+
+The platform runs in any modern browser and needs no install or extra storage. It mirrors the desktop layout, scales to your screen and supports instant deposits through cards, e-wallets and open banking. The bonuses, withdrawal limits and verification steps match the app exactly.
+
+## How fast are the Priority withdrawals?
+
+Set Santander as your primary method and fund your first two deposits through it to reach Priority status. From there, withdrawals clear within four hours of verification rather than the standard 2 to 5 working days. A separate live-chat queue also handles your requests.
+
+## Where do I get a promo code?
+
+We send each Casino Santander promo code by email rather than post it on the open site. Subscribe to the newsletter when you register, or switch it on later from your Account, so every code reaches you as it goes live. Enter it in the cashier before you deposit, since most expire within a set window.

@@ -1,0 +1,83 @@
+---
+description: Content pipeline — Markdown sources synced to src/app/data/*.json
+globs: "{*.md,scripts/sync-content-from-md.mjs,src/app/data/**/*.json,src/app/components/sections/**/*.tsx,src/app/components/staticContent/**/*.tsx}"
+alwaysApply: false
+---
+
+# Content pipeline (MD → JSON)
+
+## Sources (whitelist, project root)
+
+| MD | Route |
+|----|-------|
+| `content.md` | `/` (home sections) |
+| `faq.md` | `/faq` |
+| `terms.md` | `/terms` |
+| `privacy.md` | `/privacy` |
+
+`README.md`, `figma-plugin-export-tokens/README.md`, and `example/` are **not** parsed.
+
+## Workflow
+
+1. Edit the relevant `*.md` in the project root.
+2. Run `npm run sync:content`.
+3. Commit both MD and generated `src/app/data/*.json`.
+
+**Do not** hand-edit `src/app/data/*.json` — they are generated.
+
+## Output layout
+
+```
+src/app/data/siteMeta.json
+src/app/data/dataCasinoIntro.json
+src/app/data/dataCasinoInfo.json
+src/app/data/dataApp.json
+src/app/data/dataAfterSupport.json
+src/app/data/dataSupport.json
+src/app/data/dataAfterFaq.json
+src/app/data/dataFaq.json
+src/app/data/dataLast.json
+src/app/data/dataFooter.json
+src/app/data/pages/{slug}.json
+```
+
+## Home section map (`content.md` → JSON → component)
+
+| `##` in content.md | JSON file | Component |
+|--------------------|-----------|-----------|
+| preamble (`# H1` + paragraph) | `siteMeta.json` + `dataCasinoIntro.json` | BonusSection + CasinoIntroSection (`h1`, `title`, `description`; intro in `content`) |
+| About Our Platform | `dataCasinoIntro.json` | CasinoIntroSection (`whoWeAre`) |
+| Strengths and Shortcomings | `dataLast.json` | LastSection |
+| Mobile Gaming | `dataApp.json` | AppSection (3 tabs: intro + `### Application` + `### Mobile Site`) |
+| Banking | `dataCasinoInfo.json` | CasinoInfoSection (`sections[0]`) |
+| Priority Status | `dataCasinoInfo.json` | CasinoInfoSection (`sections[1]`) |
+| Games | `dataAfterSupport.json` | InfoSectionAfterSupport (`content` only, `sections: []`) |
+| Casino Santander vs Starling UK | `dataSupport.json` | SupportSection (intro + table, no image) |
+| Bonuses and Promotional Credit | `dataAfterFaq.json` | InfoSectionAfterFaq (intro + `###` as tab cards) |
+| FAQ | `dataFaq.json` | FaqSection |
+
+`dataFooter.json` ← `ogSiteName` from Title (part before ` - `).
+
+## Language
+
+Site language is fixed `en-GB` (`<html lang="en-GB">`, `openGraph.locale: en_GB`). No locale/geo routing.
+
+## ContentItem types
+
+Union in `src/app/interfaces/dataInterface.ts`: `paragraph`, `heading` (level 2–4), `list-dotted`, `list-number`, `table`.
+
+Display via `ContentItems` / `plainContentText` — no `**`/HTML in JSON; style in CSS.
+
+## Page layouts (`StaticRichPage`)
+
+| variant | Pages | Blocks |
+|---------|-------|--------|
+| `footer-legal` | terms, privacy | BonusSection → H1 → h2 → intro → sections |
+| `footer-faq` | faq | BonusSection → H1 → h2 → intro → FaqAccordionList |
+
+Home page h1 lives in `BonusSection` (from `siteMeta.h1`), not `H1Section`.
+
+## SEO
+
+- Home: `src/app/data/siteMeta.json` → `src/app/layout.tsx`
+- Secondary pages: `src/app/data/pages/*.json` `meta` → `src/app/utils/pageMetadata.ts`

@@ -1,0 +1,39 @@
+{
+  "title": "Strengths and Shortcomings",
+  "content": [
+    {
+      "type": "paragraph",
+      "text": "Casino Santander UK pairs a licensed casino with a leading UK bank, running over 30 bonus deals, a six-tier loyalty scheme and weekly cashback. The two lists below set out where the platform delivers and where it falls short."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Casino Advantages"
+    },
+    {
+      "type": "list-dotted",
+      "items": [
+        "**Bank partnership**: a direct link with a leading UK bank turns routine deposits into reload credit, faster payouts and higher limits.",
+        "**Broad bonus range**: a no-deposit offer, five deposit matches and twelve free-spin deals sit ready in one list.",
+        "**Six-tier loyalty ladder**: cashback, no-deposit credit and birthday gifts all grow as you climb the ranks.",
+        "**Weekly cashback**: money returns every Monday with a light x3 wagering target and a £2 floor.",
+        "**Wide payment choice**: debit cards, e-wallets and open-banking methods all clear deposits instantly.",
+        "**Priority service**: bank-linked members reach a dedicated chat queue and see withdrawals settled within four hours.",
+        "**UK-aligned rules**: credit cards stay off the list and every payout follows full identity verification."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Casino Santander Problems"
+    },
+    {
+      "type": "list-dotted",
+      "items": [
+        "**Steep wagering**: match bonuses run at x40 to x50, which makes some offers hard to clear.",
+        "**Withdrawal caps**: the larger 200% and 300% matches limit cash-outs to £100 and £500.",
+        "**Geo restrictions**: access is limited by region, and players outside the UK may need a VPN to reach the site."
+      ]
+    }
+  ]
+}

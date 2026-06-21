@@ -1,0 +1,143 @@
+.section ol,
+.section ul {
+  margin-left: 20px;
+}
+
+.block {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.section ul li {
+  list-style-type: disc;
+}
+
+.section ol li {
+  list-style-type: decimal;
+}
+
+.carouselHead {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+}
+
+.navBtns {
+  display: flex;
+  gap: 18px;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.navBtns :global(.swiper-button-prev),
+.navBtns :global(.swiper-button-next) {
+  position: relative;
+  top: auto;
+  left: auto;
+  right: auto;
+  margin: 0;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background: var(--table-body);
+  color: var(--color-white);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navBtns :global(.swiper-button-prev::after),
+.navBtns :global(.swiper-button-next::after) {
+  content: '';
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 9px;
+  height: 19px;
+  margin: 0;
+  font-size: 0;
+  line-height: 0;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.navBtns :global(.swiper-button-prev::after) {
+  background-image: url('/svg/rightArrow.svg');
+  transform: translate(-50%, -50%) scaleX(-1);
+}
+
+.navBtns :global(.swiper-button-prev.swiper-button-disabled::after) {
+  background-image: url('/svg/leftArrowDisable.svg');
+  transform: translate(-50%, -50%);
+}
+
+.navBtns :global(.swiper-button-next::after) {
+  background-image: url('/svg/rightArrow.svg');
+  transform: translate(-50%, -50%);
+}
+
+.navBtns :global(.swiper-button-next.swiper-button-disabled::after) {
+  background-image: url('/svg/leftArrowDisable.svg');
+  transform: translate(-50%, -50%) scaleX(-1);
+}
+
+.navBtns :global(.swiper-navigation-icon) {
+  display: none;
+}
+
+.navBtns :global(.swiper-button-prev.swiper-button-disabled),
+.navBtns :global(.swiper-button-next.swiper-button-disabled) {
+  pointer-events: none;
+  cursor: default;
+  opacity: 1;
+}
+
+.swiper {
+  width: 100%;
+}
+
+.slide {
+  display: flex;
+  height: auto;
+  box-sizing: border-box;
+}
+
+.slideCard {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  width: 100%;
+  height: 100%;
+  background: var(--table-body);
+  border-radius: var(--border-radius-second);
+  padding: 48px;
+  box-sizing: border-box;
+}
+
+.slideTitle {
+  font-family: var(--font-family-main);
+  font-size: 40px;
+  font-weight: var(--font-weight-second);
+  line-height: normal;
+  color: var(--color-black);
+}
+
+@media (max-width: 768px) {
+  .section {
+    padding: 20px 0;
+  }
+  .section :global(.wrapper) {
+    gap: 24px;
+  }
+
+  .slideTitle {
+    font-size: 28px;
+  }
+
+  .slideCard {
+    padding: 20px 16px;
+  }
+}
