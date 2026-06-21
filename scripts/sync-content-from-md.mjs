@@ -406,7 +406,7 @@ function main() {
   writeJson('siteMeta.json', {
     title: metaTitle,
     description: metaDescription,
-    url: 'odinfortuneonline.com',
+    url: 'santader-casino.com',
     ogSiteName,
     ogImagePath: '/og-img.webp',
     h1: h1Title,
