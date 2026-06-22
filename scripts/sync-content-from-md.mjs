@@ -63,19 +63,23 @@ function sliceRaw(body, node) {
 
 function paragraphText(body, node) {
   const raw = sliceRaw(body, node);
-  if (raw !== null) return raw.trim();
-  return serializeNode(node);
+  if (raw !== null) return normalizeMdText(raw.trim());
+  return normalizeMdText(serializeNode(node));
 }
 
 function listItemText(body, li) {
   const raw = sliceRaw(body, li);
   if (raw === null) {
-    return li.children.map((c) => serializeNode(c)).join('\n');
+    return normalizeMdText(
+      li.children.map((c) => serializeNode(c)).join('\n')
+    );
   }
-  return raw
-    .replace(/^\s*[*+-]\s+/, '')
-    .replace(/^\s*\d+\.\s+/, '')
-    .trim();
+  return normalizeMdText(
+    raw
+      .replace(/^\s*[*+-]\s+/, '')
+      .replace(/^\s*\d+\.\s+/, '')
+      .trim()
+  );
 }
 
 function headingPlainText(h) {
@@ -91,22 +95,25 @@ function h1TitleFromRaw(body, h1) {
 
 function headingBodyFromRaw(body, node) {
   const raw = sliceRaw(body, node);
-  if (raw !== null) return raw.replace(/^#{1,6}\s+/, '').trim();
-  return headingPlainText(node);
+  if (raw !== null) return normalizeMdText(raw.replace(/^#{1,6}\s+/, '').trim());
+  return normalizeMdText(headingPlainText(node));
 }
 
+const META_TITLE_RE = /^\*\*(?:Title:\*\*|Title\*\*:)\s*(.+)$/m;
+const META_DESC_RE = /^\*\*(?:Description:\*\*|Description\*\*:)\s*(.+)$/m;
+const META_TITLE_STRIP_RE = /^\*\*(?:Title:\*\*|Title\*\*:)\s*.+$/m;
+const META_DESC_STRIP_RE = /^\*\*(?:Description:\*\*|Description\*\*:)\s*.+$/m;
+
 function extractMeta(raw) {
-  const titleRe = /^\*\*Title:\*\*\s*(.+)$/m;
-  const descRe = /^\*\*Description:\*\*\s*(.+)$/m;
   let title = '';
   let description = '';
-  const tm = raw.match(titleRe);
-  const dm = raw.match(descRe);
-  if (tm) title = tm[1].trim();
-  if (dm) description = dm[1].trim();
+  const tm = raw.match(META_TITLE_RE);
+  const dm = raw.match(META_DESC_RE);
+  if (tm) title = plainContentText(tm[1]);
+  if (dm) description = plainContentText(dm[1]);
   const body = raw
-    .replace(/^\*\*Title:\*\*\s*.+$/m, '')
-    .replace(/^\*\*Description:\*\*\s*.+$/m, '')
+    .replace(META_TITLE_STRIP_RE, '')
+    .replace(META_DESC_STRIP_RE, '')
     .replace(/^\s*\n/, '');
   return { title, description, body };
 }
@@ -165,10 +172,12 @@ function tableToTableItem(table, body) {
   const rows = table.children.map((row) =>
     row.children.map((cell) => {
       const raw = sliceRaw(body, cell);
-      if (raw !== null) return stripTableCell(raw);
-      return stringify
-        .stringify({ type: 'root', children: cell.children })
-        .trim();
+      if (raw !== null) return normalizeMdText(stripTableCell(raw));
+      return normalizeMdText(
+        stringify
+          .stringify({ type: 'root', children: cell.children })
+          .trim()
+      );
     })
   );
   if (rows.length === 0) return { type: 'table', headers: [], rows: [] };
@@ -409,7 +418,7 @@ function main() {
     url: 'santader-casino.com',
     ogSiteName,
     ogImagePath: '/og-img.webp',
-    h1: h1Title,
+    h1: plainContentText(h1Title),
   });
 
   const aboutNodes = by.get('About Our Platform') || [];

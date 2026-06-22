@@ -7,7 +7,11 @@
     },
     {
       "type": "table",
-      "headers": ["Parameter", "Casino Santander UK", "Casino Starling UK"],
+      "headers": [
+        "Parameter",
+        "Casino Santander UK",
+        "Casino Starling UK"
+      ],
       "rows": [
         [
           "**Banking partner and priority**",
@@ -22,7 +26,7 @@
         [
           "**Bank-partner bonus**",
           "25% reload up to £200 on every Priority deposit (x35 wagering)",
-          "\\+25% on the first deposit over the standard match (125% total, x35 on the extra part)"
+          "+25% on the first deposit over the standard match (125% total, x35 on the extra part)"
         ],
         [
           "**Wagering requirements**",

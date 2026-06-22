@@ -1,5 +1,5 @@
 .section {
-  padding: 140px 0 0;
+  padding: 140px 0;
 }
 
 .textBlock p,
@@ -57,7 +57,7 @@
 }
 @media (max-width: 875px) {
   .section {
-    padding: 0;
+    padding: 0 0 64px;
   }
 }
 @media (max-width: 768px) {
