@@ -1,0 +1,72 @@
+.section {
+  padding: 140px 0;
+}
+
+.textBlock p,
+.textBlock li {
+  color: var(--last-text-color);
+}
+
+.flow {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  width: 100%;
+}
+
+.pageHeading {
+  margin: 0;
+}
+
+.textBlock {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.section div[class*='faqWrapper'] {
+  margin-top: 0;
+}
+
+.sectionBlocks {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  margin-top: 0;
+  width: 100%;
+}
+
+.sectionBlock {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  width: 100%;
+}
+
+.section ol,
+.section ul {
+  margin-left: 20px;
+}
+
+.section ul li {
+  list-style-type: disc;
+}
+
+.section ol li {
+  list-style-type: decimal;
+}
+@media (max-width: 875px) {
+  .section {
+    padding: 0 0 64px;
+  }
+}
+@media (max-width: 768px) {
+  .section > div {
+    gap: 24px;
+  }
+
+  .flow,
+  .sectionBlocks {
+    gap: 24px;
+  }
+}

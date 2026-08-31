@@ -1,0 +1,23 @@
+{
+  "Monobrand/main color/BG": "#FFFFFF",
+  "Monobrand/Button/Large": "#FF5B3F",
+  "Monobrand/main color/text": "#2A2A2A",
+  "Orange/100%": "#FF002E",
+  "White/100%": "#FFFFFF",
+  "Desktop/Card Block": "Font(family: \"Roboto\", style: Medium, size: 20)",
+  "Monobrand/accent/100%": "#FF5B3F",
+  "Monobrand/White/100%": "#FFFFFF",
+  "Desktop/Slogan": "Font(family: \"Manrope\", style: SemiBold, size: 16)",
+  "Desktop/Welcome": "Font(family: \"Manrope\", style: SemiBold, size: 30)",
+  "Monobrand/accent/yellow": "#FFF400",
+  "Desktop/H1": "Font(family: \"Manrope\", style: SemiBold, size: 44)",
+  "Monobrand/main color/second color": "#FFFFFF",
+  "Monobrand/accent/yellow-dark": "#FDF8EB",
+  "Monobrand/main color/first color": "#1E1E1E",
+  "Desktop/B1-20": "Font(family: \"Roboto\", style: Medium, size: 20)",
+  "Desktop/H4": "Font(family: \"Manrope\", style: SemiBold, size: 24)",
+  "Monobrand/Button/Black 20%": "#000000",
+  "Desktop/B2-24": "Font(family: \"Roboto\", style: Medium, size: 24)",
+  "Desktop/H3": "Font(family: \"Manrope\", style: SemiBold, size: 32)",
+  "Color": "#1E1E1E"
+}

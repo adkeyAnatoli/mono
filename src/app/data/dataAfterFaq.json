@@ -1,0 +1,51 @@
+{
+  "title": "Responsible Gambling",
+  "content": [
+    {
+      "type": "paragraph",
+      "text": "Staying in control of play matters just as much when you play at Crown Casino online as it does on a physical gaming floor."
+    }
+  ],
+  "sections": [
+    {
+      "heading": "Built-In Responsible Gambling Tools",
+      "content": [
+        {
+          "type": "list-dotted",
+          "items": [
+            "**Deposit limits**: players can set daily, weekly or monthly caps on how much can be added to their account.",
+            "**Session reminders**: automated prompts that flag how long a session has been running.",
+            "**Self-exclusion options**: temporary or longer-term account locks that restrict access to games entirely.",
+            "**Reality checks**: periodic pop-ups summarising time spent and amounts wagered during a session."
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Independent Support Organisations",
+      "content": [
+        {
+          "type": "table",
+          "headers": ["Organisation", "Focus", "Contact"],
+          "rows": [
+            [
+              "Gambling Help Online",
+              "National counselling and support service",
+              "1800 858 858"
+            ],
+            [
+              "Financial Counselling Australia",
+              "Support for money-related gambling harm",
+              "1800 007 007"
+            ],
+            [
+              "Gamblers Anonymous Australia",
+              "Peer support groups across states",
+              "Varies by state chapter"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

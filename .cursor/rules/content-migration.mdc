@@ -1,0 +1,82 @@
+---
+description: Content pipeline — Markdown sources synced to src/app/data/*.json
+globs: "{*.md,scripts/sync-content-from-md.mjs,src/app/data/**/*.json,src/app/components/sections/**/*.tsx}"
+alwaysApply: false
+---
+
+# Content pipeline (MD → JSON)
+
+## Sources (whitelist, project root)
+
+| MD | Route |
+|----|-------|
+| `main.md` | `/` (home sections) |
+| `games.md` | `/games` |
+| `rewards.md` | `/rewards` |
+| `resorts.md` | `/resorts` |
+| `first-day-tips.md` | `/first-day-tips` |
+| `faq.md` | `/faq` |
+| `terms.md` | `/terms` |
+| `privacy.md` | `/privacy` |
+
+`README.md`, `ROUTE_HANDLERS_MIGRATION.md`, and `figma-plugin-export-tokens/README.md` are **not** parsed.
+
+## Workflow
+
+1. Edit the relevant `*.md` in the project root.
+2. Run `npm run sync:content`.
+3. Commit both MD and generated `src/app/data/*.json`.
+
+**Do not** hand-edit `src/app/data/*.json` — they are generated.
+
+## Output layout
+
+```
+src/app/data/siteMeta.json
+src/app/data/dataCasinoIntro.json   ← H1 short title + preamble
+src/app/data/dataLast.json          ← Resorts vs Online
+src/app/data/dataSupport.json       ← What Actually Sets the Two Formats Apart
+src/app/data/dataCasinoInfo.json    ← Who Each Format Actually Suits
+src/app/data/dataAfterFaq.json      ← Responsible Gambling
+src/app/data/dataFaq.json           ← Frequently Asked Questions
+src/app/data/dataApp.json           ← unused (empty)
+src/app/data/dataAfterSupport.json  ← unused (empty)
+src/app/data/dataFooter.json
+src/app/data/pages/{slug}.json      ← subpages
+```
+
+## Home mapping (`main.md`)
+
+| `main.md` | JSON | Home section |
+|---|---|---|
+| `#` + preamble | `dataCasinoIntro` | CasinoIntroSection (one block) |
+| `## Resorts vs Online` | `dataLast` | LastSection |
+| `## What Actually Sets the Two Formats Apart` | `dataSupport` | SupportSection |
+| `## Who Each Format Actually Suits` | `dataCasinoInfo` | CasinoInfoSection (intro + two text blocks) |
+| `## Responsible Gambling` | `dataAfterFaq` | InfoSectionAfterFaq (intro + H3 tabs, not swiper) |
+| `## Frequently Asked Questions` | `dataFaq` | FaqSection |
+
+Home does not render AppSection or InfoSectionAfterSupport. TopCasino / TopGames / BonusSection are not from MD.
+
+FAQ headings match `FAQ` or `Frequently Asked Questions` (`isFaqSection`). Nested `### Frequently Asked Questions` (e.g. `rewards.md`) is lifted into `data.faq`.
+
+## Meta in MD
+
+- `**Title:**` / `**Description:**` at top → `meta.title` / `meta.description`
+- Home hero h1: `#` heading in `main.md` → `siteMeta.h1`
+- Subpage h1: `#` heading, or first `##` when no `#`
+- Subpage h2: part of `h1` before ` - `
+
+## Language
+
+Site language is fixed `en` (`<html lang="en">`). No locale/geo routing.
+
+## Page layouts (`StaticRichPage`)
+
+| variant | Pages | Blocks |
+|---------|-------|--------|
+| `header` | games, rewards, resorts, first-day-tips | BonusSection → H1 → h2 → intro → sections → FAQ accordion |
+| `footer-legal` | terms, privacy | BonusSection → H1 → h2 → intro → sections |
+| `footer-faq` | faq | BonusSection → H1 → h2 → intro → FaqAccordionList |
+
+Nested `###` / `####` inside a `##` section become `{ type: "heading", level: 3|4 }` in `section.content`.

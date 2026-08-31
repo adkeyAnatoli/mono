@@ -1,0 +1,36 @@
+{
+  "title": "Resorts vs Online",
+  "content": [
+    {
+      "type": "table",
+      "headers": ["Feature", "Land-Based Resorts", "Online Platform"],
+      "rows": [
+        [
+          "Locations",
+          "Melbourne, Perth, Sydney",
+          "Accessible anywhere with an account"
+        ],
+        [
+          "Games available",
+          "Thousands of machines and tables",
+          "18,000+ titles from 200+ providers"
+        ],
+        [
+          "Access requirements",
+          "Walk-in, membership only in Sydney",
+          "Registration and ID verification"
+        ],
+        [
+          "Session limits",
+          "12-48 hours depending on venue",
+          "No fixed session cap"
+        ],
+        [
+          "Extras included",
+          "Hotels, dining, theatre, spas",
+          "Bonuses, cashback, loyalty tiers"
+        ]
+      ]
+    }
+  ]
+}
