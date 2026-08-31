@@ -13,6 +13,12 @@
   /* background-size: contain; */
 }
 
+@media (min-width: 1441px) {
+  .someSection {
+    background-size: cover;
+  }
+}
+
 .title {
   color: var(--welcome-bonus-color);
   font-family: var(--font-family-main);

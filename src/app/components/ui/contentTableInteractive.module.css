@@ -58,6 +58,7 @@
 .slideStack {
   display: flex;
   flex-direction: column;
+  background: var(--color-white);
   border: 1px solid #00000033;
 }
 
