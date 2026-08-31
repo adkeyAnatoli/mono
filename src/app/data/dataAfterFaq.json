@@ -26,7 +26,11 @@
       "content": [
         {
           "type": "table",
-          "headers": ["Organisation", "Focus", "Contact"],
+          "headers": [
+            "Organisation",
+            "Focus",
+            "Contact"
+          ],
           "rows": [
             [
               "Gambling Help Online",

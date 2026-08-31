@@ -4,10 +4,10 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation } from 'swiper/modules';
 import type { Swiper as SwiperType } from 'swiper';
 import CardCasino from './CardCasino';
-import style from './styles/topCasinoSection.module.css';
 import { useWebsite } from '@/app/context/WebsiteProvider';
 import 'swiper/css';
 import 'swiper/css/navigation';
+import style from './styles/topCasinoSection.module.css';
 
 const TopCasinoSection: React.FC = () => {
   const { website } = useWebsite();

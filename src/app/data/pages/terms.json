@@ -1,140 +1,170 @@
 {
   "meta": {
-    "title": "Casino Santander Online Terms - Rules & Player Policies",
-    "description": "Read the Casino Santander online terms covering eligibility, deposits, bonuses and responsible play. Know the rules that apply before you register."
+    "title": "Crown Online Casino: Terms and Conditions Explained",
+    "description": "Read the Crown online casino terms before you register or deposit. Covers eligibility, payments, bonuses and account rules in full."
   },
-  "h1": "Casino Santander Online - Terms and Conditions",
-  "h2": "Casino Santander Online",
+  "h1": "Crown Online Casino Terms: Read Before You Get Started",
+  "h2": "Crown Online Casino Terms: Read Before You Get Started",
   "intro": [
     {
       "type": "paragraph",
-      "text": "These terms govern your use of Casino Santander online and form a binding agreement between you and the operator. By registering an account, you confirm that you have read, understood and accepted every clause below. We may revise these terms from time to time, and continued play after any update counts as acceptance of the current version."
+      "text": "Welcome to the Crown online casino platform. These Terms and Conditions govern your access to and use of our services, including account registration, gameplay, deposits, withdrawals and any promotional offers made available to you. By creating an account or otherwise accessing the platform, you confirm that you have read, understood and agreed to be bound by the terms set out below. If you do not agree with any part of these terms, you should refrain from using the service."
+    },
+    {
+      "type": "paragraph",
+      "text": "These terms apply to all visitors and registered users accessing the site from within Australia. We reserve the right to amend these terms at any time, with updates taking effect once published on the platform. Continued use of the service after any changes constitutes acceptance of the revised terms."
     }
   ],
   "sections": [
     {
-      "heading": "1. General",
+      "heading": "Eligibility Requirements",
       "content": [
         {
           "type": "paragraph",
-          "text": "The operator runs this platform under a licence issued by the UK Gambling Commission and follows the rules that apply to remote gambling in Great Britain. Where a promotion carries its own conditions, those conditions sit alongside these terms, and the specific rule takes priority if the two ever conflict. We publish all material terms in plain language so you can read them before you commit funds. Should any single clause prove unenforceable, the remaining clauses stay in full effect. Every player who uses Casino Santander UK accepts that these terms apply in full to all activity on the account."
-        }
-      ]
-    },
-    {
-      "heading": "2. Eligibility",
-      "content": [
-        {
-          "type": "paragraph",
-          "text": "You must be at least 18 years old to open an account or place any wager. We reserve the right to request proof of age at any point, and we will suspend access until you supply it. You also confirm that gambling is legal in the country where you live and that you take sole responsibility for meeting your local law. We do not accept players from regions where we hold no permission to operate, and any account opened from such a region may be closed. Accounts at Casino Santander Bank UK are strictly personal, and you may hold only one."
-        }
-      ]
-    },
-    {
-      "heading": "3. Account Registration",
-      "content": [
-        {
-          "type": "paragraph",
-          "text": "Open your account with accurate, current and complete details, and keep that information up to date throughout the life of the account. You are responsible for the security of your login credentials, and any activity carried out under them counts as your own. Do not share access, transfer your account, or let a third party play on your behalf. We may refuse a registration or close an existing account at our discretion, in line with our licensing duties. When you register at Casino Santander online, you confirm that the funds you deposit belong to you and come from a lawful source."
-        }
-      ]
-    },
-    {
-      "heading": "4. Account Verification (KYC)",
-      "content": [
-        {
-          "type": "paragraph",
-          "text": "Before you withdraw, you must complete our Know Your Customer checks, as required under anti-money-laundering rules. We will ask for proof of identity, address and, where relevant, ownership of the payment method you used. Submit clear, valid documents promptly, since we hold pending withdrawals until verification finishes. We may run these checks at any stage, not only at withdrawal, and we may freeze an account where details do not match. Casino Santander UK treats verification as a condition of payout, and we cannot release funds until the process clears."
-        }
-      ]
-    },
-    {
-      "heading": "5. Deposits and Withdrawals",
-      "content": [
-        {
-          "type": "paragraph",
-          "text": "All transactions run through the methods listed in your Account, and limits apply per transaction unless a daily or monthly cap is stated. We process payments only to and from accounts registered in your own name."
+          "text": "Access to Crown Casino official site is restricted to individuals who meet the following criteria:"
         },
         {
-          "type": "heading",
-          "level": 3,
-          "text": "5.1 Deposits"
+          "type": "list-dotted",
+          "items": [
+            "**Minimum age**: users must be at least 18 years old, in line with gambling regulations across all Australian states and territories.",
+            "**Legal capacity**: users must have the legal capacity to enter into a binding agreement under Australian law.",
+            "**Jurisdictional access**: the service is intended for use within permitted jurisdictions only, and access from restricted locations may be limited or blocked.",
+            "**Single account policy**: each individual is permitted to hold only one active account at any given time."
+          ]
         },
         {
           "type": "paragraph",
-          "text": "Deposits through cards, e-wallets and open-banking routes credit instantly, so you can play as soon as the funds land. Credit cards stay barred in line with the national ban on card-funded gambling. The minimum deposit starts at £10 for most methods, with the maximum set by the method you choose. At Casino Santander Bank UK, you confirm that every deposit comes from a payment source you legally own and control."
+          "text": "Any account found to breach these eligibility requirements may be suspended or closed at our discretion, with any associated funds handled in accordance with applicable regulations."
+        }
+      ]
+    },
+    {
+      "heading": "Account Registration and Security",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Creating an account with the online casino Crown requires accurate personal information, including full name, date of birth, residential address and a valid means of identity verification. Users are responsible for maintaining the confidentiality of their login credentials and for all activity conducted through their account."
         },
         {
-          "type": "heading",
-          "level": 3,
-          "text": "5.2 Withdrawals"
+          "type": "table",
+          "headers": [
+            "Requirement",
+            "Detail"
+          ],
+          "rows": [
+            [
+              "Identity verification",
+              "Government-issued ID, proof of address"
+            ],
+            [
+              "Account currency",
+              "Australian dollars (AUD)"
+            ],
+            [
+              "Password security",
+              "User responsible for safekeeping credentials"
+            ],
+            [
+              "Multiple accounts",
+              "Not permitted under any circumstances"
+            ]
+          ]
         },
         {
           "type": "paragraph",
-          "text": "We release withdrawals only after you complete identity verification and meet any wagering attached to bonus funds. The timing depends on your method, from within 24 hours for e-wallets to 2 to 5 working days for a standard bank transfer. Where you hold Santander Priority status, eligible withdrawals clear within four hours of verification. We may apply transaction limits and request further checks on large or unusual payouts. Players who use Casino Santander online should confirm the limit and processing time for their chosen method before requesting a payout."
+          "text": "We reserve the right to request additional verification documents at any stage, particularly prior to processing a withdrawal. Failure to provide requested documentation within a reasonable timeframe may result in delayed or declined transactions."
         }
       ]
     },
     {
-      "heading": "6. Bonuses and Promotions",
+      "heading": "Deposits, Withdrawals and Payment Methods",
       "content": [
         {
           "type": "paragraph",
-          "text": "Each promotion carries its own wagering target, expiry window and, in some cases, a withdrawal cap, all set out on the offer itself. You must meet the stated wagering before you withdraw bonus funds or any winnings derived from them. Do not lower your per-spin stake sharply while clearing a bonus, since we treat that as a breach and may void the offer. We reserve the right to withdraw bonus eligibility from any account we believe is abusing our promotions. Casino Santander UK applies these rules to protect fair play for every member."
+          "text": "All transactions on Crown online casino are processed in Australian dollars. Accepted payment methods include bank cards, PayID, electronic wallets and select cryptocurrency options, each carrying its own minimum and maximum transaction limits. Withdrawal requests are subject to identity verification checks prior to processing, which may extend processing times beyond the standard estimates published on the site."
+        },
+        {
+          "type": "list-dotted",
+          "items": [
+            "**Deposit limits**: vary by payment method, generally starting from AU$20.",
+            "**Withdrawal processing**: typically ranges from several minutes to a few business days, depending on the method selected.",
+            "**Currency conversion**: any fees arising from currency conversion are the responsibility of the user."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "We reserve the right to decline or reverse any transaction suspected of fraud, error or breach of these terms."
         }
       ]
     },
     {
-      "heading": "7. Responsible Gambling",
+      "heading": "Bonuses and Promotional Offers",
       "content": [
         {
           "type": "paragraph",
-          "text": "We are committed to safer gambling and give you tools to stay in control. Set deposit, loss and wager limits from your Account, take a cooling-off break, or close access entirely through self-exclusion. Reality checks flag how long your session has run, and our support team can point you toward professional help on request. If you feel your play is becoming a problem, contact GamCare or use GAMSTOP to self-exclude across UK operators. At Casino Santander Bank UK, your wellbeing matters more than your wagering, and we will act on any sign of harm."
+          "text": "Any bonus, free spin package or promotional offer made available through Crown online casino is subject to specific terms published alongside that offer, including applicable wagering requirements and expiry windows. Users should review the specific conditions attached to each promotion before opting in, as failure to meet wagering requirements within the stated timeframe may result in forfeiture of bonus funds or associated winnings."
+        },
+        {
+          "type": "paragraph",
+          "text": "We reserve the right to withdraw, amend or cancel any promotional offer at our discretion, including in cases of suspected abuse, multiple account creation or breach of these terms."
         }
       ]
     },
     {
-      "heading": "8. Game Fairness",
+      "heading": "Responsible Gambling",
       "content": [
         {
           "type": "paragraph",
-          "text": "Independent test houses audit our games, payout rates and random number generators on a regular schedule. The random number generator decides every outcome, so neither you nor the operator can predict or influence a result. We publish return-to-player figures where the rules require, and you can review them before you stake. Any malfunction voids the affected play and any pay attached to it. Games offered through Casino Santander online run on certified software supplied by licensed third-party studios."
+          "text": "We are committed to supporting responsible gambling practices among our user base. The platform provides tools including deposit limits, session reminders, self-exclusion options and reality checks, all accessible through account settings. Users experiencing difficulty managing their gambling activity are encouraged to make use of these tools or reach out to independent support services operating within Australia."
+        },
+        {
+          "type": "paragraph",
+          "text": "Nothing in these terms should be interpreted as encouraging gambling beyond what an individual can reasonably afford to lose."
         }
       ]
     },
     {
-      "heading": "9. Limitation of Liability",
+      "heading": "Intellectual Property",
       "content": [
         {
           "type": "paragraph",
-          "text": "We provide the platform on an \"as is\" basis and do not guarantee uninterrupted or error-free access. We are not liable for losses arising from connection failures, third-party services, or events beyond our reasonable control. Nothing in these terms limits our liability for fraud or for any matter that the law does not allow us to exclude. Your decision to gamble, and the outcome of any wager, rests with you alone. Use of Casino Santander UK is at your own discretion and within the limits the law sets."
+          "text": "All content published on the Crown Casino official site, including graphics, text, game software and branding, remains the property of its respective owners and is protected under applicable copyright and trademark law. Users are not permitted to reproduce, distribute or otherwise exploit any platform content without prior written consent."
         }
       ]
     },
     {
-      "heading": "10. Privacy",
+      "heading": "Limitation of Liability",
       "content": [
         {
           "type": "paragraph",
-          "text": "We collect and process your personal data in line with the UK GDPR and the Data Protection Act 2018. We use your information to run your account, meet our legal duties, and prevent fraud and money laundering. We share data only where the law requires or where a service provider needs it to support the platform, and we hold it no longer than necessary. You hold the right to access, correct or erase your data, subject to our regulatory obligations. Casino Santander Bank UK sets out the full detail in its separate Privacy Policy."
+          "text": "To the extent permitted under Australian law, the platform accepts no liability for indirect, incidental or consequential losses arising from use of the service, including but not limited to technical interruptions, delayed transactions or third-party payment processing errors. Users acknowledge that gambling carries inherent financial risk and agree to use the platform at their own discretion."
         }
       ]
     },
     {
-      "heading": "11. Governing Law",
+      "heading": "Governing Law and Jurisdiction",
       "content": [
         {
           "type": "paragraph",
-          "text": "These terms are governed by the laws of England and Wales, and the courts of England and Wales hold jurisdiction over any dispute. Where you live in another part of the United Kingdom, you keep the protections that your local mandatory law provides. We aim to settle complaints directly first, and you may escalate an unresolved dispute to our approved alternative dispute resolution provider. Nothing here removes your statutory rights as a consumer."
+          "text": "These Terms and Conditions are governed by the laws applicable within Australia. Any disputes arising from use of the platform will be subject to the jurisdiction of Australian courts, unless otherwise required by applicable regulatory frameworks."
         }
       ]
     },
     {
-      "heading": "12. Contact",
+      "heading": "Changes to These Terms",
       "content": [
         {
           "type": "paragraph",
-          "text": "Reach our support team through live chat or the email address listed in your Account, available every day. We respond to general queries promptly and handle verification and payment questions through a dedicated channel. For a formal complaint, follow the procedure set out on our Help page, and we will acknowledge it in writing. Keep your account details to hand when you get in touch, since this helps us assist you faster."
+          "text": "Crown online casino reserves the right to update these Terms and Conditions periodically to reflect changes in regulation, platform functionality or operational policy. Users are encouraged to review this page regularly, as continued use of the service following any update constitutes acceptance of the revised terms."
+        }
+      ]
+    },
+    {
+      "heading": "Contact and Support",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Questions regarding these terms, account issues or general platform enquiries can be directed to our support team through the contact channels listed on the site. We aim to respond to all reasonable enquiries within a timely manner."
         }
       ]
     }

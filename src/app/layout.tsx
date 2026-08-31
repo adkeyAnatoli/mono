@@ -11,8 +11,8 @@ const ogTitle = normalizeMdText(siteMeta.title);
 const ogSiteName = siteMeta.ogSiteName;
 const metaDescription = normalizeMdText(siteMeta.description);
 
-const htmlLang = 'en-GB';
-const ogLocale = 'en_GB';
+const htmlLang = 'en-Au';
+const ogLocale = 'en_AU';
 
 const fontManrope = localFont({
   src: '../../public/fonts/manrope-semibold.woff2',

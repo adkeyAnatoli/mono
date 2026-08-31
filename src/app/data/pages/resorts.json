@@ -17,17 +17,37 @@
       "content": [
         {
           "type": "table",
-          "headers": ["Feature", "Melbourne", "Perth", "Sydney"],
+          "headers": [
+            "Feature",
+            "Melbourne",
+            "Perth",
+            "Sydney"
+          ],
           "rows": [
-            ["Hotels on site", "3 towers", "3 towers", "1 tower"],
-            ["Total rooms", "1,604", "1,188", "\\~349-350"],
+            [
+              "Hotels on site",
+              "3 towers",
+              "3 towers",
+              "1 tower"
+            ],
+            [
+              "Total rooms",
+              "1,604",
+              "1,188",
+              "\\~349-350"
+            ],
             [
               "Signature venue",
               "Palladium ballroom",
               "Crown Theatre",
               "Sky Deck"
             ],
-            ["Dining spots", "40+", "30+", "\\~15"],
+            [
+              "Dining spots",
+              "40+",
+              "30+",
+              "\\~15"
+            ],
             [
               "Format",
               "Public gaming floor",

@@ -17,9 +17,19 @@
       "content": [
         {
           "type": "table",
-          "headers": ["Feature", "Melbourne", "Perth", "Sydney"],
+          "headers": [
+            "Feature",
+            "Melbourne",
+            "Perth",
+            "Sydney"
+          ],
           "rows": [
-            ["Pace", "Busy, full day", "Moderate, relaxed", "Slow, exclusive"],
+            [
+              "Pace",
+              "Busy, full day",
+              "Moderate, relaxed",
+              "Slow, exclusive"
+            ],
             [
               "Access",
               "Open to public",
@@ -32,7 +42,12 @@
               "Riverside trail",
               "Sky Deck"
             ],
-            ["Buffet option", "Yes", "Yes", "No"],
+            [
+              "Buffet option",
+              "Yes",
+              "Yes",
+              "No"
+            ],
             [
               "Best for",
               "First-timers wanting variety",

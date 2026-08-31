@@ -17,7 +17,11 @@
       "content": [
         {
           "type": "table",
-          "headers": ["Feature", "Land-Based Rewards", "Online Rewards"],
+          "headers": [
+            "Feature",
+            "Land-Based Rewards",
+            "Online Rewards"
+          ],
           "rows": [
             [
               "Tiers",

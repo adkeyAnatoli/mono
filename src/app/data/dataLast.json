@@ -3,7 +3,11 @@
   "content": [
     {
       "type": "table",
-      "headers": ["Feature", "Land-Based Resorts", "Online Platform"],
+      "headers": [
+        "Feature",
+        "Land-Based Resorts",
+        "Online Platform"
+      ],
       "rows": [
         [
           "Locations",

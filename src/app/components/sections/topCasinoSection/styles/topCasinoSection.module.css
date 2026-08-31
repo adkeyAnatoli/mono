@@ -95,7 +95,7 @@
   width: 100%;
 }
 
-.slide {
+.swiper :global(.swiper-slide).slide {
   display: flex;
   justify-content: center;
   height: auto;
@@ -117,7 +117,7 @@
     display: none;
   }
 
-  .slide {
+  .swiper :global(.swiper-slide).slide {
     width: min(321px, 86%);
     flex-shrink: 0;
   }

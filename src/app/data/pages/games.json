@@ -17,7 +17,11 @@
       "content": [
         {
           "type": "table",
-          "headers": ["Feature", "Land-Based Resorts", "Online Platform"],
+          "headers": [
+            "Feature",
+            "Land-Based Resorts",
+            "Online Platform"
+          ],
           "rows": [
             [
               "Game variety",
@@ -44,7 +48,11 @@
               "In-person energy, live dealers, physical rooms",
               "Flexible, private, play from anywhere"
             ],
-            ["Currency", "Australian dollars", "Australian dollars"]
+            [
+              "Currency",
+              "Australian dollars",
+              "Australian dollars"
+            ]
           ]
         }
       ]
