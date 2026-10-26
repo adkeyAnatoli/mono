@@ -1,0 +1,30 @@
+{
+  "title": "What Makes the Resorts Different",
+  "content": [
+    {
+      "type": "paragraph",
+      "text": "The group employs more than 20,000 people across more than 700 roles and adds close to AUD 5 billion a year to the national economy."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Feature",
+        "Details"
+      ],
+      "rows": [
+        [
+          "**A city within the city**",
+          "Crown Casino Melbourne covers 500,000 m² on Southbank, roughly two CBD blocks, and draws more than 26 million visitors a year, up from 22 million in the 2019 financial year"
+        ],
+        [
+          "**Public safer gambling research**",
+          "The PlaySafe Knowledge Hub shares the group's safer gambling methods openly with the rest of the industry"
+        ],
+        [
+          "**Charity on a large scale**",
+          "The Million Dollar Lunch raised AUD 2.2 million in 2025 and more than AUD 31 million since 2005. The Firefighter Stair Climb in Melbourne has raised more than AUD 6 million over 12 years"
+        ]
+      ]
+    }
+  ]
+}

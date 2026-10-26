@@ -1,0 +1,23 @@
+{
+  "title": "Where It All Started",
+  "content": [
+    {
+      "type": "paragraph",
+      "text": "The group's story runs across four decades and three state capitals:"
+    },
+    {
+      "type": "list-dotted",
+      "items": [
+        "**1985:** Burswood Island Casino opened in Perth on 30 December with about 1,000 staff. At the time, it ranked among the largest casinos in the world.",
+        "**1994:** The Melbourne resort opened on Southbank.",
+        "**1996:** The group founded its own college to train hospitality and gaming staff.",
+        "**2002:** Melbourne opened an on-site support centre for players, which the group describes as the first of its kind.",
+        "**2020:** Sydney opened on 28 December after four years of construction, with capacity capped because of COVID.",
+        "**2021:** Crown Casino online Australia opened.",
+        "**2024:** David Tsai, who spent more than 15 years at MGM Resorts, took over as group CEO in October.",
+        "**2025:** Perth turned 40 and buried a time capsule to be opened in 2065.",
+        "**2026:** Melbourne started a AUD 200 million upgrade, the biggest in 30 years. It supports about 2,000 construction jobs and aims to cut emissions by 23% by 2027."
+      ]
+    }
+  ]
+}

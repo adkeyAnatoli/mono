@@ -1,0 +1,125 @@
+**Title**: Crown Casino Resorts Australia: Hotels, Dining, Parking
+
+**Description**: Trip to Crown Resorts Australia in Melbourne, Perth or Sydney. See where to stay, where to eat and how to get free parking.
+
+# Crown Casino Resorts Australia: More Than the Gaming Floor 
+
+Crown Casino Resorts Australia runs three integrated resorts: Southbank in Melbourne, Burswood in Perth and Barangaroo in Sydney. Each site combines hotels, restaurants, bars, event halls and a gaming floor under one roof. 
+
+## Choose Your City
+
+The three resorts share one brand and one loyalty card, but each works a little differently. 
+
+| Resort | Location | Opened | Know before you go |
+| ----- | ----- | ----- | ----- |
+| **Melbourne** | Southbank, on the Yarra | 1994 | Gaming floor open 24/7. The Riverwalk is under reconstruction, so allow extra time between entrances |
+| **Perth** | Burswood peninsula, next to Optus Stadium | 30 December 1985 | Opened as Burswood Island Casino. Arrive early on game days |
+| **Sydney** | Barangaroo, on the harbour | 28 December 2020 | Gaming floor admits members only, so sign up before your visit |
+
+## Where to Stay
+
+There are seven Crown Casino hotels across the three cities. Book through the loyalty system: members get personal rates that update daily.
+
+### Melbourne
+
+* **Towers:** 481 rooms, from Deluxe King and Twin up to the Premier Suite. The hotel has held a Forbes Travel Guide Five-Star rating for five years running.
+
+* **Metropol:** 658 rooms, including The Loft and The Apartment for longer stays. Since May 2026, the 28th floor has operated as a private event space with city views.
+
+* **Promenade:** 465 rooms. Choose a City View room for the skyline or the Two Bedroom Studio for a group.
+
+* **Pools and spa:** Hotel guests get access to the indoor pools and Crown Casino Spa.
+
+### Perth
+
+* **Towers:** 500 rooms around the resort's 12-storey glass atrium. The hotel won Hotel of the Year at the 2019 Australian Hotels Association awards.
+
+* **Metropol:** 397 rooms. Check the member rate in the app before you book.
+
+* **Promenade:** 291 rooms. Compare it with Metropol for the same dates, since prices change daily.
+
+### Sydney
+
+* **Rooms and suites:** The tower holds hotel rooms, suites, villas and private residences, all with harbour views on the upper levels.
+
+* **Presidential Villa:** This villa on level 88 has hosted Taylor Swift, Drake and Oprah Winfrey.
+
+* **Pool and spa:** Book a treatment at a spa or spend an afternoon at the infinity pool.
+
+## Where to Eat and Drink
+
+The Crown Casino restaurants range from hatted dining rooms to food courts.
+
+### Melbourne
+
+* **Fine dining:** Nobu (open since 2007), Rockpool, Spice Temple, Bistro Guillaume and Kolkata Cricket Club. The last of these holds a chef's hat under Mischa Tropp and has a private room for 20 to 120 guests.
+
+* **Casual meals:** 88 Noodle, China Bar, Lucky Chan, Man Tong Kitchen and LAYAL.
+
+* **Quick bites:** EatAlley, Croissanteria and Maguro Sushi, plus KFC, McDonald's and Subway.
+
+* **Bars:** Atrium Bar, Velvet, Ocean 12, the Sports Bar and The Pub.
+
+### Sydney
+
+* **Fine dining:** a'Mare (two hats), Woodcut (one hat), Nobu and Yoshii's Omakase.
+
+* **Casual meals:** Golden Century serves more than 60 yum cha dishes. Pizza'Mare and Teahouse suit a quicker meal.
+
+* **Lunch deals:** Order the A\$30 express lunch or the A\$45 steak frites for a working lunch.
+
+* **Bars:** Finish the evening at CirQ, the rooftop Crown Casino bar.
+
+### Perth
+
+* **Fine dining:** Nobu (open since 2011\) and Rockpool Bar & Grill, which is growing from 238 to 261 seats.
+
+* **Casual meals:** Urban Food District opened on 14 February 2026 with Burgers by ES, Side Piece Pizza, Tekka Bar, Saigon Story, Taco Daddy and Jom Kopitiam.
+
+* **Pop-ups:** Chefs rotate through the space, including Fireback by David Thompson, Greek by George Calombaris and Yarri.
+
+* **Bars:** Gladstones pours wine for 50 guests, and 42 by Don Julio, a 35-seat tequila bar, opened on 25 September 2026\. Urban Food District adds three bars, a speakeasy and a beer garden.
+
+## Parking 
+
+Crown Casino parking sits in a multi-level car park. Rewards members on the Member tier get 24 hours free once they earn 250 lifestyle point. The network does not publish rates or space counts, so check the signs on arrival or look in the app.
+
+## Events, Shows and Sport
+
+Each resort runs its own calendar of concerts, galas and sporting events. Check the dates before you book a room, as the big nights fill the hotels first.
+
+| Venue | City | Capacity | Use it for |
+| ----- | ----- | ----- | ----- |
+| **Palladium** | Melbourne | 1,500 seats | Galas and award nights |
+| **Crown Live Theatre** | Melbourne | 1,250 seats | Live shows, from November 2026 |
+| **Conference Centre** | Melbourne | 7,350 m² | Conferences and large private events |
+| **Crown Theatre** | Perth | 2,300 seats | Touring shows and concerts |
+| **Crown Ballroom** | Perth | 1,500 seats | Galas and dinners |
+| **Pearl Ballroom** | Sydney | – | Business events, 2026 NSW Awards winner |
+
+## One More Tip 
+
+Join the loyalty program at an Express Kiosk the moment you walk in. The kiosk scans your ID, takes a photo and sets a PIN in a few minutes. Crown Casino hotels stays earn 2 points per A\$1, so one night at around A\$125 already covers the 250 points needed for free parking. Book dinner at the hatted venues before you travel, not on the day. On weekends, Nobu and a'Mare fill up first.
+
+## FAQ
+
+### Can I visit the Sydney resort without a membership?
+
+Yes. The members-only rule covers the gaming floor, not the whole building. If you only want a room, dinner or a drink at CirQ, come in as a regular guest.
+
+### Which Crown Casino restaurants suit a quick lunch?
+
+In Sydney, order the A\$30 express lunch or the A\$45 steak frites, or go for yum cha at Golden Century. In Melbourne, EatAlley, Croissanteria and Maguro Sushi get you fed in minutes. In Perth, head to Urban Food District and choose from burgers, pizza, sushi and tacos under one roof.
+
+### Can I pay for a room with loyalty points?
+
+In Melbourne and Perth, you can spend points on rooms, food, shopping and gaming. You can also split a bill between points and cash. The program year runs from 1 October to 30 September, with tiers reviewed each October.
+
+### How do I get free Crown Casino parking?
+
+Reach the Member tier by earning 250 lifestyle points or 25 casino points, and you get 24 hours free in the multi-level car park. Lifestyle points come from hotel stays, dining and shopping. Higher tiers add valet, and public rates aren't published, so check the signs on arrival.
+
+### What can I do if I don't plan to gamble?
+
+Book a spa treatment, eat at one of the hatted restaurants or catch a show. Melbourne opens a 1,250-seat live theatre in November 2026\. Perth runs a 2,300-seat theatre for touring shows and concerts.
+

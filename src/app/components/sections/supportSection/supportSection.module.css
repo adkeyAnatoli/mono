@@ -1,0 +1,42 @@
+.section {
+  margin: 140px 0;
+}
+.section li {
+  list-style: disc inside;
+}
+.section ul {
+  margin-left: 16px;
+}
+.textBlock {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  width: 100%;
+}
+
+.textBlock p,
+.textBlock li {
+  color: var(--support-text-color);
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  width: 100%;
+}
+
+@media (max-width: 1180px) {
+  .section {
+    margin: 64px auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .wrapper {
+    gap: 24px;
+  }
+  .section {
+    padding: 20px 0;
+  }
+}

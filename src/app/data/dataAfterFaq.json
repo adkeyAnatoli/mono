@@ -1,0 +1,37 @@
+{
+  "title": "Who Should Visit and Who Should Skip",
+  "content": [
+    {
+      "type": "paragraph",
+      "text": "Crown Casino Melbourne alone contributes about AUD 1.9 billion a year to the Victorian economy, while Perth adds about AUD 1.2 billion to Western Australia. Online, the group also runs Betfair Australasia, a betting exchange for Australian and New Zealand customers."
+    }
+  ],
+  "sections": [
+    {
+      "heading": "A Good Fit",
+      "content": [
+        {
+          "type": "list-dotted",
+          "items": [
+            "**Event planners:** Ballrooms, theatres and conference halls in all three cities handle anything from a board dinner to a 1,500-guest gala.",
+            "**Players who want structure:** Crown Casino Perth sets mandatory time and loss limits and sends activity statements, so you always know where you stand.",
+            "**Food lovers:** Hatted restaurants such as Nobu, a'Mare and Rockpool, plus casual food halls, make each resort a dining destination on its own."
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Not the Right Choice",
+      "content": [
+        {
+          "type": "list-dotted",
+          "items": [
+            "**Families with teenagers:** the gaming floors and bars are strictly 18+, with no exceptions even when a parent comes along.",
+            "**Anyone who wants to play anonymously:** you need to verify your identity with an ID document and proof of address before your first withdrawal, so fully anonymous play isn't an option.",
+            "**Machine players in Sydney:** Crown Casino Sydney runs table games only, with no machines on the floor."
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+---
+description: Применение дизайна из Figma только через токены (Next.js, src/app/styles/tokens.css)
+globs: src/app/styles/tokens.css
+alwaysApply: true
+---
+
+# Дизайн из Figma — только токены (Next.js)
+
+Проект: **Next.js 16 (App Router)**, layout — [`src/app/layout.tsx`](src/app/layout.tsx), глобальные стили — [`src/app/globals.css`](src/app/globals.css), дизайн-токены — **только** [`src/app/styles/tokens.css`](src/app/styles/tokens.css).
+
+При запросах вроде «применить дизайн из Figma», «обновить по макету», «подставить цвета/шрифты из Figma»:
+
+1. **Менять только** переменные в блоке `:root` в [`src/app/styles/tokens.css`](src/app/styles/tokens.css). **Не** править CSS-модули секций, `globals.css` (кроме явно описанных случаев ниже — там только `@import` и font-токены на `html`), TSX/разметку ради цветов.
+2. Использовать **только уже объявленные** имена переменных из `tokens.css` (`--main-bg`, `--button-primary-bg`, …). **Не** добавлять новые CSS-переменные.
+3. **Единственный целевой файл для палитры и типографических чисел в токенах** — [`src/app/styles/tokens.css`](src/app/styles/tokens.css).
+4. В `src/app/styles/tokens.css` **без комментариев** — только объявления свойств в `:root`.
+5. **Не трогать артефакты сборки** — каталог **`.next/`**, при наличии **`dist/`** или другой выходной папки экспорта. Смена внешнего вида страницы делается **токенами**, не патчами в билде.
+6. Предпочтительный способ обновления значений — `yarn sync:theme` ([`scripts/sync-theme-from-figma.mjs`](scripts/sync-theme-from-figma.mjs)).
+
+## Как токены попадают в приложение
+
+- В начале [`globals.css`](src/app/globals.css) стоит `@import` на [`./styles/tokens.css`](src/app/styles/tokens.css).
+- **Шрифты** — только [`next/font/local`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) в [`src/app/layout.tsx`](src/app/layout.tsx), файлы в [`public/fonts/`](public/fonts/). **Не** добавлять npm-пакеты для конвертации шрифтов.
+- Crown Casino (по [`figma-variables.json`](figma-variables.json)): заголовки — **Helvetica Bold** (`helvetica-bold.otf`, `--font-helvetica`); текст — **Roboto** (`roboto-regular/medium/bold.woff2`, `--font-roboto`).
+- Получение файлов: сначала `~/Desktop/myMono/fonts/`, иначе **скачать woff2/otf в `public/fonts/`** — без скриптов и зависимостей в репозитории.
+- В [`src/app/styles/tokens.css`](src/app/styles/tokens.css):
+  `--font-family-main: var(--font-helvetica), 'Helvetica', Arial, sans-serif` и
+  `--font-family-second: var(--font-roboto), 'Roboto', sans-serif`.
+- `variable`-классы next/font — на **`<html>`**; `--font-family-main` / `--font-family-second` дублируются на `html` в `globals.css` для корректного каскада.
+- Отдельного слоя тем **`themes/*.css`** в этом репозитории **нет**; «тема» = содержимое `src/app/styles/tokens.css`.
+- **Canonical, Open Graph, `metadataBase`** и язык страницы живут в **`layout.tsx`** и env (`NEXT_PUBLIC_*`) — это **не** часть задачи «обновить токены из Figma», если в запросе явно не сказано обратное.
+
+## Источник данных из Figma
+
+**Один входной файл — [`figma-variables.json`](figma-variables.json) в корне проекта.** Плагины MCP Figma для этого workflow **не** использовать.
+
+1. Читать пары `"ключ Figma": "значение"`.
+2. Маппить **строго по таблице ниже** (точное имя ключа). Ключи, начинающиеся с **`_`**, пропускать.
+3. Цвета в токенах — в формате `#RRGGBB` как в JSON (регистр можно нормализовать к верхнему).
+
+### Обновление `figma-variables.json`
+
+- Плагин: [`figma-plugin-export-tokens/README.md`](figma-plugin-export-tokens/README.md) (если есть в соседних шаблонах).
+- Вручную: скопировать из Figma Local variables в тот же формат (цвета HEX, типографика строкой `Font(family: "…", style: …, size: …)` при необходимости).
+
+### Маппинг ключей Figma → переменные `src/app/styles/tokens.css`
+
+| Ключ в `figma-variables.json` | Переменные в `src/app/styles/tokens.css` |
+|------------------------------|-------------------------------------------|
+| `Monobrand/main color/BG` | `--main-bg`, `--bg-red-gradient` |
+| `Monobrand/White/100%` | `--bg-header`, `--bg-footer` |
+| `Monobrand/main color/first color` | `--bg-section-second`, `--table-head`, `--payments-table-head`, `--software-provider-card-bg` |
+| `Monobrand/main color/second color` | `--color-white`, `--table-body`, `--payments-table-body` |
+| `Monobrand/main color/text` | `--color-black`, `--table-head-color`, `--table-body-color`, `--last-text-color`, `--top-casino-text-color`, `--button-primary-color`, `--faq-question-color`, `--faq-text-color` |
+| `Monobrand/accent/100%` | `--color-purple`, `--border-yellow`, `--payments-text-left`, `--button-primary-bg` |
+| `Monobrand/Button/Small` | `--button-secondary-bg` |
+| `White/100%` | `--button-secondary-color`, `--bonus-section-text`, `--welcome-bonus-color`, `--support-text-color`, `--top-games-text-color` |
+| `Monobrand/Button/Black 20%` | `--after-element-second` → `rgba(0, 0, 0, 0.2)` |
+
+Важно для этого проекта:
+
+- `Monobrand/White/100%` (`#0E0909`) — **тёмный** фон header/footer, **не** белый текст.
+- `White/100%` (`#FFFFFF`) — белый текст на тёмных секциях.
+- `Monobrand/main color/footer color` не используется (нет токена цвета текста футера).
+- Ключа `Monobrand/Button/Large` нет — крупная золотая кнопка берёт цвет из `accent`.
+
+### Типографика из строк `Font(...)`
+
+- Заголовки: ключи `Desktop/H1` … `Desktop/H4`, `Desktop/Slogan`, `Desktop/Welcome` → **Helvetica Bold** в **`layout.tsx`** (`next/font/local` из [`public/fonts/helvetica-bold.otf`](public/fonts/helvetica-bold.otf)); в токенах — `var(--font-helvetica)`.
+- Основной текст: `Desktop/B1-20`, `Desktop/Card Block` → **Roboto** (`public/fonts/roboto-*.woff2`), в токенах `--font-family-second`.
+- `style: Bold` → `--font-weight-main: 700`, `--font-weight-second: 700`; `Medium` → `--font-weight-500: 500`.
+
+Размеры **`size`** из `Font(...)` в **отдельные токены не выносить** — размеры шрифтов остаются в CSS-модулях/глобальных классах.
+
+## Смена семейства шрифта из Figma
+
+1. Скачать файлы в [`public/fonts/`](public/fonts/) (или взять из `~/Desktop/myMono/fonts/`).
+2. Подключить в [`src/app/layout.tsx`](src/app/layout.tsx): `next/font/local`, **`variable`**, класс на **`<html>`**.
+3. Обновить в [`src/app/styles/tokens.css`](src/app/styles/tokens.css) `--font-family-main` и/или `--font-family-second`.
+4. Удалить неиспользуемые файлы из `public/fonts/` и старые импорты из `layout.tsx`.

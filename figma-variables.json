@@ -1,0 +1,20 @@
+{
+  "Monobrand/main color/BG": "#191010",
+  "Monobrand/White/100%": "#0E0909",
+  "Monobrand/main color/text": "#2A2A2A",
+  "Desktop/Card Block": "Font(family: \"Roboto\", style: Medium, size: 20)",
+  "Monobrand/Button/Small": "#3157B5",
+  "Desktop/Slogan": "Font(family: \"Helvetica\", style: Bold, size: 16)",
+  "Desktop/Welcome": "Font(family: \"Helvetica\", style: Bold, size: 30)",
+  "Desktop/H1": "Font(family: \"Helvetica\", style: Bold, size: 44)",
+  "Monobrand/main color/second color": "#FFFFFF",
+  "Monobrand/main color/first color": "#F7E9C8",
+  "Desktop/B1-20": "Font(family: \"Roboto\", style: Medium, size: 20)",
+  "Desktop/H4": "Font(family: \"Helvetica\", style: Bold, size: 24)",
+  "Monobrand/Button/Black 20%": "#000000",
+  "Desktop/H2": "Font(family: \"Helvetica\", style: Bold, size: 40)",
+  "Monobrand/accent/100%": "#977349",
+  "Desktop/H3": "Font(family: \"Helvetica\", style: Bold, size: 32)",
+  "Monobrand/main color/footer color": "#FFFFFF",
+  "White/100%": "#FFFFFF"
+}

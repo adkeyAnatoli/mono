@@ -1,0 +1,31 @@
+{
+  "title": "What Sets the Online Platform Apart",
+  "content": [
+    {
+      "type": "paragraph",
+      "text": "The network also offers an online platform with it’s distinctive features."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Feature",
+        "Details"
+      ],
+      "rows": [
+        [
+          "One account on every screen",
+          "Your balance, bonuses and loyalty progress sync between desktop and mobile in real time. You can start on your laptop and finish on your phone without logging out or losing anything."
+        ],
+        [
+          "Free play without registration",
+          "Every pokie, table game and roulette wheel opens in demo mode with virtual credits. You can test a game's volatility and features before you spend a dollar."
+        ],
+        [
+          "Tools for sorting the lobby",
+          "You can filter over 5,000 titles by RTP, player rating or popularity, and search by game name or studio. The Favourites star keeps your shortlist ready for your next visit."
+        ]
+      ]
+    }
+  ],
+  "sections": []
+}

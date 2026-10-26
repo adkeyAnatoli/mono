@@ -1,0 +1,223 @@
+.footer {
+  padding: 36px 0;
+  background: var(--bg-footer);
+}
+
+.stack {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* gap: 12px; */
+}
+
+.legalBlock {
+  display: flex;
+  width: 100%;
+  margin-bottom: 32px;
+  margin-top: 8px;
+}
+
+.badgeArea {
+  width: 100%;
+}
+
+.badgeWrap {
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  width: 100%;
+  margin-inline: auto;
+}
+
+.badgeCell {
+  display: flex;
+  flex: 0 0 auto;
+  align-items: center;
+  justify-content: center;
+}
+
+.badgeImg {
+  width: 125px;
+  height: 32px;
+  display: block;
+}
+
+.bottomBar {
+  margin-top: 24px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bottomRight {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 8px;
+}
+
+.legalNav {
+  width: 100%;
+}
+
+.legalNavList {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  max-width: 100%;
+}
+
+.legalNavItem {
+  display: flex;
+  align-items: center;
+}
+
+.legalNavItem:not(:last-child)::after {
+  content: '|';
+  color: var(--copyright);
+  margin: 0 12px;
+}
+
+.legalLink {
+  font-family: var(--font-family-second);
+  font-weight: var(--font-weight-500);
+  font-size: 16px;
+  line-height: 1.4;
+  color: var(--copyright);
+  text-decoration: none;
+  text-underline-offset: 3px;
+}
+
+.legalLink:hover,
+.legalLinkActive {
+  color: var(--border-yellow);
+}
+
+.logoLink {
+  display: inline-flex;
+}
+
+.logoWrap {
+  display: inline-flex;
+}
+
+/* .imageLogo {
+  width: auto;
+  height: 28px;
+} */
+
+.legal {
+  font-family: var(--font-family-second);
+  font-weight: var(--font-weight-500);
+  color: var(--copyright);
+  margin: 0;
+  display: inline-flex;
+  align-items: baseline;
+}
+
+.ageMark {
+  font-size: 32px;
+  line-height: 1;
+  margin-right: 10px;
+  vertical-align: bottom;
+}
+
+.legalRest {
+  font-size: 20px;
+  line-height: 40px;
+}
+
+@media (max-width: 1180px) {
+  .badgeImg {
+    width: 112px;
+    height: 29px;
+  }
+
+  .badgeWrap {
+    gap: 10px;
+  }
+}
+
+@media (max-width: 850px) {
+  .footer {
+    padding: 24px 0;
+  }
+
+  .badgeWrap {
+    gap: 6px;
+    row-gap: 13px;
+  }
+  .bottomBar {
+    margin-top: 24px;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+
+  .bottomRight {
+    align-items: flex-end;
+  }
+
+  .legalLink {
+    font-size: 14px;
+  }
+
+  .badgeImg {
+    width: 110px;
+    height: auto;
+  }
+
+  .imageLogo {
+    width: 95px;
+    height: 28px;
+  }
+  .logoLink {
+    height: 28px;
+  }
+
+  .legalRest {
+    font-size: 16px;
+    line-height: normal;
+  }
+}
+
+@media (max-width: 768px) {
+  .badgeImg {
+    width: 102px;
+  }
+  .legalBlock {
+    margin-bottom: 20px;
+    margin-top: 0;
+  }
+}
+@media (max-width: 525px) {
+  /* .imageLogo {
+    width: 130px;
+  } */
+  .legalRest {
+    text-align: right;
+  }
+}
+
+@media (max-width: 440px) {
+  .legalRest {
+    font-size: 13px;
+  }
+
+  .ageMark {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 400px) {
+  .legalRest {
+    font-size: 12px;
+  }
+}

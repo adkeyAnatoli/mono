@@ -1,0 +1,38 @@
+.section ol,
+.section ul {
+  margin-left: 20px;
+}
+
+.block {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.tabsCard {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.section ul li {
+  list-style-type: disc;
+}
+
+.section ol li {
+  list-style-type: decimal;
+}
+
+.section :global(.text) {
+  color: var(--color-white);
+}
+
+@media (max-width: 768px) {
+  .section {
+    padding: 20px 0;
+  }
+  .section :global(.wrapper) {
+    gap: 24px;
+  }
+}

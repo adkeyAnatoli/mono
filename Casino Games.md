@@ -1,0 +1,152 @@
+**Title**: Crown Casino Australia: Games, Hours and Rules by City
+
+**Description**: Compare the Crown Australia floors in Melbourne, Perth and Sydney. Check tables, machines, opening hours and entry rules before your visit.
+
+# Crown Casino Australia: Get Your Card and Set Your Limits 
+
+Crown Casino Australia operates three gaming floors in Melbourne, Perth, and Sydney, each under its own state rules. Read the notes for your city, bring photo ID and set your limits before you walk in. The resorts also run an online platform.
+
+## How Each Floor Works
+
+The three floors share one loyalty card and one safer gambling program, but access rules and game formats differ. 
+
+### Melbourne
+
+Crown Casino Melbourne runs 24 hours a day on Southbank and publishes its full game count: 540 tables and more than 2,600 machines.
+
+* **Table games:** 540 dealer tables. Check the minimum bet on the table sign before you buy in.
+
+* **eTables:** Electronic versions of table games. Play them at a terminal instead of across from a dealer.
+
+* **Carded play:** Insert your loyalty card to track each session. The card also earns casino points towards your tier.
+
+* **Transformation plan:** The venue works under a three-year plan that commits it to becoming the safest place to gamble in Victoria. It has released four public progress reports since January 2025, and the plan wraps up around the end of 2026\.
+
+### Perth
+
+Crown Casino Perth changed how machine play works on 1 December 2025\. Every machine now requires a player card.
+
+* **Mandatory card:** You can't play a machine without one. Get your card at an Express Kiosk before you look for a seat.
+
+* **Time and loss limits:** Set both before your first spin. The system holds you to them for the session.
+
+* **Activity statements:** Review your statement to see what you spent and how long you played.
+
+* **Safety checks:** Staff run player safety checks on the floor as part of the system.
+
+* **Licence status:** On 8 July 2025, the WA government confirmed that the venue remains suitable to hold its casino licence.
+
+### Sydney
+
+Crown Casino Sydney at Barangaroo runs as a members' casino. Without a membership, you can't enter the gaming floor.
+
+* **Joining:** Sign up before your visit. At an Express Kiosk, scan your ID, take a photo and set a PIN.
+
+* **Non-members:** The hotel, restaurants, bars and spa stay open to everyone.
+
+* **Game count:** The venue doesn't publish its table or machine numbers.
+
+### Three Floors Side by Side
+
+The table puts the key rules for each Crown Casino Australia floor in one place. 
+
+| Feature | Melbourne | Perth | Sydney |
+| ----- | ----- | ----- | ----- |
+| **Access** | Adults 18+ | Adults 18+ | Members only (free membership) |
+| **Hours** | 24/7 | 24/7, partial closures on Christmas Day, Good Friday and ANZAC Day | Mon–Thu and Sun 10am–4am, Fri–Sat 10am–6am |
+| **Tables** | 540 | 240+ | Around 160, plus around 70 electronic tables |
+| **Machines** | 2,600+ | 2,000+ | None |
+| **Machine play** | Carded play available | Card required, mandatory limits | – |
+
+## Crown Online Casino
+
+The lobby holds more than 5,000 titles. Here's how to get around, what to open first and where to check the details.
+
+### Getting Around the Lobby
+
+The lobby splits the catalogue into separate sections by game type, so pick your category before you scroll:
+
+* **Pokies:** the largest section, with classic three-reel games, video pokies, Megaways and bonus-buy titles from more than 60 studios.
+
+* **Table Games:** digital blackjack, roulette, baccarat and poker variants. They run on a random number generator and let you set your own pace.
+
+* **Live Casino:** real dealers stream from a studio in real time. You'll find live blackjack, roulette, baccarat and game shows with wheels and multipliers.
+
+* **Crash Games:** a multiplier climbs until it crashes, and you choose when to cash out. Titles such as Aviator and JetX keep rounds to a few seconds.
+
+* **Virtual Sports:** simulated football, horse racing and greyhound events with fixtures every few minutes. You bet on results the same way you would on a real match.
+
+### Who Makes the Games
+
+Crown online casino holds a Curaçao licence, and that licence obliges the operator to host only certified software from official suppliers. You won't see eCOGRA or iTech Labs badges in the footer, but the licence covers the same ground. 
+
+More than 60 studios supply the catalogue, including:
+
+* **Pragmatic Play:** high-volatility pokies with tumbling reels and bonus buys.
+
+* **Play'n GO:** Egyptian and adventure themes with expanding-symbol free spins.
+
+* **NetEnt:** long-running titles with steady mechanics.
+
+* **Blueprint Gaming:** fishing and pub-style pokies.
+
+* **Big Time Gaming:** the studio behind the Megaways engine.
+
+* **Hacksaw Gaming and Nolimit City:** compact grids and very high volatility.
+
+The provider drop-down on the control panel lists every studio alphabetically. Pick one and the lobby shows only its games.
+
+### Titles to Open First
+
+If you'd rather not browse, start with this Crown online casino shortlist:
+
+* **Starburst:** low volatility, expanding wilds and re-spins. It's a good first test of how the lobby loads games.
+
+* **Book of Dead:** one special symbol expands across the reels during free spins. Expect long quiet stretches.
+
+* **Big Bass Bonanza:** a fisherman wild collects cash values from fish symbols in the bonus round. Welcome free spins land here at A\$0.20 each.
+
+* **Gonzo's Quest:** winning symbols explode and new ones drop in, with a multiplier that grows on each cascade.
+
+* **Sweet Bonanza:** wins pay anywhere on the grid, and tumbles continue until no new combinations form.
+
+### Play Without a Deposit
+
+Every thumbnail carries a Demo button. It launches the free version of pokies, roulette and table games, and you don't need an account. The game gives you virtual credits, so you can trigger features and learn the paytable without spending a single dollar.
+
+## Safer Gambling Tools
+
+PlaySafe runs at all Crown Casino Australia floor resorts, and its centres stay open 24 hours a day:
+
+* **Self-assessment:** Answer a set of questions to check how your play is going.
+
+* **Self-exclusion:** Ban yourself from the gaming floor.
+
+* **Third-party exclusion:** A family member or friend can ask the venue to exclude you.
+
+* **YourPlay:** In Victoria, this pre-commitment system lets you set time and spend limits on machines.
+
+* **Referrals:** Staff connect you with counselling and support services.
+
+* **Helplines:** Call PlaySafe on 1800 801 098 or Gambling Help on 1800 858 858\.
+
+* **Background:** Melbourne opened an on-site support centre in 2002, Perth added one in 2009, and the PlaySafe brand launched in 2023\.
+
+## One More Tip
+
+Get your loyalty card before you play anything. In Sydney, you can't get through the door without a membership, and in Perth, you can't touch a machine without a card. In Melbourne, the card tracks every carded session and earns points towards your tier. Every 500 table points in any city add one status credit. 
+
+## FAQ
+
+### How do I exclude myself from Crown Casino Australia venues?
+
+Go to any PlaySafe centre, open 24 hours at all three resorts, and ask for self-exclusion. Staff explain the process and connect you with support services. You can also call PlaySafe on 1800 801 098\.
+
+### Can I play the machines in Perth with cash only?
+
+No. Since 1 December 2025, every machine requires a player card with time and loss limits attached. Sign up at a kiosk with your ID, set your limits and check your activity statements afterwards.
+
+### Which games count towards the jackpot at Crown online casino?
+
+Every real-money pokie in the lobby can trigger the progressive jackpot. You don't need to pick a special title or opt in. The footer link shows the current prize pool in AUD, updated in real time.
+
