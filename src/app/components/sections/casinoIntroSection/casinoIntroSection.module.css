@@ -100,6 +100,10 @@
     padding: 88px 0;
   }
 
+  .section::before {
+    background-image: url('/sectionImg/bg-mobile.webp');
+  }
+
   .inner {
     gap: 15px;
   }

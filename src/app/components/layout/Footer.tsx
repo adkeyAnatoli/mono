@@ -96,7 +96,6 @@ const Footer = () => {
                   alt={`${siteName}`}
                   title={`${siteName}`}
                   className={style.imageLogo}
-                  priority
                 />
               </span>
             </LinkToElement>

@@ -29,7 +29,7 @@ const fontHelvetica = localFont({
   ],
   variable: '--font-helvetica',
   display: 'swap',
-  preload: true,
+  preload: false,
   fallback: ['Helvetica', 'Arial', 'sans-serif'],
 });
 
@@ -53,7 +53,7 @@ const fontRoboto = localFont({
   ],
   variable: '--font-roboto',
   display: 'swap',
-  preload: true,
+  preload: false,
   fallback: ['sans-serif'],
 });
 

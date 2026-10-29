@@ -29,7 +29,6 @@ const CardCasino: React.FC<Props> = ({ data }) => {
             height={76}
             alt={`${data.name} in ${siteName}`}
             title={`${data.name} in ${siteName}`}
-            priority
           />
         </div>
         <div className={style.welcomeLabel}>Welcome Bonus</div>

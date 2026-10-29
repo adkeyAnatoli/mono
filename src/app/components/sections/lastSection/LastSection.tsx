@@ -165,6 +165,8 @@ const LastSection = () => {
                             : 'Crown Casino history'
                         }
                         className={style.image}
+                        loading="lazy"
+                        fetchPriority="low"
                       />
                     </div>
                   ) : null}
