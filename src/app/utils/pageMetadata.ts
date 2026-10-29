@@ -20,41 +20,25 @@ export type StaticPageSlug =
   | 'app'
   | 'rules-and-payouts';
 
-export type StaticPagePathname =
-  | '/privacy'
-  | '/terms'
-  | '/faq'
-  | '/casino-games'
-  | '/rewards-program'
-  | '/resorts'
-  | '/app'
-  | '/rules-and-payouts';
-
 const PAGE_META: Record<
   StaticPageSlug,
-  { meta: { title: string; description: string }; pathname: StaticPagePathname }
+  { title: string; description: string }
 > = {
-  privacy: { meta: privacyPage.meta, pathname: '/privacy' },
-  terms: { meta: termsPage.meta, pathname: '/terms' },
-  faq: { meta: faqPage.meta, pathname: '/faq' },
-  'casino-games': { meta: casinoGamesPage.meta, pathname: '/casino-games' },
-  'rewards-program': {
-    meta: rewardsProgramPage.meta,
-    pathname: '/rewards-program',
-  },
-  resorts: { meta: resortsPage.meta, pathname: '/resorts' },
-  app: { meta: appPage.meta, pathname: '/app' },
-  'rules-and-payouts': {
-    meta: rulesAndPayoutsPage.meta,
-    pathname: '/rules-and-payouts',
-  },
+  privacy: privacyPage.meta,
+  terms: termsPage.meta,
+  faq: faqPage.meta,
+  'casino-games': casinoGamesPage.meta,
+  'rewards-program': rewardsProgramPage.meta,
+  resorts: resortsPage.meta,
+  app: appPage.meta,
+  'rules-and-payouts': rulesAndPayoutsPage.meta,
 };
 
 export async function buildStaticPageMetadata(
   slug: StaticPageSlug
 ): Promise<Metadata> {
-  const { meta, pathname } = PAGE_META[slug];
-  const { title, description } = meta;
+  const { title, description } = PAGE_META[slug];
+  const pathname = `/${slug}`;
 
   return {
     title,

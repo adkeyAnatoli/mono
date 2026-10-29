@@ -23,12 +23,12 @@
     width: 1.9375rem;
     height: 0.1875rem;
     border-radius: 0.625rem;
-    background: var(--color-white);
+    background: var(--gold-gradient);
   }
 
   .hamburger::before {
     top: 0;
-    box-shadow: 0 0.65625rem 0 var(--color-white);
+    box-shadow: 0 0.65625rem 0 #e6c276;
     transition:
       box-shadow 0.3s 0.15s,
       top 0.3s 0.15s,

@@ -1,13 +1,18 @@
 'use client';
+
 import React from 'react';
 import Image from 'next/image';
 import style from './styles/cardCasino.module.css';
-import { IBonusSection } from '@/app/interfaces/bonusSectionInterface';
+import type { IOffer } from '@/app/interfaces/mainInterfaces';
 import ButtonLink from '../../buttons/ButtonLink';
 import { useCasinoRedirect } from '@/app/hooks/useCasinoRedirect';
 import { apiOfferLogoUrl } from '@/app/utils/apiUrl';
 
-const CardCasino: React.FC<IBonusSection> = ({ data }) => {
+type Props = {
+  data: IOffer;
+};
+
+const CardCasino: React.FC<Props> = ({ data }) => {
   const siteName = process.env.NEXT_PUBLIC_SITE_NAME;
   const handleRedirect = useCasinoRedirect();
 
@@ -33,9 +38,9 @@ const CardCasino: React.FC<IBonusSection> = ({ data }) => {
         <p>{data.bonuses.welcome_bonus}</p>
         <ButtonLink
           id={data.id}
-          text={'Claim Bonus'}
+          text="Claim Bonus"
           link={data.link}
-          classes={'button-secondary'}
+          classes="button-secondary"
         />
       </div>
     </div>

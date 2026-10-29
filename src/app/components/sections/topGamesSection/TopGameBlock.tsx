@@ -1,11 +1,17 @@
-import { ITopGameProps } from '@/app/interfaces/topGamesSectionInterface';
+import type { IGame } from '@/app/interfaces/mainInterfaces';
 import Image from 'next/image';
 import style from './topGamesSection.module.css';
 import React from 'react';
 import BlockLink from '../../blocksLink/BlockLink';
 import { apiGameImageUrl } from '@/app/utils/apiUrl';
 
-const TopGameBlock: React.FC<ITopGameProps> = ({ game, link, id }) => {
+type Props = {
+  game: IGame;
+  link: string;
+  id: number;
+};
+
+const TopGameBlock: React.FC<Props> = ({ game, link, id }) => {
   const siteName = process.env.NEXT_PUBLIC_SITE_NAME;
   return (
     <BlockLink classes={style.gameBlock} link={link} id={id}>

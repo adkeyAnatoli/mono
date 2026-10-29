@@ -2,92 +2,209 @@
   margin: 140px 0;
 }
 
-.section p,
-.section li {
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.head {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  width: 100%;
+}
+
+.headText {
+  display: flex;
+  flex-direction: column;
+  gap: 45px;
+  width: 100%;
+}
+
+.intro {
   color: var(--last-text-color);
 }
 
-.section ol,
-.section ul {
-  margin-left: 20px;
+.navRow {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
 }
 
-.section ul li {
-  list-style-type: disc;
+.navBtns {
+  display: flex;
+  gap: 6px;
+  flex-shrink: 0;
+  position: relative;
 }
 
-.section ol li {
-  list-style-type: decimal;
+.navBtns :global(.swiper-button-prev),
+.navBtns :global(.swiper-button-next) {
+  position: relative;
+  top: auto;
+  left: auto;
+  right: auto;
+  margin: 0;
+  width: 45px;
+  height: 45px;
+  border-radius: 0;
+  background: var(--table-body);
+  color: var(--color-white);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navBtns > :global(div)::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 9px;
+  height: 19px;
+  margin: 0;
+  font-size: 0;
+  line-height: 0;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.navBtns :global(.swiper-button-prev::after) {
+  background-image: url('/svg/rightArrow.svg');
+  transform: translate(-50%, -50%) scaleX(-1);
+}
+
+.navBtns :global(.swiper-button-prev.swiper-button-disabled::after) {
+  background-image: url('/svg/leftArrowDisable.svg');
+  transform: translate(-50%, -50%);
+}
+
+.navBtns :global(.swiper-button-next::after) {
+  background-image: url('/svg/rightArrow.svg');
+  transform: translate(-50%, -50%);
+}
+
+.navBtns :global(.swiper-button-next.swiper-button-disabled::after) {
+  background-image: url('/svg/leftArrowDisable.svg');
+  transform: translate(-50%, -50%) scaleX(-1);
+}
+
+.navBtns :global(.swiper-navigation-icon) {
+  display: none;
+}
+
+.navBtns :global(.swiper-button-prev.swiper-button-disabled),
+.navBtns :global(.swiper-button-next.swiper-button-disabled) {
+  pointer-events: none;
+  cursor: default;
+  opacity: 1;
+}
+
+.swiper {
+  width: 100%;
+}
+
+.swiper :global(.swiper-slide).slide {
+  display: flex;
+  height: auto;
+  box-sizing: border-box;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  background: var(--table-body);
+}
+
+.imageWrap {
+  width: 100%;
+  overflow: hidden;
+  border-radius: var(--border-radius-second);
+}
+
+.image {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+  aspect-ratio: 357 / 341;
+}
+
+.cardBody {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 32px;
+  flex: 1;
+  background: var(--table-body);
+}
+
+.year {
+  font-family: var(--font-family-main);
+  font-size: 40px;
+  font-weight: var(--font-weight-second);
+  line-height: normal;
+  color: var(--button-secondary-bg);
+  margin: 0;
+}
+
+.cardText {
+  color: var(--last-text-color);
+  margin: 0;
+  line-height: 40px;
 }
 
 @media (max-width: 1180px) {
   .section {
     margin: 64px auto;
   }
-}
-.section h2 {
-  /* margin-left: 15px; */
-}
 
-.section :global(.wrapper) {
-  gap: 20px;
-}
+  .wrapper {
+    gap: 24px;
+  }
 
-.listBlock {
-  display: flex;
-  gap: 50px;
-}
-
-.textBlock {
-  display: flex;
-  flex-direction: column;
-  gap: 24px;
-}
-
-.listBlock > div {
-  display: flex;
-  /* width: 50%; */
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 40px;
-}
-
-.listBlock h4 {
-  font-size: 24px;
-}
-
-.listBlock ul {
-  margin-left: 16px;
-}
-
-.listBlock li {
-  list-style: disc inside;
-}
-
-@media (max-width: 1100px) {
-  .listBlock > div {
-    width: 50%;
+  .head {
+    gap: 32px;
   }
 }
 
 @media (max-width: 768px) {
-  .section > div {
+  .section {
+    margin: 64px auto;
+  }
+
+  .wrapper {
     gap: 24px;
   }
-  .listBlock > div {
-    gap: 18px;
+
+  .head {
+    gap: 16px;
   }
 
-  .listBlock h3 {
-    font-size: 18px;
+  .headText {
+    gap: 24px;
   }
-}
 
-@media (max-width: 550px) {
-  .listBlock {
-    flex-direction: column;
+  .navRow,
+  .navBtns {
+    display: none;
   }
-  .listBlock > div {
-    width: auto;
+
+  .year {
+    font-size: 28px;
+  }
+
+  .cardBody {
+    gap: 16px;
+    padding: 27.5px 24px;
+  }
+
+  .swiper :global(.swiper-slide).slide {
+    width: min(357px, 85%);
+    flex-shrink: 0;
   }
 }

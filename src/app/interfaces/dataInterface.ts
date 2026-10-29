@@ -21,3 +21,8 @@ export interface ContentTable {
 }
 
 export type ContentItem = Paragraph | ContentHeading | List | ContentTable;
+
+export type ContentSection = {
+  heading: string;
+  content: ContentItem[];
+};

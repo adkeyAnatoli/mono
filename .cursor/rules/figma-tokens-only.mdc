@@ -21,7 +21,7 @@ alwaysApply: true
 
 - В начале [`globals.css`](src/app/globals.css) стоит `@import` на [`./styles/tokens.css`](src/app/styles/tokens.css).
 - **Шрифты** — только [`next/font/local`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) в [`src/app/layout.tsx`](src/app/layout.tsx), файлы в [`public/fonts/`](public/fonts/). **Не** добавлять npm-пакеты для конвертации шрифтов.
-- Crown Casino (по [`figma-variables.json`](figma-variables.json)): заголовки — **Helvetica Bold** (`helvetica-bold.otf`, `--font-helvetica`); текст — **Roboto** (`roboto-regular/medium/bold.woff2`, `--font-roboto`).
+- Crown Casino (по [`figma-variables.json`](figma-variables.json)): заголовки — **Helvetica** (`helvetica-regular/bold.woff2`, `--font-helvetica`); текст — **Roboto** (`roboto-regular/medium/bold.woff2`, `--font-roboto`).
 - Получение файлов: сначала `~/Desktop/myMono/fonts/`, иначе **скачать woff2/otf в `public/fonts/`** — без скриптов и зависимостей в репозитории.
 - В [`src/app/styles/tokens.css`](src/app/styles/tokens.css):
   `--font-family-main: var(--font-helvetica), 'Helvetica', Arial, sans-serif` и
@@ -66,7 +66,7 @@ alwaysApply: true
 
 ### Типографика из строк `Font(...)`
 
-- Заголовки: ключи `Desktop/H1` … `Desktop/H4`, `Desktop/Slogan`, `Desktop/Welcome` → **Helvetica Bold** в **`layout.tsx`** (`next/font/local` из [`public/fonts/helvetica-bold.otf`](public/fonts/helvetica-bold.otf)); в токенах — `var(--font-helvetica)`.
+- Заголовки: ключи `Desktop/H1` … `Desktop/H4`, `Desktop/Slogan`, `Desktop/Welcome` → **Helvetica** в **`layout.tsx`** (`next/font/local` из [`public/fonts/helvetica-regular.woff2`](public/fonts/helvetica-regular.woff2) + [`helvetica-bold.woff2`](public/fonts/helvetica-bold.woff2)); в токенах — `var(--font-helvetica)`.
 - Основной текст: `Desktop/B1-20`, `Desktop/Card Block` → **Roboto** (`public/fonts/roboto-*.woff2`), в токенах `--font-family-second`.
 - `style: Bold` → `--font-weight-main: 700`, `--font-weight-second: 700`; `Medium` → `--font-weight-500: 500`.
 

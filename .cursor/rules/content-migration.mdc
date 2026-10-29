@@ -36,8 +36,6 @@ alwaysApply: false
 src/app/data/siteMeta.json
 src/app/data/dataCasinoIntro.json
 src/app/data/dataCasinoInfo.json
-src/app/data/dataApp.json
-src/app/data/dataAfterSupport.json
 src/app/data/dataSupport.json
 src/app/data/dataAfterFaq.json
 src/app/data/dataFaq.json
@@ -52,8 +50,8 @@ src/app/data/pages/{slug}.json
 |-----------------|-----------|-----------|
 | preamble (`# H1` + paragraph) | `siteMeta.json` + `dataCasinoIntro.json` | BonusSection + CasinoIntroSection (`h1`, `title`; intro in `content`) |
 | Where It All Started | `dataLast.json` | LastSection |
-| What Makes the Resorts Different | `dataSupport.json` | SupportSection (intro + table) |
-| What Sets the Online Platform Apart | `dataCasinoInfo.json` | CasinoInfoSection |
+| What Makes the Resorts Different | `dataSupport.json` | FeaturesSlider (slide 1; mobile: standalone) |
+| What Sets the Online Platform Apart | `dataCasinoInfo.json` | FeaturesSlider (slide 2; mobile: standalone) |
 | Who Should Visit and Who Should Skip | `dataAfterFaq.json` | InfoSectionAfterFaq (intro + `###` as tabs) |
 | FAQ | `dataFaq.json` | FaqSection |
 
@@ -84,11 +82,9 @@ Display via `ContentItems` / `plainContentText` — no `**`/HTML in JSON; style 
 
 ## Page layouts (`StaticRichPage`)
 
-| variant | Pages | Blocks |
-|---------|-------|--------|
-| `header` | resorts, casino-games, rewards-program, app, rules-and-payouts | Header → content → FAQ → Footer |
-| `footer-legal` | terms, privacy | BonusSection → H1 → h2 → intro → sections |
-| `footer-faq` | faq | BonusSection → H1 → h2 → intro → FaqAccordionList |
+All secondary pages use one layout: Header → BonusSection (h1) → h2 → intro → sections (if any) → FAQ accordion (if any) → Footer.
+
+Empty `sections` (faq page) and `faq: null` (terms/privacy) simply skip those blocks.
 
 Home page h1 lives in `BonusSection` (from `siteMeta.h1`), not `H1Section`.
 

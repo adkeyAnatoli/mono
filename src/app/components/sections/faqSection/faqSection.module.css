@@ -11,29 +11,34 @@
 .faqWrapper {
   display: flex;
   flex-direction: column;
-  margin-top: 48px;
-  gap: 24px;
+  margin-top: 64px;
+  gap: 0;
+  border-top: 2px solid var(--line-on-dark);
 }
 
 .faqBlock {
   display: flex;
   flex-direction: column;
-  border-bottom: 1px solid #00000033;
-  background: var(--table-head);
+  border-bottom: 2px solid var(--line-on-dark);
+  background: transparent;
 }
 
 .faqElement {
-  color: var(--faq-question-color);
+  color: var(--color-white);
   font-family: var(--font-family-main);
   font-size: 24px;
   font-weight: var(--font-weight-second);
-  padding: 24px 36px 24px 32px;
+  padding: 56px 0;
   cursor: pointer;
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 16px;
   user-select: none;
+}
+
+.faqBlockOpen .faqElement {
+  padding-bottom: 24px;
 }
 
 .faqQuestion {
@@ -50,10 +55,10 @@
   font-style: normal;
   font-weight: var(--font-weight-500);
   line-height: 40px;
-  color: var(--faq-text-color);
+  color: var(--color-white);
   transition: max-height 0.3s ease;
   overflow: hidden;
-  padding: 0 36px 24px 32px;
+  padding: 0 0 56px;
 }
 
 .hidden {
@@ -66,16 +71,24 @@
 @media (max-width: 768px) {
   .faqElement {
     font-size: 18px;
-    padding: 18px;
+    padding: 47px 0;
     word-wrap: break-word;
     word-break: break-word;
   }
+  .faqWrapper {
+    margin-top: 40px;
+  }
+
+  .faqBlockOpen .faqElement {
+    padding-bottom: 16px;
+  }
+
   .faqText {
     font-size: 18px;
     line-height: 32px;
-    /* padding-bottom: 16px; */
-    padding: 0 18px 18px;
+    padding: 0 0 42px;
   }
+
   .hidden {
     padding: 0;
   }

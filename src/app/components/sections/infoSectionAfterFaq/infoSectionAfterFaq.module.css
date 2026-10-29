@@ -25,7 +25,15 @@
 }
 
 .section :global(.text) {
-  color: var(--color-white);
+  color: var(--color-black);
+}
+
+.section :global(.list-label) {
+  color: var(--color-purple);
+}
+
+.section ul li::marker {
+  color: var(--color-purple);
 }
 
 @media (max-width: 768px) {

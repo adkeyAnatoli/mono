@@ -8,16 +8,5 @@ export async function generateMetadata() {
 }
 
 export default function FaqPage() {
-  const data = asPageJson(faqPage);
-  return (
-    <StaticRichPage
-      variant="footer-faq"
-      data={{
-        h1: data.h1,
-        h2: data.h2,
-        intro: data.intro,
-        faq: data.faq ?? [],
-      }}
-    />
-  );
+  return <StaticRichPage data={asPageJson(faqPage)} />;
 }

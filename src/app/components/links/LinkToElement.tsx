@@ -1,20 +1,17 @@
 'use client';
+
 import React, { ReactNode } from 'react';
-import { goToBLock } from '@/app/utils/goToBlock';
+import { scrollToBlock } from '@/app/utils/scrollToBlock';
 
-interface ILinkProps {
-  data: {
-    title: string;
-    href: string;
-    key: number;
-  };
+type Props = {
+  targetId: string;
   children?: ReactNode;
-}
+};
 
-const LinkToElement: React.FC<ILinkProps> = ({ data, children }) => {
+const LinkToElement: React.FC<Props> = ({ targetId, children }) => {
   return (
-    <p style={{ cursor: 'pointer' }} onClick={() => goToBLock(data.href)}>
-      {children || data.title}
+    <p style={{ cursor: 'pointer' }} onClick={() => scrollToBlock(targetId)}>
+      {children}
     </p>
   );
 };

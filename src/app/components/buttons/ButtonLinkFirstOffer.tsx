@@ -1,23 +1,22 @@
 'use client';
-import { IButtonFirstOffer } from '@/app/interfaces/buttonLinkProps';
-import React from 'react';
-import { useWebsite } from '../../context/WebsiteProvider';
-import Link from 'next/link';
 
-const ButtonLinkFirstOffer: React.FC<IButtonFirstOffer> = ({
-  text,
-  classes,
-}) => {
-  const handleClick = (e: React.MouseEvent) => {
-    e.preventDefault();
-    sessionStorage.setItem('redirectLink', offer.link);
-    window.open(`/casino/${offer.id}`, '_blank');
-  };
-  const { website } = useWebsite();
-  if (!website)
+import React from 'react';
+import Link from 'next/link';
+import OfferLink from './OfferLink';
+import { useFirstOffer } from '@/app/hooks/useFirstOffer';
+
+type Props = {
+  text: string;
+  classes: string;
+};
+
+const ButtonLinkFirstOffer: React.FC<Props> = ({ text, classes }) => {
+  const offer = useFirstOffer();
+
+  if (!offer) {
     return (
       <Link
-        href={`#`}
+        href="#"
         className={classes}
         target="_blank"
         rel="noopener noreferrer"
@@ -25,19 +24,12 @@ const ButtonLinkFirstOffer: React.FC<IButtonFirstOffer> = ({
         {text}
       </Link>
     );
-
-  const offer = website.offers[0];
+  }
 
   return (
-    <Link
-      href={`/casino/${offer.id}`}
-      onClick={handleClick}
-      className={classes}
-      target="_blank"
-      rel="noopener noreferrer"
-    >
+    <OfferLink id={offer.id} link={offer.link} className={classes}>
       {text}
-    </Link>
+    </OfferLink>
   );
 };
 

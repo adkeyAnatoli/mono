@@ -1,5 +1,31 @@
 .section {
-  margin: 140px auto;
+  position: relative;
+  margin: 140px 0;
+  height: 600px;
+  display: flex;
+  align-items: center;
+  padding: 0;
+}
+
+.section::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: url('/sectionImg/bg.webp') center / cover no-repeat;
+  opacity: 0.2;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.inner {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 48px;
+  text-align: center;
+  width: 100%;
 }
 
 .title {
@@ -7,59 +33,45 @@
   font-size: 44px;
   font-style: normal;
   font-weight: var(--font-weight-second);
-  line-height: normal;
-  color: var(--color-black);
-  margin-bottom: 48px;
-  text-align: left;
-  text-transform: capitalize;
-}
-
-.stack {
-  display: flex;
-  flex-direction: column;
-  gap: 48px;
-}
-
-.imageWrap {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-}
-
-.card {
-  background: var(--table-body);
-  border-radius: var(--border-radius-second);
-  /* padding: 48px; */
-  display: flex;
-  flex-direction: column;
-  gap: 48px;
-  width: 100%;
+  line-height: 49px;
+  color: var(--color-white);
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0;
 }
 
 .highlights {
   display: flex;
   flex-direction: column;
   gap: 8px;
-  margin-left: 20px;
+  align-items: center;
 }
 
 .highlights li {
   list-style: disc;
   line-height: 32px;
+  color: var(--color-white);
 }
 
 .content {
   display: flex;
   flex-direction: column;
   gap: 24px;
+  width: 100%;
+}
+
+.content :global(.text),
+.content :global(p),
+.content :global(li) {
+  color: var(--color-white);
+  text-align: center;
 }
 
 .whoWeAre {
   display: flex;
   flex-direction: column;
   gap: 24px;
-  /* margin-top: 8px; */
+  align-items: center;
 }
 
 .whoWeAreTitle {
@@ -67,49 +79,40 @@
   font-size: 32px;
   font-weight: var(--font-weight-second);
   line-height: normal;
-  color: var(--color-black);
+  color: var(--color-white);
+  text-transform: uppercase;
 }
 
 @media (max-width: 1180px) {
   .section {
-    margin: 64px auto;
+    margin: 64px 0;
+    height: auto;
+    min-height: 400px;
+    padding: 48px 0;
   }
 }
 
 @media (max-width: 768px) {
   .section {
-    margin: 64px auto;
+    margin: 64px 0;
+    height: auto;
+    min-height: 320px;
+    padding: 88px 0;
+  }
+
+  .inner {
+    gap: 15px;
   }
 
   .title {
     font-size: 28px;
-    margin-bottom: 24px;
   }
 
   .whoWeAreTitle {
     font-size: 28px;
   }
 
-  .imageWrap img {
-    width: 436px;
-    height: 279px;
-  }
-
-  .card {
-    /* padding: 20px 16px; */
-    gap: 24px;
-  }
   .whoWeAre {
     gap: 18px;
-  }
-  .stack {
-    gap: 24px;
-  }
-}
-
-@media (max-width: 525px) {
-  .imageWrap img {
-    height: auto;
-    width: 250px;
   }
 }

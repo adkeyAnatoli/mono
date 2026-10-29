@@ -4,7 +4,7 @@
 
 .textBlock p,
 .textBlock li {
-  color: var(--last-text-color);
+  color: var(--color-white);
 }
 
 .flow {
@@ -24,9 +24,9 @@
   gap: 24px;
 }
 
-.section div[class*='faqWrapper'] {
+/* .section div[class*='faqWrapper'] {
   margin-top: 0;
-}
+} */
 
 .sectionBlocks {
   display: flex;

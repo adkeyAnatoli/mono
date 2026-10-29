@@ -65,7 +65,7 @@
 .signUp,
 .register {
   height: var(--header-buttons-desktop-height);
-  font-family: var(--font-family-main);
+  font-family: var(--font-family-second);
   font-weight: var(--font-weight-main);
   font-size: var(--button-font-size-desktop-header);
   border-radius: var(--button-radius-desktop);

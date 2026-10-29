@@ -13,16 +13,9 @@ export type ContentTabItem = {
 type Props = {
   items: ContentTabItem[];
   defaultValue?: string;
-  variant?: 'underline' | 'pills';
-  className?: string;
 };
 
-export function ContentTabs({
-  items,
-  defaultValue,
-  variant = 'underline',
-  className,
-}: Props) {
+export function ContentTabs({ items, defaultValue }: Props) {
   if (items.length === 0) {
     return null;
   }
@@ -33,21 +26,13 @@ export function ContentTabs({
       ? defaultValue
       : first;
 
-  const listClass =
-    variant === 'pills' ? styles.listPills : styles.listUnderline;
-  const triggerClass =
-    variant === 'pills' ? styles.triggerPill : styles.triggerUnderline;
-
   return (
-    <Tabs.Root
-      className={`${styles.root} ${className ?? ''}`}
-      defaultValue={resolvedDefault}
-    >
-      <Tabs.List className={listClass} aria-label="Section tabs">
+    <Tabs.Root className={styles.root} defaultValue={resolvedDefault}>
+      <Tabs.List className={styles.listUnderline} aria-label="Section tabs">
         {items.map((item) => (
           <Tabs.Trigger
             key={item.value}
-            className={triggerClass}
+            className={styles.triggerUnderline}
             value={item.value}
           >
             {item.label}

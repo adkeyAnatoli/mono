@@ -36,21 +36,3 @@ export interface IGame {
   image: string;
   image_bucket?: string;
 }
-
-export interface IPayments {
-  payment_id: number;
-  name: string;
-  image: string;
-  commission: string;
-  country: string;
-  processing_time: string;
-  min_dep: string;
-  type: string;
-}
-
-export interface IProviders {
-  id: number;
-  name: string;
-  image: string;
-  image_bucket?: string;
-}

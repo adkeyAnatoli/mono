@@ -89,7 +89,7 @@ const Footer = () => {
         </div>
         <div className={style.bottomBar}>
           <div className={style.logoLink}>
-            <LinkToElement data={{ href: 'main', title: '', key: 1 }}>
+            <LinkToElement targetId="main">
               <span className={style.logoWrap}>
                 <Image
                   src={logo}

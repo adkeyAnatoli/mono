@@ -2,16 +2,19 @@ import Image from 'next/image';
 import Link from 'next/link';
 import style from './styles/header.module.css';
 import LinkToElement from '../links/LinkToElement';
-import { IHeader } from '@/app/interfaces/headerInterface';
 import ButtonLinkFirstOffer from '../buttons/ButtonLinkFirstOffer';
 import NavBlock from './navBlock/NavBlock';
 import { ClientHamburger } from './headerHamburger';
 
-const Header: React.FC<IHeader> = ({ isHomePage = false }) => {
+type Props = {
+  isHomePage?: boolean;
+};
+
+const Header: React.FC<Props> = ({ isHomePage = false }) => {
   const siteName = process.env.NEXT_PUBLIC_SITE_NAME;
   const secondButton = 'PLAY NOW';
-  const WIDTH_LOGO = 119;
-  const HEIGHT_LOGO = 35;
+  const WIDTH_LOGO = 79;
+  const HEIGHT_LOGO = 64;
 
   const logo = (
     <Image
@@ -30,9 +33,7 @@ const Header: React.FC<IHeader> = ({ isHomePage = false }) => {
         <div className={style.logoBlock}>
           <ClientHamburger />
           {isHomePage ? (
-            <LinkToElement data={{ href: 'main', title: '', key: 1 }}>
-              {logo}
-            </LinkToElement>
+            <LinkToElement targetId="main">{logo}</LinkToElement>
           ) : (
             <Link href="/" style={{ height: `${HEIGHT_LOGO}px` }}>
               {logo}

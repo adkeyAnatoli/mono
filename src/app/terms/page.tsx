@@ -8,16 +8,5 @@ export async function generateMetadata() {
 }
 
 export default function TermsPage() {
-  const data = asPageJson(termsPage);
-  return (
-    <StaticRichPage
-      variant="footer-legal"
-      data={{
-        h1: data.h1,
-        h2: data.h2,
-        intro: data.intro,
-        sections: data.sections,
-      }}
-    />
-  );
+  return <StaticRichPage data={asPageJson(termsPage)} />;
 }

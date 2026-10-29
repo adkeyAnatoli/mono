@@ -472,17 +472,6 @@ function main() {
     )
   );
 
-  writeJson('dataApp.json', {
-    title: '',
-    sections: [],
-  });
-
-  writeJson('dataAfterSupport.json', {
-    title: '',
-    content: [],
-    sections: [],
-  });
-
   const supportTitle = MAIN_SECTIONS.support;
   writeJson('dataSupport.json', {
     title: supportTitle,

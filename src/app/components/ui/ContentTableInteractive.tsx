@@ -1,12 +1,12 @@
 'use client';
 
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import tableStyles from './contentTable.module.css';
 import styles from './contentTableInteractive.module.css';
+import { useMediaQuery } from '@/app/hooks/useMediaQuery';
 import 'swiper/css';
 
-const MOBILE_MQ = '(max-width: 768px)';
 const COLLAPSE_ROW_THRESHOLD = 3;
 
 type Props = {
@@ -14,20 +14,6 @@ type Props = {
   rows: string[][];
   tableVariant?: 'twoColumn' | 'multiColumn';
 };
-
-function useIsMobile(): boolean {
-  const [isMobile, setIsMobile] = useState(false);
-
-  useEffect(() => {
-    const mq = window.matchMedia(MOBILE_MQ);
-    const apply = () => setIsMobile(mq.matches);
-    apply();
-    mq.addEventListener('change', apply);
-    return () => mq.removeEventListener('change', apply);
-  }, []);
-
-  return isMobile;
-}
 
 function RowSlide({ row, headers }: { row: string[]; headers: string[] }) {
   if (row.length === 2) {
@@ -69,7 +55,7 @@ export function ContentTableInteractive({
   rows,
   tableVariant,
 }: Props) {
-  const isMobile = useIsMobile();
+  const isMobile = useMediaQuery('(max-width: 768px)');
   const [expanded, setExpanded] = useState(false);
   const resolvedTableVariant =
     tableVariant ?? (headers.length === 2 ? 'twoColumn' : 'multiColumn');

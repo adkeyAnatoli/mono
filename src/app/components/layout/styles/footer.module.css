@@ -83,7 +83,7 @@
 .legalNavItem:not(:last-child)::after {
   content: '|';
   color: var(--copyright);
-  margin: 0 12px;
+  margin: 0 8px;
 }
 
 .legalLink {
@@ -98,7 +98,10 @@
 
 .legalLink:hover,
 .legalLinkActive {
-  color: var(--border-yellow);
+  background: var(--gold-gradient);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
 }
 
 .logoLink {
@@ -175,11 +178,11 @@
   }
 
   .imageLogo {
-    width: 95px;
-    height: 28px;
+    width: 62px;
+    height: 50px;
   }
   .logoLink {
-    height: 28px;
+    height: 50px;
   }
 
   .legalRest {

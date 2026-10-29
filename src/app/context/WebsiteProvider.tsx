@@ -14,13 +14,11 @@ export function WebsiteProvider({ children }: { children: React.ReactNode }) {
   const [website, setWebsite] = useState<IWebsite | null>(null);
 
   useEffect(() => {
-    if (!website) {
-      fetch(`/api/website/get-website/${idSite}`)
-        .then((res) => res.json())
-        .then((data) => setWebsite(data))
-        .catch(console.error);
-    }
-  }, [idSite, website]);
+    fetch(`/api/website/get-website/${idSite}`)
+      .then((res) => res.json())
+      .then((data) => setWebsite(data))
+      .catch(console.error);
+  }, [idSite]);
 
   return (
     <WebsiteContext.Provider value={{ website }}>

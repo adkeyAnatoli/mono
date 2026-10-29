@@ -8,17 +8,5 @@ export async function generateMetadata() {
 }
 
 export default function RulesAndPayoutsPage() {
-  const data = asPageJson(rulesAndPayoutsPage);
-  return (
-    <StaticRichPage
-      variant="header"
-      data={{
-        h1: data.h1,
-        h2: data.h2,
-        intro: data.intro,
-        sections: data.sections,
-        faq: data.faq,
-      }}
-    />
-  );
+  return <StaticRichPage data={asPageJson(rulesAndPayoutsPage)} />;
 }

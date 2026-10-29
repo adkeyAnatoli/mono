@@ -15,12 +15,21 @@ const htmlLang = 'en-AU';
 const ogLocale = 'en_AU';
 
 const fontHelvetica = localFont({
-  src: '../../public/fonts/helvetica-bold.otf',
+  src: [
+    {
+      path: '../../public/fonts/helvetica_regular.woff2',
+      weight: '400',
+      style: 'normal',
+    },
+    {
+      path: '../../public/fonts/helvetica_bold.woff2',
+      weight: '700',
+      style: 'normal',
+    },
+  ],
   variable: '--font-helvetica',
   display: 'swap',
   preload: true,
-  weight: '700',
-  style: 'normal',
   fallback: ['Helvetica', 'Arial', 'sans-serif'],
 });
 

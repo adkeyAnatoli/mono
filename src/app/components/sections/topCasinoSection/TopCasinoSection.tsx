@@ -1,4 +1,5 @@
 'use client';
+
 import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation } from 'swiper/modules';
@@ -9,41 +10,45 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import style from './styles/topCasinoSection.module.css';
 
+const NAV_PREV = '.topcasino-swiper-prev';
+const NAV_NEXT = '.topcasino-swiper-next';
+
+const navigationBase = {
+  prevEl: NAV_PREV,
+  nextEl: NAV_NEXT,
+  addIcons: false,
+} as const;
+
+function syncNav(swiper: SwiperType) {
+  const nav = swiper.params.navigation;
+  if (
+    nav &&
+    typeof nav === 'object' &&
+    nav.enabled !== false &&
+    swiper.navigation
+  ) {
+    swiper.navigation.update();
+  }
+}
+
+// swiper.update() re-emits slideChange, so call it only on breakpoint change.
+function reinitNav(swiper: SwiperType) {
+  syncNav(swiper);
+  swiper.update();
+}
+
 const TopCasinoSection: React.FC = () => {
   const { website } = useWebsite();
   const offers = website?.offers ?? [];
-  const NAV_PREV = '.topcasino-swiper-prev';
-  const NAV_NEXT = '.topcasino-swiper-next';
 
-  function navEnabled(swiper: SwiperType) {
-    return (
-      !!swiper.params.navigation &&
-      typeof swiper.params.navigation === 'object' &&
-      swiper.params.navigation.enabled !== false
-    );
-  }
-
-  function reinitNav(swiper: SwiperType) {
-    if (navEnabled(swiper) && swiper.navigation) {
-      swiper.navigation.update();
-    }
-    swiper.update();
-  }
-
-  function syncNav(swiper: SwiperType) {
-    if (!navEnabled(swiper) || !swiper.navigation) return;
-    swiper.navigation?.update();
-  }
-
-  if (!website) return null;
-  if (offers.length === 0) return null;
+  if (!website || offers.length === 0) return null;
 
   const canLoop = offers.length >= 3;
 
   return (
     <section className={`${style.section} container`}>
       <div className={style.carouselHead}>
-        <h2 className={`${style.title} title-black`}>
+        <h2 className={`${style.title} title-white`}>
           Top Casinos {website.website.country_name}
         </h2>
         <div className={style.navBtns}>
@@ -55,12 +60,7 @@ const TopCasinoSection: React.FC = () => {
         className={style.swiper}
         modules={[Navigation]}
         onSwiper={syncNav}
-        navigation={{
-          enabled: false,
-          prevEl: NAV_PREV,
-          nextEl: NAV_NEXT,
-          addIcons: false,
-        }}
+        navigation={{ ...navigationBase, enabled: false }}
         onSlideChange={syncNav}
         onTransitionEnd={syncNav}
         onBreakpoint={reinitNav}
@@ -69,52 +69,28 @@ const TopCasinoSection: React.FC = () => {
         loop={canLoop}
         rewind={false}
         spaceBetween={16}
-        slidesPerView={'auto'}
+        slidesPerView="auto"
         breakpoints={{
           0: {
             slidesPerView: 'auto',
-            spaceBetween: 16,
+            spaceBetween: 12,
             centeredSlides: true,
-            slidesOffsetBefore: 0,
-            slidesOffsetAfter: 0,
-            navigation: {
-              enabled: false,
-              prevEl: NAV_PREV,
-              nextEl: NAV_NEXT,
-              addIcons: false,
-            },
+            navigation: { ...navigationBase, enabled: false },
             loop: canLoop,
-            rewind: false,
           },
           769: {
             slidesPerView: 2,
             spaceBetween: 24,
             centeredSlides: false,
-            slidesOffsetBefore: 0,
-            slidesOffsetAfter: 0,
-            navigation: {
-              enabled: true,
-              prevEl: NAV_PREV,
-              nextEl: NAV_NEXT,
-              addIcons: false,
-            },
+            navigation: { ...navigationBase, enabled: true },
             loop: false,
-            rewind: false,
           },
           1180: {
             slidesPerView: 3,
             spaceBetween: 24,
             centeredSlides: false,
-            slidesOffsetBefore: 0,
-            slidesOffsetAfter: 0,
-            navigation: {
-              enabled: true,
-              prevEl: NAV_PREV,
-              nextEl: NAV_NEXT,
-              addIcons: false,
-            },
+            navigation: { ...navigationBase, enabled: true },
             loop: false,
-            rewind: false,
           },
         }}
       >

@@ -1,9 +1,6 @@
-import { ContentItem } from '@/app/interfaces/dataInterface';
+import { ContentItem, ContentSection } from '@/app/interfaces/dataInterface';
 
-export type PageSection = {
-  heading: string;
-  content: ContentItem[];
-};
+export type PageSection = ContentSection;
 
 export type FaqItem = {
   title: string;

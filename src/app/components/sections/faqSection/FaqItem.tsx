@@ -14,7 +14,7 @@ const FaqItem = ({ title, text }: FaqItemProps) => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div className={style.faqBlock}>
+    <div className={`${style.faqBlock}${isOpen ? ` ${style.faqBlockOpen}` : ''}`}>
       <div onClick={() => setIsOpen(!isOpen)} className={style.faqElement}>
         <span className={style.faqQuestion}>{plainContentText(title)}</span>
         <Image

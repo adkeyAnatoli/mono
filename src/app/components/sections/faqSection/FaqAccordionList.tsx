@@ -1,6 +1,6 @@
 'use client';
 
-import { FaqAccordionItem } from '@/app/components/staticContent/mapSectionsToFaqItems';
+import type { FaqItem as FaqAccordionItem } from '@/app/data/pageTypes';
 import style from './faqSection.module.css';
 import FaqItem from './FaqItem';
 

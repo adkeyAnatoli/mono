@@ -18,11 +18,12 @@
 .title {
   flex: 1;
   min-width: 0;
+  line-height: 61px;
 }
 
 .navBtns {
   display: flex;
-  gap: 18px;
+  gap: 6px;
   flex-shrink: 0;
   position: relative;
 }
@@ -36,7 +37,7 @@
   margin: 0;
   width: 45px;
   height: 45px;
-  border-radius: 50%;
+  border-radius: 0;
   background: var(--table-body);
   color: var(--color-white);
   display: flex;
@@ -49,7 +50,7 @@
   position: absolute;
   left: 50%;
   top: 50%;
-  width: 9px;
+  width: 10px;
   height: 19px;
   margin: 0;
   font-size: 0;
@@ -110,6 +111,10 @@
 @media (max-width: 768px) {
   .section {
     gap: 40px;
+  }
+
+  .title {
+    line-height: normal;
   }
 
   .navBtns {

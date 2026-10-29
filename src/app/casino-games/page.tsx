@@ -8,17 +8,5 @@ export async function generateMetadata() {
 }
 
 export default function CasinoGamesPage() {
-  const data = asPageJson(casinoGamesPage);
-  return (
-    <StaticRichPage
-      variant="header"
-      data={{
-        h1: data.h1,
-        h2: data.h2,
-        intro: data.intro,
-        sections: data.sections,
-        faq: data.faq,
-      }}
-    />
-  );
+  return <StaticRichPage data={asPageJson(casinoGamesPage)} />;
 }
