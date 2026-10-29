@@ -66,7 +66,7 @@ The Crown Casino restaurants range from hatted dining rooms to food courts.
 
 * **Casual meals:** Golden Century serves more than 60 yum cha dishes. Pizza'Mare and Teahouse suit a quicker meal.
 
-* **Lunch deals:** Order the A\$30 express lunch or the A\$45 steak frites for a working lunch.
+* **Lunch deals:** Order the A$30 express lunch or the A$45 steak frites for a working lunch.
 
 * **Bars:** Finish the evening at CirQ, the rooftop Crown Casino bar.
 
@@ -99,7 +99,7 @@ Each resort runs its own calendar of concerts, galas and sporting events. Check 
 
 ## One More Tip 
 
-Join the loyalty program at an Express Kiosk the moment you walk in. The kiosk scans your ID, takes a photo and sets a PIN in a few minutes. Crown Casino hotels stays earn 2 points per A\$1, so one night at around A\$125 already covers the 250 points needed for free parking. Book dinner at the hatted venues before you travel, not on the day. On weekends, Nobu and a'Mare fill up first.
+Join the loyalty program at an Express Kiosk the moment you walk in. The kiosk scans your ID, takes a photo and sets a PIN in a few minutes. Crown Casino hotels stays earn 2 points per A$1, so one night at around A$125 already covers the 250 points needed for free parking. Book dinner at the hatted venues before you travel, not on the day. On weekends, Nobu and a'Mare fill up first.
 
 ## FAQ
 
@@ -109,7 +109,7 @@ Yes. The members-only rule covers the gaming floor, not the whole building. If y
 
 ### Which Crown Casino restaurants suit a quick lunch?
 
-In Sydney, order the A\$30 express lunch or the A\$45 steak frites, or go for yum cha at Golden Century. In Melbourne, EatAlley, Croissanteria and Maguro Sushi get you fed in minutes. In Perth, head to Urban Food District and choose from burgers, pizza, sushi and tacos under one roof.
+In Sydney, order the A$30 express lunch or the A$45 steak frites, or go for yum cha at Golden Century. In Melbourne, EatAlley, Croissanteria and Maguro Sushi get you fed in minutes. In Perth, head to Urban Food District and choose from burgers, pizza, sushi and tacos under one roof.
 
 ### Can I pay for a room with loyalty points?
 

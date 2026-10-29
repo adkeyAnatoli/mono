@@ -72,7 +72,7 @@ Crown Casino Melbourne alone contributes about AUD 1.9 billion a year to the Vic
 
 ### What's the smallest amount I can deposit?
 
-The minimum starts at A\$10 with a Neosurf voucher. PayID, cards and most e-wallets need at least A\$20, while a bank transfer requires A\$100. Keep in mind that each welcome bonus stage has its own minimum deposit to qualify.
+The minimum starts at A$10 with a Neosurf voucher. PayID, cards and most e-wallets need at least A$20, while a bank transfer requires A$100. Keep in mind that each welcome bonus stage has its own minimum deposit to qualify.
 
 ### What should I know before playing at Crown Casino Perth?
 

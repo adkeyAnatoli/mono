@@ -99,8 +99,8 @@ Your Casino Crown Australia account runs in Australian dollars, and you can fund
 | Bank transfer | A$100–A$20,000 | A$200–A$15,000 | 3–5 business days |
 | Neosurf | A$10–A$1,000 | – | Deposits only |
 | Skrill / Neteller / MiFinity | A$15–A$7,500 | A$30–A$5,000 | Up to 24 hours |
-| Bitcoin / Ethereum | From A\$30 | A$60–A$50,000 | 10–60 min |
-| USDT / Litecoin / XRP / Solana | From A\$20 | A$40–A$30,000 | 5–15 min |
+| Bitcoin / Ethereum | From A$30 | A$60–A$50,000 | 10–60 min |
+| USDT / Litecoin / XRP / Solana | From A$20 | A$40–A$30,000 | 5–15 min |
 
 You need to verify your account and clear any bonus wagering before you withdraw. The casino sends the money back to your deposit method wherever possible, and higher loyalty levels raise your total withdrawal caps.
 

@@ -39,7 +39,7 @@ We verify every player before the first withdrawal. You can deposit and play whi
 | Proof of identity | Passport, driver licence or national ID card | Before your first withdrawal |
 | Proof of address | Utility bill or bank statement dated within the last 3 months | Before your first withdrawal |
 | Proof of payment | Card photo with the middle digits covered, e-wallet screenshot or crypto wallet address | When you withdraw to a new method |
-| Source of funds | Payslips or bank statements | Withdrawals above A\$10,000 or unusual account activity |
+| Source of funds | Payslips or bank statements | Withdrawals above A$10,000 or unusual account activity |
 
 Our team reviews documents within 48 hours. At online Crown Casino Australia, we may ask for a video call if a document looks unclear or doesn't match your profile.
 
@@ -56,7 +56,7 @@ Your account balance runs in Australian dollars. We convert crypto deposits to A
 | Bank transfer | A$100–A$20,000 | A$200–A$15,000 | 3–5 business days |
 | Neosurf | A$10–A$1,000 | – | Deposits only |
 | E-wallets | A$15–A$7,500 | A$30–A$5,000 | Up to 24 hours |
-| Crypto | From A\$15 | A$30–A$50,000 | 5–60 minutes |
+| Crypto | From A$15 | A$30–A$50,000 | 5–60 minutes |
 
 ### Payment rules
 
@@ -83,7 +83,7 @@ Every bonus comes with a wagering requirement and an expiry date. You can see ac
 | Welcome package (each of 5 stages) | 40x | 14 days |
 | Winnings from welcome free spins | 40x | 7 days |
 | Reload bonus | 35x | 7 days |
-| Weekly activity bonus (A\$50) | 35x | 7 days |
+| Weekly activity bonus (A$50) | 35x | 7 days |
 | Wheel of Fortune cash prizes | 30x | 7 days |
 | Weekly cashback | 5x | 3 days |
 
@@ -103,11 +103,11 @@ Different games count towards wagering at different rates:
 
 ### General bonus rules
 
-You can hold one active bonus at a time. While you wager a bonus, you can bet no more than A\$5 per spin or hand. If you request a withdrawal before you complete the wagering, you lose the bonus and any winnings from it.
+You can hold one active bonus at a time. While you wager a bonus, you can bet no more than A$5 per spin or hand. If you request a withdrawal before you complete the wagering, you lose the bonus and any winnings from it.
 
 ## 6\. Loyalty program
 
-The online Crown casino Australia loyalty program has seven levels, from Outback Rookie to Platinum Boomerang. You earn one point for every A\$15 you wager with real money, and bonus funds don't earn points. You can exchange points for cash at any time. We may change rewards, rates or level thresholds with 14 days' notice by email.
+The online Crown casino Australia loyalty program has seven levels, from Outback Rookie to Platinum Boomerang. You earn one point for every A$15 you wager with real money, and bonus funds don't earn points. You can exchange points for cash at any time. We may change rewards, rates or level thresholds with 14 days' notice by email.
 
 ## 7\. Games, jackpots and errors
 

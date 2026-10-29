@@ -104,7 +104,7 @@ If you'd rather not browse, start with this Crown online casino shortlist:
 
 * **Book of Dead:** one special symbol expands across the reels during free spins. Expect long quiet stretches.
 
-* **Big Bass Bonanza:** a fisherman wild collects cash values from fish symbols in the bonus round. Welcome free spins land here at A\$0.20 each.
+* **Big Bass Bonanza:** a fisherman wild collects cash values from fish symbols in the bonus round. Welcome free spins land here at A$0.20 each.
 
 * **Gonzo's Quest:** winning symbols explode and new ones drop in, with a multiplier that grows on each cascade.
 

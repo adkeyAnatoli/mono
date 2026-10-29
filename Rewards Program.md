@@ -34,9 +34,9 @@ The Crown Rewards tiers program runs on two currencies: points you spend and sta
 
 ### Points Per Dollar
 
-* **Dining and bars:** 1 point for every A\$1 you spend.
+* **Dining and bars:** 1 point for every A$1 you spend.
 
-* **Hotel stays:** 2 points for every A\$1 on your room.
+* **Hotel stays:** 2 points for every A$1 on your room.
 
 * **Gaming:** Carded play and table play earn casino points on the floor.
 

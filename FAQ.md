@@ -12,7 +12,7 @@ The AUD 200 million program is the biggest investment in the Melbourne resort in
 
 ## Which Crown Casino pokies come with free spins?
 
-Welcome free spins land on Big Bass Bonanza at A\$0.20 per spin. Loyalty level-ups add spins on Starburst, Fishin' Frenzy, Book of Dead, Gonzo's Quest and Rainbow Riches. The number of spins grows with each level, up to 50 at the top.
+Welcome free spins land on Big Bass Bonanza at A$0.20 per spin. Loyalty level-ups add spins on Starburst, Fishin' Frenzy, Book of Dead, Gonzo's Quest and Rainbow Riches. The number of spins grows with each level, up to 50 at the top.
 
 ## How big is the group behind the resorts?
 
